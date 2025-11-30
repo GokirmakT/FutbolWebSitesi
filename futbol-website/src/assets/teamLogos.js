@@ -1,0 +1,41 @@
+// src/data/teamLogos.js
+export const teamLogos = {
+    Beşiktaş: "/logos/besiktas.webp",
+    FatihKaragümrük: "/logos/fatihkaragumruk.webp",
+    Fenerbahçe: "/logos/fenerbahçe.webp",
+    Alanyaspor: "/logos/alanyaspor.webp",
+    Galatasaray: "/logos/galatasaray.webp",
+    Trabzonspor: "/logos/trabzonspor.webp",
+    İstanbulBaşakşehir: "/logos/istanbulbasaksehir.webp",
+    Sivasspor: "/logos/sivasspor.webp",
+    Kayserispor: "/logos/kayserispor.webp",
+    Antalyaspor: "/logos/antalyaspor.webp",
+    AdanaDemirspor: "/logos/adanademirspor.webp",
+    Gaziantep: "/logos/gaziantepfk.webp",
+    Konyaspor: "/logos/konyaspor.webp",
+    Giresunspor: "/logos/giresunspor.webp",
+    ÇaykurRize: "/logos/rizespor.webp",
+    Kasımpaşa: "/logos/kasımpaşa.webp",
+    Ümraniyespor: "/logos/umraniyespor.webp",
+    FatihKaragümrük: "/logos/fatihkaragumruk.webp",
+    Hatayspor: "/logos/hatayspor.webp",
+    Denizlispor: "/logos/denizlispor.webp",
+    Erzurumspor: "/logos/erzurumspor.webp",
+    Sivasspor: "/logos/sivasspor.webp",
+    Bursaspor: "/logos/bursaspor.webp",
+    Samsunspor: "/logos/samsunspor.webp",
+    Başakşehir: "/logos/başakşehir.webp",
+    Alanyaspor: "/logos/alanyaspor.webp",
+    Malatyaspor: "/logos/malatyaspor.webp",
+    Göztepe: "/logos/goztepe.webp",
+    Akhisarspor: "/logos/akhisarspor.webp",
+    Kocaeli: "/logos/kocaeli.webp",
+    Eyüpspor: "/logos/eyüpspor.webp",
+    Gençlerbirliği: "/logos/genclerbirliği.webp",
+    Göztepe: "/logos/göztepe.webp",
+    Gaziantep: "/logos/gaziantep.png",
+    
+  
+  
+  // Diğer takımların logolarını da buraya ekleyin
+};
