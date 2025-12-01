@@ -3045,19 +3045,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pc\\.nuget\\packages\\": {}
+    "C:\\Users\\Teoman\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\Desktop\\FutbolWebProjesi\\FutbolSitesi\\FutbolSitesi.csproj",
+      "projectUniqueName": "C:\\Users\\Teoman\\Desktop\\FutbolWebSitesi\\FutbolSitesi\\FutbolSitesi.csproj",
       "projectName": "FutbolSitesi",
-      "projectPath": "C:\\Users\\pc\\Desktop\\FutbolWebProjesi\\FutbolSitesi\\FutbolSitesi.csproj",
-      "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pc\\Desktop\\FutbolWebProjesi\\FutbolSitesi\\obj\\",
+      "projectPath": "C:\\Users\\Teoman\\Desktop\\FutbolWebSitesi\\FutbolSitesi\\FutbolSitesi.csproj",
+      "packagesPath": "C:\\Users\\Teoman\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Teoman\\Desktop\\FutbolWebSitesi\\FutbolSitesi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Teoman\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"

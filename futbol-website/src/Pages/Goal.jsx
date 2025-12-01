@@ -6,7 +6,15 @@ import {
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import { teamLogos } from "../assets/teamLogos.js";
+import { teamLogos } from "../Components/TeamLogos";
+import playedMatches from "/white-soccer-field.png";
+import football from "/football.png";
+import OverGoalsTable from "../Components/Tables/GoalTables/OverGoalsTable";
+import OverGoals15HomeAway from "../Components/Tables/GoalTables/OverGoals15HomeAwayTable";
+import OverGoals25HomeAway from "../Components/Tables/GoalTables/OverGoals25HomeAwayTable";
+import OverGoals35HomeAway from "../Components/Tables/GoalTables/OverGoals35HomeAwayTable";
+import OverGoals45HomeAway from "../Components/Tables/GoalTables/OverGoals45HomeAwayTable";
+
 
 
 function Goals() {
@@ -51,21 +59,46 @@ function Goals() {
           team: match.homeTeam,
           goalsFor: 0,
           goalsAgainst: 0,
+          homeMatchCount: 0,
+          awayMatchCount: 0,         
           matchCount: 0,
           totalMatchGoals: 0,
+
           over25Count: 0,
+          homeOver25Count: 0,
+          awayOver25Count: 0,         
+
           over35Count: 0,
-          over45Count: 0
+          homeOver35Count: 0,
+          awayOver35Count: 0,
+
+          over45Count: 0,
+          homeOver45Count: 0,
+          awayOver45Count: 0,
+
+          over15Count: 0,
+          homeOver15Count: 0,
+          awayOver15Count: 0
         };
       }
 
         teamGoals[match.homeTeam].goalsFor += match.goalHome;
         teamGoals[match.homeTeam].goalsAgainst += match.goalAway;
+        teamGoals[match.homeTeam].homeMatchCount++;
         teamGoals[match.homeTeam].matchCount++;
         teamGoals[match.homeTeam].totalMatchGoals += totalGoals;
+
         if (totalGoals > 2.5) teamGoals[match.homeTeam].over25Count++;
+        if (totalGoals > 2.5) teamGoals[match.homeTeam].homeOver25Count++;   
+
         if (totalGoals > 3.5) teamGoals[match.homeTeam].over35Count++;
+        if (totalGoals > 3.5) teamGoals[match.homeTeam].homeOver35Count++;
+       
         if (totalGoals > 4.5) teamGoals[match.homeTeam].over45Count++;
+        if (totalGoals > 4.5) teamGoals[match.homeTeam].homeOver45Count++;
+
+        if (totalGoals > 1.5) teamGoals[match.homeTeam].over15Count++;
+        if (totalGoals > 1.5) teamGoals[match.homeTeam].homeOver15Count++;   
 
       // Away team
       if (!teamGoals[match.awayTeam]) {
@@ -73,21 +106,47 @@ function Goals() {
             team: match.awayTeam,
             goalsFor: 0,
             goalsAgainst: 0,
+            homeMatchCount: 0,
+            awayMatchCount: 0,
             matchCount: 0,
             totalMatchGoals: 0,
+
             over25Count: 0,
+            homeOver25Count: 0,
+            awayOver25Count: 0,
+
             over35Count: 0,
-            over45Count: 0
+            homeOver35Count: 0,
+            awayOver35Count: 0,
+
+            over45Count: 0,
+            homeOver45Count: 0,
+            awayOver45Count: 0,
+
+            over15Count: 0,
+            homeOver15Count: 0,
+            awayOver15Count: 0
+
         };
       }
 
         teamGoals[match.awayTeam].goalsFor += match.goalAway;
         teamGoals[match.awayTeam].goalsAgainst += match.goalHome;
+        teamGoals[match.awayTeam].awayMatchCount++;
         teamGoals[match.awayTeam].matchCount++;
         teamGoals[match.awayTeam].totalMatchGoals += totalGoals;
+
         if (totalGoals > 2.5) teamGoals[match.awayTeam].over25Count++;
+        if (totalGoals > 2.5) teamGoals[match.awayTeam].awayOver25Count++;
+
         if (totalGoals > 3.5) teamGoals[match.awayTeam].over35Count++;
+        if (totalGoals > 3.5) teamGoals[match.awayTeam].awayOver35Count++;
+
         if (totalGoals > 4.5) teamGoals[match.awayTeam].over45Count++;
+        if (totalGoals > 4.5) teamGoals[match.awayTeam].awayOver45Count++;
+
+        if (totalGoals > 1.5) teamGoals[match.awayTeam].over15Count++;
+        if (totalGoals > 1.5) teamGoals[match.awayTeam].awayOver15Count++;
     });
 
     const stats = Object.values(teamGoals).map(team => {
@@ -96,14 +155,40 @@ function Goals() {
         const over25Rate = (team.over25Count / team.matchCount) * 100;
         const over35Rate = (team.over35Count / team.matchCount) * 100;
         const over45Rate = (team.over45Count / team.matchCount) * 100;
+        const over15Rate = (team.over15Count / team.matchCount) * 100;
 
-      return {
+
+        const homeOver25Rate = (team.homeOver25Count / team.homeMatchCount) * 100;
+        const awayOver25Rate = (team.awayOver25Count / team.awayMatchCount) * 100;
+
+        const homeOver35Rate = (team.homeOver35Count / team.homeMatchCount) * 100;
+        const awayOver35Rate = (team.awayOver35Count / team.awayMatchCount) * 100;
+
+        const homeOver45Rate = (team.homeOver45Count / team.homeMatchCount) * 100;
+        const awayOver45Rate = (team.awayOver45Count / team.awayMatchCount) * 100;
+
+        const homeOver15Rate = (team.homeOver15Count / team.homeMatchCount) * 100;
+        const awayOver15Rate = (team.awayOver15Count / team.awayMatchCount) * 100;
+
+        console.log(team);
+
+      return {        
         ...team,
         avgGoalsFor,
         avgMatchGoals,
         over25Rate,
         over35Rate,
-        over45Rate
+        over45Rate,   
+        over15Rate,        
+        
+        homeOver25Rate,
+        awayOver25Rate,
+        homeOver35Rate,
+        awayOver35Rate,
+        homeOver45Rate,
+        awayOver45Rate,
+        homeOver15Rate,
+        awayOver15Rate
       };
     });
 
@@ -118,7 +203,7 @@ function Goals() {
 
   return (
     <Stack sx={{ width: "100%", minHeight: "100vh", background: "#2a3b47"}} spacing={3}>
-      <Stack direction={'column'} spacing={3} alignItems="center" sx={{pt: 5}}>
+      <Stack direction={'column'} alignItems="center" sx={{pt: 5}}>
 
         {/* Lig seçimi */}
         <Box sx={{ width: { xs: '100%', md: '300px' } }} justifyContent="center" alignItems="center" direction={{ xs: 'column', md: 'row' }}>
@@ -133,113 +218,84 @@ function Goals() {
             renderInput={(params) => <TextField {...params} label="Lig Seç" />}
             sx={{
               "& .MuiOutlinedInput-root": { backgroundColor: "#fff" },
-              mt: 4, pl: 1.5
+              mt: 4, pl: 1.5, pr: 1.5
             }}
           />
         </Box>
 
-        {/* Tablo */}
-        {selectedLeague && goalStats.length > 0 && (
-          <TableContainer
-            component={Paper}
-            sx={{
-              flex: 1,
-              width: isMobile ? '100%' : '70%',              
-              backgroundColor: "#b1b1b1ff"
-            }}
-          >
-            <Table size="small" stickyHeader>
-              <TableHead sx={{ "& .MuiTableCell-root": { backgroundColor: "#afafafff" } }}>
-                <TableRow>
-                  <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2 }}></TableCell>
-                  <TableCell align="center" sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2 }}>Takım</TableCell>
-                  <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2  }} align="center">O</TableCell>
-                  <TableCell sx={{ color: "#ffaaff", fontWeight: "bold", pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}} align="center">O </TableCell>
-                  <TableCell sx={{ color: "#00ff7f", fontWeight: "bold", pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2 }} align="center">2.5 Üst</TableCell>
-                  <TableCell sx={{ color: "#00ff7f", fontWeight: "bold", pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2 }} align="center">3.5 Üst</TableCell>
-                  <TableCell sx={{ color: "#00ff7f", fontWeight: "bold", pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2 }} align="center">4.5 Üst</TableCell>
-                </TableRow>
-              </TableHead>
+        <Stack justifyContent="flex-end" sx={{mt:'20px', display: selectedLeague ? 'block' : 'none', width: isMobile ? '100%' : '70%', backgroundColor: "#1d1d1d" }}>
+          <Typography variant="h6" sx={{color: "#fff", fontWeight: "bold", mb: 1}}>
+              {selectedLeague} – Takımların Maç Başına Gol (Üst) İstatistikleri
+          </Typography>
+        </Stack>  
 
-              <TableBody>
-                {goalStats.map(row => (
-                  <TableRow key={row.team} sx={{ "&:hover": { backgroundColor: "#2c2c2c" } }}>
-                    <TableCell sx={{ color: "#fff", fontSize: '12px', pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2 }}>{row.rank}</TableCell>
-                    <TableCell sx={{ color: "#fff",fontSize: '12px', pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2 }}>
-                      <Stack
-                        direction="row"
-                        alignItems="center"
-                        spacing={1}   // icon ile yazı arasındaki boşluk
-                      >
-                        <img
-                          src={teamLogos[row.team]}
-                          alt={row.team}
-                          style={{ width: 22, height: 22 }}
-                        />
-                        <span>{row.team}</span>
-                    </Stack>
-                    </TableCell>
-                    <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2 }} align="center">{row.matchCount}</TableCell>
-                    <TableCell sx={{ color: "#ffaaff", fontWeight: "bold", pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2 }} align="center">{row.avgMatchGoals.toFixed(2)}</TableCell>
-                    <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.over25Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.over25Rate.toFixed(1)}%</TableCell>
-                    <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.over35Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.over35Rate.toFixed(1)}%</TableCell>
-                    <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.over45Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.over45Rate.toFixed(1)}%</TableCell>
-                    
-                  </TableRow>
-                ))}
-              </TableBody>
-            </Table>
-          </TableContainer>
-        )}
+        <OverGoalsTable goalStats={goalStats} selectedLeague={selectedLeague} isMobile={isMobile} teamLogos={teamLogos} football={football} playedMatches={playedMatches} getBgColor={getBgColor}/>        
 
-        {/* Tablo */}
-        {selectedLeague && goalStats.length > 0 && (
-          <TableContainer
-            component={Paper}
-            sx={{
-              flex: 1,
-              width: '95%',              
-              backgroundColor: "#1a1a1a"
-            }}
-          >
-            <Table size="small" stickyHeader>
-              <TableHead sx={{ "& .MuiTableCell-root": { backgroundColor: "#333" } }}>
-                <TableRow>
-                  <TableCell sx={{ color: "#fff", fontWeight: "bold", width: "1px", pr:"5px"}}></TableCell>
-                  <TableCell sx={{ color: "#fff", fontWeight: "bold", width: 60 }}>Takım</TableCell>
-                  <TableCell sx={{ color: "#fff", fontWeight: "bold", width: 60 }} align="center">Oynanan Maç</TableCell>
-                  <TableCell sx={{ color: "#00eaff", fontWeight: "bold", width: 60 }} align="center">Attığı Gol Sayısı</TableCell>
-                  <TableCell sx={{ color: "#ffaa00", fontWeight: "bold", width: 60 }} align="center">Yediği Gol Sayısı</TableCell>
-                  <TableCell sx={{ color: "#fff", fontWeight: "bold", width: 60 }} align="center">Toplam Gol Sayısı</TableCell>
-                  <TableCell sx={{ color: "#00eaff", fontWeight: "bold", width: 60 }} align="center">Maç Başına Attığı Gol Sayısı</TableCell>
-                  <TableCell sx={{ color: "#ffaaff", fontWeight: "bold", width: 60 }} align="center">Maç Başına Toplam Gol Sayısı</TableCell>
-                  <TableCell sx={{ color: "#00ff7f", fontWeight: "bold", width: 60 }} align="center">2.5 Üst Oranı</TableCell>
-                  <TableCell sx={{ color: "#00ff7f", fontWeight: "bold", width: 60 }} align="center">3.5 Üst Oranı</TableCell>
-                  <TableCell sx={{ color: "#00ff7f", fontWeight: "bold", width: 60 }} align="center">4.5 Üst Oranı</TableCell>
-                </TableRow>
-              </TableHead>
+        {/* Tablo Altı İkon + Yazı */}
+        {selectedLeague && (
+          <Stack
+              direction="row"
+              alignItems="center" 
+              justifyContent= {isMobile ? "flex-start" : "center"}
+              spacing={3}
+              sx={{             
+                backgroundColor: "#1d1d1d",
+                padding: "10px 0",              
+                width: isMobile ? '100%' : '70%'             
+              }}>
+                
+              {/* 1. ikon + yazı */}
+              <Stack direction="row" alignItems="center" spacing={1}>
+                <img src={football} style={{ width: isMobile ? 20 : 20, height: isMobile ? 20 : 20 }} />
+                <Typography sx={{ color: "#fff", fontSize: isMobile ? "11px" : "14px", fontWeight: "bold" }}>
+                  : Oynanan Maç Sayısı
+                </Typography>
+              </Stack>
 
-              <TableBody>
-                {goalStats.map(row => (
-                  <TableRow key={row.team} sx={{ "&:hover": { backgroundColor: "#2c2c2c" } }}>
-                    <TableCell sx={{ color: "#fff" }}>{row.rank}</TableCell>
-                    <TableCell sx={{ color: "#fff" }}>{row.team}</TableCell>
-                    <TableCell sx={{ color: "#fff", fontWeight: "bold" }} align="center">{row.matchCount}</TableCell>
-                    <TableCell sx={{ color: "#00eaff", fontWeight: "bold" }} align="center">{row.goalsFor}</TableCell>
-                    <TableCell sx={{ color: "#ffaa00", fontWeight: "bold" }} align="center">{row.goalsAgainst}</TableCell>
-                    <TableCell sx={{ color: "#fff", fontWeight: "bold" }} align="center">{row.totalMatchGoals}</TableCell>
-                    <TableCell sx={{ color: "#00eaff", fontWeight: "bold" }} align="center">{row.avgGoalsFor.toFixed(2)}</TableCell>
-                    <TableCell sx={{ color: "#ffaaff", fontWeight: "bold" }} align="center">{row.avgMatchGoals.toFixed(2)}</TableCell>
-                    <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.over25Rate)}}>{row.over25Rate.toFixed(1)}%</TableCell>
-                    <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.over35Rate)}}>{row.over35Rate.toFixed(1)}%</TableCell>
-                    <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.over45Rate)}}>{row.over45Rate.toFixed(1)}%</TableCell>
-                    
-                  </TableRow>
-                ))}
-              </TableBody>
-            </Table>
-          </TableContainer>
-        )}
+              {/* 2. ikon + yazı */}
+              <Stack direction="row" alignItems="center" spacing={1}>
+                <img src={playedMatches} style={{ width: isMobile ? 20 : 20, height: isMobile ? 20 : 20 }} />
+                <Typography sx={{ color: "#fff", fontSize: isMobile ? "11px" : "14px", fontWeight: "bold" }}>
+                  : Maç Başına Gol Ortalaması
+                </Typography>
+              </Stack>
+            </Stack> 
+            
+            )}
+
+      <Stack justifyContent="flex-end" sx={{mt:'20px', display: selectedLeague ? 'block' : 'none', width: isMobile ? '100%' : '70%', backgroundColor: "#1d1d1d" }}>
+        <Typography variant="h6" sx={{color: "#fff", fontWeight: "bold", mb: 1}}>
+          {selectedLeague} – Takımların Maç Başına 2.5 Üst Gol İstatistikleri (Ev/Deplasman)
+        </Typography>
+      </Stack>     
+
+      {/* Takımların Maç Başına Gol 2.5 Üst İstatistikleri */}
+      <OverGoals25HomeAway goalStats={goalStats} selectedLeague={selectedLeague} isMobile={isMobile} teamLogos={teamLogos} football={football} playedMatches={playedMatches} getBgColor={getBgColor}/>
+
+      <Stack justifyContent="flex-end" sx={{mt:'20px', display: selectedLeague ? 'block' : 'none', width: isMobile ? '100%' : '70%', backgroundColor: "#1d1d1d" }}>
+        <Typography variant="h6" sx={{color: "#fff", fontWeight: "bold", mb: 1}}>
+          {selectedLeague} – Takımların Maç Başına 1.5 Üst Gol İstatistikleri (Ev/Deplasman)
+        </Typography>
+      </Stack>     
+
+      {/* Takımların Maç Başına Gol 2.5 Üst İstatistikleri */}
+      <OverGoals15HomeAway goalStats={goalStats} selectedLeague={selectedLeague} isMobile={isMobile} teamLogos={teamLogos} football={football} playedMatches={playedMatches} getBgColor={getBgColor}/>
+
+      <Stack justifyContent="flex-end" sx={{mt:'20px', display: selectedLeague ? 'block' : 'none', width: isMobile ? '100%' : '70%', backgroundColor: "#1d1d1d" }}>
+        <Typography variant="h6" sx={{color: "#fff", fontWeight: "bold", mb: 1}}>
+          {selectedLeague} – Takımların Maç Başına 3.5 Üst Gol İstatistikleri (Ev/Deplasman)
+        </Typography>
+      </Stack>
+
+      <OverGoals35HomeAway goalStats={goalStats} selectedLeague={selectedLeague} isMobile={isMobile} teamLogos={teamLogos} football={football} playedMatches={playedMatches} getBgColor={getBgColor}/>
+
+      <Stack justifyContent="flex-end" sx={{mt:'20px', display: selectedLeague ? 'block' : 'none', width: isMobile ? '100%' : '70%', backgroundColor: "#1d1d1d" }}>
+        <Typography variant="h6" sx={{color: "#fff", fontWeight: "bold", mb: 1}}>
+          {selectedLeague} – Takımların Maç Başına 4.5 Üst Gol İstatistikleri (Ev/Deplasman)
+        </Typography>
+      </Stack>
+
+      <OverGoals45HomeAway goalStats={goalStats} selectedLeague={selectedLeague} isMobile={isMobile} teamLogos={teamLogos} football={football} playedMatches={playedMatches} getBgColor={getBgColor}/>
 
       </Stack>
     </Stack>
