@@ -1,13 +1,22 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo } from "react";
 import {
-  Stack, Typography, Box, Autocomplete, TextField,
+  Stack, Typography, Box, Autocomplete, TextField, Button,
   Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper
-} from '@mui/material';
-import { useQuery } from "@tanstack/react-query";
-import axios from "axios";
+} from "@mui/material";
+import { useData } from "../context/DataContext";
+import useMediaQuery from "@mui/material/useMediaQuery";
+import { teamLogos } from "../Components/TeamLogos";
+import playedMatches from "/white-soccer-field.png";
+import football from "/football.png";
+import corner from "/corner.png";
+
+import OverCornersTable from "../Components/Tables/CornerTables/OverCornersTable";
+import OverHomeCornersTable from "../Components/Tables/CornerTables/OverHomeCornersTable";
+import OverHomeCornersTable2 from "../Components/Tables/CornerTables/OverHomeCornersTable2";
 
 function Corner() {
-  const [selectedLeague, setSelectedLeague] = useState("SuperLig");
+  const { matches, isLoading, selectedLeague, setSelectedLeague, error, leagues } = useData();
+  const isMobile = useMediaQuery("(max-width: 900px)");
 
   const getBgColor = (percent) => {
     if (percent <= 20) return "#ff4d4d";      // kırmızı
@@ -15,22 +24,7 @@ function Corner() {
     if (percent <= 60) return "#ffd11a";      // sarı
     if (percent <= 80) return "#b3ff66";      // açık yeşil
     return "#66ff66";                         // yeşil
-    };
-
-  const { data: matches = [], isLoading, error } = useQuery({
-    queryKey: ["matches"],
-    queryFn: async () => {
-      const res = await axios.get("http://localhost:5017/api/matches");
-      return res.data;
-    }
-  });
-
-  // Lig listesi
-  const leagues = useMemo(() => {
-    if (!matches.length) return [];
-    const uniqueLeagues = [...new Set(matches.map(m => m.league))];
-    return uniqueLeagues.sort();
-  }, [matches]);
+    };  
 
   // Hesaplama
   const cornerStats = useMemo(() => {
@@ -48,21 +42,51 @@ function Corner() {
             team: match.homeTeam,
             cornersFor: 0,
             cornersAgainst: 0,
+            homeMatchCount: 0,
+            awayMatchCount: 0,
             matchCount: 0,
             totalMatchCorners: 0,
+            over75Count: 0,
             over85Count: 0,
             over95Count: 0,
-            over105Count: 0
+            over105Count: 0,
+
+            homeOver35Count: 0,
+            awayOver35Count: 0,
+
+            homeOver45Count: 0,
+            awayOver45Count: 0,
+
+            homeOver55Count: 0,
+            awayOver55Count: 0,
+
+            homeOver65Count: 0,
+            awayOver65Count: 0,
+
+            homeOver75Count: 0,
+            awayOver75Count: 0,
+
+            homeOver85Count: 0,
+            awayOver85Count: 0
         };
       }
 
         teamCorners[match.homeTeam].cornersFor += match.cornerHome;
         teamCorners[match.homeTeam].cornersAgainst += match.cornerAway;
+        teamCorners[match.homeTeam].homeMatchCount++;
         teamCorners[match.homeTeam].matchCount++;
         teamCorners[match.homeTeam].totalMatchCorners += matchCorners;
+        if (matchCorners > 7.5) teamCorners[match.homeTeam].over75Count++;
         if (matchCorners > 8.5) teamCorners[match.homeTeam].over85Count++;
         if (matchCorners > 9.5) teamCorners[match.homeTeam].over95Count++;
         if (matchCorners > 10.5) teamCorners[match.homeTeam].over105Count++;
+
+        if (match.cornerHome > 3.5) teamCorners[match.homeTeam].homeOver35Count++;
+        if (match.cornerHome > 4.5) teamCorners[match.homeTeam].homeOver45Count++;
+        if (match.cornerHome > 5.5) teamCorners[match.homeTeam].homeOver55Count++;
+        if (match.cornerHome > 6.5) teamCorners[match.homeTeam].homeOver65Count++;
+        if (match.cornerHome > 7.5) teamCorners[match.homeTeam].homeOver75Count++;
+        if (match.cornerHome > 8.5) teamCorners[match.homeTeam].homeOver85Count++;
 
 
       // Away team
@@ -71,37 +95,97 @@ function Corner() {
             team: match.awayTeam,
             cornersFor: 0,
             cornersAgainst: 0,
+            homeMatchCount: 0,
+            awayMatchCount: 0,
             matchCount: 0,
             totalMatchCorners: 0,
+            over75Count: 0,
             over85Count: 0,
             over95Count: 0,
-            over105Count: 0
+            over105Count: 0,
+
+            homeOver35Count: 0,
+            awayOver35Count: 0,
+
+            homeOver45Count: 0,
+            awayOver45Count: 0,
+
+            homeOver55Count: 0,
+            awayOver55Count: 0,
+
+            homeOver65Count: 0,
+            awayOver65Count: 0,
+
+            homeOver75Count: 0,
+            awayOver75Count: 0,
+
+            homeOver85Count: 0,
+            awayOver85Count: 0
+            
         };
       }
 
         teamCorners[match.awayTeam].cornersFor += match.cornerHome;
         teamCorners[match.awayTeam].cornersAgainst += match.cornerAway;
+        teamCorners[match.awayTeam].awayMatchCount++;
         teamCorners[match.awayTeam].matchCount++;
         teamCorners[match.awayTeam].totalMatchCorners += matchCorners;
+        if (matchCorners > 7.5) teamCorners[match.awayTeam].over75Count++;
         if (matchCorners > 8.5) teamCorners[match.awayTeam].over85Count++;
         if (matchCorners > 9.5) teamCorners[match.awayTeam].over95Count++;
-        if (matchCorners > 10.5) teamCorners[match.awayTeam].over105Count++;
+        if (matchCorners > 10.5) teamCorners[match.awayTeam].over105Count++;  
+        
+        if (match.cornerAway > 3.5) teamCorners[match.awayTeam].awayOver35Count++;
+        if (match.cornerAway > 4.5) teamCorners[match.awayTeam].awayOver45Count++;
+        if (match.cornerAway > 5.5) teamCorners[match.awayTeam].awayOver55Count++;
+        if (match.cornerAway > 6.5) teamCorners[match.awayTeam].awayOver65Count++;
+        if (match.cornerAway > 7.5) teamCorners[match.awayTeam].awayOver75Count++;
+        if (match.cornerAway > 8.5) teamCorners[match.awayTeam].awayOver85Count++;
+
     });
 
     const stats = Object.values(teamCorners).map(team => {
+      const cornersUsed = team.cornersFor;
+      const cornersAgainst = team.cornersAgainst;
       const avgTeamCorners = team.cornersFor / team.matchCount;
       const avgMatchCorners = team.totalMatchCorners / team.matchCount;
+
+      const over75Rate = (team.over75Count / team.matchCount) * 100;
       const over85Rate = (team.over85Count / team.matchCount) * 100;
       const over95Rate = (team.over95Count / team.matchCount) * 100;
       const over105Rate = (team.over105Count / team.matchCount) * 100;
+
+      const team35Rate = ((team.homeOver35Count + team.awayOver35Count) / team.matchCount) * 100;     
+      const team45Rate = ((team.homeOver45Count + team.awayOver45Count) / team.matchCount) * 100;
+      const team55Rate = ((team.homeOver55Count + team.awayOver55Count) / team.matchCount) * 100; 
+      const team65Rate = ((team.homeOver65Count + team.awayOver65Count) / team.matchCount) * 100;
+      const team75Rate = ((team.homeOver75Count + team.awayOver75Count) / team.matchCount) * 100;
+      const team85Rate = ((team.homeOver85Count + team.awayOver85Count) / team.matchCount) * 100;  
+      
+      const avgCornersUsed = (cornersUsed / team.matchCount).toFixed(2);
+
+      console.log(team);
 
       return {
         ...team,
         avgTeamCorners,
         avgMatchCorners,
+        cornersUsed,
+        cornersAgainst,
+
+        over75Rate,
         over85Rate,
         over95Rate,
-        over105Rate
+        over105Rate, 
+
+        team35Rate,
+        team45Rate,
+        team55Rate,
+        team65Rate,
+        team75Rate,
+        team85Rate,
+        
+        avgCornersUsed
       };
     });
 
@@ -115,8 +199,8 @@ function Corner() {
   if (error) return <div>Error loading matches</div>;
 
   return (
-    <Stack sx={{ width: "100%", minHeight: "100vh", background: "#b48181ff"}} spacing={3}>
-      <Stack direction={{ xs: 'column', md: 'row' }} spacing={3} alignItems="flex-start" sx={{pt: 5}}>
+    <Stack sx={{ width: "100%", minHeight: "100vh", background: "#2a3b47"}} spacing={3}>
+      <Stack direction={'column'} alignItems="center" sx={{pt: 5}}>
 
         {/* Lig Seçimi */}
         <Box sx={{ width: { xs: '100%', md: '300px' } }} justifyContent="center" alignItems="center" direction={{ xs: 'column', md: 'row' }}>
@@ -131,60 +215,81 @@ function Corner() {
             renderInput={(params) => <TextField {...params} label="Lig Seç" />}
             sx={{
               "& .MuiOutlinedInput-root": { backgroundColor: "#fff" },
-              mt: 4, pl: 1.5
+              mt: 4, pl: 1.5, pr: 1.5
             }}
           />
         </Box>
 
-        {/* Tablo */}
-        {selectedLeague && cornerStats.length > 0 && (
-          <TableContainer
-            component={Paper}
-            sx={{
-              flex: 1,
-              backgroundColor: "#1a1a1a"
-            }}
-          >
-            <Table size="small" stickyHeader>
-              <TableHead sx={{ "& .MuiTableCell-root": { backgroundColor: "#333" } }}>
-                <TableRow>
-                  <TableCell sx={{ color: "#fff", fontWeight: "bold", width: "1px", pr:"5px"}}></TableCell>
-                  <TableCell sx={{ color: "#fff", fontWeight: "bold" }}>Takım</TableCell>
-                  <TableCell sx={{ color: "#fff", fontWeight: "bold" }} align="center">Maç</TableCell>
-                  <TableCell sx={{ color: "#00eaff", fontWeight: "bold" }} align="center">Kullandığı Korner Sayısı</TableCell>
-                  <TableCell sx={{ color: "#ffaa00", fontWeight: "bold" }} align="center">Rakibin Korner Sayısı</TableCell>
-                  <TableCell sx={{ color: "#fff", fontWeight: "bold" }} align="center">Toplam Korner Sayısı</TableCell>
-                  <TableCell sx={{ color: "#00eaff", fontWeight: "bold" }} align="center">Maç Başı Kullandığı Korner</TableCell>
-                  <TableCell sx={{ color: "#ffaaff", fontWeight: "bold" }} align="center">Maç Başı Toplam Korner</TableCell>
-                  <TableCell sx={{ color: "#ffffffff", fontWeight: "bold" }} align="center">8.5 Üst Oranı</TableCell>
-                  <TableCell sx={{ color: "#ffffffff", fontWeight: "bold" }} align="center">9.5 Üst Oranı</TableCell>
-                  <TableCell sx={{ color: "#ffffffff", fontWeight: "bold" }} align="center">10.5 Üst Oranı</TableCell>
+        <Stack justifyContent="flex-end" sx={{mt:'20px', display: selectedLeague ? 'block' : 'none', width: isMobile ? '100%' : '70%', backgroundColor: "#1d1d1d" }}>
+          <Typography variant="h6" sx={{color: "#fff", fontWeight: "bold", mb: 1}}>
+              {selectedLeague} – Takımların Maç Başına Korner (Üst) İstatistikleri
+          </Typography>
+        </Stack> 
 
-                </TableRow>
-              </TableHead>
+        <OverCornersTable cornerStats={cornerStats} selectedLeague={selectedLeague} isMobile={isMobile} teamLogos={teamLogos} football={football} playedMatches={playedMatches} getBgColor={getBgColor}/>    
 
-              <TableBody>
-                {cornerStats.map(row => (
-                  <TableRow key={row.team} sx={{ "&:hover": { backgroundColor: "#2c2c2c" } }}>
-                    <TableCell sx={{ color: "#fff" }}>{row.rank}</TableCell>
-                    <TableCell sx={{ color: "#fff" }}>{row.team}</TableCell>
-                    <TableCell sx={{ color: "#fff", fontWeight: "bold" }} align="center">{row.matchCount}</TableCell>
-                    <TableCell sx={{ color: "#00eaff", fontWeight: "bold" }} align="center">{row.cornersFor}</TableCell>
-                    <TableCell sx={{ color: "#ffaa00", fontWeight: "bold" }} align="center">{row.cornersAgainst}</TableCell>
-                    <TableCell sx={{ color: "#fff", fontWeight: "bold" }} align="center">{row.totalMatchCorners}</TableCell>
-                    <TableCell sx={{ color: "#00eaff", fontWeight: "bold" }} align="center">{row.avgTeamCorners.toFixed(2)}</TableCell>
-                    <TableCell sx={{ color: "#ffaaff", fontWeight: "bold" }} align="center">{row.avgMatchCorners.toFixed(2)}</TableCell>
-                    <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.over85Rate)}}>{row.over85Rate.toFixed(1)}%</TableCell>
-                    <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.over95Rate)}}>{row.over95Rate.toFixed(1)}%</TableCell>
-                    <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.over105Rate)}}>{row.over105Rate.toFixed(1)}%</TableCell>
+        {/* Tablo Altı İkon + Yazı */}
+        {selectedLeague && (
+          <Stack
+              direction="row"
+              alignItems="center" 
+              justifyContent= {isMobile ? "flex-start" : "center"}
+              spacing={3}
+              sx={{             
+                backgroundColor: "#1d1d1d",
+                padding: "10px 0",              
+                width: isMobile ? '100%' : '70%'             
+              }}>
+                
+              {/* 1. ikon + yazı */}
+              <Stack direction="row" alignItems="center" spacing={1}>
+                <img src={playedMatches} style={{ width: isMobile ? 20 : 20, height: isMobile ? 20 : 20 }} />
+                <Typography sx={{ color: "#fff", fontSize: isMobile ? "11px" : "14px", fontWeight: "bold" }}>
+                  : Oynanan Maç Sayısı
+                </Typography>
+              </Stack>              
+            </Stack> 
+            
+            )}    
 
-                  </TableRow>
-                ))}
-              </TableBody>
-            </Table>
-          </TableContainer>
-        )}
+        <Stack justifyContent="flex-end" sx={{mt:'20px', display: selectedLeague ? 'block' : 'none', width: isMobile ? '100%' : '70%', backgroundColor: "#1d1d1d" }}>
+          <Typography variant="h6" sx={{color: "#fff", fontWeight: "bold", mb: 1}}>
+              {selectedLeague} – Takımların Maç Başına Korner (Üst) İstatistikleri
+          </Typography>
+        </Stack> 
+        
+        <OverHomeCornersTable cornerStats={cornerStats} selectedLeague={selectedLeague} isMobile={isMobile} teamLogos={teamLogos} corner={corner} playedMatches={playedMatches} getBgColor={getBgColor}/>        
+        {/* Tablo Altı İkon + Yazı */}
+        {selectedLeague && (
+          <Stack
+              direction="row"
+              alignItems="center" 
+              justifyContent= {isMobile ? "flex-start" : "center"}
+              spacing={3}
+              sx={{             
+                backgroundColor: "#1d1d1d",
+                padding: "10px 0",              
+                width: isMobile ? '100%' : '70%'             
+              }}>
+                
+              {/* 1. ikon + yazı */}
+              <Stack direction="row" alignItems="center" spacing={1}>
+                <img src={corner} style={{ width: isMobile ? 20 : 20, height: isMobile ? 20 : 20 }} />
+                <Typography sx={{ color: "#fff", fontSize: isMobile ? "11px" : "14px", fontWeight: "bold" }}>
+                  : Ortalama Kullandığı Korner Sayısı
+                </Typography>
+              </Stack>              
+            </Stack> 
+            
+            )}    
 
+        <Stack justifyContent="flex-end" sx={{mt:'20px', display: selectedLeague ? 'block' : 'none', width: isMobile ? '100%' : '70%', backgroundColor: "#1d1d1d" }}>
+          <Typography variant="h6" sx={{color: "#fff", fontWeight: "bold", mb: 1}}>
+              {selectedLeague} – Takımların Maç Başına Korner (Üst) İstatistikleri
+          </Typography>
+        </Stack>     
+
+        <OverHomeCornersTable2 cornerStats={cornerStats} selectedLeague={selectedLeague} isMobile={isMobile} teamLogos={teamLogos} corner={corner} playedMatches={playedMatches} getBgColor={getBgColor}/>        
       </Stack>
     </Stack>
   );

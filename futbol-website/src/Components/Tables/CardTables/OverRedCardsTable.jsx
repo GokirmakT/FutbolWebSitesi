@@ -5,11 +5,11 @@ import {
 } from "@mui/material";
 
 
-const OverGoals = ({ goalStats, selectedLeague, isMobile, teamLogos, football, playedMatches, getBgColor }) => {  
+const OverCards = ({ cardStats, selectedLeague, isMobile, teamLogos, card, playedMatches, getBgColor }) => {  
 
     return (
         <>
-          {selectedLeague && goalStats.length > 0 && (
+          {selectedLeague && cardStats.length > 0 && (
           <TableContainer
             component={Paper}
             sx={{
@@ -24,7 +24,7 @@ const OverGoals = ({ goalStats, selectedLeague, isMobile, teamLogos, football, p
               <TableHead sx={{ "& .MuiTableCell-root": { backgroundColor: "#1d1d1d" } }}>
                 <TableRow>
                   <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 2 : 2, pl: isMobile ? 0 : 2 }}></TableCell>
-                  <TableCell align="center" sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 0 : 0, pl: isMobile ? 0 : 2 }}>Takım</TableCell>
+                  <TableCell align="center" sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 2 : 2, pl: isMobile ? 0 : 2 }}>Takım</TableCell>
                   <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2  }} align="center">
                   <Stack alignItems={'center'}>
                     <img
@@ -33,22 +33,22 @@ const OverGoals = ({ goalStats, selectedLeague, isMobile, teamLogos, football, p
                     />    
                     </Stack>
                   </TableCell>
-                  <TableCell sx={{ color: "#ffaaff", fontWeight: "bold", pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2}} align="center">
-                    <Stack alignItems={'center'}>
+                  <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2 }} align="center">
+                  <Stack alignItems={'center'}>
                     <img
-                      src={football}
+                      src={card}
                       style={{ width: 20, height: 20, color: "#fff" }}
                     />    
                     </Stack>
                   </TableCell>
-                  <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2 }} align="center">2.5 Üst</TableCell>
-                  <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2 }} align="center">3.5 Üst</TableCell>
-                  <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2 }} align="center">4.5 Üst</TableCell>
+                  <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2 }} align="center">0.5 Üst</TableCell>
+                  <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2 }} align="center">1.5 Üst</TableCell>
+                  <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2 }} align="center">2.5 Üst</TableCell>
                 </TableRow>
               </TableHead>
 
               <TableBody>
-                {goalStats.map(row => (
+                {cardStats.map(row => (
                   <TableRow key={row.team} sx={{ "&:hover": { backgroundColor: "#2c2c2c" } }}>
                     <TableCell sx={{ color: "#fff", fontSize: '12px', pr: isMobile ? "1px" : 2, pl: isMobile ? 1 : 2 }}>{row.rank}</TableCell>
                     <TableCell sx={{ color: "#fff",fontSize: '12px', pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2 }}>
@@ -66,10 +66,10 @@ const OverGoals = ({ goalStats, selectedLeague, isMobile, teamLogos, football, p
                     </Stack>
                     </TableCell>
                     <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2 }} align="center">{row.matchCount}</TableCell>
-                    <TableCell sx={{ color: "#ffaaff", fontWeight: "bold", pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2 }} align="center">{row.avgMatchGoals.toFixed(2)}</TableCell>
-                    <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.over25Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.over25Rate.toFixed(0)}%</TableCell>
-                    <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.over35Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.over35Rate.toFixed(0)}%</TableCell>
-                    <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.over45Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.over45Rate.toFixed(0)}%</TableCell>
+                    <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2 }} align="center">{row.totalRedCards}</TableCell>
+                    <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.RedOver05Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.RedOver05Rate.toFixed(0)}%</TableCell>
+                    <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.RedOver15Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.RedOver15Rate.toFixed(0)}%</TableCell>
+                    <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.RedOver25Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.RedOver25Rate.toFixed(0)}%</TableCell>
                     
                   </TableRow>
                 ))}
@@ -81,4 +81,4 @@ const OverGoals = ({ goalStats, selectedLeague, isMobile, teamLogos, football, p
       );
     }
 
-export default OverGoals;
+export default OverCards;

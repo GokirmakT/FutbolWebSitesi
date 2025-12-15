@@ -1,7 +1,7 @@
 // src/data/teamLogos.js
 export const teamLogos = {
+    //SuperLig Teams
     Beşiktaş: "/logos/besiktas.webp",
-    FatihKaragümrük: "/logos/fatihkaragumruk.webp",
     Fenerbahçe: "/logos/fenerbahçe.webp",
     Alanyaspor: "/logos/alanyaspor.webp",
     Galatasaray: "/logos/galatasaray.webp",
@@ -17,7 +17,7 @@ export const teamLogos = {
     ÇaykurRize: "/logos/rizespor.webp",
     Kasımpaşa: "/logos/kasımpaşa.webp",
     Ümraniyespor: "/logos/umraniyespor.webp",
-    FatihKaragümrük: "/logos/fatihkaragumruk.webp",
+    Karagümrük: "/logos/fatihkaragumruk.webp",
     Hatayspor: "/logos/hatayspor.webp",
     Denizlispor: "/logos/denizlispor.webp",
     Erzurumspor: "/logos/erzurumspor.webp",
@@ -33,9 +33,9 @@ export const teamLogos = {
     Eyüpspor: "/logos/eyüpspor.webp",
     Gençlerbirliği: "/logos/genclerbirliği.webp",
     Göztepe: "/logos/göztepe.webp",
-    Gaziantep: "/logos/gaziantep.png",
-    
-  
-  
-  // Diğer takımların logolarını da buraya ekleyin
+    Gaziantep: "/logos/gaziantep.png",  
+
+    //Serie A Teams
+    Juventus: "/logos/juventus.png",
+    Milan: "/logos/milan.png",
 };

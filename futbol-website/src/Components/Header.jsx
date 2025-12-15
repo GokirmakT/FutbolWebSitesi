@@ -1,32 +1,48 @@
-import { AppBar, Toolbar, TextField, Button, Stack, Box, Menu, MenuItem } from "@mui/material";
+import {
+  AppBar,
+  Toolbar,
+  TextField,
+  Button,
+  Stack,
+  Box,
+  Menu,
+  MenuItem, ListItemIcon, ListItemText
+} from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { useState, useRef } from "react";
 import useMediaQuery from "@mui/material/useMediaQuery";
 
 export default function Header() {
   const navigate = useNavigate();
+
+  // DESKTOP lig menüsü
   const [anchorEl, setAnchorEl] = useState(null);
-  const [menuAnchor, setMenuAnchor] = useState(null); // Mobil menü
-  const open = Boolean(anchorEl);
-  const menuOpen = Boolean(menuAnchor);
+
+  // MOBILE ana menü
+  const [menuAnchor, setMenuAnchor] = useState(null);
+
+  // MOBILE lig submenu
+  const [leagueAnchor, setLeagueAnchor] = useState(null);
+
   const closeTimerRef = useRef(null);
 
   const isMobile = useMediaQuery("(max-width: 460px)");
   const headerButtons = useMediaQuery("(max-width: 650px)");
 
   const leagues = [
-    { id: "superlig", name: "Süper Lig" },
-    { id: "premier-league", name: "Premier League" },
-    { id: "laliga", name: "LaLiga" },
-    { id: "seriea", name: "Serie A" },
-    { id: "bundesliga", name: "Bundesliga"},
-    { id: "ligue1", name: "Ligue 1" },
-    { id: "eredivisie", name: "Eredivisie" },
-    { id: "champions-league", name: "Champions League"},
-    { id: "europa-league", name: "Europa League"},
-    { id: "europa-conference-league", name: "Europa Conference League"}
+    { id: "superlig", name: "Süper Lig", icon: "/leagues/superlig.png" },
+    { id: "premier-league", name: "Premier League", icon: "/leagues/premier-league.png" },
+    { id: "laliga", name: "LaLiga", icon: "/leagues/laliga.png" },
+    { id: "seriea", name: "Serie A", icon: "/leagues/seriea.png" },
+    { id: "bundesliga", name: "Bundesliga", icon: "/leagues/bundesliga.png" },
+    { id: "ligue1", name: "Ligue 1", icon: "/leagues/ligue1.png" },
+    { id: "eredivisie", name: "Eredivisie", icon: "/leagues/eredivise.png" },
+    { id: "champions-league", name: "Champions League", icon: "/leagues/champions-league.png" },
+    { id: "europa-league", name: "Europa League", icon: "/leagues/europa-league.png" },
+    { id: "europa-conference-league", name: "Europa Conference League", icon: "/leagues/europa-conference-league.png" }
   ];
 
+  // DESKTOP hover açma
   function handleOpen(e) {
     if (closeTimerRef.current) {
       clearTimeout(closeTimerRef.current);
@@ -35,97 +51,150 @@ export default function Header() {
     setAnchorEl(e.currentTarget);
   }
 
-  function handleMenuClick(league) {
+  function handleLeagueClick(league) {
     setAnchorEl(null);
+    setMenuAnchor(null);
+    setLeagueAnchor(null);
     navigate(`/lig/${league.id}`);
   }
-
+  
   return (
     <AppBar position="static" sx={{ backgroundColor: "#1d1d1d", p: 1 }}>
       <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
-
-        {/* Sol: Arama */}
-        <Box sx={{ width: "30%", minWidth: "140px" }}>
+        {/* SOL: ARAMA */}
+        <Box sx={{ width: "30%", minWidth: "200px" }}>
           <TextField
             fullWidth
             size="small"
             placeholder="Takım, maç veya lig ara..."
             sx={{
-              backgroundColor: "#ffffff",
+              backgroundColor: "#fff",
               borderRadius: 1,
               input: { color: "black" }
             }}
           />
         </Box>
 
-        {/* Sağ: Butonlar */}
+        {/* SAĞ: MENÜLER */}
         <Stack direction="row" spacing={2}>
-
-          {/* --------------------- LİG BUTTONU ---------------------- */}
-          <Box
-            onMouseEnter={(e) => !headerButtons && handleOpen(e)}
-            onMouseLeave={() => !headerButtons && setAnchorEl(null)}
-          >
-            <Button variant="outlined" sx={{width: isMobile ? '30px' : '70px'}} onClick={(e) => headerButtons && handleOpen(e)}>
-              Lig
-            </Button>
-
-            <Menu
-              anchorEl={anchorEl}
-              open={open}
-              onClose={() => setAnchorEl(null)}
-              MenuListProps={{
-                onMouseEnter: () => {
-                  if (closeTimerRef.current) {
-                    clearTimeout(closeTimerRef.current);
-                    closeTimerRef.current = null;
-                  }
-                },
-                onMouseLeave: () => !headerButtons && setAnchorEl(null)
-              }}
-            >
-              {leagues.map((l) => (
-                <MenuItem key={l.id} onClick={() => handleMenuClick(l)}>
-                  {l.name}
-                </MenuItem>
-              ))}
-            </Menu>
-          </Box>
-
-          {/* ------------------- DESKTOP (4 buton) ------------------- */}
+          {/* ================= DESKTOP ================= */}
           {!headerButtons && (
             <>
-              <Button variant="contained" onClick={() => navigate("/Cards")}>Kart</Button>
-              <Button variant="contained" onClick={() => navigate("/Corners")}>Korner</Button>
-              <Button variant="contained" onClick={() => navigate("/Goals")}>Gol</Button>
+              <Box
+                onMouseEnter={handleOpen}
+                onMouseLeave={() => setAnchorEl(null)}
+              >
+                <Button
+                  variant="outlined"
+                  sx={{ width: isMobile ? "30px" : "70px" }}
+                >
+                  Lig
+                </Button>
+
+                <Menu
+                  anchorEl={anchorEl}
+                  open={Boolean(anchorEl)}
+                  onClose={() => setAnchorEl(null)}
+                  MenuListProps={{
+                    onMouseEnter: () => {
+                      if (closeTimerRef.current) {
+                        clearTimeout(closeTimerRef.current);
+                        closeTimerRef.current = null;
+                      }
+                    },
+                    onMouseLeave: () => setAnchorEl(null)
+                  }}
+                >
+                  {leagues.map((l) => (
+                  <MenuItem key={l.id} onClick={() => handleLeagueClick(l)}>
+                    <ListItemIcon sx={{ minWidth: 36 }}>
+                      <img
+                        src={l.icon}
+                        alt={l.name}
+                        style={{ width: 20, height: 20 }}
+                      />
+                    </ListItemIcon>
+
+                    <ListItemText primary={l.name} />
+                  </MenuItem>
+                ))}
+                </Menu>
+              </Box>
+
+              <Button variant="contained" onClick={() => navigate("/Cards")}>
+                Kart
+              </Button>
+              <Button variant="contained" onClick={() => navigate("/Corners")}>
+                Korner
+              </Button>
+              <Button variant="contained" onClick={() => navigate("/Goals")}>
+                Gol
+              </Button>
             </>
           )}
 
-          {/* -------------------- MOBILE (MENÜ) ---------------------- */}
+          {/* ================= MOBILE ================= */}
           {headerButtons && (
             <>
               <Button
                 variant="contained"
+                sx={{ width: isMobile ? "30px" : "70px" }}
                 onClick={(e) => setMenuAnchor(e.currentTarget)}
-                sx={{width: isMobile ? '30px' : '70px'}}
               >
                 Menü
               </Button>
 
+              {/* ANA MOBİL MENÜ */}
               <Menu
+                sx={{ mt: "5px" }}
                 anchorEl={menuAnchor}
-                open={menuOpen}
-                onClose={() => setMenuAnchor(null)}
+                open={Boolean(menuAnchor)}
+                onClose={() => {
+                  setMenuAnchor(null);
+                  setLeagueAnchor(null);
+                }}
               >
-                <MenuItem onClick={() => navigate("/Cards")}>Kart</MenuItem>
-                <MenuItem onClick={() => navigate("/Corners")}>Korner</MenuItem>
-                <MenuItem onClick={() => navigate("/Goals")}>Gol</MenuItem>
+                <MenuItem
+                  onMouseEnter={(e) => setLeagueAnchor(e.currentTarget)}
+                >
+                  Ligler
+                </MenuItem>
+
+                <MenuItem onClick={() => {navigate("/Cards"); setMenuAnchor(null);}}>Kart</MenuItem>
+                <MenuItem onClick={() => {navigate("/Corners"); setMenuAnchor(null);}}>Korner</MenuItem>
+                <MenuItem onClick={() => {navigate("/Goals"); setMenuAnchor(null);}}>Gol</MenuItem>
               </Menu>
+
+              {/* MOBİL LİGLER SUBMENU */}
+              <Menu
+                sx={{ width: 250, ml: "-83px", mt: "-7px" }}
+                anchorEl={leagueAnchor}
+                open={Boolean(leagueAnchor)}
+                onClose={() => setLeagueAnchor(null)}
+                anchorOrigin={{ vertical: "top", horizontal: "right" }}
+                transformOrigin={{ vertical: "top", horizontal: "left" }}
+                MenuListProps={{
+                  onMouseLeave: () => setLeagueAnchor(null)
+                }}
+              >
+                {leagues.map((l) => (
+                  <MenuItem key={l.id} onClick={() => handleLeagueClick(l)}>
+                    <ListItemIcon sx={{ minWidth: 36 }}>
+                      <img
+                        src={l.icon}
+                        alt={l.name}
+                        style={{ width: 20, height: 20 }}
+                      />
+                    </ListItemIcon>
+
+                    <ListItemText primary={l.name} />
+                  </MenuItem>
+                ))}
+              </Menu>
+
             </>
           )}
-
         </Stack>
-
       </Toolbar>
     </AppBar>
   );
