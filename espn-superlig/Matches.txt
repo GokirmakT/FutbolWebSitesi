@@ -1,0 +1,743 @@
+Season,League,Week,HomeTeam,AwayTeam,Winner,GoalHome,GoalAway,CornerHome,CornerAway,YellowHome,YellowAway,RedHome,RedAway
+2025-2026,Premier League,2,Liverpool,AFC Bournemouth,Home,4,2,6,7,1,2,0,0
+2025-2026,Premier League,2,Aston Villa,Newcastle United,Draw,0,0,3,6,1,1,1,0
+2025-2026,Premier League,2,Brighton & Hove Albion,Fulham,Draw,1,1,4,3,3,3,0,0
+2025-2026,Premier League,2,Sunderland,West Ham United,Home,3,0,5,7,0,1,0,0
+2025-2026,Premier League,2,Tottenham Hotspur,Burnley,Home,3,0,6,5,0,0,0,0
+2025-2026,Premier League,2,Wolverhampton Wanderers,Manchester City,Away,0,4,4,6,1,2,0,0
+2025-2026,Premier League,2,Chelsea,Crystal Palace,Draw,0,0,11,2,2,3,0,0
+2025-2026,Premier League,2,Nottingham Forest,Brentford,Home,3,1,5,5,1,2,0,0
+2025-2026,Premier League,2,Manchester United,Arsenal,Away,0,1,3,4,1,4,0,0
+2025-2026,Premier League,2,Leeds United,Everton,Home,1,0,7,2,0,2,0,0
+2025-2026,Premier League,3,West Ham United,Chelsea,Away,1,5,7,5,0,1,0,0
+2025-2026,Premier League,3,Manchester City,Tottenham Hotspur,Away,0,2,7,2,1,4,0,0
+2025-2026,Premier League,3,AFC Bournemouth,Wolverhampton Wanderers,Home,1,0,8,3,2,4,0,1
+2025-2026,Premier League,3,Brentford,Aston Villa,Home,1,0,2,9,1,2,0,0
+2025-2026,Premier League,3,Burnley,Sunderland,Home,2,0,4,3,0,1,0,0
+2025-2026,Premier League,3,Arsenal,Leeds United,Home,5,0,2,2,0,2,0,0
+2025-2026,Premier League,3,Crystal Palace,Nottingham Forest,Draw,1,1,1,3,3,3,0,0
+2025-2026,Premier League,3,Everton,Brighton & Hove Albion,Home,2,0,2,2,4,3,0,0
+2025-2026,Premier League,3,Fulham,Manchester United,Draw,1,1,9,6,1,1,0,0
+2025-2026,Premier League,3,Newcastle United,Liverpool,Away,2,3,7,1,2,3,1,0
+2025-2026,Premier League,4,Chelsea,Fulham,Home,2,0,6,4,2,2,0,0
+2025-2026,Premier League,4,Manchester United,Burnley,Home,3,2,7,1,1,5,0,0
+2025-2026,Premier League,4,Sunderland,Brentford,Home,2,1,3,4,3,2,0,0
+2025-2026,Premier League,4,Tottenham Hotspur,AFC Bournemouth,Away,0,1,0,8,2,4,0,0
+2025-2026,Premier League,4,Wolverhampton Wanderers,Everton,Away,2,3,2,2,0,1,0,0
+2025-2026,Premier League,4,Leeds United,Newcastle United,Draw,0,0,5,5,1,1,0,0
+2025-2026,Premier League,4,Brighton & Hove Albion,Manchester City,Home,2,1,3,2,2,2,0,0
+2025-2026,Premier League,4,Nottingham Forest,West Ham United,Away,0,3,9,7,0,0,0,0
+2025-2026,Premier League,4,Liverpool,Arsenal,Home,1,0,3,8,2,2,0,0
+2025-2026,Premier League,4,Aston Villa,Crystal Palace,Away,0,3,10,1,2,3,0,0
+2025-2026,Premier League,6,Arsenal,Nottingham Forest,Home,3,0,8,4,1,1,0,0
+2025-2026,Premier League,6,AFC Bournemouth,Brighton & Hove Albion,Home,2,1,4,4,4,5,0,0
+2025-2026,Premier League,6,Crystal Palace,Sunderland,Draw,0,0,5,3,1,1,0,0
+2025-2026,Premier League,6,Everton,Aston Villa,Draw,0,0,10,3,3,3,0,0
+2025-2026,Premier League,6,Fulham,Leeds United,Home,1,0,3,3,2,2,0,0
+2025-2026,Premier League,6,Newcastle United,Wolverhampton Wanderers,Home,1,0,10,4,1,5,0,0
+2025-2026,Premier League,6,West Ham United,Tottenham Hotspur,Away,0,3,2,13,0,1,1,0
+2025-2026,Premier League,6,Brentford,Chelsea,Draw,2,2,5,6,3,2,0,0
+2025-2026,Premier League,6,Burnley,Liverpool,Away,0,1,1,13,1,2,1,0
+2025-2026,Premier League,6,Manchester City,Manchester United,Home,3,0,2,4,0,0,0,0
+2025-2026,Premier League,7,Liverpool,Everton,Home,2,1,5,4,2,3,0,0
+2025-2026,Premier League,7,Brighton & Hove Albion,Tottenham Hotspur,Draw,2,2,2,10,1,2,0,0
+2025-2026,Premier League,7,Burnley,Nottingham Forest,Draw,1,1,4,5,1,1,0,0
+2025-2026,Premier League,7,West Ham United,Crystal Palace,Away,1,2,8,8,3,3,0,0
+2025-2026,Premier League,7,Wolverhampton Wanderers,Leeds United,Away,1,3,4,0,1,1,0,0
+2025-2026,Premier League,7,Manchester United,Chelsea,Home,2,1,5,5,1,6,1,1
+2025-2026,Premier League,7,Fulham,Brentford,Home,3,1,2,10,4,1,0,0
+2025-2026,Premier League,7,AFC Bournemouth,Newcastle United,Draw,0,0,5,2,2,1,0,0
+2025-2026,Premier League,7,Sunderland,Aston Villa,Draw,1,1,6,5,2,1,1,0
+2025-2026,Premier League,7,Arsenal,Manchester City,Draw,1,1,11,2,1,3,0,0
+2025-2026,Premier League,8,Brentford,Manchester United,Home,3,1,4,2,2,2,0,0
+2025-2026,Premier League,8,Chelsea,Brighton & Hove Albion,Away,1,3,5,7,3,6,1,0
+2025-2026,Premier League,8,Crystal Palace,Liverpool,Home,2,1,2,6,1,4,0,0
+2025-2026,Premier League,8,Leeds United,AFC Bournemouth,Draw,2,2,7,4,2,2,0,0
+2025-2026,Premier League,8,Manchester City,Burnley,Home,5,1,10,2,1,3,0,0
+2025-2026,Premier League,8,Nottingham Forest,Sunderland,Away,0,1,7,4,4,2,0,0
+2025-2026,Premier League,8,Tottenham Hotspur,Wolverhampton Wanderers,Draw,1,1,10,9,3,2,0,0
+2025-2026,Premier League,8,Aston Villa,Fulham,Home,3,1,2,8,1,5,0,0
+2025-2026,Premier League,8,Newcastle United,Arsenal,Away,1,2,7,12,2,1,0,0
+2025-2026,Premier League,8,Everton,West Ham United,Draw,1,1,3,5,3,4,0,0
+2025-2026,Premier League,9,AFC Bournemouth,Fulham,Home,3,1,4,3,0,1,0,0
+2025-2026,Premier League,9,Leeds United,Tottenham Hotspur,Away,1,2,4,1,2,3,0,0
+2025-2026,Premier League,9,Arsenal,West Ham United,Home,2,0,8,3,0,2,0,0
+2025-2026,Premier League,9,Manchester United,Sunderland,Home,2,0,2,3,1,4,0,0
+2025-2026,Premier League,9,Chelsea,Liverpool,Home,2,1,7,2,1,3,1,0
+2025-2026,Premier League,9,Aston Villa,Burnley,Home,2,1,6,4,3,1,0,0
+2025-2026,Premier League,9,Everton,Crystal Palace,Home,2,1,2,4,3,3,0,0
+2025-2026,Premier League,9,Newcastle United,Nottingham Forest,Home,2,0,8,1,0,4,0,0
+2025-2026,Premier League,9,Wolverhampton Wanderers,Brighton & Hove Albion,Draw,1,1,2,8,2,4,1,0
+2025-2026,Premier League,9,Brentford,Manchester City,Away,0,1,3,2,3,2,0,0
+2025-2026,Premier League,11,Nottingham Forest,Chelsea,Away,0,3,5,2,2,3,0,1
+2025-2026,Premier League,11,Brighton & Hove Albion,Newcastle United,Home,2,1,8,4,0,1,0,0
+2025-2026,Premier League,11,Burnley,Leeds United,Home,2,0,1,5,2,1,0,0
+2025-2026,Premier League,11,Crystal Palace,AFC Bournemouth,Draw,3,3,6,5,1,4,0,0
+2025-2026,Premier League,11,Manchester City,Everton,Home,2,0,11,3,0,2,0,0
+2025-2026,Premier League,11,Sunderland,Wolverhampton Wanderers,Home,2,0,3,2,0,0,0,0
+2025-2026,Premier League,11,Fulham,Arsenal,Away,0,1,6,10,0,0,0,0
+2025-2026,Premier League,11,Tottenham Hotspur,Aston Villa,Away,1,2,6,6,2,0,0,0
+2025-2026,Premier League,11,Liverpool,Manchester United,Away,1,2,9,4,0,2,0,0
+2025-2026,Premier League,11,West Ham United,Brentford,Away,0,2,6,10,1,1,0,0
+2025-2026,Premier League,12,Leeds United,West Ham United,Home,2,1,3,4,3,3,0,0
+2025-2026,Premier League,12,Chelsea,Sunderland,Away,1,2,9,1,1,1,0,0
+2025-2026,Premier League,12,Newcastle United,Fulham,Home,2,1,4,3,0,2,0,0
+2025-2026,Premier League,12,Manchester United,Brighton & Hove Albion,Home,4,2,1,6,2,2,0,0
+2025-2026,Premier League,12,Brentford,Liverpool,Home,3,2,5,4,3,2,0,0
+2025-2026,Premier League,12,AFC Bournemouth,Nottingham Forest,Home,2,0,6,4,3,2,0,0
+2025-2026,Premier League,12,Arsenal,Crystal Palace,Home,1,0,4,3,0,0,0,0
+2025-2026,Premier League,12,Aston Villa,Manchester City,Home,1,0,5,6,1,4,0,0
+2025-2026,Premier League,12,Wolverhampton Wanderers,Burnley,Away,2,3,5,3,1,0,0,0
+2025-2026,Premier League,12,Everton,Tottenham Hotspur,Away,0,3,9,8,2,0,0,0
+2025-2026,Premier League,13,Brighton & Hove Albion,Leeds United,Home,3,0,4,7,0,1,0,0
+2025-2026,Premier League,13,Burnley,Arsenal,Away,0,2,1,6,2,1,0,0
+2025-2026,Premier League,13,Crystal Palace,Brentford,Home,2,0,6,5,0,3,0,0
+2025-2026,Premier League,13,Fulham,Wolverhampton Wanderers,Home,3,0,10,1,1,3,0,1
+2025-2026,Premier League,13,Nottingham Forest,Manchester United,Draw,2,2,8,5,1,1,0,0
+2025-2026,Premier League,13,Tottenham Hotspur,Chelsea,Away,0,1,6,5,4,2,0,0
+2025-2026,Premier League,13,Liverpool,Aston Villa,Home,2,0,1,4,2,4,0,0
+2025-2026,Premier League,13,West Ham United,Newcastle United,Home,3,1,7,6,1,2,0,0
+2025-2026,Premier League,13,Manchester City,AFC Bournemouth,Home,3,1,10,4,2,2,0,0
+2025-2026,Premier League,13,Sunderland,Everton,Draw,1,1,4,1,3,2,0,0
+2025-2026,Premier League,14,Tottenham Hotspur,Manchester United,Draw,2,2,5,3,5,1,0,0
+2025-2026,Premier League,14,Everton,Fulham,Home,2,0,7,5,2,2,0,0
+2025-2026,Premier League,14,West Ham United,Burnley,Home,3,2,7,4,2,2,0,0
+2025-2026,Premier League,14,Sunderland,Arsenal,Draw,2,2,2,2,2,1,0,0
+2025-2026,Premier League,14,Chelsea,Wolverhampton Wanderers,Home,3,0,10,1,1,2,0,0
+2025-2026,Premier League,14,Aston Villa,AFC Bournemouth,Home,4,0,6,9,2,2,0,0
+2025-2026,Premier League,14,Brentford,Newcastle United,Home,3,1,6,2,2,2,0,1
+2025-2026,Premier League,14,Crystal Palace,Brighton & Hove Albion,Draw,0,0,4,8,1,5,0,0
+2025-2026,Premier League,14,Nottingham Forest,Leeds United,Home,3,1,6,4,2,1,0,0
+2025-2026,Premier League,14,Manchester City,Liverpool,Home,3,0,7,7,2,4,0,0
+2025-2026,Premier League,16,Burnley,Chelsea,Away,0,2,1,9,2,4,0,0
+2025-2026,Premier League,16,AFC Bournemouth,West Ham United,Draw,2,2,9,2,3,2,0,0
+2025-2026,Premier League,16,Brighton & Hove Albion,Brentford,Home,2,1,7,4,4,2,0,0
+2025-2026,Premier League,16,Fulham,Sunderland,Home,1,0,7,4,3,3,0,0
+2025-2026,Premier League,16,Liverpool,Nottingham Forest,Away,0,3,8,6,2,0,0,0
+2025-2026,Premier League,16,Wolverhampton Wanderers,Crystal Palace,Away,0,2,1,4,2,3,0,0
+2025-2026,Premier League,16,Newcastle United,Manchester City,Home,2,1,5,9,1,3,0,0
+2025-2026,Premier League,16,Leeds United,Aston Villa,Away,1,2,3,3,5,1,0,0
+2025-2026,Premier League,16,Arsenal,Tottenham Hotspur,Home,4,1,4,1,1,3,0,0
+2025-2026,Premier League,16,Manchester United,Everton,Away,0,1,9,1,2,0,0,1
+2025-2026,Premier League,17,Brentford,Burnley,Home,3,1,5,6,0,2,0,0
+2025-2026,Premier League,17,Manchester City,Leeds United,Home,3,2,8,1,4,1,0,0
+2025-2026,Premier League,17,Sunderland,AFC Bournemouth,Home,3,2,6,3,5,6,0,1
+2025-2026,Premier League,17,Everton,Newcastle United,Away,1,4,8,7,0,0,0,0
+2025-2026,Premier League,17,Tottenham Hotspur,Fulham,Away,1,2,8,2,3,2,0,0
+2025-2026,Premier League,17,Crystal Palace,Manchester United,Away,1,2,4,4,3,2,0,0
+2025-2026,Premier League,17,Aston Villa,Wolverhampton Wanderers,Home,1,0,7,3,0,4,0,0
+2025-2026,Premier League,17,Nottingham Forest,Brighton & Hove Albion,Away,0,2,9,2,0,1,0,0
+2025-2026,Premier League,17,West Ham United,Liverpool,Away,0,2,7,2,2,0,1,0
+2025-2026,Premier League,17,Chelsea,Arsenal,Draw,1,1,3,3,1,6,1,0
+2025-2026,Premier League,17,AFC Bournemouth,Everton,Away,0,1,1,6,3,3,0,0
+2025-2026,Premier League,17,Fulham,Manchester City,Away,4,5,7,2,0,1,0,0
+2025-2026,Premier League,17,Newcastle United,Tottenham Hotspur,Draw,2,2,11,8,0,3,0,0
+2025-2026,Premier League,17,Arsenal,Brentford,Home,2,0,4,8,0,1,0,0
+2025-2026,Premier League,17,Brighton & Hove Albion,Aston Villa,Away,3,4,5,6,2,2,0,0
+2025-2026,Premier League,17,Burnley,Crystal Palace,Away,0,1,3,4,0,0,0,0
+2025-2026,Premier League,17,Wolverhampton Wanderers,Nottingham Forest,Away,0,1,3,9,2,2,0,0
+2025-2026,Premier League,17,Leeds United,Chelsea,Home,3,1,4,2,1,1,0,0
+2025-2026,Premier League,17,Liverpool,Sunderland,Draw,1,1,7,3,1,1,0,0
+2025-2026,Premier League,17,Manchester United,West Ham United,Draw,1,1,6,6,2,2,0,0
+2025-2026,Premier League,18,Aston Villa,Arsenal,Home,2,1,3,3,0,2,0,0
+2025-2026,Premier League,18,AFC Bournemouth,Chelsea,Draw,0,0,5,0,0,2,0,0
+2025-2026,Premier League,18,Everton,Nottingham Forest,Home,3,0,6,3,4,3,0,0
+2025-2026,Premier League,18,Manchester City,Sunderland,Home,3,0,6,5,1,0,0,1
+2025-2026,Premier League,18,Newcastle United,Burnley,Home,2,1,9,9,2,2,0,1
+2025-2026,Premier League,18,Tottenham Hotspur,Brentford,Home,2,0,7,6,3,4,0,0
+2025-2026,Premier League,18,Leeds United,Liverpool,Draw,3,3,5,4,3,3,0,0
+2025-2026,Premier League,18,Brighton & Hove Albion,West Ham United,Draw,1,1,10,6,2,2,0,0
+2025-2026,Premier League,18,Fulham,Crystal Palace,Away,1,2,6,4,0,0,0,0
+2025-2026,Premier League,18,Wolverhampton Wanderers,Manchester United,Away,1,4,1,9,3,2,0,0
+2025-2026,Premier League,19,Chelsea,Everton,Home,2,0,4,7,1,0,0,0
+2025-2026,Premier League,19,Liverpool,Brighton & Hove Albion,Home,2,0,2,2,1,2,0,0
+2025-2026,Premier League,19,Burnley,Fulham,Away,2,3,10,4,1,2,0,0
+2025-2026,Premier League,19,Arsenal,Wolverhampton Wanderers,Home,2,1,8,0,0,4,0,0
+2025-2026,Premier League,19,Crystal Palace,Manchester City,Away,0,3,2,2,2,0,0,0
+2025-2026,Premier League,19,Nottingham Forest,Tottenham Hotspur,Home,3,0,3,3,1,3,0,0
+2025-2026,Premier League,19,Sunderland,Newcastle United,Home,1,0,3,6,5,4,0,0
+2025-2026,Premier League,19,West Ham United,Aston Villa,Away,2,3,5,3,1,2,0,0
+2025-2026,Premier League,19,Brentford,Leeds United,Draw,1,1,0,3,0,0,0,0
+2025-2026,Premier League,19,Manchester United,AFC Bournemouth,Draw,4,4,5,4,2,3,0,0
+2025-2026,Super Lig,1,Gaziantep FK,Galatasaray,Away,0,3,1,4,2,4,1,0
+2025-2026,Super Lig,1,Samsunspor,Genclerbirligi,Home,2,1,2,3,1,0,0,0
+2025-2026,Super Lig,1,Antalyaspor,Kasimpasa,Home,2,1,3,3,3,4,0,0
+2025-2026,Super Lig,1,Caykur Rizespor,Goztepe,Away,0,3,3,5,2,1,0,0
+2025-2026,Super Lig,1,Eyupspor,Konyaspor,Away,1,4,8,7,2,1,0,0
+2025-2026,Super Lig,1,Trabzonspor,Kocaelispor,Home,1,0,3,5,2,0,0,0
+2025-2026,Super Lig,2,Galatasaray,Fatih Karagümrük,Home,3,0,10,3,0,1,0,1
+2025-2026,Super Lig,2,Kocaelispor,Samsunspor,Away,0,1,4,7,2,2,1,0
+2025-2026,Super Lig,2,Alanyaspor,Caykur Rizespor,Draw,0,0,3,1,1,2,0,0
+2025-2026,Super Lig,2,Goztepe,Fenerbahce,Draw,0,0,3,6,5,4,2,1
+2025-2026,Super Lig,2,Genclerbirligi,Antalyaspor,Away,0,1,8,3,0,2,0,0
+2025-2026,Super Lig,2,Konyaspor,Gaziantep FK,Home,3,0,2,6,3,3,0,0
+2025-2026,Super Lig,2,Besiktas,Eyupspor,Home,2,1,10,3,2,2,0,0
+2025-2026,Super Lig,2,Istanbul Basaksehir,Kayserispor,Draw,1,1,5,7,1,1,0,0
+2025-2026,Super Lig,2,Kasimpasa,Trabzonspor,Away,0,1,6,4,2,2,0,0
+2025-2026,Super Lig,3,Fatih Karagümrük,Goztepe,Away,0,2,4,6,2,2,0,0
+2025-2026,Super Lig,3,Fenerbahce,Kocaelispor,Home,3,1,7,0,1,3,0,0
+2025-2026,Super Lig,3,Gaziantep FK,Genclerbirligi,Home,2,1,10,4,3,5,0,1
+2025-2026,Super Lig,3,Trabzonspor,Antalyaspor,Home,1,0,5,5,1,2,0,0
+2025-2026,Super Lig,3,Kayserispor,Galatasaray,Away,0,4,6,3,2,2,0,0
+2025-2026,Super Lig,3,Eyupspor,Alanyaspor,Home,2,1,0,5,3,3,0,0
+2025-2026,Super Lig,4,Goztepe,Konyaspor,Draw,1,1,5,6,2,2,0,0
+2025-2026,Super Lig,4,Kasimpasa,Gaziantep FK,Away,2,3,3,4,4,4,0,0
+2025-2026,Super Lig,4,Kocaelispor,Kayserispor,Draw,1,1,4,7,3,2,0,0
+2025-2026,Super Lig,4,Antalyaspor,Fatih Karagümrük,Away,1,2,7,4,0,2,0,0
+2025-2026,Super Lig,4,Galatasaray,Caykur Rizespor,Home,3,1,5,2,1,4,0,0
+2025-2026,Super Lig,4,Genclerbirligi,Fenerbahce,Away,1,3,3,3,1,0,0,0
+2025-2026,Super Lig,4,Istanbul Basaksehir,Eyupspor,Draw,0,0,5,4,4,5,0,0
+2025-2026,Super Lig,4,Alanyaspor,Besiktas,Home,2,0,2,6,1,3,0,0
+2025-2026,Super Lig,4,Trabzonspor,Samsunspor,Draw,1,1,2,10,1,4,0,0
+2025-2026,Super Lig,6,Eyupspor,Galatasaray,Away,0,2,6,6,3,1,0,0
+2025-2026,Super Lig,6,Fatih Karagümrük,Kasimpasa,Away,0,1,6,4,0,3,0,1
+2025-2026,Super Lig,6,Samsunspor,Antalyaspor,Away,1,2,6,2,3,2,0,0
+2025-2026,Super Lig,6,Besiktas,Istanbul Basaksehir,Home,2,1,10,5,3,3,1,1
+2025-2026,Super Lig,6,Konyaspor,Alanyaspor,Away,1,2,6,1,5,3,0,0
+2025-2026,Super Lig,6,Kayserispor,Goztepe,Draw,1,1,3,7,4,1,0,0
+2025-2026,Super Lig,6,Fenerbahce,Trabzonspor,Home,1,0,9,0,4,3,0,1
+2025-2026,Super Lig,6,Gaziantep FK,Kocaelispor,Home,2,0,3,6,5,3,0,1
+2025-2026,Super Lig,6,Caykur Rizespor,Genclerbirligi,Home,1,0,4,7,4,2,0,0
+2025-2026,Super Lig,6,Fatih Karagümrük,Istanbul Basaksehir,Away,0,2,3,4,2,2,0,0
+2025-2026,Super Lig,6,Fenerbahce,Alanyaspor,Draw,2,2,8,0,1,2,0,0
+2025-2026,Super Lig,6,Samsunspor,Kasimpasa,Draw,0,0,5,4,4,3,0,0
+2025-2026,Super Lig,7,Goztepe,Besiktas,Home,3,0,6,5,2,1,0,0
+2025-2026,Super Lig,7,Genclerbirligi,Eyupspor,Home,1,0,2,4,3,2,0,0
+2025-2026,Super Lig,7,Antalyaspor,Kayserispor,Draw,1,1,10,4,3,3,0,0
+2025-2026,Super Lig,7,Trabzonspor,Gaziantep FK,Draw,1,1,4,5,2,4,0,0
+2025-2026,Super Lig,7,Istanbul Basaksehir,Alanyaspor,Draw,1,1,7,4,3,3,0,0
+2025-2026,Super Lig,7,Kocaelispor,Caykur Rizespor,Draw,1,1,8,3,4,4,0,0
+2025-2026,Super Lig,7,Kasimpasa,Fenerbahce,Draw,1,1,5,8,3,1,1,0
+2025-2026,Super Lig,7,Samsunspor,Fatih Karagümrük,Home,3,2,6,5,2,2,0,0
+2025-2026,Super Lig,7,Galatasaray,Konyaspor,Home,3,1,4,6,1,0,0,0
+2025-2026,Super Lig,7,Kayserispor,Besiktas,Away,0,4,4,5,4,2,0,0
+2025-2026,Super Lig,8,Alanyaspor,Galatasaray,Away,0,1,6,0,2,1,0,0
+2025-2026,Super Lig,8,Eyupspor,Goztepe,Draw,0,0,6,3,2,1,0,0
+2025-2026,Super Lig,8,Gaziantep FK,Samsunspor,Draw,2,2,13,7,3,5,0,1
+2025-2026,Super Lig,8,Fatih Karagümrük,Trabzonspor,Away,3,4,1,7,4,1,0,0
+2025-2026,Super Lig,8,Caykur Rizespor,Kasimpasa,Away,1,2,1,4,1,2,0,0
+2025-2026,Super Lig,8,Konyaspor,Istanbul Basaksehir,Home,2,1,2,11,3,0,1,0
+2025-2026,Super Lig,8,Fenerbahce,Antalyaspor,Home,2,0,5,3,4,6,0,0
+2025-2026,Super Lig,8,Kayserispor,Genclerbirligi,Draw,1,1,10,0,5,3,0,2
+2025-2026,Super Lig,8,Besiktas,Kocaelispor,Home,3,1,3,7,1,4,0,0
+2025-2026,Super Lig,9,Antalyaspor,Caykur Rizespor,Away,2,5,6,2,1,4,1,0
+2025-2026,Super Lig,9,Trabzonspor,Kayserispor,Home,4,0,6,2,0,3,0,0
+2025-2026,Super Lig,9,Genclerbirligi,Alanyaspor,Draw,2,2,7,5,2,3,0,0
+2025-2026,Super Lig,9,Kocaelispor,Eyupspor,Home,1,0,3,3,3,3,0,0
+2025-2026,Super Lig,9,Galatasaray,Besiktas,Draw,1,1,4,8,1,6,1,0
+2025-2026,Super Lig,9,Kasimpasa,Konyaspor,Draw,1,1,5,3,2,3,0,0
+2025-2026,Super Lig,9,Fatih Karagümrük,Gaziantep FK,Away,0,2,5,2,1,4,0,0
+2025-2026,Super Lig,9,Goztepe,Istanbul Basaksehir,Home,1,0,6,5,2,3,0,0
+2025-2026,Super Lig,9,Samsunspor,Fenerbahce,Draw,0,0,6,5,0,3,0,0
+2025-2026,Super Lig,11,Konyaspor,Kocaelispor,Away,2,3,3,4,4,5,0,0
+2025-2026,Super Lig,11,Besiktas,Genclerbirligi,Away,1,2,5,4,2,4,0,0
+2025-2026,Super Lig,11,Caykur Rizespor,Trabzonspor,Away,1,2,7,0,3,0,0,0
+2025-2026,Super Lig,11,Istanbul Basaksehir,Galatasaray,Away,1,2,2,4,2,6,0,0
+2025-2026,Super Lig,11,Kayserispor,Samsunspor,Away,1,3,7,5,2,3,0,0
+2025-2026,Super Lig,11,Alanyaspor,Goztepe,Home,1,0,8,4,3,5,0,0
+2025-2026,Super Lig,11,Gaziantep FK,Antalyaspor,Home,3,2,6,5,5,6,0,0
+2025-2026,Super Lig,11,Fenerbahce,Fatih Karagümrük,Home,2,1,6,6,2,4,0,1
+2025-2026,Super Lig,11,Eyupspor,Kasimpasa,Home,2,0,8,10,1,1,0,0
+2025-2026,Super Lig,11,Caykur Rizespor,Istanbul Basaksehir,Draw,0,0,5,5,3,2,0,0
+2025-2026,Super Lig,11,Konyaspor,Besiktas,Away,0,2,17,3,1,3,0,0
+2025-2026,Super Lig,12,Fatih Karagümrük,Kayserispor,Draw,2,2,1,7,2,4,0,1
+2025-2026,Super Lig,12,Kocaelispor,Alanyaspor,Home,2,0,4,2,0,0,0,0
+2025-2026,Super Lig,12,Trabzonspor,Eyupspor,Home,2,0,8,3,4,1,0,0
+2025-2026,Super Lig,12,Antalyaspor,Istanbul Basaksehir,Away,0,4,3,8,2,2,1,0
+2025-2026,Super Lig,12,Galatasaray,Goztepe,Home,3,1,8,2,1,1,0,1
+2025-2026,Super Lig,12,Genclerbirligi,Konyaspor,Away,1,2,6,5,3,3,1,0
+2025-2026,Super Lig,12,Kasimpasa,Besiktas,Draw,1,1,8,0,1,2,0,0
+2025-2026,Super Lig,12,Gaziantep FK,Fenerbahce,Away,0,4,6,4,2,5,1,0
+2025-2026,Super Lig,12,Samsunspor,Caykur Rizespor,Draw,1,1,7,4,0,2,0,0
+2025-2026,Super Lig,13,Istanbul Basaksehir,Kocaelispor,Home,1,0,6,5,2,2,0,0
+2025-2026,Super Lig,13,Goztepe,Genclerbirligi,Home,1,0,6,3,0,1,0,0
+2025-2026,Super Lig,13,Galatasaray,Trabzonspor,Draw,0,0,8,4,0,1,0,1
+2025-2026,Super Lig,13,Konyaspor,Samsunspor,Away,1,3,9,5,1,2,0,0
+2025-2026,Super Lig,13,Kayserispor,Kasimpasa,Home,3,2,4,6,3,1,0,0
+2025-2026,Super Lig,13,Besiktas,Fenerbahce,Away,2,3,1,6,1,5,1,0
+2025-2026,Super Lig,13,Alanyaspor,Gaziantep FK,Draw,0,0,4,4,3,0,0,0
+2025-2026,Super Lig,13,Caykur Rizespor,Fatih Karagümrük,Home,1,0,4,4,3,3,0,0
+2025-2026,Super Lig,13,Eyupspor,Antalyaspor,Away,0,1,5,2,2,2,0,0
+2025-2026,Super Lig,14,Genclerbirligi,Istanbul Basaksehir,Home,2,1,4,9,2,3,0,0
+2025-2026,Super Lig,14,Gaziantep FK,Caykur Rizespor,Draw,2,2,3,2,2,2,0,0
+2025-2026,Super Lig,14,Trabzonspor,Alanyaspor,Draw,1,1,1,7,1,3,0,0
+2025-2026,Super Lig,14,Antalyaspor,Besiktas,Away,1,3,3,3,3,1,0,0
+2025-2026,Super Lig,14,Kasimpasa,Goztepe,Away,0,2,5,2,1,3,0,0
+2025-2026,Super Lig,14,Fatih Karagümrük,Konyaspor,Home,2,0,4,7,2,2,0,0
+2025-2026,Super Lig,14,Kocaelispor,Galatasaray,Home,1,0,1,7,2,1,0,0
+2025-2026,Super Lig,14,Fenerbahce,Kayserispor,Home,4,2,8,2,1,3,0,0
+2025-2026,Super Lig,14,Samsunspor,Eyupspor,Home,1,0,14,0,2,3,0,0
+2025-2026,Super Lig,16,Kayserispor,Gaziantep FK,Away,0,3,3,0,1,1,0,0
+2025-2026,Super Lig,16,Eyupspor,Fatih Karagümrük,Draw,1,1,5,6,1,2,0,0
+2025-2026,Super Lig,16,Galatasaray,Genclerbirligi,Home,3,2,4,2,3,2,1,1
+2025-2026,Super Lig,16,Goztepe,Kocaelispor,Draw,0,0,4,6,2,4,0,0
+2025-2026,Super Lig,16,Alanyaspor,Kasimpasa,Away,1,2,13,1,1,2,0,0
+2025-2026,Super Lig,16,Besiktas,Samsunspor,Draw,1,1,4,3,2,2,0,0
+2025-2026,Super Lig,16,Caykur Rizespor,Fenerbahce,Away,2,5,5,9,2,1,1,0
+2025-2026,Super Lig,16,Istanbul Basaksehir,Trabzonspor,Away,3,4,1,10,2,2,1,0
+2025-2026,Super Lig,16,Konyaspor,Antalyaspor,Draw,0,0,10,2,1,2,0,0
+2025-2026,Super Lig,17,Kocaelispor,Genclerbirligi,Home,1,0,6,1,0,0,0,0
+2025-2026,Super Lig,17,Caykur Rizespor,Kayserispor,Away,0,1,5,5,2,3,0,0
+2025-2026,Super Lig,17,Gaziantep FK,Eyupspor,Away,1,2,13,6,1,4,0,0
+2025-2026,Super Lig,17,Kasimpasa,Istanbul Basaksehir,Away,1,3,12,3,4,4,0,1
+2025-2026,Super Lig,17,Trabzonspor,Konyaspor,Home,3,1,3,3,1,2,0,0
+2025-2026,Super Lig,17,Antalyaspor,Goztepe,Away,1,2,1,4,0,2,0,0
+2025-2026,Super Lig,17,Fatih Karagümrük,Besiktas,Away,0,2,2,9,3,0,0,0
+2025-2026,Super Lig,17,Fenerbahce,Galatasaray,Draw,1,1,7,3,3,4,0,0
+2025-2026,Super Lig,17,Samsunspor,Alanyaspor,Draw,1,1,3,1,3,2,1,0
+2025-2026,Super Lig,18,Galatasaray,Samsunspor,Home,3,2,1,3,1,2,0,0
+2025-2026,Super Lig,18,Eyupspor,Kayserispor,Draw,1,1,3,1,3,4,0,1
+2025-2026,Super Lig,18,Konyaspor,Caykur Rizespor,Draw,1,1,4,2,1,3,0,0
+2025-2026,Super Lig,18,Istanbul Basaksehir,Fenerbahce,Draw,1,1,10,8,2,3,0,0
+2025-2026,Super Lig,18,Genclerbirligi,Fatih Karagümrük,Home,3,0,7,4,1,2,0,0
+2025-2026,Super Lig,18,Kocaelispor,Kasimpasa,Draw,0,0,5,3,1,2,0,0
+2025-2026,Super Lig,18,Goztepe,Trabzonspor,Away,1,2,7,4,4,3,1,1
+2025-2026,Super Lig,18,Alanyaspor,Antalyaspor,Draw,0,0,9,4,1,1,0,0
+2025-2026,Super Lig,18,Besiktas,Gaziantep FK,Draw,2,2,10,1,4,5,0,0
+2025-2026,Super Lig,19,Kasimpasa,Genclerbirligi,Draw,0,0,3,2,2,3,0,0
+2025-2026,Super Lig,19,Caykur Rizespor,Eyupspor,Home,3,0,3,3,3,2,0,0
+2025-2026,Super Lig,19,Kayserispor,Alanyaspor,Draw,0,0,3,8,0,2,0,0
+2025-2026,Super Lig,19,Antalyaspor,Galatasaray,Away,1,4,5,3,1,2,0,0
+2025-2026,Super Lig,19,Gaziantep FK,Goztepe,Away,0,1,8,6,3,2,0,0
+2025-2026,Super Lig,19,Fatih Karagümrük,Kocaelispor,Draw,1,1,2,6,2,2,0,0
+2025-2026,Super Lig,19,Samsunspor,Istanbul Basaksehir,Away,0,2,7,2,0,0,0,0
+2025-2026,Super Lig,19,Trabzonspor,Besiktas,Draw,3,3,7,1,2,5,0,1
+2025-2026,Super Lig,19,Fenerbahce,Konyaspor,Home,4,0,4,4,2,2,0,0
+2025-2026,LaLiga,2,Girona,Rayo Vallecano,Away,1,3,2,4,0,1,1,0
+2025-2026,LaLiga,2,Villarreal,Real Oviedo,Home,2,0,10,1,1,2,0,1
+2025-2026,LaLiga,2,Mallorca,Barcelona,Away,0,3,3,6,4,1,2,0
+2025-2026,LaLiga,2,Alavés,Levante,Home,2,1,10,1,0,1,0,0
+2025-2026,LaLiga,2,Valencia,Real Sociedad,Draw,1,1,8,7,1,2,0,0
+2025-2026,LaLiga,2,Celta Vigo,Getafe,Away,0,2,9,3,3,2,0,0
+2025-2026,LaLiga,2,Athletic Club,Sevilla,Home,3,2,10,1,0,2,0,0
+2025-2026,LaLiga,2,Espanyol,Atlético Madrid,Home,2,1,1,3,3,3,0,0
+2025-2026,LaLiga,2,Elche,Real Betis,Draw,1,1,1,3,1,1,0,0
+2025-2026,LaLiga,2,Real Madrid,Osasuna,Home,1,0,7,0,1,1,0,1
+2025-2026,LaLiga,3,Real Betis,Alavés,Home,1,0,6,2,2,3,0,0
+2025-2026,LaLiga,3,Mallorca,Celta Vigo,Draw,1,1,3,4,3,3,0,0
+2025-2026,LaLiga,3,Atlético Madrid,Elche,Draw,1,1,10,2,1,3,0,0
+2025-2026,LaLiga,3,Levante,Barcelona,Away,2,3,0,11,3,1,0,0
+2025-2026,LaLiga,3,Osasuna,Valencia,Home,1,0,3,4,2,1,0,1
+2025-2026,LaLiga,3,Real Sociedad,Espanyol,Draw,2,2,5,2,2,2,0,0
+2025-2026,LaLiga,3,Villarreal,Girona,Home,5,0,8,1,1,2,0,0
+2025-2026,LaLiga,3,Real Oviedo,Real Madrid,Away,0,3,1,9,2,1,0,0
+2025-2026,LaLiga,3,Athletic Club,Rayo Vallecano,Home,1,0,3,6,0,4,0,0
+2025-2026,LaLiga,3,Sevilla,Getafe,Away,1,2,5,3,2,3,0,0
+2025-2026,LaLiga,3,Celta Vigo,Real Betis,Draw,1,1,10,4,1,2,0,0
+2025-2026,LaLiga,4,Elche,Levante,Home,2,0,4,2,1,3,0,0
+2025-2026,LaLiga,4,Valencia,Getafe,Home,3,0,8,6,2,0,0,0
+2025-2026,LaLiga,4,Alavés,Atlético Madrid,Draw,1,1,1,6,2,3,0,0
+2025-2026,LaLiga,4,Real Oviedo,Real Sociedad,Home,1,0,1,10,2,1,0,0
+2025-2026,LaLiga,4,Girona,Sevilla,Away,0,2,11,3,0,2,0,0
+2025-2026,LaLiga,4,Real Madrid,Mallorca,Home,2,1,4,5,2,0,0,0
+2025-2026,LaLiga,4,Celta Vigo,Villarreal,Draw,1,1,1,5,1,1,0,0
+2025-2026,LaLiga,4,Real Betis,Athletic Club,Away,1,2,4,10,1,4,0,2
+2025-2026,LaLiga,4,Espanyol,Osasuna,Home,1,0,2,3,2,3,0,0
+2025-2026,LaLiga,4,Rayo Vallecano,Barcelona,Draw,1,1,9,4,4,1,0,0
+2025-2026,LaLiga,6,Sevilla,Elche,Draw,2,2,2,2,5,3,0,0
+2025-2026,LaLiga,6,Getafe,Real Oviedo,Home,2,0,4,3,2,6,0,1
+2025-2026,LaLiga,6,Real Sociedad,Real Madrid,Away,1,2,12,4,2,2,0,1
+2025-2026,LaLiga,6,Athletic Club,Alavés,Away,0,1,6,6,3,4,0,0
+2025-2026,LaLiga,6,Atlético Madrid,Villarreal,Home,2,0,8,3,2,4,0,0
+2025-2026,LaLiga,6,Celta Vigo,Girona,Draw,1,1,10,3,0,4,0,0
+2025-2026,LaLiga,6,Levante,Real Betis,Draw,2,2,4,12,4,2,0,0
+2025-2026,LaLiga,6,Osasuna,Rayo Vallecano,Home,2,0,3,6,3,2,0,0
+2025-2026,LaLiga,6,Barcelona,Valencia,Home,6,0,5,4,0,1,0,0
+2025-2026,LaLiga,6,Espanyol,Mallorca,Home,3,2,3,9,2,1,1,0
+2025-2026,LaLiga,7,Real Betis,Real Sociedad,Home,3,1,3,5,3,6,0,0
+2025-2026,LaLiga,7,Girona,Levante,Away,0,4,5,4,3,3,2,0
+2025-2026,LaLiga,7,Real Madrid,Espanyol,Home,2,0,5,3,2,0,0,0
+2025-2026,LaLiga,7,Alavés,Sevilla,Away,1,2,4,4,2,7,0,0
+2025-2026,LaLiga,7,Villarreal,Osasuna,Home,2,1,7,0,2,2,0,1
+2025-2026,LaLiga,7,Valencia,Athletic Club,Home,2,0,5,6,1,1,0,1
+2025-2026,LaLiga,7,Rayo Vallecano,Celta Vigo,Draw,1,1,5,7,1,1,0,0
+2025-2026,LaLiga,7,Mallorca,Atlético Madrid,Draw,1,1,3,6,0,0,0,1
+2025-2026,LaLiga,7,Elche,Real Oviedo,Home,1,0,3,3,2,2,0,0
+2025-2026,LaLiga,7,Barcelona,Getafe,Home,3,0,3,3,2,5,0,0
+2025-2026,LaLiga,7,Athletic Club,Girona,Draw,1,1,8,1,0,2,0,0
+2025-2026,LaLiga,7,Espanyol,Valencia,Draw,2,2,8,3,1,4,0,0
+2025-2026,LaLiga,7,Levante,Real Madrid,Away,1,4,1,7,1,1,0,0
+2025-2026,LaLiga,7,Sevilla,Villarreal,Away,1,2,3,3,2,3,0,0
+2025-2026,LaLiga,7,Getafe,Alavés,Draw,1,1,2,7,2,4,0,0
+2025-2026,LaLiga,7,Atlético Madrid,Rayo Vallecano,Home,3,2,8,6,3,5,0,0
+2025-2026,LaLiga,7,Real Sociedad,Mallorca,Home,1,0,11,2,2,2,0,0
+2025-2026,LaLiga,7,Osasuna,Elche,Draw,1,1,2,3,2,2,0,1
+2025-2026,LaLiga,7,Real Oviedo,Barcelona,Away,1,3,6,9,1,0,0,0
+2025-2026,LaLiga,8,Girona,Espanyol,Draw,0,0,8,4,0,1,0,0
+2025-2026,LaLiga,8,Getafe,Levante,Draw,1,1,6,2,4,3,0,0
+2025-2026,LaLiga,8,Atlético Madrid,Real Madrid,Home,5,2,7,2,5,4,0,0
+2025-2026,LaLiga,8,Mallorca,Alavés,Home,1,0,4,9,2,3,0,0
+2025-2026,LaLiga,8,Villarreal,Athletic Club,Home,1,0,6,5,2,0,0,0
+2025-2026,LaLiga,8,Rayo Vallecano,Sevilla,Away,0,1,12,4,3,2,1,0
+2025-2026,LaLiga,8,Elche,Celta Vigo,Home,2,1,8,2,3,3,0,0
+2025-2026,LaLiga,8,Barcelona,Real Sociedad,Home,2,1,12,1,1,2,0,0
+2025-2026,LaLiga,8,Real Betis,Osasuna,Home,2,0,5,5,0,1,0,0
+2025-2026,LaLiga,8,Valencia,Real Oviedo,Away,1,2,5,4,1,4,0,1
+2025-2026,LaLiga,9,Osasuna,Getafe,Home,2,1,1,6,1,4,0,0
+2025-2026,LaLiga,9,Real Oviedo,Levante,Away,0,2,9,3,2,2,0,0
+2025-2026,LaLiga,9,Girona,Valencia,Home,2,1,0,7,4,1,2,0
+2025-2026,LaLiga,9,Athletic Club,Mallorca,Home,2,1,7,2,4,6,0,1
+2025-2026,LaLiga,9,Real Madrid,Villarreal,Home,3,1,4,0,2,3,0,1
+2025-2026,LaLiga,9,Alavés,Elche,Home,3,1,15,4,3,1,0,1
+2025-2026,LaLiga,9,Sevilla,Barcelona,Home,4,1,7,6,7,5,0,0
+2025-2026,LaLiga,9,Espanyol,Real Betis,Away,1,2,10,5,2,6,0,0
+2025-2026,LaLiga,9,Real Sociedad,Rayo Vallecano,Away,0,1,7,5,1,2,0,0
+2025-2026,LaLiga,9,Celta Vigo,Atlético Madrid,Draw,1,1,6,3,1,2,0,1
+2025-2026,LaLiga,11,Real Oviedo,Espanyol,Away,0,2,3,5,2,1,0,0
+2025-2026,LaLiga,11,Sevilla,Mallorca,Away,1,3,9,2,2,1,0,0
+2025-2026,LaLiga,11,Barcelona,Girona,Home,2,1,11,5,3,2,1,0
+2025-2026,LaLiga,11,Villarreal,Real Betis,Draw,2,2,5,6,1,1,0,0
+2025-2026,LaLiga,11,Atlético Madrid,Osasuna,Home,1,0,4,2,1,3,0,0
+2025-2026,LaLiga,11,Elche,Athletic Club,Draw,0,0,6,2,3,3,0,0
+2025-2026,LaLiga,11,Celta Vigo,Real Sociedad,Draw,1,1,1,10,3,3,1,0
+2025-2026,LaLiga,11,Levante,Rayo Vallecano,Away,0,3,11,4,0,1,0,0
+2025-2026,LaLiga,11,Getafe,Real Madrid,Away,0,1,1,4,4,1,2,0
+2025-2026,LaLiga,11,Alavés,Valencia,Draw,0,0,7,0,1,2,0,0
+2025-2026,LaLiga,12,Real Sociedad,Sevilla,Home,2,1,1,9,1,3,0,0
+2025-2026,LaLiga,12,Girona,Real Oviedo,Draw,3,3,11,4,4,3,0,0
+2025-2026,LaLiga,12,Espanyol,Elche,Home,1,0,4,2,4,2,0,0
+2025-2026,LaLiga,12,Athletic Club,Getafe,Away,0,1,1,5,1,3,1,0
+2025-2026,LaLiga,12,Valencia,Villarreal,Away,0,2,8,5,2,4,0,0
+2025-2026,LaLiga,12,Mallorca,Levante,Draw,1,1,5,4,3,2,0,0
+2025-2026,LaLiga,12,Real Madrid,Barcelona,Home,2,1,12,4,5,4,1,1
+2025-2026,LaLiga,12,Osasuna,Celta Vigo,Away,2,3,6,2,3,4,0,0
+2025-2026,LaLiga,12,Rayo Vallecano,Alavés,Home,1,0,7,5,1,3,0,0
+2025-2026,LaLiga,12,Real Betis,Atlético Madrid,Away,0,2,2,5,2,1,0,0
+2025-2026,LaLiga,13,Getafe,Girona,Home,2,1,8,3,1,2,0,0
+2025-2026,LaLiga,13,Villarreal,Rayo Vallecano,Home,4,0,3,5,1,1,0,0
+2025-2026,LaLiga,13,Atlético Madrid,Sevilla,Home,3,0,9,4,0,3,0,0
+2025-2026,LaLiga,13,Real Sociedad,Athletic Club,Home,3,2,6,2,2,3,0,0
+2025-2026,LaLiga,13,Real Madrid,Valencia,Home,4,0,7,1,1,1,0,0
+2025-2026,LaLiga,13,Levante,Celta Vigo,Away,1,2,4,4,2,3,1,0
+2025-2026,LaLiga,13,Alavés,Espanyol,Home,2,1,1,6,3,3,1,0
+2025-2026,LaLiga,13,Barcelona,Elche,Home,3,1,6,3,0,1,0,0
+2025-2026,LaLiga,13,Real Betis,Mallorca,Home,3,0,4,5,0,3,0,0
+2025-2026,LaLiga,13,Real Oviedo,Osasuna,Draw,0,0,4,2,3,1,0,0
+2025-2026,LaLiga,14,Elche,Real Sociedad,Draw,1,1,1,3,1,3,0,0
+2025-2026,LaLiga,14,Girona,Alavés,Home,1,0,6,1,0,3,0,0
+2025-2026,LaLiga,14,Sevilla,Osasuna,Home,1,0,5,6,5,3,0,0
+2025-2026,LaLiga,14,Atlético Madrid,Levante,Home,3,1,21,4,3,1,0,0
+2025-2026,LaLiga,14,Espanyol,Villarreal,Away,0,2,4,2,0,2,0,0
+2025-2026,LaLiga,14,Athletic Club,Real Oviedo,Home,1,0,7,4,1,1,0,0
+2025-2026,LaLiga,14,Rayo Vallecano,Real Madrid,Draw,0,0,5,8,3,2,0,0
+2025-2026,LaLiga,14,Mallorca,Getafe,Home,1,0,1,14,0,2,0,0
+2025-2026,LaLiga,14,Valencia,Real Betis,Draw,1,1,7,2,4,4,0,0
+2025-2026,LaLiga,14,Celta Vigo,Barcelona,Away,2,4,2,5,1,4,0,1
+2025-2026,LaLiga,16,Valencia,Levante,Home,1,0,7,0,4,4,0,0
+2025-2026,LaLiga,16,Alavés,Celta Vigo,Away,0,1,4,2,2,2,0,0
+2025-2026,LaLiga,16,Barcelona,Athletic Club,Home,4,0,5,7,0,2,0,1
+2025-2026,LaLiga,16,Osasuna,Real Sociedad,Away,1,3,3,3,3,2,1,0
+2025-2026,LaLiga,16,Villarreal,Mallorca,Home,2,1,3,1,3,2,0,0
+2025-2026,LaLiga,16,Real Oviedo,Rayo Vallecano,Draw,0,0,5,6,2,2,1,1
+2025-2026,LaLiga,16,Real Betis,Girona,Draw,1,1,8,0,3,4,1,0
+2025-2026,LaLiga,16,Getafe,Atlético Madrid,Away,0,1,6,7,2,4,0,0
+2025-2026,LaLiga,16,Elche,Real Madrid,Draw,2,2,2,8,4,1,1,0
+2025-2026,LaLiga,16,Espanyol,Sevilla,Home,2,1,4,13,4,1,0,0
+2025-2026,LaLiga,17,Getafe,Elche,Home,1,0,3,5,2,2,0,0
+2025-2026,LaLiga,17,Mallorca,Osasuna,Draw,2,2,2,8,3,5,0,0
+2025-2026,LaLiga,17,Barcelona,Alavés,Home,3,1,5,4,2,3,0,0
+2025-2026,LaLiga,17,Levante,Athletic Club,Away,0,2,4,2,4,2,0,0
+2025-2026,LaLiga,17,Atlético Madrid,Real Oviedo,Home,2,0,7,2,0,1,0,0
+2025-2026,LaLiga,17,Real Sociedad,Villarreal,Away,2,3,8,2,4,8,0,0
+2025-2026,LaLiga,17,Sevilla,Real Betis,Away,0,2,6,4,2,3,1,0
+2025-2026,LaLiga,17,Celta Vigo,Espanyol,Away,0,1,4,3,1,2,0,0
+2025-2026,LaLiga,17,Girona,Real Madrid,Draw,1,1,2,5,3,0,0,0
+2025-2026,LaLiga,17,Rayo Vallecano,Valencia,Draw,1,1,10,6,1,1,0,0
+2025-2026,LaLiga,17,Barcelona,Atlético Madrid,Home,3,1,5,4,1,1,0,0
+2025-2026,LaLiga,17,Athletic Club,Real Madrid,Away,0,3,5,7,2,0,0,0
+2025-2026,LaLiga,18,Real Oviedo,Mallorca,Draw,0,0,8,5,2,1,2,0
+2025-2026,LaLiga,18,Villarreal,Getafe,Home,2,0,5,3,2,5,0,1
+2025-2026,LaLiga,18,Alavés,Real Sociedad,Home,1,0,5,9,2,2,0,0
+2025-2026,LaLiga,18,Real Betis,Barcelona,Away,3,5,7,7,5,2,0,0
+2025-2026,LaLiga,18,Athletic Club,Atlético Madrid,Home,1,0,5,6,3,2,0,0
+2025-2026,LaLiga,18,Elche,Girona,Home,3,0,2,2,0,3,0,0
+2025-2026,LaLiga,18,Valencia,Sevilla,Draw,1,1,2,2,3,7,0,0
+2025-2026,LaLiga,18,Espanyol,Rayo Vallecano,Home,1,0,6,2,3,7,1,1
+2025-2026,LaLiga,18,Real Madrid,Celta Vigo,Away,0,2,8,1,6,1,3,0
+2025-2026,LaLiga,18,Osasuna,Levante,Home,2,0,3,3,2,2,0,0
+2025-2026,LaLiga,19,Real Sociedad,Girona,Away,1,2,4,3,1,2,0,0
+2025-2026,LaLiga,19,Atlético Madrid,Valencia,Home,2,1,5,7,4,1,0,0
+2025-2026,LaLiga,19,Mallorca,Elche,Home,3,1,1,1,3,0,0,0
+2025-2026,LaLiga,19,Barcelona,Osasuna,Home,2,0,14,1,0,3,0,0
+2025-2026,LaLiga,19,Getafe,Espanyol,Away,0,1,6,4,5,1,0,0
+2025-2026,LaLiga,19,Sevilla,Real Oviedo,Home,4,0,5,3,1,1,0,1
+2025-2026,LaLiga,19,Celta Vigo,Athletic Club,Home,2,0,1,4,3,2,0,0
+2025-2026,LaLiga,19,Levante,Villarreal,Draw,0,0,0,0,0,0,0,0
+2025-2026,LaLiga,19,Alavés,Real Madrid,Away,1,2,5,7,3,1,0,0
+2025-2026,LaLiga,19,Rayo Vallecano,Real Betis,Draw,0,0,8,3,4,1,0,0
+2025-2026,Serie A,3,Genoa,Lecce,Draw,0,0,3,7,2,3,0,0
+2025-2026,Serie A,3,Sassuolo,Napoli,Away,0,2,1,2,2,1,1,0
+2025-2026,Serie A,3,AC Milan,Cremonese,Away,1,2,9,2,1,4,0,0
+2025-2026,Serie A,3,AS Roma,Bologna,Home,1,0,2,4,1,1,0,0
+2025-2026,Serie A,3,Cagliari,Fiorentina,Draw,1,1,3,2,4,2,0,0
+2025-2026,Serie A,3,Como,Lazio,Home,2,0,6,0,2,3,0,0
+2025-2026,Serie A,3,Atalanta,Pisa,Draw,1,1,10,4,3,0,0,0
+2025-2026,Serie A,3,Juventus,Parma,Home,2,0,6,6,2,2,1,0
+2025-2026,Serie A,3,Udinese,Hellas Verona,Draw,1,1,5,1,3,2,0,0
+2025-2026,Serie A,3,Internazionale,Torino,Home,5,0,6,5,0,0,0,0
+2025-2026,Serie A,4,Cremonese,Sassuolo,Home,3,2,5,4,2,2,0,0
+2025-2026,Serie A,4,Lecce,AC Milan,Away,0,2,4,5,1,0,0,0
+2025-2026,Serie A,4,Bologna,Como,Home,1,0,7,4,4,5,0,0
+2025-2026,Serie A,4,Parma,Atalanta,Draw,1,1,1,2,2,2,0,0
+2025-2026,Serie A,4,Napoli,Cagliari,Home,1,0,13,0,2,1,0,0
+2025-2026,Serie A,4,Pisa,AS Roma,Away,0,1,1,7,2,1,0,0
+2025-2026,Serie A,4,Genoa,Juventus,Away,0,1,3,4,1,2,0,0
+2025-2026,Serie A,4,Torino,Fiorentina,Draw,0,0,7,3,2,2,0,0
+2025-2026,Serie A,4,Internazionale,Udinese,Away,1,2,13,2,1,3,0,0
+2025-2026,Serie A,4,Lazio,Hellas Verona,Home,4,0,8,1,0,0,0,0
+2025-2026,Serie A,6,Cagliari,Parma,Home,2,0,4,5,3,1,0,0
+2025-2026,Serie A,6,Juventus,Internazionale,Home,4,3,5,9,2,2,0,0
+2025-2026,Serie A,6,Fiorentina,Napoli,Away,1,3,8,5,1,0,0,0
+2025-2026,Serie A,6,AS Roma,Torino,Away,0,1,7,4,2,3,0,0
+2025-2026,Serie A,6,Atalanta,Lecce,Home,4,1,8,2,0,0,0,0
+2025-2026,Serie A,6,Pisa,Udinese,Away,0,1,8,6,1,2,0,0
+2025-2026,Serie A,6,Sassuolo,Lazio,Home,1,0,3,8,6,3,0,0
+2025-2026,Serie A,6,AC Milan,Bologna,Home,1,0,7,4,3,2,1,0
+2025-2026,Serie A,6,Hellas Verona,Cremonese,Draw,0,0,10,2,2,1,0,0
+2025-2026,Serie A,6,Como,Genoa,Draw,1,1,1,8,3,3,1,0
+2025-2026,Serie A,7,Lecce,Cagliari,Away,1,2,4,7,2,3,0,0
+2025-2026,Serie A,7,Bologna,Genoa,Home,2,1,8,2,1,5,0,1
+2025-2026,Serie A,7,Hellas Verona,Juventus,Draw,1,1,5,3,3,4,0,0
+2025-2026,Serie A,7,Udinese,AC Milan,Away,0,3,1,4,2,0,0,0
+2025-2026,Serie A,7,Lazio,AS Roma,Away,0,1,3,6,1,1,2,0
+2025-2026,Serie A,7,Cremonese,Parma,Draw,0,0,3,3,1,0,0,0
+2025-2026,Serie A,7,Torino,Atalanta,Away,0,3,1,0,0,0,0,0
+2025-2026,Serie A,7,Fiorentina,Como,Away,1,2,2,6,5,3,0,0
+2025-2026,Serie A,7,Internazionale,Sassuolo,Home,2,1,7,3,2,1,0,0
+2025-2026,Serie A,7,Napoli,Pisa,Home,3,2,5,3,1,3,0,0
+2025-2026,Serie A,8,Como,Cremonese,Draw,1,1,4,3,4,4,2,0
+2025-2026,Serie A,8,Juventus,Atalanta,Draw,1,1,15,5,0,2,0,1
+2025-2026,Serie A,8,Cagliari,Internazionale,Away,0,2,4,4,0,2,0,0
+2025-2026,Serie A,8,Sassuolo,Udinese,Home,3,1,1,5,0,3,0,0
+2025-2026,Serie A,8,AS Roma,Hellas Verona,Home,2,0,8,1,0,4,0,0
+2025-2026,Serie A,8,Pisa,Fiorentina,Draw,0,0,4,6,0,1,0,0
+2025-2026,Serie A,8,Lecce,Bologna,Draw,2,2,3,9,4,2,0,0
+2025-2026,Serie A,8,AC Milan,Napoli,Home,2,1,1,7,1,0,1,0
+2025-2026,Serie A,8,Parma,Torino,Home,2,1,4,3,3,4,0,0
+2025-2026,Serie A,8,Genoa,Lazio,Away,0,3,6,0,5,1,0,0
+2025-2026,Serie A,9,Hellas Verona,Sassuolo,Away,0,1,4,2,2,4,0,0
+2025-2026,Serie A,9,Lazio,Torino,Draw,3,3,3,5,3,3,0,0
+2025-2026,Serie A,9,Parma,Lecce,Away,0,1,4,9,1,2,0,0
+2025-2026,Serie A,9,Internazionale,Cremonese,Home,4,1,13,1,1,1,0,0
+2025-2026,Serie A,9,Atalanta,Como,Draw,1,1,8,3,1,3,0,0
+2025-2026,Serie A,9,Udinese,Cagliari,Draw,1,1,7,2,1,2,0,0
+2025-2026,Serie A,9,Bologna,Pisa,Home,4,0,2,2,0,1,0,1
+2025-2026,Serie A,9,Fiorentina,AS Roma,Away,1,2,3,4,3,3,0,0
+2025-2026,Serie A,9,Napoli,Genoa,Home,2,1,7,5,1,3,0,0
+2025-2026,Serie A,9,Juventus,AC Milan,Draw,0,0,6,0,2,2,0,0
+2025-2026,Serie A,11,Lecce,Sassuolo,Draw,0,0,6,4,2,2,0,0
+2025-2026,Serie A,11,Pisa,Hellas Verona,Draw,0,0,3,8,4,2,0,0
+2025-2026,Serie A,11,Torino,Napoli,Home,1,0,3,11,1,2,0,0
+2025-2026,Serie A,11,AS Roma,Internazionale,Away,0,1,4,5,4,3,0,0
+2025-2026,Serie A,11,Como,Juventus,Home,2,0,4,1,3,1,0,0
+2025-2026,Serie A,11,Cagliari,Bologna,Away,0,2,2,7,1,3,0,0
+2025-2026,Serie A,11,Genoa,Parma,Draw,0,0,3,0,2,4,0,1
+2025-2026,Serie A,11,Atalanta,Lazio,Draw,0,0,7,2,4,0,0,0
+2025-2026,Serie A,11,AC Milan,Fiorentina,Home,2,1,1,3,3,3,0,0
+2025-2026,Serie A,11,Cremonese,Udinese,Draw,1,1,5,4,4,2,0,0
+2025-2026,Serie A,12,AC Milan,Pisa,Draw,2,2,6,2,1,4,0,0
+2025-2026,Serie A,12,Parma,Como,Draw,0,0,3,3,0,1,0,0
+2025-2026,Serie A,12,Udinese,Lecce,Home,3,2,4,9,2,2,0,0
+2025-2026,Serie A,12,Napoli,Internazionale,Home,3,1,1,4,3,1,0,0
+2025-2026,Serie A,12,Cremonese,Atalanta,Draw,1,1,2,10,3,1,0,0
+2025-2026,Serie A,12,Torino,Genoa,Home,2,1,9,1,2,2,0,0
+2025-2026,Serie A,12,Hellas Verona,Cagliari,Draw,2,2,3,2,3,4,0,0
+2025-2026,Serie A,12,Sassuolo,AS Roma,Away,0,1,6,7,4,2,0,0
+2025-2026,Serie A,12,Fiorentina,Bologna,Draw,2,2,5,6,3,4,0,1
+2025-2026,Serie A,12,Lazio,Juventus,Home,1,0,2,5,2,4,0,0
+2025-2026,Serie A,12,Lecce,Napoli,Away,0,1,3,5,2,1,0,0
+2025-2026,Serie A,12,Atalanta,AC Milan,Draw,1,1,9,4,1,3,0,0
+2025-2026,Serie A,12,AS Roma,Parma,Home,2,1,9,2,0,4,0,0
+2025-2026,Serie A,12,Como,Hellas Verona,Home,3,1,1,3,1,4,0,0
+2025-2026,Serie A,12,Juventus,Udinese,Home,3,1,8,4,1,4,0,0
+2025-2026,Serie A,12,Bologna,Torino,Draw,0,0,3,3,2,3,0,0
+2025-2026,Serie A,12,Genoa,Cremonese,Away,0,2,7,3,3,1,0,0
+2025-2026,Serie A,12,Internazionale,Fiorentina,Home,3,0,8,5,1,1,0,1
+2025-2026,Serie A,12,Cagliari,Sassuolo,Away,1,2,3,7,4,4,0,0
+2025-2026,Serie A,12,Pisa,Lazio,Draw,0,0,3,1,2,2,0,0
+2025-2026,Serie A,13,Udinese,Atalanta,Home,1,0,5,4,1,3,0,0
+2025-2026,Serie A,13,Napoli,Como,Draw,0,0,4,2,3,3,0,0
+2025-2026,Serie A,13,Cremonese,Juventus,Away,1,2,2,3,1,1,0,0
+2025-2026,Serie A,13,Hellas Verona,Internazionale,Away,1,2,4,8,3,1,0,0
+2025-2026,Serie A,13,Fiorentina,Lecce,Away,0,1,4,4,4,1,0,0
+2025-2026,Serie A,13,Torino,Pisa,Draw,2,2,4,2,2,1,1,0
+2025-2026,Serie A,13,Parma,Bologna,Away,1,3,1,5,3,2,1,0
+2025-2026,Serie A,13,AC Milan,AS Roma,Home,1,0,7,8,1,5,0,0
+2025-2026,Serie A,13,Sassuolo,Genoa,Away,1,2,3,7,1,3,0,0
+2025-2026,Serie A,13,Lazio,Cagliari,Home,2,0,7,5,0,2,0,0
+2025-2026,Serie A,14,Pisa,Cremonese,Home,1,0,4,5,4,2,0,0
+2025-2026,Serie A,14,Como,Cagliari,Draw,0,0,10,0,3,1,0,0
+2025-2026,Serie A,14,Lecce,Hellas Verona,Draw,0,0,8,2,1,4,0,0
+2025-2026,Serie A,14,Juventus,Torino,Draw,0,0,6,2,0,1,0,0
+2025-2026,Serie A,14,Parma,AC Milan,Draw,2,2,4,3,1,1,0,0
+2025-2026,Serie A,14,Atalanta,Sassuolo,Away,0,3,4,1,0,2,0,0
+2025-2026,Serie A,14,Bologna,Napoli,Home,2,0,5,4,1,3,0,0
+2025-2026,Serie A,14,Genoa,Fiorentina,Draw,2,2,3,7,2,4,0,0
+2025-2026,Serie A,14,AS Roma,Udinese,Home,2,0,3,4,2,1,0,0
+2025-2026,Serie A,14,Internazionale,Lazio,Home,2,0,3,1,3,2,0,0
+2025-2026,Serie A,16,Cagliari,Genoa,Draw,3,3,6,2,4,2,0,1
+2025-2026,Serie A,16,Udinese,Bologna,Away,0,3,8,2,0,1,0,0
+2025-2026,Serie A,16,Fiorentina,Juventus,Draw,1,1,7,3,3,3,0,0
+2025-2026,Serie A,16,Napoli,Atalanta,Home,3,1,5,3,1,2,0,0
+2025-2026,Serie A,16,Hellas Verona,Parma,Away,1,2,4,4,5,3,0,0
+2025-2026,Serie A,16,Cremonese,AS Roma,Away,1,3,3,5,2,3,0,1
+2025-2026,Serie A,16,Lazio,Lecce,Home,2,0,8,2,1,1,0,0
+2025-2026,Serie A,16,Internazionale,AC Milan,Away,0,1,9,1,1,2,0,0
+2025-2026,Serie A,16,Torino,Como,Away,1,5,3,4,0,1,0,0
+2025-2026,Serie A,16,Sassuolo,Pisa,Draw,2,2,5,2,2,2,0,0
+2025-2026,Serie A,17,Como,Sassuolo,Home,2,0,4,4,2,1,0,0
+2025-2026,Serie A,17,Genoa,Hellas Verona,Home,2,1,2,3,2,3,0,0
+2025-2026,Serie A,17,Parma,Udinese,Away,0,2,5,9,1,2,1,1
+2025-2026,Serie A,17,Juventus,Cagliari,Home,2,1,1,6,1,5,0,0
+2025-2026,Serie A,17,AC Milan,Lazio,Home,1,0,1,4,3,4,1,0
+2025-2026,Serie A,17,Lecce,Torino,Home,2,1,6,6,2,3,0,0
+2025-2026,Serie A,17,Pisa,Internazionale,Away,0,2,4,6,2,1,0,0
+2025-2026,Serie A,17,Atalanta,Fiorentina,Home,2,0,4,5,1,3,0,0
+2025-2026,Serie A,17,AS Roma,Napoli,Away,0,1,4,2,4,3,0,0
+2025-2026,Serie A,17,Bologna,Cremonese,Away,1,3,13,8,0,2,0,0
+2025-2026,Serie A,18,Sassuolo,Fiorentina,Home,3,1,7,1,2,3,1,0
+2025-2026,Serie A,18,Internazionale,Como,Home,4,0,7,4,1,2,0,0
+2025-2026,Serie A,18,Hellas Verona,Atalanta,Home,3,1,5,5,2,1,0,0
+2025-2026,Serie A,18,Cremonese,Lecce,Home,2,0,5,5,1,2,0,0
+2025-2026,Serie A,18,Cagliari,AS Roma,Home,1,0,4,1,2,1,0,1
+2025-2026,Serie A,18,Lazio,Bologna,Draw,1,1,8,3,3,3,1,0
+2025-2026,Serie A,18,Napoli,Juventus,Home,2,1,9,0,2,1,0,0
+2025-2026,Serie A,18,Pisa,Parma,Away,0,1,6,0,2,2,1,0
+2025-2026,Serie A,18,Udinese,Genoa,Away,1,2,6,2,1,0,0,0
+2025-2026,Serie A,18,Torino,AC Milan,Away,2,3,2,4,2,1,0,0
+2025-2026,Serie A,19,Lecce,Pisa,Home,1,0,12,1,2,1,0,0
+2025-2026,Serie A,19,Torino,Cremonese,Home,1,0,6,6,1,2,0,0
+2025-2026,Serie A,19,Parma,Lazio,Away,0,1,4,4,2,1,0,2
+2025-2026,Serie A,19,Atalanta,Cagliari,Home,2,1,5,4,1,2,0,0
+2025-2026,Serie A,19,AC Milan,Sassuolo,Draw,2,2,7,3,1,3,0,0
+2025-2026,Serie A,19,Fiorentina,Hellas Verona,Away,1,2,9,4,1,6,0,1
+2025-2026,Serie A,19,Udinese,Napoli,Home,1,0,1,3,1,0,0,0
+2025-2026,Serie A,19,Genoa,Internazionale,Away,1,2,1,6,3,3,0,0
+2025-2026,Serie A,19,Bologna,Juventus,Away,0,1,3,4,3,1,1,0
+2025-2026,Serie A,19,AS Roma,Como,Home,1,0,6,3,3,4,0,0
+2025-2026,Bundesliga,3,Bayern Munich,RB Leipzig,Home,6,0,5,5,4,1,0,0
+2025-2026,Bundesliga,3,1. FC Heidenheim 1846,VfL Wolfsburg,Away,1,3,2,5,2,3,0,0
+2025-2026,Bundesliga,3,1. FC Union Berlin,VfB Stuttgart,Home,2,1,6,11,4,4,0,0
+2025-2026,Bundesliga,3,Bayer Leverkusen,TSG Hoffenheim,Away,1,2,6,4,0,4,0,0
+2025-2026,Bundesliga,3,Eintracht Frankfurt,Werder Bremen,Home,4,1,7,1,1,3,0,0
+2025-2026,Bundesliga,3,SC Freiburg,FC Augsburg,Away,1,3,5,5,4,6,0,0
+2025-2026,Bundesliga,3,St. Pauli,Borussia Dortmund,Draw,3,3,5,2,2,3,0,1
+2025-2026,Bundesliga,3,Mainz,FC Cologne,Away,0,1,8,3,1,2,1,0
+2025-2026,Bundesliga,3,Borussia Mönchengladbach,Hamburg SV,Draw,0,0,7,6,2,1,0,0
+2025-2026,Bundesliga,4,Hamburg SV,St. Pauli,Away,0,2,2,5,2,3,1,0
+2025-2026,Bundesliga,4,RB Leipzig,1. FC Heidenheim 1846,Home,2,0,4,3,2,5,0,0
+2025-2026,Bundesliga,4,TSG Hoffenheim,Eintracht Frankfurt,Away,1,3,4,5,2,3,0,0
+2025-2026,Bundesliga,4,VfB Stuttgart,Borussia Mönchengladbach,Home,1,0,6,10,2,1,0,0
+2025-2026,Bundesliga,4,Werder Bremen,Bayer Leverkusen,Draw,3,3,3,7,3,3,1,0
+2025-2026,Bundesliga,4,FC Augsburg,Bayern Munich,Away,2,3,7,5,3,4,0,0
+2025-2026,Bundesliga,4,VfL Wolfsburg,Mainz,Draw,1,1,3,10,2,5,1,0
+2025-2026,Bundesliga,4,Borussia Dortmund,1. FC Union Berlin,Home,3,0,4,6,0,0,0,0
+2025-2026,Bundesliga,4,FC Cologne,SC Freiburg,Home,4,1,3,5,2,1,0,0
+2025-2026,Bundesliga,6,Bayer Leverkusen,Eintracht Frankfurt,Home,3,1,4,8,3,3,2,0
+2025-2026,Bundesliga,6,1. FC Heidenheim 1846,Borussia Dortmund,Away,0,2,5,4,2,3,1,0
+2025-2026,Bundesliga,6,1. FC Union Berlin,TSG Hoffenheim,Away,2,4,9,2,0,1,1,0
+2025-2026,Bundesliga,6,Mainz,RB Leipzig,Away,0,1,3,5,2,0,0,0
+2025-2026,Bundesliga,6,SC Freiburg,VfB Stuttgart,Home,3,1,7,1,1,1,1,0
+2025-2026,Bundesliga,6,VfL Wolfsburg,FC Cologne,Draw,3,3,8,4,2,3,0,0
+2025-2026,Bundesliga,6,Bayern Munich,Hamburg SV,Home,5,0,5,3,2,2,0,0
+2025-2026,Bundesliga,6,St. Pauli,FC Augsburg,Home,2,1,3,1,1,5,0,0
+2025-2026,Bundesliga,6,Borussia Mönchengladbach,Werder Bremen,Away,0,4,9,4,1,0,0,0
+2025-2026,Bundesliga,7,VfB Stuttgart,St. Pauli,Home,2,0,8,4,0,2,0,0
+2025-2026,Bundesliga,7,FC Augsburg,Mainz,Away,1,4,6,6,1,1,0,1
+2025-2026,Bundesliga,7,Hamburg SV,1. FC Heidenheim 1846,Home,2,1,1,12,5,1,0,0
+2025-2026,Bundesliga,7,TSG Hoffenheim,Bayern Munich,Away,1,4,5,5,1,2,0,0
+2025-2026,Bundesliga,7,Werder Bremen,SC Freiburg,Away,0,3,2,0,5,2,0,0
+2025-2026,Bundesliga,7,RB Leipzig,FC Cologne,Home,3,1,9,5,1,1,0,0
+2025-2026,Bundesliga,7,Eintracht Frankfurt,1. FC Union Berlin,Away,3,4,5,1,3,3,0,1
+2025-2026,Bundesliga,7,Bayer Leverkusen,Borussia Mönchengladbach,Draw,1,1,3,4,5,5,0,0
+2025-2026,Bundesliga,7,Borussia Dortmund,VfL Wolfsburg,Home,1,0,9,3,1,0,0,0
+2025-2026,Bundesliga,8,Bayern Munich,Werder Bremen,Home,4,0,7,6,2,0,0,0
+2025-2026,Bundesliga,8,1. FC Heidenheim 1846,FC Augsburg,Home,2,1,3,2,1,6,0,0
+2025-2026,Bundesliga,8,Mainz,Borussia Dortmund,Away,0,2,7,5,2,1,1,0
+2025-2026,Bundesliga,8,St. Pauli,Bayer Leverkusen,Away,1,2,13,1,3,6,0,0
+2025-2026,Bundesliga,8,VfL Wolfsburg,RB Leipzig,Away,0,1,6,11,2,2,0,0
+2025-2026,Bundesliga,8,Borussia Mönchengladbach,Eintracht Frankfurt,Away,4,6,4,6,1,2,0,0
+2025-2026,Bundesliga,8,SC Freiburg,TSG Hoffenheim,Draw,1,1,6,8,2,1,0,0
+2025-2026,Bundesliga,8,FC Cologne,VfB Stuttgart,Away,1,2,8,8,2,2,0,0
+2025-2026,Bundesliga,8,1. FC Union Berlin,Hamburg SV,Draw,0,0,5,3,2,2,0,1
+2025-2026,Bundesliga,9,TSG Hoffenheim,FC Cologne,Away,0,1,11,6,3,1,0,0
+2025-2026,Bundesliga,9,Bayer Leverkusen,1. FC Union Berlin,Home,2,0,4,4,1,3,0,0
+2025-2026,Bundesliga,9,Borussia Dortmund,RB Leipzig,Draw,1,1,7,7,1,3,0,0
+2025-2026,Bundesliga,9,FC Augsburg,VfL Wolfsburg,Home,3,1,10,5,2,1,0,0
+2025-2026,Bundesliga,9,Werder Bremen,St. Pauli,Home,1,0,4,0,3,1,0,0
+2025-2026,Bundesliga,9,Eintracht Frankfurt,Bayern Munich,Away,0,3,4,3,1,2,0,0
+2025-2026,Bundesliga,9,VfB Stuttgart,1. FC Heidenheim 1846,Home,1,0,1,1,1,1,0,0
+2025-2026,Bundesliga,9,Hamburg SV,Mainz,Home,4,0,1,4,2,3,0,0
+2025-2026,Bundesliga,9,Borussia Mönchengladbach,SC Freiburg,Draw,0,0,4,1,3,2,0,0
+2025-2026,Bundesliga,11,1. FC Union Berlin,Borussia Mönchengladbach,Home,3,1,6,6,5,3,0,0
+2025-2026,Bundesliga,11,1. FC Heidenheim 1846,Werder Bremen,Draw,2,2,12,2,1,3,0,0
+2025-2026,Bundesliga,11,FC Cologne,FC Augsburg,Draw,1,1,5,2,2,3,0,0
+2025-2026,Bundesliga,11,Mainz,Bayer Leverkusen,Away,3,4,2,3,5,4,0,0
+2025-2026,Bundesliga,11,RB Leipzig,Hamburg SV,Home,2,1,3,5,3,1,0,0
+2025-2026,Bundesliga,11,VfL Wolfsburg,VfB Stuttgart,Away,0,3,3,8,1,1,0,0
+2025-2026,Bundesliga,11,Bayern Munich,Borussia Dortmund,Home,2,1,4,3,1,4,0,0
+2025-2026,Bundesliga,11,SC Freiburg,Eintracht Frankfurt,Draw,2,2,3,1,2,3,0,0
+2025-2026,Bundesliga,11,St. Pauli,TSG Hoffenheim,Away,0,3,9,7,1,3,0,0
+2025-2026,Bundesliga,12,Werder Bremen,1. FC Union Berlin,Home,1,0,5,6,4,0,0,0
+2025-2026,Bundesliga,12,Eintracht Frankfurt,St. Pauli,Home,2,0,1,3,0,1,0,0
+2025-2026,Bundesliga,12,FC Augsburg,RB Leipzig,Away,0,6,2,3,3,1,0,0
+2025-2026,Bundesliga,12,Hamburg SV,VfL Wolfsburg,Away,0,1,11,1,2,6,0,0
+2025-2026,Bundesliga,12,TSG Hoffenheim,1. FC Heidenheim 1846,Home,3,1,7,5,1,1,0,0
+2025-2026,Bundesliga,12,Borussia Mönchengladbach,Bayern Munich,Away,0,3,1,8,1,3,1,0
+2025-2026,Bundesliga,12,Borussia Dortmund,FC Cologne,Home,1,0,17,2,2,2,0,0
+2025-2026,Bundesliga,12,Bayer Leverkusen,SC Freiburg,Home,2,0,2,3,1,1,0,1
+2025-2026,Bundesliga,12,VfB Stuttgart,Mainz,Home,2,1,7,5,4,3,0,0
+2025-2026,Bundesliga,13,FC Augsburg,Borussia Dortmund,Away,0,1,4,3,4,1,0,0
+2025-2026,Bundesliga,13,1. FC Heidenheim 1846,Eintracht Frankfurt,Draw,1,1,2,8,0,2,0,0
+2025-2026,Bundesliga,13,1. FC Union Berlin,SC Freiburg,Draw,0,0,5,5,7,1,0,0
+2025-2026,Bundesliga,13,Mainz,Werder Bremen,Draw,1,1,2,0,1,3,0,0
+2025-2026,Bundesliga,13,RB Leipzig,VfB Stuttgart,Home,3,1,5,5,1,2,0,0
+2025-2026,Bundesliga,13,St. Pauli,Borussia Mönchengladbach,Away,0,4,8,1,4,0,0,0
+2025-2026,Bundesliga,13,Bayern Munich,Bayer Leverkusen,Home,3,0,10,4,1,1,0,0
+2025-2026,Bundesliga,13,FC Cologne,Hamburg SV,Home,4,1,2,3,1,5,0,2
+2025-2026,Bundesliga,13,VfL Wolfsburg,TSG Hoffenheim,Away,2,3,2,2,0,2,0,0
+2025-2026,Bundesliga,14,Werder Bremen,VfL Wolfsburg,Home,2,1,13,3,2,0,0,0
+2025-2026,Bundesliga,14,1. FC Union Berlin,Bayern Munich,Draw,2,2,6,5,2,4,0,0
+2025-2026,Bundesliga,14,Bayer Leverkusen,1. FC Heidenheim 1846,Home,6,0,11,1,0,1,0,0
+2025-2026,Bundesliga,14,Hamburg SV,Borussia Dortmund,Draw,1,1,2,6,1,1,0,0
+2025-2026,Bundesliga,14,TSG Hoffenheim,RB Leipzig,Home,3,1,5,5,3,2,0,0
+2025-2026,Bundesliga,14,Borussia Mönchengladbach,FC Cologne,Home,3,1,2,6,2,3,0,0
+2025-2026,Bundesliga,14,SC Freiburg,St. Pauli,Home,2,1,9,3,2,2,0,0
+2025-2026,Bundesliga,14,VfB Stuttgart,FC Augsburg,Home,3,2,4,4,3,3,0,0
+2025-2026,Bundesliga,14,Eintracht Frankfurt,Mainz,Home,1,0,4,3,0,5,0,0
+2025-2026,Bundesliga,16,Mainz,TSG Hoffenheim,Draw,1,1,7,4,3,2,1,0
+2025-2026,Bundesliga,16,1. FC Heidenheim 1846,Borussia Mönchengladbach,Away,0,3,4,5,2,0,0,0
+2025-2026,Bundesliga,16,Bayern Munich,SC Freiburg,Home,6,2,3,5,1,0,0,0
+2025-2026,Bundesliga,16,Borussia Dortmund,VfB Stuttgart,Draw,3,3,2,4,1,1,0,0
+2025-2026,Bundesliga,16,FC Augsburg,Hamburg SV,Home,1,0,4,3,1,3,1,0
+2025-2026,Bundesliga,16,VfL Wolfsburg,Bayer Leverkusen,Away,1,3,9,1,2,1,0,0
+2025-2026,Bundesliga,16,FC Cologne,Eintracht Frankfurt,Away,3,4,3,3,0,0,0,0
+2025-2026,Bundesliga,16,RB Leipzig,Werder Bremen,Home,2,0,13,7,1,2,0,0
+2025-2026,Bundesliga,16,St. Pauli,1. FC Union Berlin,Away,0,1,8,2,1,1,0,0
+2025-2026,Bundesliga,17,Borussia Mönchengladbach,RB Leipzig,Draw,0,0,5,6,0,3,0,0
+2025-2026,Bundesliga,17,1. FC Union Berlin,1. FC Heidenheim 1846,Away,1,2,5,5,3,2,0,0
+2025-2026,Bundesliga,17,Bayern Munich,St. Pauli,Home,3,1,10,2,1,1,0,0
+2025-2026,Bundesliga,17,TSG Hoffenheim,FC Augsburg,Home,3,0,7,2,1,0,0,0
+2025-2026,Bundesliga,17,Werder Bremen,FC Cologne,Draw,1,1,4,0,1,4,1,0
+2025-2026,Bundesliga,17,Bayer Leverkusen,Borussia Dortmund,Away,1,2,10,3,3,4,0,0
+2025-2026,Bundesliga,17,Hamburg SV,VfB Stuttgart,Home,2,1,4,6,1,4,1,0
+2025-2026,Bundesliga,17,Eintracht Frankfurt,VfL Wolfsburg,Draw,1,1,14,1,1,5,0,0
+2025-2026,Bundesliga,17,SC Freiburg,Mainz,Home,4,0,6,2,0,2,0,1
+2025-2026,Bundesliga,18,Mainz,Borussia Mönchengladbach,Away,0,1,8,6,2,1,0,0
+2025-2026,Bundesliga,18,1. FC Heidenheim 1846,SC Freiburg,Home,2,1,8,6,2,1,0,0
+2025-2026,Bundesliga,18,FC Augsburg,Bayer Leverkusen,Home,2,0,5,7,4,3,0,0
+2025-2026,Bundesliga,18,FC Cologne,St. Pauli,Draw,1,1,5,4,0,1,0,0
+2025-2026,Bundesliga,18,VfB Stuttgart,Bayern Munich,Away,0,5,3,4,3,4,1,0
+2025-2026,Bundesliga,18,VfL Wolfsburg,1. FC Union Berlin,Home,3,1,0,11,4,1,0,0
+2025-2026,Bundesliga,18,RB Leipzig,Eintracht Frankfurt,Home,6,0,4,0,1,2,0,0
+2025-2026,Bundesliga,18,Hamburg SV,Werder Bremen,Home,3,2,5,3,2,6,0,0
+2025-2026,Bundesliga,18,Borussia Dortmund,TSG Hoffenheim,Home,2,0,7,5,0,2,0,0
+2025-2026,Bundesliga,19,1. FC Union Berlin,RB Leipzig,Home,3,1,4,6,2,2,0,0
+2025-2026,Bundesliga,19,Borussia Mönchengladbach,VfL Wolfsburg,Away,1,3,6,3,0,1,0,0
+2025-2026,Bundesliga,19,Eintracht Frankfurt,FC Augsburg,Home,1,0,2,6,2,3,0,0
+2025-2026,Bundesliga,19,St. Pauli,1. FC Heidenheim 1846,Home,2,1,4,11,3,3,1,0
+2025-2026,Bundesliga,19,TSG Hoffenheim,Hamburg SV,Home,4,1,3,3,1,3,0,0
+2025-2026,Bundesliga,19,Bayer Leverkusen,FC Cologne,Home,2,0,8,3,2,1,0,0
+2025-2026,Bundesliga,19,SC Freiburg,Borussia Dortmund,Draw,1,1,6,0,3,2,0,1
+2025-2026,Bundesliga,19,Bayern Munich,Mainz,Draw,2,2,7,0,2,2,0,0
+2025-2026,Bundesliga,19,Werder Bremen,VfB Stuttgart,Away,0,4,1,9,1,0,1,0

@@ -6,7 +6,7 @@ import PageLoader from "../Components/LoadingPage.jsx";
 const DataContext = createContext(null);
 
 export const DataProvider = ({ children }) => {
-  const [selectedLeague, setSelectedLeague] = useState("SuperLig");
+  const [selectedLeague, setSelectedLeague] = useState("Super Lig");
 
   const {
     data: matches = [],

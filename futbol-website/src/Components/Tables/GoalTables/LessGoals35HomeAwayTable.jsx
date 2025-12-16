@@ -60,9 +60,9 @@ const OverGoals = ({ goalStats, selectedLeague, isMobile, teamLogos, football, p
                     </Stack>
                     </TableCell>
                     <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2 }} align="center">{row.matchCount}</TableCell>
-                    <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.less35Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.less35Rate.toFixed(0)}%</TableCell>
-                    <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.homeLess35Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.homeLess35Rate.toFixed(0)}%</TableCell>
-                    <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.awayLess35Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.awayLess35Rate.toFixed(0)}%</TableCell>
+                    <TableCell align="center" sx={{color: "#000000ff", fontWeight: "bold", backgroundColor: getBgColor(row.less35Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.less35Rate.toFixed(0)}%</TableCell>
+                    <TableCell align="center" sx={{color: "#000000ff", fontWeight: "bold", backgroundColor: getBgColor(row.homeLess35Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.homeLess35Rate.toFixed(0)}%</TableCell>
+                    <TableCell align="center" sx={{color: "#000000ff", fontWeight: "bold", backgroundColor: getBgColor(row.awayLess35Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.awayLess35Rate.toFixed(0)}%</TableCell>
                     
                   </TableRow>
                 ))}
