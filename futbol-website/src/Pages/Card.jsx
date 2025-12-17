@@ -25,7 +25,7 @@ function Card() {
   const cardStats = useMemo(() => {
     if (!selectedLeague || !matches.length) return [];
 
-    const leagueMatches = matches.filter(m => m.league === selectedLeague);
+    const leagueMatches = matches.filter(m => m.league === selectedLeague && m.winner !== "TBD");
     const teamCards = {};
 
     leagueMatches.forEach(match => {

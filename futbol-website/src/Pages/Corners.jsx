@@ -30,7 +30,7 @@ function Corner() {
   const cornerStats = useMemo(() => {
     if (!selectedLeague || !matches.length) return [];
 
-    const leagueMatches = matches.filter(m => m.league === selectedLeague);
+    const leagueMatches = matches.filter(m => m.league === selectedLeague && m.winner !== "TBD");
     const teamCorners = {};
 
     leagueMatches.forEach(match => {

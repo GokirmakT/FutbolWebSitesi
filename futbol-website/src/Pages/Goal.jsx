@@ -37,7 +37,7 @@ function Goals() {
   const goalStats = useMemo(() => {
     if (!selectedLeague || !matches.length) return [];
 
-    const leagueMatches = matches.filter(m => m.league === selectedLeague);
+    const leagueMatches = matches.filter(m => m.league === selectedLeague && m.winner !== "TBD");
     const teamGoals = {};
 
     leagueMatches.forEach(match => {

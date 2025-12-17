@@ -54,6 +54,8 @@ namespace FutbolSitesi.Controllers
             existingMatch.Season = match.Season;
             existingMatch.League = match.League;
             existingMatch.Week = match.Week;
+            existingMatch.Date = match.Date;
+            existingMatch.Time = match.Time;
             existingMatch.HomeTeam = match.HomeTeam;
             existingMatch.AwayTeam = match.AwayTeam;
             existingMatch.Winner = match.Winner;

@@ -4,13 +4,15 @@ import Home from "./Home.jsx";
 import Card from "./Pages/Card.jsx";
 import Corners from "./Pages/Corners.jsx";
 import Goal from "./Pages/Goal.jsx";
+import TodayMatches from "./Pages/TodayMatches.jsx";
 
 export default function App() {
   return (
     <>
       <Header/> {/* Her sayfada görünsün diye buraya ekle */}
       <Routes>
-        <Route path="/" element={<Home />} />   
+        <Route path="/" element={<Home />} /> 
+        <Route path="/TodayMatches" element={<TodayMatches />} />  
         <Route path="/Cards" element={<Card />} />   
         <Route path="/Corners" element={<Corners />} />
         <Route path="/Goals" element={<Goal />} />

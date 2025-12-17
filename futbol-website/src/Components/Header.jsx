@@ -154,6 +154,7 @@ export default function Header() {
                   setLeagueAnchor(null);
                 }}
               >
+                <MenuItem onClick={() => {navigate("/TodayMatches"); setMenuAnchor(null);}}>Bugünün maçları</MenuItem>
                 <MenuItem
                   onMouseEnter={(e) => setLeagueAnchor(e.currentTarget)}
                 >
@@ -167,7 +168,7 @@ export default function Header() {
 
               {/* MOBİL LİGLER SUBMENU */}
               <Menu
-                sx={{ width: 250, ml: "-83px", mt: "-7px" }}
+                sx={{ width: 250, ml: "-158px", mt: "-55px" }}
                 anchorEl={leagueAnchor}
                 open={Boolean(leagueAnchor)}
                 onClose={() => setLeagueAnchor(null)}
