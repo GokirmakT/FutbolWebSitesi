@@ -81,6 +81,53 @@ namespace FutbolSitesi.Migrations
 
                     b.ToTable("Matches");
                 });
+
+            modelBuilder.Entity("FutbolSitesi.Models.Standing", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Draw")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("GoalAgainst")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("GoalDiff")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("GoalFor")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("League")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("Lose")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Played")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Points")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Season")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Team")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("Win")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Standings");
+                });
 #pragma warning restore 612, 618
         }
     }

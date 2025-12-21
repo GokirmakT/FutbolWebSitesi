@@ -11,5 +11,6 @@ namespace FutbolSitesi.Data
         }
 
         public DbSet<Match> Matches { get; set; }
+        public DbSet<Standing> Standings { get; set; }
     }
 }

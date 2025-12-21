@@ -11,9 +11,11 @@ import {
 import { useNavigate } from "react-router-dom";
 import { useState, useRef } from "react";
 import useMediaQuery from "@mui/material/useMediaQuery";
+import { useData } from "../context/DataContext";
 
 export default function Header() {
   const navigate = useNavigate();
+  const { setSelectedLeague } = useData();
 
   // DESKTOP lig menüsü
   const [anchorEl, setAnchorEl] = useState(null);
@@ -51,10 +53,25 @@ export default function Header() {
     setAnchorEl(e.currentTarget);
   }
 
+  // Header lig isimlerini backend lig isimlerine map et
+  const leagueNameMapping = {
+    "Süper Lig": "Super Lig",
+    "Premier League": "Premier League",
+    "LaLiga": "LaLiga",
+    "Serie A": "Serie A",
+    "Bundesliga": "Bundesliga",
+    "Ligue 1": "Ligue 1",
+    "Eredivisie": "Eredivisie",
+    "Champions League": "Champions League",
+    "Europa League": "Europa League",
+    "Europa Conference League": "Europa Conference League"
+  };
+
   function handleLeagueClick(league) {
     setAnchorEl(null);
     setMenuAnchor(null);
     setLeagueAnchor(null);
+    // Header'dan seçilen lige navigate et - Standings sayfası URL'den lig bilgisini alacak
     navigate(`/lig/${league.id}`);
   }
   
@@ -120,7 +137,6 @@ export default function Header() {
                 ))}
                 </Menu>
               </Box>
-
               <Button variant="contained" onClick={() => navigate("/Cards")}>
                 Kart
               </Button>
@@ -160,7 +176,6 @@ export default function Header() {
                 >
                   Ligler
                 </MenuItem>
-
                 <MenuItem onClick={() => {navigate("/Cards"); setMenuAnchor(null);}}>Kart</MenuItem>
                 <MenuItem onClick={() => {navigate("/Corners"); setMenuAnchor(null);}}>Korner</MenuItem>
                 <MenuItem onClick={() => {navigate("/Goals"); setMenuAnchor(null);}}>Gol</MenuItem>
@@ -168,12 +183,11 @@ export default function Header() {
 
               {/* MOBİL LİGLER SUBMENU */}
               <Menu
-                sx={{ width: 250, ml: "-158px", mt: "-55px" }}
+                sx={{ width: 300, ml: "0px", mt: "0px" }}
                 anchorEl={leagueAnchor}
                 open={Boolean(leagueAnchor)}
                 onClose={() => setLeagueAnchor(null)}
-                anchorOrigin={{ vertical: "top", horizontal: "right" }}
-                transformOrigin={{ vertical: "top", horizontal: "left" }}
+                
                 MenuListProps={{
                   onMouseLeave: () => setLeagueAnchor(null)
                 }}

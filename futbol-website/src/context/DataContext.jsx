@@ -1,6 +1,6 @@
 import { createContext, useContext, useMemo, useState } from "react";
 import { useQuery } from "@tanstack/react-query";
-import { getMatches } from "../api/api";
+import { getMatches, getStandings } from "../api/api";
 import PageLoader from "../Components/LoadingPage.jsx";
 
 const DataContext = createContext(null);
@@ -17,6 +17,15 @@ export const DataProvider = ({ children }) => {
     queryFn: getMatches,
   });
 
+  const {
+    data: standings = [],
+    isLoading: isLoadingStandings,
+    error: standingsError,
+  } = useQuery({
+    queryKey: ["standings"],
+    queryFn: () => getStandings(),
+  });
+
   // Lig listesi (GLOBAL)
   const leagues = useMemo(() => {
     if (!matches.length) return [];
@@ -25,11 +34,14 @@ export const DataProvider = ({ children }) => {
 
   const value = {
     matches,
+    standings,
     leagues,
     selectedLeague,
     setSelectedLeague,
     isLoading,
+    isLoadingStandings,
     error,
+    standingsError,
   };
    
   if (isLoading) {

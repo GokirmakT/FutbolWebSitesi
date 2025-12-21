@@ -239,46 +239,46 @@ Season,League,Week,Date,Time,HomeTeam,AwayTeam,Winner,GoalHome,GoalAway,CornerHo
 2025-2026,Premier League,26,2026-02-01,14:00,Nottingham Forest,Crystal Palace,TBD,0,0,0,0,0,0,0,0
 2025-2026,Premier League,26,2026-02-01,16:30,Tottenham Hotspur,Manchester City,TBD,0,0,0,0,0,0,0,0
 2025-2026,Premier League,26,2026-02-02,20:00,Sunderland,Burnley,TBD,0,0,0,0,0,0,0,0
+2025-2026,Premier League,27,2026-02-06,20:00,Leeds United,Nottingham Forest,TBD,0,0,0,0,0,0,0,0
+2025-2026,Premier League,27,2026-02-07,12:30,Manchester United,Tottenham Hotspur,TBD,0,0,0,0,0,0,0,0
 2025-2026,Premier League,27,2026-02-07,15:00,AFC Bournemouth,Aston Villa,TBD,0,0,0,0,0,0,0,0
 2025-2026,Premier League,27,2026-02-07,15:00,Arsenal,Sunderland,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,27,2026-02-07,15:00,Brighton & Hove Albion,Crystal Palace,TBD,0,0,0,0,0,0,0,0
 2025-2026,Premier League,27,2026-02-07,15:00,Burnley,West Ham United,TBD,0,0,0,0,0,0,0,0
 2025-2026,Premier League,27,2026-02-07,15:00,Fulham,Everton,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,27,2026-02-07,15:00,Leeds United,Nottingham Forest,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,27,2026-02-07,15:00,Liverpool,Manchester City,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,27,2026-02-07,15:00,Manchester United,Tottenham Hotspur,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,27,2026-02-07,15:00,Newcastle United,Brentford,TBD,0,0,0,0,0,0,0,0
 2025-2026,Premier League,27,2026-02-07,15:00,Wolverhampton Wanderers,Chelsea,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,27,2026-02-11,20:00,Aston Villa,Brighton & Hove Albion,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,27,2026-02-11,20:00,Brentford,Arsenal,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,27,2026-02-11,20:00,Chelsea,Leeds United,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,27,2026-02-11,20:00,Crystal Palace,Burnley,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,27,2026-02-11,20:00,Everton,AFC Bournemouth,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,27,2026-02-11,20:00,Manchester City,Fulham,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,27,2026-02-11,20:00,Nottingham Forest,Wolverhampton Wanderers,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,27,2026-02-11,20:00,Sunderland,Liverpool,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,27,2026-02-11,20:00,Tottenham Hotspur,Newcastle United,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,27,2026-02-11,20:00,West Ham United,Manchester United,TBD,0,0,0,0,0,0,0,0
+2025-2026,Premier League,27,2026-02-07,17:30,Newcastle United,Brentford,TBD,0,0,0,0,0,0,0,0
+2025-2026,Premier League,27,2026-02-08,14:00,Brighton & Hove Albion,Crystal Palace,TBD,0,0,0,0,0,0,0,0
+2025-2026,Premier League,27,2026-02-08,16:30,Liverpool,Manchester City,TBD,0,0,0,0,0,0,0,0
+2025-2026,Premier League,27,2026-02-10,19:30,Chelsea,Leeds United,TBD,0,0,0,0,0,0,0,0
+2025-2026,Premier League,27,2026-02-10,19:30,Everton,AFC Bournemouth,TBD,0,0,0,0,0,0,0,0
+2025-2026,Premier League,27,2026-02-10,19:30,Tottenham Hotspur,Newcastle United,TBD,0,0,0,0,0,0,0,0
+2025-2026,Premier League,27,2026-02-10,20:15,West Ham United,Manchester United,TBD,0,0,0,0,0,0,0,0
+2025-2026,Premier League,27,2026-02-11,19:30,Aston Villa,Brighton & Hove Albion,TBD,0,0,0,0,0,0,0,0
+2025-2026,Premier League,27,2026-02-11,19:30,Crystal Palace,Burnley,TBD,0,0,0,0,0,0,0,0
+2025-2026,Premier League,27,2026-02-11,19:30,Manchester City,Fulham,TBD,0,0,0,0,0,0,0,0
+2025-2026,Premier League,27,2026-02-11,19:30,Nottingham Forest,Wolverhampton Wanderers,TBD,0,0,0,0,0,0,0,0
+2025-2026,Premier League,27,2026-02-11,20:15,Sunderland,Liverpool,TBD,0,0,0,0,0,0,0,0
+2025-2026,Premier League,27,2026-02-12,20:00,Brentford,Arsenal,TBD,0,0,0,0,0,0,0,0
+2025-2026,Premier League,29,2026-02-21,12:30,Manchester City,Newcastle United,TBD,0,0,0,0,0,0,0,0
 2025-2026,Premier League,29,2026-02-21,15:00,Aston Villa,Leeds United,TBD,0,0,0,0,0,0,0,0
 2025-2026,Premier League,29,2026-02-21,15:00,Brentford,Brighton & Hove Albion,TBD,0,0,0,0,0,0,0,0
 2025-2026,Premier League,29,2026-02-21,15:00,Chelsea,Burnley,TBD,0,0,0,0,0,0,0,0
 2025-2026,Premier League,29,2026-02-21,15:00,Crystal Palace,Wolverhampton Wanderers,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,29,2026-02-21,15:00,Everton,Manchester United,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,29,2026-02-21,15:00,Manchester City,Newcastle United,TBD,0,0,0,0,0,0,0,0
 2025-2026,Premier League,29,2026-02-21,15:00,Nottingham Forest,Liverpool,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,29,2026-02-21,15:00,Sunderland,Fulham,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,29,2026-02-21,15:00,Tottenham Hotspur,Arsenal,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,29,2026-02-21,15:00,West Ham United,AFC Bournemouth,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,30,2026-02-28,15:00,AFC Bournemouth,Sunderland,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,30,2026-02-28,15:00,Arsenal,Chelsea,TBD,0,0,0,0,0,0,0,0
+2025-2026,Premier League,29,2026-02-21,17:30,West Ham United,AFC Bournemouth,TBD,0,0,0,0,0,0,0,0
+2025-2026,Premier League,29,2026-02-22,14:00,Sunderland,Fulham,TBD,0,0,0,0,0,0,0,0
+2025-2026,Premier League,29,2026-02-22,16:30,Tottenham Hotspur,Arsenal,TBD,0,0,0,0,0,0,0,0
+2025-2026,Premier League,29,2026-02-23,20:00,Everton,Manchester United,TBD,0,0,0,0,0,0,0,0
+2025-2026,Premier League,30,2026-02-27,20:00,Wolverhampton Wanderers,Aston Villa,TBD,0,0,0,0,0,0,0,0
+2025-2026,Premier League,30,2026-02-28,12:30,AFC Bournemouth,Sunderland,TBD,0,0,0,0,0,0,0,0
 2025-2026,Premier League,30,2026-02-28,15:00,Brighton & Hove Albion,Nottingham Forest,TBD,0,0,0,0,0,0,0,0
 2025-2026,Premier League,30,2026-02-28,15:00,Burnley,Brentford,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,30,2026-02-28,15:00,Fulham,Tottenham Hotspur,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,30,2026-02-28,15:00,Leeds United,Manchester City,TBD,0,0,0,0,0,0,0,0
 2025-2026,Premier League,30,2026-02-28,15:00,Liverpool,West Ham United,TBD,0,0,0,0,0,0,0,0
 2025-2026,Premier League,30,2026-02-28,15:00,Manchester United,Crystal Palace,TBD,0,0,0,0,0,0,0,0
 2025-2026,Premier League,30,2026-02-28,15:00,Newcastle United,Everton,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,30,2026-02-28,15:00,Wolverhampton Wanderers,Aston Villa,TBD,0,0,0,0,0,0,0,0
+2025-2026,Premier League,30,2026-02-28,17:30,Leeds United,Manchester City,TBD,0,0,0,0,0,0,0,0
+2025-2026,Premier League,30,2026-03-01,14:00,Fulham,Tottenham Hotspur,TBD,0,0,0,0,0,0,0,0
+2025-2026,Premier League,30,2026-03-01,16:30,Arsenal,Chelsea,TBD,0,0,0,0,0,0,0,0
 2025-2026,Premier League,30,2026-03-04,20:00,AFC Bournemouth,Brentford,TBD,0,0,0,0,0,0,0,0
 2025-2026,Premier League,30,2026-03-04,20:00,Aston Villa,Chelsea,TBD,0,0,0,0,0,0,0,0
 2025-2026,Premier League,30,2026-03-04,20:00,Brighton & Hove Albion,Arsenal,TBD,0,0,0,0,0,0,0,0
@@ -523,7 +523,7 @@ Season,League,Week,Date,Time,HomeTeam,AwayTeam,Winner,GoalHome,GoalAway,CornerHo
 2025-2026,Super Lig,19,2025-12-14,17:00,Samsunspor,Istanbul Basaksehir,Away,0,2,7,2,0,0,0,0
 2025-2026,Super Lig,19,2025-12-14,17:00,Trabzonspor,Besiktas,Draw,3,3,7,1,2,5,0,1
 2025-2026,Super Lig,19,2025-12-15,17:00,Fenerbahce,Konyaspor,Home,4,0,4,4,2,2,0,0
-2025-2026,Super Lig,20,2025-12-19,17:00,Kocaelispor,Antalyaspor,TBD,0,0,0,0,0,0,0,0
+2025-2026,Super Lig,20,2025-12-19,17:00,Kocaelispor,Antalyaspor,Home,2,1,4,2,4,3,0,0
 2025-2026,Super Lig,20,2025-12-20,11:30,Konyaspor,Kayserispor,TBD,0,0,0,0,0,0,0,0
 2025-2026,Super Lig,20,2025-12-20,14:00,Eyupspor,Fenerbahce,TBD,0,0,0,0,0,0,0,0
 2025-2026,Super Lig,20,2025-12-20,17:00,Besiktas,Caykur Rizespor,TBD,0,0,0,0,0,0,0,0
@@ -847,7 +847,7 @@ Season,League,Week,Date,Time,HomeTeam,AwayTeam,Winner,GoalHome,GoalAway,CornerHo
 2025-2026,LaLiga,19,2025-12-14,17:30,Levante,Villarreal,Draw,0,0,0,0,0,0,0,0
 2025-2026,LaLiga,19,2025-12-14,20:00,Alavés,Real Madrid,Away,1,2,5,7,3,1,0,0
 2025-2026,LaLiga,19,2025-12-15,20:00,Rayo Vallecano,Real Betis,Draw,0,0,8,3,4,1,0,0
-2025-2026,LaLiga,20,2025-12-19,20:00,Valencia,Mallorca,TBD,0,0,0,0,0,0,0,0
+2025-2026,LaLiga,20,2025-12-19,20:00,Valencia,Mallorca,Draw,1,1,12,3,3,3,0,0
 2025-2026,LaLiga,20,2025-12-20,13:00,Real Oviedo,Celta Vigo,TBD,0,0,0,0,0,0,0,0
 2025-2026,LaLiga,20,2025-12-20,15:15,Levante,Real Sociedad,TBD,0,0,0,0,0,0,0,0
 2025-2026,LaLiga,20,2025-12-20,17:30,Osasuna,Alavés,TBD,0,0,0,0,0,0,0,0
@@ -867,14 +867,14 @@ Season,League,Week,Date,Time,HomeTeam,AwayTeam,Winner,GoalHome,GoalAway,CornerHo
 2025-2026,LaLiga,22,2026-01-04,17:30,Alavés,Real Oviedo,TBD,0,0,0,0,0,0,0,0
 2025-2026,LaLiga,22,2026-01-04,17:30,Mallorca,Girona,TBD,0,0,0,0,0,0,0,0
 2025-2026,LaLiga,22,2026-01-04,20:00,Real Sociedad,Atlético Madrid,TBD,0,0,0,0,0,0,0,0
-2025-2026,LaLiga,23,2026-01-11,20:00,Getafe,Real Sociedad,TBD,0,0,0,0,0,0,0,0
-2025-2026,LaLiga,23,2026-01-11,20:00,Girona,Osasuna,TBD,0,0,0,0,0,0,0,0
-2025-2026,LaLiga,23,2026-01-11,20:00,Levante,Espanyol,TBD,0,0,0,0,0,0,0,0
-2025-2026,LaLiga,23,2026-01-11,20:00,Rayo Vallecano,Mallorca,TBD,0,0,0,0,0,0,0,0
-2025-2026,LaLiga,23,2026-01-11,20:00,Real Oviedo,Real Betis,TBD,0,0,0,0,0,0,0,0
-2025-2026,LaLiga,23,2026-01-11,20:00,Sevilla,Celta Vigo,TBD,0,0,0,0,0,0,0,0
-2025-2026,LaLiga,23,2026-01-11,20:00,Valencia,Elche,TBD,0,0,0,0,0,0,0,0
-2025-2026,LaLiga,23,2026-01-11,20:00,Villarreal,Alavés,TBD,0,0,0,0,0,0,0,0
+2025-2026,LaLiga,23,2026-01-09,20:00,Getafe,Real Sociedad,TBD,0,0,0,0,0,0,0,0
+2025-2026,LaLiga,23,2026-01-10,13:00,Real Oviedo,Real Betis,TBD,0,0,0,0,0,0,0,0
+2025-2026,LaLiga,23,2026-01-10,15:15,Villarreal,Alavés,TBD,0,0,0,0,0,0,0,0
+2025-2026,LaLiga,23,2026-01-10,17:30,Girona,Osasuna,TBD,0,0,0,0,0,0,0,0
+2025-2026,LaLiga,23,2026-01-10,20:00,Valencia,Elche,TBD,0,0,0,0,0,0,0,0
+2025-2026,LaLiga,23,2026-01-11,13:00,Rayo Vallecano,Mallorca,TBD,0,0,0,0,0,0,0,0
+2025-2026,LaLiga,23,2026-01-11,15:15,Levante,Espanyol,TBD,0,0,0,0,0,0,0,0
+2025-2026,LaLiga,23,2026-01-12,20:00,Sevilla,Celta Vigo,TBD,0,0,0,0,0,0,0,0
 2025-2026,LaLiga,24,2026-01-18,20:00,Atlético Madrid,Alavés,TBD,0,0,0,0,0,0,0,0
 2025-2026,LaLiga,24,2026-01-18,20:00,Celta Vigo,Rayo Vallecano,TBD,0,0,0,0,0,0,0,0
 2025-2026,LaLiga,24,2026-01-18,20:00,Elche,Sevilla,TBD,0,0,0,0,0,0,0,0
@@ -1571,7 +1571,7 @@ Season,League,Week,Date,Time,HomeTeam,AwayTeam,Winner,GoalHome,GoalAway,CornerHo
 2025-2026,Bundesliga,19,2025-12-14,14:30,SC Freiburg,Borussia Dortmund,Draw,1,1,6,0,3,2,0,1
 2025-2026,Bundesliga,19,2025-12-14,16:30,Bayern Munich,Mainz,Draw,2,2,7,0,2,2,0,0
 2025-2026,Bundesliga,19,2025-12-14,18:30,Werder Bremen,VfB Stuttgart,Away,0,4,1,9,1,0,1,0
-2025-2026,Bundesliga,20,2025-12-19,19:30,Borussia Dortmund,Borussia Mönchengladbach,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,20,2025-12-19,19:30,Borussia Dortmund,Borussia Mönchengladbach,Home,2,0,6,4,2,1,0,0
 2025-2026,Bundesliga,20,2025-12-20,14:30,FC Augsburg,Werder Bremen,TBD,0,0,0,0,0,0,0,0
 2025-2026,Bundesliga,20,2025-12-20,14:30,FC Cologne,1. FC Union Berlin,TBD,0,0,0,0,0,0,0,0
 2025-2026,Bundesliga,20,2025-12-20,14:30,Hamburg SV,Eintracht Frankfurt,TBD,0,0,0,0,0,0,0,0

@@ -12,8 +12,26 @@ import { teamLogos } from "../Components/TeamLogos";
 function TodayMatches() {
   const { matches, isLoading, error } = useData();
 
+  // UTC saatini Türkiye saatine çevir (UTC+3)
+  const convertToTurkeyTime = (utcTime) => {
+    if (!utcTime) return "";
+    const [hours, minutes] = utcTime.split(":").map(Number);
+    if (isNaN(hours) || isNaN(minutes)) return utcTime;
+    
+    // 3 saat ekle
+    let newHours = hours + 3;
+    
+    // 24 saat formatında tutmak için modulo
+    if (newHours >= 24) {
+      newHours = newHours % 24;
+    }
+    
+    // Formatı koru (HH:mm)
+    return `${String(newHours).padStart(2, "0")}:${String(minutes).padStart(2, "0")}`;
+  };
+
   // test için sabit tarih
-  const today = new Date("2025-12-14").toISOString().slice(0, 10);
+  const today = new Date().toISOString().slice(0, 10);
 
   const groupedMatches = useMemo(() => {
     if (!matches?.length) return {};
@@ -26,12 +44,13 @@ function TodayMatches() {
 
         return {
           ...m,
-          datePart
+          datePart,
+          turkeyTime: convertToTurkeyTime(m.time) // Türkiye saati hesapla
         };
       })
-      .filter(m => m && m.datePart === today);
+      .filter(m => m && m.datePart === today);    
 
-    // 🔥 SAATİ artık direkt time alanına göre sırala
+    // 🔥 SAATİ artık direkt time alanına göre sırala (UTC'ye göre sırala ama TRT göster)
     todayMatches.sort((a, b) =>
       a.time.localeCompare(b.time)
     );
@@ -77,7 +96,7 @@ function TodayMatches() {
                   >
                     {/* ⏰ SAAT */}
                     <Typography sx={{ minWidth: 60 }}>
-                      {match.time} {/* artık time ayrı alandan geliyor */}
+                      {match.turkeyTime || match.time} {/* Türkiye saati (UTC+3) */}
                     </Typography>
 
                     {/* ⚽ MAÇ */}
