@@ -259,7 +259,7 @@ function Card() {
                 
               {/* 1. ikon + yazı */}
               <Stack direction="row" alignItems="center" spacing={1}>
-                <img src={card} style={{ width: isMobile ? 20 : 20, height: isMobile ? 20 : 20 }} />
+                <img src={card} style={{ width: isMobile ? 20 : 20, height: isMobile ? 20 : 20, filter: "invert(1)"}} />
                 <Typography sx={{ color: "#fff", fontSize: isMobile ? "11px" : "14px", fontWeight: "bold" }}>
                   : Gördüğü Toplam Kırmızı Kart Sayısı
                 </Typography>

@@ -37,7 +37,7 @@ const OverCorners = ({ cornerStats, selectedLeague, isMobile, teamLogos, corner,
                           <Stack alignItems={'center'}>
                             <img
                               src={corner}
-                              style={{ width: 20, height: 20, color: "#fff" }}
+                              style={{ width: 20, height: 20, color: "#fff", filter: "invert(1)" }}
                             />    
                           </Stack>
                           </TableCell>                  
@@ -68,10 +68,10 @@ const OverCorners = ({ cornerStats, selectedLeague, isMobile, teamLogos, corner,
                             </Stack>
                             </TableCell>
                             <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2 }} align="center">{row.matchCount}</TableCell>
-                            <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2}}>{row.avgCornersUsed}</TableCell>
-                            <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.team65Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.team65Rate.toFixed(0)}%</TableCell>
-                            <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.team75Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.team75Rate.toFixed(0)}%</TableCell>
-                            <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.team85Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.team85Rate.toFixed(0)}%</TableCell>
+                            <TableCell align="center" sx={{color: "#ffaaff", fontWeight: "bold", pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2}}>{row.avgCornersUsed}</TableCell>
+                            <TableCell align="center" sx={{color: "#000000ff", fontWeight: "bold", backgroundColor: getBgColor(row.team65Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.team65Rate.toFixed(0)}%</TableCell>
+                            <TableCell align="center" sx={{color: "#000000ff", fontWeight: "bold", backgroundColor: getBgColor(row.team75Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.team75Rate.toFixed(0)}%</TableCell>
+                            <TableCell align="center" sx={{color: "#000000ff", fontWeight: "bold", backgroundColor: getBgColor(row.team85Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.team85Rate.toFixed(0)}%</TableCell>
 
                             
                           </TableRow>

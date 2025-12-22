@@ -329,13 +329,13 @@ function Goals() {
           />
 
           {/* --- BUTONLAR BURADA --- */}
-          <Box 
+          <Stack direction={isMobile ? 'column' : 'row'}
             sx={{
               display: "flex",
-              gap: 2,
+              gap: 1,
               mt: 3,
               width: "100%",
-              justifyContent: "center"
+              justifyContent: "center"              
             }}
           >
             {/* Gol Üst */}
@@ -390,7 +390,7 @@ function Goals() {
             >
               KG İstatistikleri
             </Button>
-          </Box>
+          </Stack>
         </Box>
 
         {statType === "kg" ? (

@@ -59,10 +59,10 @@ const OverCards = ({ cardStats, selectedLeague, isMobile, teamLogos, card, playe
                     </Stack>
                     </TableCell>
                     <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2 }} align="center">{row.matchCount}</TableCell>
-                    <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.penaltyOver25Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.penaltyOver25Rate.toFixed(0)}%</TableCell>
-                    <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.penaltyOver35Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.penaltyOver35Rate.toFixed(0)}%</TableCell>
-                    <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.penaltyOver45Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.penaltyOver45Rate.toFixed(0)}%</TableCell>
-                    <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.penaltyOver55Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.penaltyOver55Rate.toFixed(0)}%</TableCell>
+                    <TableCell align="center" sx={{color: "#000000ff", fontWeight: "bold", backgroundColor: getBgColor(row.penaltyOver25Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.penaltyOver25Rate.toFixed(0)}%</TableCell>
+                    <TableCell align="center" sx={{color: "#000000ff", fontWeight: "bold", backgroundColor: getBgColor(row.penaltyOver35Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.penaltyOver35Rate.toFixed(0)}%</TableCell>
+                    <TableCell align="center" sx={{color: "#000000ff", fontWeight: "bold", backgroundColor: getBgColor(row.penaltyOver45Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.penaltyOver45Rate.toFixed(0)}%</TableCell>
+                    <TableCell align="center" sx={{color: "#000000ff", fontWeight: "bold", backgroundColor: getBgColor(row.penaltyOver55Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.penaltyOver55Rate.toFixed(0)}%</TableCell>
                     
                   </TableRow>
                 ))}

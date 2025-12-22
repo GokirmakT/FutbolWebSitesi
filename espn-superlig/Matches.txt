@@ -159,15 +159,15 @@ Season,League,Week,Date,Time,HomeTeam,AwayTeam,Winner,GoalHome,GoalAway,CornerHo
 2025-2026,Premier League,19,2025-12-14,14:00,West Ham United,Aston Villa,Away,2,3,5,3,1,2,0,0
 2025-2026,Premier League,19,2025-12-14,16:30,Brentford,Leeds United,Draw,1,1,0,3,0,0,0,0
 2025-2026,Premier League,19,2025-12-15,20:00,Manchester United,AFC Bournemouth,Draw,4,4,5,4,2,3,0,0
-2025-2026,Premier League,20,2025-12-20,12:30,Newcastle United,Chelsea,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,20,2025-12-20,15:00,AFC Bournemouth,Burnley,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,20,2025-12-20,15:00,Brighton & Hove Albion,Sunderland,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,20,2025-12-20,15:00,Manchester City,West Ham United,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,20,2025-12-20,15:00,Wolverhampton Wanderers,Brentford,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,20,2025-12-20,17:30,Tottenham Hotspur,Liverpool,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,20,2025-12-20,20:00,Everton,Arsenal,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,20,2025-12-20,20:00,Leeds United,Crystal Palace,TBD,0,0,0,0,0,0,0,0
-2025-2026,Premier League,20,2025-12-21,16:30,Aston Villa,Manchester United,TBD,0,0,0,0,0,0,0,0
+2025-2026,Premier League,20,2025-12-20,12:30,Newcastle United,Chelsea,Draw,2,2,6,4,3,7,0,0
+2025-2026,Premier League,20,2025-12-20,15:00,AFC Bournemouth,Burnley,Draw,1,1,5,3,1,1,0,0
+2025-2026,Premier League,20,2025-12-20,15:00,Brighton & Hove Albion,Sunderland,Draw,0,0,3,4,2,2,0,0
+2025-2026,Premier League,20,2025-12-20,15:00,Manchester City,West Ham United,Home,3,0,6,0,1,1,0,0
+2025-2026,Premier League,20,2025-12-20,15:00,Wolverhampton Wanderers,Brentford,Away,0,2,3,4,2,4,0,0
+2025-2026,Premier League,20,2025-12-20,17:30,Tottenham Hotspur,Liverpool,Away,1,2,2,6,4,3,2,0
+2025-2026,Premier League,20,2025-12-20,20:00,Everton,Arsenal,Away,0,1,2,3,2,2,0,0
+2025-2026,Premier League,20,2025-12-20,20:00,Leeds United,Crystal Palace,Home,4,1,9,5,1,3,0,0
+2025-2026,Premier League,20,2025-12-21,16:30,Aston Villa,Manchester United,Home,2,1,5,5,1,2,0,0
 2025-2026,Premier League,20,2025-12-22,20:00,Fulham,Nottingham Forest,TBD,0,0,0,0,0,0,0,0
 2025-2026,Premier League,21,2025-12-26,20:00,Manchester United,Newcastle United,TBD,0,0,0,0,0,0,0,0
 2025-2026,Premier League,21,2025-12-27,12:30,Nottingham Forest,Manchester City,TBD,0,0,0,0,0,0,0,0
@@ -524,12 +524,12 @@ Season,League,Week,Date,Time,HomeTeam,AwayTeam,Winner,GoalHome,GoalAway,CornerHo
 2025-2026,Super Lig,19,2025-12-14,17:00,Trabzonspor,Besiktas,Draw,3,3,7,1,2,5,0,1
 2025-2026,Super Lig,19,2025-12-15,17:00,Fenerbahce,Konyaspor,Home,4,0,4,4,2,2,0,0
 2025-2026,Super Lig,20,2025-12-19,17:00,Kocaelispor,Antalyaspor,Home,2,1,4,2,4,3,0,0
-2025-2026,Super Lig,20,2025-12-20,11:30,Konyaspor,Kayserispor,TBD,0,0,0,0,0,0,0,0
-2025-2026,Super Lig,20,2025-12-20,14:00,Eyupspor,Fenerbahce,TBD,0,0,0,0,0,0,0,0
-2025-2026,Super Lig,20,2025-12-20,17:00,Besiktas,Caykur Rizespor,TBD,0,0,0,0,0,0,0,0
-2025-2026,Super Lig,20,2025-12-21,11:30,Alanyaspor,Fatih Karagümrük,TBD,0,0,0,0,0,0,0,0
-2025-2026,Super Lig,20,2025-12-21,17:00,Galatasaray,Kasimpasa,TBD,0,0,0,0,0,0,0,0
-2025-2026,Super Lig,20,2025-12-21,17:00,Goztepe,Samsunspor,TBD,0,0,0,0,0,0,0,0
+2025-2026,Super Lig,20,2025-12-20,11:30,Konyaspor,Kayserispor,Draw,1,1,3,2,3,1,0,0
+2025-2026,Super Lig,20,2025-12-20,14:00,Eyupspor,Fenerbahce,Away,0,3,4,5,2,1,0,0
+2025-2026,Super Lig,20,2025-12-20,17:00,Besiktas,Caykur Rizespor,Home,1,0,4,6,3,3,0,0
+2025-2026,Super Lig,20,2025-12-21,11:30,Alanyaspor,Fatih Karagümrük,Home,2,0,2,3,3,1,0,0
+2025-2026,Super Lig,20,2025-12-21,17:00,Galatasaray,Kasimpasa,Home,3,0,10,1,2,1,0,0
+2025-2026,Super Lig,20,2025-12-21,17:00,Goztepe,Samsunspor,Home,2,0,4,3,1,2,0,0
 2025-2026,Super Lig,20,2025-12-22,14:00,Istanbul Basaksehir,Gaziantep FK,TBD,0,0,0,0,0,0,0,0
 2025-2026,Super Lig,20,2025-12-22,17:00,Genclerbirligi,Trabzonspor,TBD,0,0,0,0,0,0,0,0
 2025-2026,Super Lig,24,2026-01-18,20:00,Alanyaspor,Fenerbahce,TBD,0,0,0,0,0,0,0,0
@@ -848,14 +848,14 @@ Season,League,Week,Date,Time,HomeTeam,AwayTeam,Winner,GoalHome,GoalAway,CornerHo
 2025-2026,LaLiga,19,2025-12-14,20:00,Alavés,Real Madrid,Away,1,2,5,7,3,1,0,0
 2025-2026,LaLiga,19,2025-12-15,20:00,Rayo Vallecano,Real Betis,Draw,0,0,8,3,4,1,0,0
 2025-2026,LaLiga,20,2025-12-19,20:00,Valencia,Mallorca,Draw,1,1,12,3,3,3,0,0
-2025-2026,LaLiga,20,2025-12-20,13:00,Real Oviedo,Celta Vigo,TBD,0,0,0,0,0,0,0,0
-2025-2026,LaLiga,20,2025-12-20,15:15,Levante,Real Sociedad,TBD,0,0,0,0,0,0,0,0
-2025-2026,LaLiga,20,2025-12-20,17:30,Osasuna,Alavés,TBD,0,0,0,0,0,0,0,0
-2025-2026,LaLiga,20,2025-12-20,20:00,Real Madrid,Sevilla,TBD,0,0,0,0,0,0,0,0
-2025-2026,LaLiga,20,2025-12-21,13:00,Girona,Atlético Madrid,TBD,0,0,0,0,0,0,0,0
-2025-2026,LaLiga,20,2025-12-21,15:15,Villarreal,Barcelona,TBD,0,0,0,0,0,0,0,0
-2025-2026,LaLiga,20,2025-12-21,17:30,Elche,Rayo Vallecano,TBD,0,0,0,0,0,0,0,0
-2025-2026,LaLiga,20,2025-12-21,20:00,Real Betis,Getafe,TBD,0,0,0,0,0,0,0,0
+2025-2026,LaLiga,20,2025-12-20,13:00,Real Oviedo,Celta Vigo,Draw,0,0,5,3,2,1,0,0
+2025-2026,LaLiga,20,2025-12-20,15:15,Levante,Real Sociedad,Draw,1,1,7,10,6,2,0,0
+2025-2026,LaLiga,20,2025-12-20,17:30,Osasuna,Alavés,Home,3,0,9,0,2,2,0,0
+2025-2026,LaLiga,20,2025-12-20,20:00,Real Madrid,Sevilla,Home,2,0,6,5,2,6,0,2
+2025-2026,LaLiga,20,2025-12-21,13:00,Girona,Atlético Madrid,Away,0,3,3,4,2,1,0,0
+2025-2026,LaLiga,20,2025-12-21,15:15,Villarreal,Barcelona,Away,0,2,5,10,1,1,1,0
+2025-2026,LaLiga,20,2025-12-21,17:30,Elche,Rayo Vallecano,Home,4,0,4,5,2,3,0,0
+2025-2026,LaLiga,20,2025-12-21,20:00,Real Betis,Getafe,Home,4,0,7,5,0,1,0,0
 2025-2026,LaLiga,20,2025-12-22,20:00,Athletic Club,Espanyol,TBD,0,0,0,0,0,0,0,0
 2025-2026,LaLiga,22,2026-01-02,20:00,Rayo Vallecano,Getafe,TBD,0,0,0,0,0,0,0,0
 2025-2026,LaLiga,22,2026-01-03,13:00,Celta Vigo,Valencia,TBD,0,0,0,0,0,0,0,0
@@ -1215,12 +1215,12 @@ Season,League,Week,Date,Time,HomeTeam,AwayTeam,Winner,GoalHome,GoalAway,CornerHo
 2025-2026,Serie A,19,2025-12-14,17:00,Genoa,Internazionale,Away,1,2,1,6,3,3,0,0
 2025-2026,Serie A,19,2025-12-14,19:45,Bologna,Juventus,Away,0,1,3,4,3,1,1,0
 2025-2026,Serie A,19,2025-12-15,19:45,AS Roma,Como,Home,1,0,6,3,3,4,0,0
-2025-2026,Serie A,20,2025-12-20,17:00,Lazio,Cremonese,TBD,0,0,0,0,0,0,0,0
-2025-2026,Serie A,20,2025-12-20,19:45,Juventus,AS Roma,TBD,0,0,0,0,0,0,0,0
-2025-2026,Serie A,20,2025-12-21,11:30,Cagliari,Pisa,TBD,0,0,0,0,0,0,0,0
-2025-2026,Serie A,20,2025-12-21,14:00,Sassuolo,Torino,TBD,0,0,0,0,0,0,0,0
-2025-2026,Serie A,20,2025-12-21,17:00,Fiorentina,Udinese,TBD,0,0,0,0,0,0,0,0
-2025-2026,Serie A,20,2025-12-21,19:45,Genoa,Atalanta,TBD,0,0,0,0,0,0,0,0
+2025-2026,Serie A,20,2025-12-20,17:00,Lazio,Cremonese,Draw,0,0,3,0,4,3,0,1
+2025-2026,Serie A,20,2025-12-20,19:45,Juventus,AS Roma,Home,2,1,2,4,2,3,0,0
+2025-2026,Serie A,20,2025-12-21,11:30,Cagliari,Pisa,Draw,2,2,2,6,3,2,0,0
+2025-2026,Serie A,20,2025-12-21,14:00,Sassuolo,Torino,Away,0,1,2,3,3,1,0,0
+2025-2026,Serie A,20,2025-12-21,17:00,Fiorentina,Udinese,Home,5,1,1,4,3,1,0,1
+2025-2026,Serie A,20,2025-12-21,19:45,Genoa,Atalanta,Away,0,1,6,10,1,3,1,0
 2025-2026,Serie A,21,2025-12-27,11:30,Parma,Fiorentina,TBD,0,0,0,0,0,0,0,0
 2025-2026,Serie A,21,2025-12-27,14:00,Lecce,Como,TBD,0,0,0,0,0,0,0,0
 2025-2026,Serie A,21,2025-12-27,14:00,Torino,Cagliari,TBD,0,0,0,0,0,0,0,0
@@ -1572,14 +1572,14 @@ Season,League,Week,Date,Time,HomeTeam,AwayTeam,Winner,GoalHome,GoalAway,CornerHo
 2025-2026,Bundesliga,19,2025-12-14,16:30,Bayern Munich,Mainz,Draw,2,2,7,0,2,2,0,0
 2025-2026,Bundesliga,19,2025-12-14,18:30,Werder Bremen,VfB Stuttgart,Away,0,4,1,9,1,0,1,0
 2025-2026,Bundesliga,20,2025-12-19,19:30,Borussia Dortmund,Borussia Mönchengladbach,Home,2,0,6,4,2,1,0,0
-2025-2026,Bundesliga,20,2025-12-20,14:30,FC Augsburg,Werder Bremen,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,20,2025-12-20,14:30,FC Cologne,1. FC Union Berlin,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,20,2025-12-20,14:30,Hamburg SV,Eintracht Frankfurt,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,20,2025-12-20,14:30,VfB Stuttgart,TSG Hoffenheim,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,20,2025-12-20,14:30,VfL Wolfsburg,SC Freiburg,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,20,2025-12-20,17:30,RB Leipzig,Bayer Leverkusen,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,20,2025-12-21,14:30,Mainz,St. Pauli,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,20,2025-12-21,16:30,1. FC Heidenheim 1846,Bayern Munich,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,20,2025-12-20,14:30,FC Augsburg,Werder Bremen,Draw,0,0,6,11,3,4,0,0
+2025-2026,Bundesliga,20,2025-12-20,14:30,FC Cologne,1. FC Union Berlin,Away,0,1,3,6,2,5,1,0
+2025-2026,Bundesliga,20,2025-12-20,14:30,Hamburg SV,Eintracht Frankfurt,Draw,1,1,5,5,0,0,0,0
+2025-2026,Bundesliga,20,2025-12-20,14:30,VfB Stuttgart,TSG Hoffenheim,Draw,0,0,4,2,3,2,0,0
+2025-2026,Bundesliga,20,2025-12-20,14:30,VfL Wolfsburg,SC Freiburg,Away,3,4,2,6,1,2,0,0
+2025-2026,Bundesliga,20,2025-12-20,17:30,RB Leipzig,Bayer Leverkusen,Away,1,3,2,8,1,2,0,0
+2025-2026,Bundesliga,20,2025-12-21,14:30,Mainz,St. Pauli,Draw,0,0,9,5,1,1,0,0
+2025-2026,Bundesliga,20,2025-12-21,16:30,1. FC Heidenheim 1846,Bayern Munich,Away,0,4,0,6,0,0,0,0
 2025-2026,Bundesliga,23,2026-01-09,19:30,Eintracht Frankfurt,Borussia Dortmund,TBD,0,0,0,0,0,0,0,0
 2025-2026,Bundesliga,23,2026-01-10,14:30,1. FC Heidenheim 1846,FC Cologne,TBD,0,0,0,0,0,0,0,0
 2025-2026,Bundesliga,23,2026-01-10,14:30,1. FC Union Berlin,Mainz,TBD,0,0,0,0,0,0,0,0
@@ -1616,51 +1616,51 @@ Season,League,Week,Date,Time,HomeTeam,AwayTeam,Winner,GoalHome,GoalAway,CornerHo
 2025-2026,Bundesliga,25,2026-01-24,17:30,1. FC Union Berlin,Borussia Dortmund,TBD,0,0,0,0,0,0,0,0
 2025-2026,Bundesliga,25,2026-01-25,14:30,Borussia Mönchengladbach,VfB Stuttgart,TBD,0,0,0,0,0,0,0,0
 2025-2026,Bundesliga,25,2026-01-25,16:30,SC Freiburg,FC Cologne,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,26,2026-01-31,20:00,Borussia Dortmund,1. FC Heidenheim 1846,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,26,2026-01-31,20:00,Eintracht Frankfurt,Bayer Leverkusen,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,26,2026-01-31,20:00,FC Augsburg,St. Pauli,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,26,2026-01-31,20:00,FC Cologne,VfL Wolfsburg,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,26,2026-01-31,20:00,Hamburg SV,Bayern Munich,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,26,2026-01-31,20:00,RB Leipzig,Mainz,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,26,2026-01-31,20:00,TSG Hoffenheim,1. FC Union Berlin,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,26,2026-01-31,20:00,VfB Stuttgart,SC Freiburg,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,26,2026-01-31,20:00,Werder Bremen,Borussia Mönchengladbach,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,27,2026-02-07,20:00,1. FC Heidenheim 1846,Hamburg SV,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,27,2026-02-07,20:00,1. FC Union Berlin,Eintracht Frankfurt,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,27,2026-02-07,20:00,Bayern Munich,TSG Hoffenheim,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,27,2026-02-07,20:00,Borussia Mönchengladbach,Bayer Leverkusen,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,27,2026-02-07,20:00,FC Cologne,RB Leipzig,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,27,2026-02-07,20:00,Mainz,FC Augsburg,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,27,2026-02-07,20:00,SC Freiburg,Werder Bremen,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,27,2026-02-07,20:00,St. Pauli,VfB Stuttgart,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,27,2026-02-07,20:00,VfL Wolfsburg,Borussia Dortmund,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,28,2026-02-14,20:00,Bayer Leverkusen,St. Pauli,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,28,2026-02-14,20:00,Borussia Dortmund,Mainz,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,28,2026-02-14,20:00,Eintracht Frankfurt,Borussia Mönchengladbach,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,28,2026-02-14,20:00,FC Augsburg,1. FC Heidenheim 1846,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,28,2026-02-14,20:00,Hamburg SV,1. FC Union Berlin,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,28,2026-02-14,20:00,RB Leipzig,VfL Wolfsburg,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,28,2026-02-14,20:00,TSG Hoffenheim,SC Freiburg,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,28,2026-02-14,20:00,VfB Stuttgart,FC Cologne,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,28,2026-02-14,20:00,Werder Bremen,Bayern Munich,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,29,2026-02-21,20:00,1. FC Heidenheim 1846,VfB Stuttgart,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,29,2026-02-21,20:00,1. FC Union Berlin,Bayer Leverkusen,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,29,2026-02-21,20:00,Bayern Munich,Eintracht Frankfurt,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,29,2026-02-21,20:00,FC Cologne,TSG Hoffenheim,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,29,2026-02-21,20:00,Mainz,Hamburg SV,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,29,2026-02-21,20:00,RB Leipzig,Borussia Dortmund,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,29,2026-02-21,20:00,SC Freiburg,Borussia Mönchengladbach,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,29,2026-02-21,20:00,St. Pauli,Werder Bremen,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,29,2026-02-21,20:00,VfL Wolfsburg,FC Augsburg,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,30,2026-02-28,20:00,Bayer Leverkusen,Mainz,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,30,2026-02-28,20:00,Borussia Dortmund,Bayern Munich,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,30,2026-02-28,20:00,Borussia Mönchengladbach,1. FC Union Berlin,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,30,2026-02-28,20:00,Eintracht Frankfurt,SC Freiburg,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,30,2026-02-28,20:00,FC Augsburg,FC Cologne,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,30,2026-02-28,20:00,Hamburg SV,RB Leipzig,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,30,2026-02-28,20:00,TSG Hoffenheim,St. Pauli,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,30,2026-02-28,20:00,VfB Stuttgart,VfL Wolfsburg,TBD,0,0,0,0,0,0,0,0
-2025-2026,Bundesliga,30,2026-02-28,20:00,Werder Bremen,1. FC Heidenheim 1846,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,26,2026-01-30,19:30,FC Cologne,VfL Wolfsburg,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,26,2026-01-31,14:30,Eintracht Frankfurt,Bayer Leverkusen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,26,2026-01-31,14:30,FC Augsburg,St. Pauli,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,26,2026-01-31,14:30,RB Leipzig,Mainz,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,26,2026-01-31,14:30,TSG Hoffenheim,1. FC Union Berlin,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,26,2026-01-31,14:30,Werder Bremen,Borussia Mönchengladbach,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,26,2026-01-31,17:30,Hamburg SV,Bayern Munich,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,26,2026-02-01,14:30,VfB Stuttgart,SC Freiburg,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,26,2026-02-01,16:30,Borussia Dortmund,1. FC Heidenheim 1846,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,27,2026-02-06,19:30,1. FC Union Berlin,Eintracht Frankfurt,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,27,2026-02-07,14:30,1. FC Heidenheim 1846,Hamburg SV,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,27,2026-02-07,14:30,Mainz,FC Augsburg,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,27,2026-02-07,14:30,SC Freiburg,Werder Bremen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,27,2026-02-07,14:30,St. Pauli,VfB Stuttgart,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,27,2026-02-07,14:30,VfL Wolfsburg,Borussia Dortmund,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,27,2026-02-07,17:30,Borussia Mönchengladbach,Bayer Leverkusen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,27,2026-02-08,14:30,FC Cologne,RB Leipzig,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,27,2026-02-08,16:30,Bayern Munich,TSG Hoffenheim,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,28,2026-02-13,19:30,Borussia Dortmund,Mainz,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,28,2026-02-14,14:30,Bayer Leverkusen,St. Pauli,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,28,2026-02-14,14:30,Eintracht Frankfurt,Borussia Mönchengladbach,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,28,2026-02-14,14:30,Hamburg SV,1. FC Union Berlin,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,28,2026-02-14,14:30,TSG Hoffenheim,SC Freiburg,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,28,2026-02-14,14:30,Werder Bremen,Bayern Munich,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,28,2026-02-14,17:30,VfB Stuttgart,FC Cologne,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,28,2026-02-15,14:30,FC Augsburg,1. FC Heidenheim 1846,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,28,2026-02-15,16:30,RB Leipzig,VfL Wolfsburg,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,29,2026-02-20,19:30,Mainz,Hamburg SV,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,29,2026-02-21,14:30,1. FC Union Berlin,Bayer Leverkusen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,29,2026-02-21,14:30,Bayern Munich,Eintracht Frankfurt,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,29,2026-02-21,14:30,FC Cologne,TSG Hoffenheim,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,29,2026-02-21,14:30,VfL Wolfsburg,FC Augsburg,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,29,2026-02-21,17:30,RB Leipzig,Borussia Dortmund,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,29,2026-02-22,14:30,SC Freiburg,Borussia Mönchengladbach,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,29,2026-02-22,16:30,St. Pauli,Werder Bremen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,29,2026-02-22,18:30,1. FC Heidenheim 1846,VfB Stuttgart,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,30,2026-02-27,19:30,FC Augsburg,FC Cologne,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,30,2026-02-28,14:30,Bayer Leverkusen,Mainz,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,30,2026-02-28,14:30,Borussia Mönchengladbach,1. FC Union Berlin,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,30,2026-02-28,14:30,TSG Hoffenheim,St. Pauli,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,30,2026-02-28,14:30,Werder Bremen,1. FC Heidenheim 1846,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,30,2026-02-28,17:30,Borussia Dortmund,Bayern Munich,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,30,2026-03-01,14:30,VfB Stuttgart,VfL Wolfsburg,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,30,2026-03-01,16:30,Eintracht Frankfurt,SC Freiburg,TBD,0,0,0,0,0,0,0,0
+2025-2026,Bundesliga,30,2026-03-01,18:30,Hamburg SV,RB Leipzig,TBD,0,0,0,0,0,0,0,0
 2025-2026,Bundesliga,31,2026-03-07,20:00,1. FC Heidenheim 1846,TSG Hoffenheim,TBD,0,0,0,0,0,0,0,0
 2025-2026,Bundesliga,31,2026-03-07,20:00,1. FC Union Berlin,Werder Bremen,TBD,0,0,0,0,0,0,0,0
 2025-2026,Bundesliga,31,2026-03-07,20:00,Bayern Munich,Borussia Mönchengladbach,TBD,0,0,0,0,0,0,0,0
@@ -1751,3 +1751,1541 @@ Season,League,Week,Date,Time,HomeTeam,AwayTeam,Winner,GoalHome,GoalAway,CornerHo
 2025-2026,Bundesliga,41,2026-05-16,13:30,SC Freiburg,RB Leipzig,TBD,0,0,0,0,0,0,0,0
 2025-2026,Bundesliga,41,2026-05-16,13:30,St. Pauli,VfL Wolfsburg,TBD,0,0,0,0,0,0,0,0
 2025-2026,Bundesliga,41,2026-05-16,13:30,Werder Bremen,Borussia Dortmund,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,2,2025-08-15,18:45,Stade Rennais,Marseille,Home,1,0,1,12,2,3,1,0
+2025-2026,Ligue 1,2,2025-08-16,15:00,Lens,Lyon,Away,0,1,12,8,2,3,0,0
+2025-2026,Ligue 1,2,2025-08-16,17:00,AS Monaco,Le Havre AC,Home,3,1,5,4,0,1,0,0
+2025-2026,Ligue 1,2,2025-08-16,19:05,Nice,Toulouse,Away,0,1,9,4,2,3,0,0
+2025-2026,Ligue 1,2,2025-08-17,13:00,Brest,Lille,Draw,3,3,2,2,2,2,0,0
+2025-2026,Ligue 1,2,2025-08-17,15:15,AJ Auxerre,Lorient,Home,1,0,4,5,3,2,0,0
+2025-2026,Ligue 1,2,2025-08-17,15:15,Angers,Paris FC,Home,1,0,3,7,2,1,1,0
+2025-2026,Ligue 1,2,2025-08-17,15:15,Metz,Strasbourg,Away,0,1,3,3,2,2,0,0
+2025-2026,Ligue 1,2,2025-08-17,18:45,Nantes,Paris Saint-Germain,Away,0,1,2,7,1,1,0,0
+2025-2026,Ligue 1,3,2025-08-22,18:45,Paris Saint-Germain,Angers,Home,1,0,12,0,0,0,0,0
+2025-2026,Ligue 1,3,2025-08-23,15:00,Marseille,Paris FC,Home,5,2,5,2,1,0,0,0
+2025-2026,Ligue 1,3,2025-08-23,17:00,Nice,AJ Auxerre,Home,3,1,5,4,2,2,0,1
+2025-2026,Ligue 1,3,2025-08-23,19:05,Lyon,Metz,Home,3,0,4,3,0,2,0,0
+2025-2026,Ligue 1,3,2025-08-24,13:00,Lorient,Stade Rennais,Home,4,0,3,2,6,0,0,2
+2025-2026,Ligue 1,3,2025-08-24,15:15,Le Havre AC,Lens,Away,1,2,7,0,3,1,0,0
+2025-2026,Ligue 1,3,2025-08-24,15:15,Strasbourg,Nantes,Home,1,0,7,6,2,2,0,0
+2025-2026,Ligue 1,3,2025-08-24,15:15,Toulouse,Brest,Home,2,0,3,9,0,1,0,0
+2025-2026,Ligue 1,3,2025-08-24,18:45,Lille,AS Monaco,Home,1,0,8,3,2,2,0,0
+2025-2026,Ligue 1,4,2025-08-29,18:45,Lens,Brest,Home,3,1,15,1,1,3,0,1
+2025-2026,Ligue 1,4,2025-08-30,15:00,Lorient,Lille,Away,1,7,3,8,3,3,0,0
+2025-2026,Ligue 1,4,2025-08-30,17:00,Nantes,AJ Auxerre,Home,1,0,3,9,1,3,0,0
+2025-2026,Ligue 1,4,2025-08-30,19:05,Toulouse,Paris Saint-Germain,Away,3,6,6,7,1,0,0,0
+2025-2026,Ligue 1,4,2025-08-31,13:00,Angers,Stade Rennais,Draw,1,1,1,7,3,2,0,0
+2025-2026,Ligue 1,4,2025-08-31,15:15,AS Monaco,Strasbourg,Home,3,2,6,5,2,1,0,1
+2025-2026,Ligue 1,4,2025-08-31,15:15,Le Havre AC,Nice,Home,3,1,0,5,1,4,0,0
+2025-2026,Ligue 1,4,2025-08-31,15:15,Paris FC,Metz,Home,3,2,14,6,1,1,0,1
+2025-2026,Ligue 1,4,2025-08-31,18:45,Lyon,Marseille,Home,1,0,9,4,2,2,0,1
+2025-2026,Ligue 1,6,2025-09-12,18:45,Marseille,Lorient,Home,4,0,10,0,3,2,0,1
+2025-2026,Ligue 1,6,2025-09-13,15:00,Nice,Nantes,Home,1,0,7,4,2,0,0,0
+2025-2026,Ligue 1,6,2025-09-13,19:05,AJ Auxerre,AS Monaco,Away,1,2,5,8,2,6,1,0
+2025-2026,Ligue 1,6,2025-09-14,13:00,Lille,Toulouse,Home,2,1,7,6,2,5,0,1
+2025-2026,Ligue 1,6,2025-09-14,15:15,Brest,Paris FC,Away,1,2,6,1,0,3,0,1
+2025-2026,Ligue 1,6,2025-09-14,15:15,Metz,Angers,Draw,1,1,4,3,0,1,0,0
+2025-2026,Ligue 1,6,2025-09-14,15:15,Paris Saint-Germain,Lens,Home,2,0,4,3,1,2,0,0
+2025-2026,Ligue 1,6,2025-09-14,15:15,Strasbourg,Le Havre AC,Home,1,0,4,3,1,2,1,0
+2025-2026,Ligue 1,6,2025-09-14,18:45,Stade Rennais,Lyon,Home,3,1,5,4,2,2,0,1
+2025-2026,Ligue 1,7,2025-09-19,18:45,Lyon,Angers,Home,1,0,7,4,2,2,0,0
+2025-2026,Ligue 1,7,2025-09-20,15:00,Nantes,Stade Rennais,Draw,2,2,4,4,2,2,0,0
+2025-2026,Ligue 1,7,2025-09-20,17:00,Brest,Nice,Home,4,1,2,7,1,3,0,0
+2025-2026,Ligue 1,7,2025-09-20,19:05,Lens,Lille,Home,3,0,4,10,1,3,0,0
+2025-2026,Ligue 1,7,2025-09-21,13:00,Paris FC,Strasbourg,Away,2,3,4,2,1,5,0,0
+2025-2026,Ligue 1,7,2025-09-21,15:15,AJ Auxerre,Toulouse,Home,1,0,3,4,1,6,1,0
+2025-2026,Ligue 1,7,2025-09-21,15:15,AS Monaco,Metz,Home,5,2,4,5,1,0,0,0
+2025-2026,Ligue 1,7,2025-09-21,15:15,Le Havre AC,Lorient,Draw,1,1,6,2,3,6,0,0
+2025-2026,Ligue 1,7,2025-09-22,18:00,Marseille,Paris Saint-Germain,Home,1,0,5,3,4,1,1,0
+2025-2026,Ligue 1,8,2025-09-26,18:45,Strasbourg,Marseille,Away,1,2,5,4,2,4,0,0
+2025-2026,Ligue 1,8,2025-09-27,15:00,Lorient,AS Monaco,Home,3,1,2,4,2,2,0,1
+2025-2026,Ligue 1,8,2025-09-27,17:00,Toulouse,Nantes,Draw,2,2,1,4,2,3,0,0
+2025-2026,Ligue 1,8,2025-09-27,19:05,Paris Saint-Germain,AJ Auxerre,Home,2,0,5,5,1,2,0,0
+2025-2026,Ligue 1,8,2025-09-28,13:00,Nice,Paris FC,Draw,1,1,5,5,1,1,0,0
+2025-2026,Ligue 1,8,2025-09-28,15:15,Angers,Brest,Away,0,2,11,4,1,1,0,0
+2025-2026,Ligue 1,8,2025-09-28,15:15,Lille,Lyon,Away,0,1,3,4,5,4,1,0
+2025-2026,Ligue 1,8,2025-09-28,15:15,Metz,Le Havre AC,Draw,0,0,4,6,2,2,0,0
+2025-2026,Ligue 1,8,2025-09-28,18:45,Stade Rennais,Lens,Draw,0,0,8,4,3,3,0,1
+2025-2026,Ligue 1,9,2025-10-03,18:45,Paris FC,Lorient,Home,2,0,1,5,0,3,0,0
+2025-2026,Ligue 1,9,2025-10-04,15:00,Metz,Marseille,Away,0,3,4,4,0,0,0,0
+2025-2026,Ligue 1,9,2025-10-04,17:00,Brest,Nantes,Draw,0,0,12,3,2,2,0,0
+2025-2026,Ligue 1,9,2025-10-04,19:05,AJ Auxerre,Lens,Away,1,2,2,2,4,6,0,1
+2025-2026,Ligue 1,9,2025-10-05,13:00,Lyon,Toulouse,Away,1,2,8,5,1,3,0,0
+2025-2026,Ligue 1,9,2025-10-05,15:15,AS Monaco,Nice,Draw,2,2,6,7,1,2,0,1
+2025-2026,Ligue 1,9,2025-10-05,15:15,Le Havre AC,Stade Rennais,Draw,2,2,3,4,1,2,0,0
+2025-2026,Ligue 1,9,2025-10-05,15:15,Strasbourg,Angers,Home,5,0,2,5,2,2,0,0
+2025-2026,Ligue 1,9,2025-10-05,18:45,Lille,Paris Saint-Germain,Draw,1,1,3,5,1,1,0,0
+2025-2026,Ligue 1,11,2025-10-17,18:45,Paris Saint-Germain,Strasbourg,Draw,3,3,4,1,3,1,0,0
+2025-2026,Ligue 1,11,2025-10-18,15:00,Nice,Lyon,Home,3,2,1,16,1,2,0,0
+2025-2026,Ligue 1,11,2025-10-18,17:00,Angers,AS Monaco,Draw,1,1,10,3,2,2,0,0
+2025-2026,Ligue 1,11,2025-10-18,19:05,Marseille,Le Havre AC,Home,6,2,2,1,2,2,0,1
+2025-2026,Ligue 1,11,2025-10-19,13:00,Lens,Paris FC,Home,2,1,11,3,2,2,0,0
+2025-2026,Ligue 1,11,2025-10-19,15:15,Lorient,Brest,Draw,3,3,5,2,3,2,0,0
+2025-2026,Ligue 1,11,2025-10-19,15:15,Stade Rennais,AJ Auxerre,Draw,2,2,6,3,1,3,0,0
+2025-2026,Ligue 1,11,2025-10-19,15:15,Toulouse,Metz,Home,4,0,5,1,2,1,0,1
+2025-2026,Ligue 1,11,2025-10-19,18:45,Nantes,Lille,Away,0,2,5,9,2,5,0,0
+2025-2026,Ligue 1,12,2025-10-24,18:45,Paris FC,Nantes,Away,1,2,8,2,3,3,0,0
+2025-2026,Ligue 1,12,2025-10-25,15:00,Brest,Paris Saint-Germain,Away,0,3,2,7,1,1,0,0
+2025-2026,Ligue 1,12,2025-10-25,17:00,AS Monaco,Toulouse,Home,1,0,2,5,3,5,0,0
+2025-2026,Ligue 1,12,2025-10-25,19:05,Lens,Marseille,Home,2,1,4,8,3,3,0,0
+2025-2026,Ligue 1,12,2025-10-26,14:00,Lille,Metz,Home,6,1,7,8,3,3,0,0
+2025-2026,Ligue 1,12,2025-10-26,16:15,AJ Auxerre,Le Havre AC,Away,0,1,13,5,2,3,0,0
+2025-2026,Ligue 1,12,2025-10-26,16:15,Angers,Lorient,Home,2,0,1,6,1,0,0,0
+2025-2026,Ligue 1,12,2025-10-26,16:15,Stade Rennais,Nice,Away,1,2,7,3,6,2,0,0
+2025-2026,Ligue 1,12,2025-10-26,19:45,Lyon,Strasbourg,Home,2,1,4,2,0,4,0,1
+2025-2026,Ligue 1,12,2025-10-29,18:00,Le Havre AC,Brest,Home,1,0,5,1,1,3,0,0
+2025-2026,Ligue 1,12,2025-10-29,18:00,Lorient,Paris Saint-Germain,Draw,1,1,0,8,0,2,0,0
+2025-2026,Ligue 1,12,2025-10-29,18:00,Metz,Lens,Home,2,0,2,5,2,2,1,0
+2025-2026,Ligue 1,12,2025-10-29,18:00,Nice,Lille,Home,2,0,2,13,3,3,0,0
+2025-2026,Ligue 1,12,2025-10-29,20:05,Marseille,Angers,Draw,2,2,1,5,2,1,0,0
+2025-2026,Ligue 1,12,2025-10-29,20:05,Nantes,AS Monaco,Away,3,5,1,3,4,7,0,0
+2025-2026,Ligue 1,12,2025-10-29,20:05,Paris FC,Lyon,Draw,3,3,4,3,5,2,1,1
+2025-2026,Ligue 1,12,2025-10-29,20:05,Strasbourg,AJ Auxerre,Home,3,0,4,3,1,1,0,0
+2025-2026,Ligue 1,12,2025-10-29,20:05,Toulouse,Stade Rennais,Draw,2,2,5,8,2,3,0,0
+2025-2026,Ligue 1,13,2025-11-01,16:00,Paris Saint-Germain,Nice,Home,1,0,11,1,3,1,0,0
+2025-2026,Ligue 1,13,2025-11-01,18:00,AS Monaco,Paris FC,Away,0,1,3,2,3,2,0,0
+2025-2026,Ligue 1,13,2025-11-01,20:05,AJ Auxerre,Marseille,Away,0,1,3,3,2,4,1,1
+2025-2026,Ligue 1,13,2025-11-02,14:00,Stade Rennais,Strasbourg,Home,4,1,6,5,1,1,0,0
+2025-2026,Ligue 1,13,2025-11-02,16:15,Lens,Lorient,Home,3,0,7,6,2,2,0,0
+2025-2026,Ligue 1,13,2025-11-02,16:15,Lille,Angers,Home,1,0,9,2,1,0,0,0
+2025-2026,Ligue 1,13,2025-11-02,16:15,Nantes,Metz,Away,0,2,8,5,1,3,0,0
+2025-2026,Ligue 1,13,2025-11-02,16:15,Toulouse,Le Havre AC,Draw,0,0,10,2,1,3,0,0
+2025-2026,Ligue 1,13,2025-11-02,19:45,Brest,Lyon,Draw,0,0,12,2,1,0,0,1
+2025-2026,Ligue 1,14,2025-11-07,19:45,Paris FC,Stade Rennais,Away,0,1,8,9,4,2,0,0
+2025-2026,Ligue 1,14,2025-11-08,16:00,Marseille,Brest,Home,3,0,6,2,0,1,0,0
+2025-2026,Ligue 1,14,2025-11-08,18:00,Le Havre AC,Nantes,Draw,1,1,8,3,3,3,0,0
+2025-2026,Ligue 1,14,2025-11-08,20:05,AS Monaco,Lens,Away,1,4,5,4,1,2,1,0
+2025-2026,Ligue 1,14,2025-11-09,14:00,Lorient,Toulouse,Draw,1,1,6,4,0,4,0,0
+2025-2026,Ligue 1,14,2025-11-09,16:15,Angers,AJ Auxerre,Home,2,0,3,3,2,2,0,0
+2025-2026,Ligue 1,14,2025-11-09,16:15,Metz,Nice,Home,2,1,6,3,2,4,0,0
+2025-2026,Ligue 1,14,2025-11-09,16:15,Strasbourg,Lille,Home,2,0,1,4,5,3,1,1
+2025-2026,Ligue 1,14,2025-11-09,19:45,Lyon,Paris Saint-Germain,Away,2,3,5,5,6,2,1,0
+2025-2026,Ligue 1,16,2025-11-21,19:45,Nice,Marseille,Away,1,5,8,6,2,2,0,0
+2025-2026,Ligue 1,16,2025-11-22,16:00,Lens,Strasbourg,Home,1,0,3,1,2,3,1,1
+2025-2026,Ligue 1,16,2025-11-22,18:00,Stade Rennais,AS Monaco,Home,4,1,4,6,0,1,0,1
+2025-2026,Ligue 1,16,2025-11-22,20:05,Paris Saint-Germain,Le Havre AC,Home,3,0,6,4,2,1,0,0
+2025-2026,Ligue 1,16,2025-11-23,14:00,AJ Auxerre,Lyon,Draw,0,0,7,11,1,3,0,0
+2025-2026,Ligue 1,16,2025-11-23,16:15,Brest,Metz,Home,3,2,6,2,2,3,0,0
+2025-2026,Ligue 1,16,2025-11-23,16:15,Nantes,Lorient,Draw,1,1,1,1,1,1,0,0
+2025-2026,Ligue 1,16,2025-11-23,16:15,Toulouse,Angers,Away,0,1,11,1,1,3,0,0
+2025-2026,Ligue 1,16,2025-11-23,19:45,Lille,Paris FC,Home,4,2,9,4,1,2,0,0
+2025-2026,Ligue 1,17,2025-11-28,19:45,Metz,Stade Rennais,Away,0,1,6,3,0,0,0,0
+2025-2026,Ligue 1,17,2025-11-29,16:00,AS Monaco,Paris Saint-Germain,Home,1,0,4,4,4,1,1,0
+2025-2026,Ligue 1,17,2025-11-29,18:00,Paris FC,AJ Auxerre,Draw,1,1,4,3,2,1,0,0
+2025-2026,Ligue 1,17,2025-11-29,20:05,Marseille,Toulouse,Draw,2,2,9,1,2,1,0,0
+2025-2026,Ligue 1,17,2025-11-30,14:00,Strasbourg,Brest,Away,1,2,5,0,0,3,0,0
+2025-2026,Ligue 1,17,2025-11-30,16:15,Angers,Lens,Away,1,2,2,8,1,1,0,0
+2025-2026,Ligue 1,17,2025-11-30,16:15,Le Havre AC,Lille,Away,0,1,6,2,1,3,0,1
+2025-2026,Ligue 1,17,2025-11-30,16:15,Lorient,Nice,Home,3,1,3,7,1,2,0,0
+2025-2026,Ligue 1,17,2025-11-30,19:45,Lyon,Nantes,Home,3,0,7,0,1,2,0,1
+2025-2026,Ligue 1,18,2025-12-05,18:00,Brest,AS Monaco,Home,1,0,2,3,2,4,1,0
+2025-2026,Ligue 1,18,2025-12-05,20:00,Lille,Marseille,Home,1,0,2,5,1,1,0,0
+2025-2026,Ligue 1,18,2025-12-06,16:00,Nantes,Lens,Away,1,2,1,12,2,0,0,0
+2025-2026,Ligue 1,18,2025-12-06,18:00,Toulouse,Strasbourg,Home,1,0,1,2,3,3,0,0
+2025-2026,Ligue 1,18,2025-12-06,20:05,Paris Saint-Germain,Stade Rennais,Home,5,0,8,6,0,2,0,1
+2025-2026,Ligue 1,18,2025-12-07,14:00,Nice,Angers,Away,0,1,4,1,1,1,1,0
+2025-2026,Ligue 1,18,2025-12-07,16:15,AJ Auxerre,Metz,Home,3,1,5,3,2,1,0,0
+2025-2026,Ligue 1,18,2025-12-07,16:15,Le Havre AC,Paris FC,Draw,0,0,7,2,0,2,0,0
+2025-2026,Ligue 1,18,2025-12-07,19:45,Lorient,Lyon,Home,1,0,1,7,2,3,0,1
+2025-2026,Ligue 1,19,2025-12-12,19:45,Angers,Nantes,Home,4,1,6,3,1,2,0,0
+2025-2026,Ligue 1,19,2025-12-13,16:00,Stade Rennais,Brest,Home,3,1,5,7,2,3,0,0
+2025-2026,Ligue 1,19,2025-12-13,18:00,Metz,Paris Saint-Germain,Away,2,3,4,4,2,1,0,0
+2025-2026,Ligue 1,19,2025-12-13,20:05,Paris FC,Toulouse,Away,0,3,7,4,3,1,0,0
+2025-2026,Ligue 1,19,2025-12-14,14:00,Lyon,Le Havre AC,Home,1,0,5,4,2,4,0,0
+2025-2026,Ligue 1,19,2025-12-14,16:15,AJ Auxerre,Lille,Away,3,4,10,3,4,2,2,2
+2025-2026,Ligue 1,19,2025-12-14,16:15,Lens,Nice,Home,2,0,2,5,0,2,0,0
+2025-2026,Ligue 1,19,2025-12-14,16:15,Strasbourg,Lorient,Draw,0,0,11,3,1,0,0,0
+2025-2026,Ligue 1,19,2025-12-14,19:45,Marseille,AS Monaco,Home,1,0,3,7,2,1,0,0
+2025-2026,Ligue 1,22,2026-01-02,19:45,Toulouse,Lens,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,22,2026-01-03,16:00,AS Monaco,Lyon,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,22,2026-01-03,18:00,Nice,Strasbourg,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,22,2026-01-03,20:05,Lille,Stade Rennais,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,22,2026-01-04,14:00,Marseille,Nantes,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,22,2026-01-04,16:15,Brest,AJ Auxerre,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,22,2026-01-04,16:15,Le Havre AC,Angers,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,22,2026-01-04,16:15,Lorient,Metz,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,22,2026-01-04,19:45,Paris Saint-Germain,Paris FC,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,24,2026-01-16,18:00,AS Monaco,Lorient,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,24,2026-01-16,20:00,Paris Saint-Germain,Lille,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,24,2026-01-17,16:00,Lens,AJ Auxerre,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,24,2026-01-17,18:00,Toulouse,Nice,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,24,2026-01-17,20:05,Angers,Marseille,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,24,2026-01-18,14:00,Strasbourg,Metz,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,24,2026-01-18,16:15,Nantes,Paris FC,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,24,2026-01-18,16:15,Stade Rennais,Le Havre AC,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,24,2026-01-18,19:45,Lyon,Brest,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,25,2026-01-23,19:00,AJ Auxerre,Paris Saint-Germain,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,25,2026-01-24,16:00,Stade Rennais,Lorient,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,25,2026-01-24,18:00,Le Havre AC,AS Monaco,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,25,2026-01-24,20:05,Marseille,Lens,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,25,2026-01-25,14:00,Nantes,Nice,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,25,2026-01-25,16:15,Brest,Toulouse,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,25,2026-01-25,16:15,Metz,Lyon,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,25,2026-01-25,16:15,Paris FC,Angers,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,25,2026-01-25,19:45,Lille,Strasbourg,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,26,2026-01-30,19:45,Lens,Le Havre AC,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,26,2026-01-31,16:00,Paris FC,Marseille,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,26,2026-01-31,18:00,Lorient,Nantes,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,26,2026-01-31,20:05,AS Monaco,Stade Rennais,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,26,2026-02-01,14:00,Lyon,Lille,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,26,2026-02-01,16:15,Angers,Metz,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,26,2026-02-01,16:15,Nice,Brest,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,26,2026-02-01,16:15,Toulouse,AJ Auxerre,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,26,2026-02-01,19:45,Strasbourg,Paris Saint-Germain,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,27,2026-02-08,20:00,AJ Auxerre,Paris FC,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,27,2026-02-08,20:00,Angers,Toulouse,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,27,2026-02-08,20:00,Brest,Lorient,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,27,2026-02-08,20:00,Le Havre AC,Strasbourg,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,27,2026-02-08,20:00,Lens,Stade Rennais,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,27,2026-02-08,20:00,Metz,Lille,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,27,2026-02-08,20:00,Nantes,Lyon,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,27,2026-02-08,20:00,Nice,AS Monaco,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,27,2026-02-08,20:00,Paris Saint-Germain,Marseille,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,28,2026-02-15,20:00,AS Monaco,Nantes,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,28,2026-02-15,20:00,Le Havre AC,Toulouse,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,28,2026-02-15,20:00,Lille,Brest,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,28,2026-02-15,20:00,Lorient,Angers,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,28,2026-02-15,20:00,Lyon,Nice,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,28,2026-02-15,20:00,Marseille,Strasbourg,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,28,2026-02-15,20:00,Metz,AJ Auxerre,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,28,2026-02-15,20:00,Paris FC,Lens,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,28,2026-02-15,20:00,Stade Rennais,Paris Saint-Germain,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,29,2026-02-22,20:00,AJ Auxerre,Stade Rennais,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,29,2026-02-22,20:00,Angers,Lille,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,29,2026-02-22,20:00,Brest,Marseille,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,29,2026-02-22,20:00,Lens,AS Monaco,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,29,2026-02-22,20:00,Nantes,Le Havre AC,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,29,2026-02-22,20:00,Nice,Lorient,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,29,2026-02-22,20:00,Paris Saint-Germain,Metz,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,29,2026-02-22,20:00,Strasbourg,Lyon,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,29,2026-02-22,20:00,Toulouse,Paris FC,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,30,2026-03-01,20:00,AS Monaco,Angers,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,30,2026-03-01,20:00,Le Havre AC,Paris Saint-Germain,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,30,2026-03-01,20:00,Lille,Nantes,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,30,2026-03-01,20:00,Lorient,AJ Auxerre,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,30,2026-03-01,20:00,Marseille,Lyon,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,30,2026-03-01,20:00,Metz,Brest,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,30,2026-03-01,20:00,Paris FC,Nice,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,30,2026-03-01,20:00,Stade Rennais,Toulouse,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,30,2026-03-01,20:00,Strasbourg,Lens,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,31,2026-03-08,18:00,AJ Auxerre,Strasbourg,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,31,2026-03-08,18:00,Brest,Le Havre AC,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,31,2026-03-08,18:00,Lens,Metz,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,31,2026-03-08,18:00,Lille,Lorient,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,31,2026-03-08,18:00,Lyon,Paris FC,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,31,2026-03-08,18:00,Nantes,Angers,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,31,2026-03-08,18:00,Nice,Stade Rennais,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,31,2026-03-08,18:00,Paris Saint-Germain,AS Monaco,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,31,2026-03-08,18:00,Toulouse,Marseille,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,32,2026-03-15,18:00,Angers,Nice,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,32,2026-03-15,18:00,AS Monaco,Brest,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,32,2026-03-15,18:00,Le Havre AC,Lyon,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,32,2026-03-15,18:00,Lorient,Lens,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,32,2026-03-15,18:00,Marseille,AJ Auxerre,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,32,2026-03-15,18:00,Metz,Toulouse,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,32,2026-03-15,18:00,Paris Saint-Germain,Nantes,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,32,2026-03-15,18:00,Stade Rennais,Lille,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,32,2026-03-15,18:00,Strasbourg,Paris FC,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,33,2026-03-22,18:00,AJ Auxerre,Brest,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,33,2026-03-22,18:00,Lens,Angers,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,33,2026-03-22,18:00,Lyon,AS Monaco,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,33,2026-03-22,18:00,Marseille,Lille,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,33,2026-03-22,18:00,Nantes,Strasbourg,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,33,2026-03-22,18:00,Nice,Paris Saint-Germain,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,33,2026-03-22,18:00,Paris FC,Le Havre AC,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,33,2026-03-22,18:00,Stade Rennais,Metz,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,33,2026-03-22,18:00,Toulouse,Lorient,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,35,2026-04-05,18:00,Angers,Lyon,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,35,2026-04-05,18:00,AS Monaco,Marseille,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,35,2026-04-05,18:00,Brest,Stade Rennais,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,35,2026-04-05,18:00,Le Havre AC,AJ Auxerre,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,35,2026-04-05,18:00,Lille,Lens,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,35,2026-04-05,18:00,Lorient,Paris FC,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,35,2026-04-05,18:00,Metz,Nantes,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,35,2026-04-05,18:00,Paris Saint-Germain,Toulouse,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,35,2026-04-05,18:00,Strasbourg,Nice,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,36,2026-04-12,18:00,AJ Auxerre,Nantes,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,36,2026-04-12,18:00,Brest,Strasbourg,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,36,2026-04-12,18:00,Lens,Paris Saint-Germain,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,36,2026-04-12,18:00,Lyon,Lorient,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,36,2026-04-12,18:00,Marseille,Metz,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,36,2026-04-12,18:00,Nice,Le Havre AC,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,36,2026-04-12,18:00,Paris FC,AS Monaco,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,36,2026-04-12,18:00,Stade Rennais,Angers,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,36,2026-04-12,18:00,Toulouse,Lille,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,37,2026-04-19,18:00,Angers,Le Havre AC,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,37,2026-04-19,18:00,AS Monaco,AJ Auxerre,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,37,2026-04-19,18:00,Lens,Toulouse,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,37,2026-04-19,18:00,Lille,Nice,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,37,2026-04-19,18:00,Lorient,Marseille,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,37,2026-04-19,18:00,Metz,Paris FC,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,37,2026-04-19,18:00,Nantes,Brest,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,37,2026-04-19,18:00,Paris Saint-Germain,Lyon,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,37,2026-04-19,18:00,Strasbourg,Stade Rennais,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,38,2026-04-26,18:00,Angers,Paris Saint-Germain,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,38,2026-04-26,18:00,Brest,Lens,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,38,2026-04-26,18:00,Le Havre AC,Metz,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,38,2026-04-26,18:00,Lorient,Strasbourg,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,38,2026-04-26,18:00,Lyon,AJ Auxerre,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,38,2026-04-26,18:00,Marseille,Nice,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,38,2026-04-26,18:00,Paris FC,Lille,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,38,2026-04-26,18:00,Stade Rennais,Nantes,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,38,2026-04-26,18:00,Toulouse,AS Monaco,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,39,2026-05-03,18:00,AJ Auxerre,Angers,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,39,2026-05-03,18:00,Lille,Le Havre AC,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,39,2026-05-03,18:00,Lyon,Stade Rennais,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,39,2026-05-03,18:00,Metz,AS Monaco,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,39,2026-05-03,18:00,Nantes,Marseille,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,39,2026-05-03,18:00,Nice,Lens,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,39,2026-05-03,18:00,Paris FC,Brest,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,39,2026-05-03,18:00,Paris Saint-Germain,Lorient,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,39,2026-05-03,18:00,Strasbourg,Toulouse,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,40,2026-05-09,19:00,AJ Auxerre,Nice,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,40,2026-05-09,19:00,Angers,Strasbourg,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,40,2026-05-09,19:00,AS Monaco,Lille,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,40,2026-05-09,19:00,Le Havre AC,Marseille,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,40,2026-05-09,19:00,Lens,Nantes,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,40,2026-05-09,19:00,Metz,Lorient,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,40,2026-05-09,19:00,Paris Saint-Germain,Brest,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,40,2026-05-09,19:00,Stade Rennais,Paris FC,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,40,2026-05-09,19:00,Toulouse,Lyon,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,41,2026-05-16,19:00,Brest,Angers,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,41,2026-05-16,19:00,Lille,AJ Auxerre,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,41,2026-05-16,19:00,Lorient,Le Havre AC,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,41,2026-05-16,19:00,Lyon,Lens,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,41,2026-05-16,19:00,Marseille,Stade Rennais,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,41,2026-05-16,19:00,Nantes,Toulouse,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,41,2026-05-16,19:00,Nice,Metz,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,41,2026-05-16,19:00,Paris FC,Paris Saint-Germain,TBD,0,0,0,0,0,0,0,0
+2025-2026,Ligue 1,41,2026-05-16,19:00,Strasbourg,AS Monaco,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,1,2025-08-08,18:00,Fortuna Sittard,Go Ahead Eagles,Draw,2,2,8,5,2,2,0,1
+2025-2026,Eredivisie,1,2025-08-09,14:30,NEC Nijmegen,Excelsior,Home,5,0,7,2,1,1,0,0
+2025-2026,Eredivisie,1,2025-08-09,16:45,Feyenoord Rotterdam,NAC Breda,Home,2,0,3,4,1,1,0,0
+2025-2026,Eredivisie,1,2025-08-09,18:00,Heerenveen,FC Volendam,Draw,1,1,9,2,1,1,0,0
+2025-2026,Eredivisie,1,2025-08-09,19:00,PSV Eindhoven,Sparta Rotterdam,Home,6,1,8,5,1,1,0,0
+2025-2026,Eredivisie,1,2025-08-10,10:15,PEC Zwolle,FC Twente,Home,1,0,2,4,4,1,0,0
+2025-2026,Eredivisie,1,2025-08-10,12:30,Ajax Amsterdam,Telstar,Home,2,0,8,10,0,0,0,0
+2025-2026,Eredivisie,1,2025-08-10,12:30,AZ Alkmaar,FC Groningen,Home,4,1,6,1,2,2,0,0
+2025-2026,Eredivisie,1,2025-08-10,14:45,FC Utrecht,Heracles Almelo,Home,4,0,4,4,1,2,0,0
+2025-2026,Eredivisie,2,2025-08-15,18:00,Telstar,PEC Zwolle,Away,0,2,7,0,3,3,0,0
+2025-2026,Eredivisie,2,2025-08-16,16:45,Excelsior,Feyenoord Rotterdam,Away,1,2,5,6,0,2,0,0
+2025-2026,Eredivisie,2,2025-08-16,18:00,Heracles Almelo,NEC Nijmegen,Away,1,4,3,7,2,2,1,0
+2025-2026,Eredivisie,2,2025-08-16,19:00,FC Groningen,Heerenveen,Home,2,1,3,8,4,2,0,0
+2025-2026,Eredivisie,2,2025-08-17,10:15,Go Ahead Eagles,Ajax Amsterdam,Draw,2,2,6,9,1,2,0,0
+2025-2026,Eredivisie,2,2025-08-17,12:30,FC Twente,PSV Eindhoven,Away,0,2,8,6,1,2,0,0
+2025-2026,Eredivisie,2,2025-08-17,12:30,Sparta Rotterdam,FC Utrecht,Home,2,1,5,6,1,3,0,0
+2025-2026,Eredivisie,2,2025-08-17,14:45,FC Volendam,AZ Alkmaar,Draw,2,2,3,4,1,3,0,0
+2025-2026,Eredivisie,2,2025-08-17,18:00,NAC Breda,Fortuna Sittard,Home,2,1,4,5,2,3,0,0
+2025-2026,Eredivisie,3,2025-08-23,14:30,Go Ahead Eagles,Sparta Rotterdam,Away,0,3,13,1,0,2,0,0
+2025-2026,Eredivisie,3,2025-08-23,16:45,PSV Eindhoven,FC Groningen,Home,4,2,6,4,0,2,0,0
+2025-2026,Eredivisie,3,2025-08-23,19:00,Telstar,FC Volendam,Draw,2,2,4,6,3,0,0,0
+2025-2026,Eredivisie,3,2025-08-24,10:15,Heerenveen,FC Twente,Away,1,2,8,4,2,4,1,0
+2025-2026,Eredivisie,3,2025-08-24,12:30,FC Utrecht,Excelsior,Home,4,1,7,5,0,0,0,0
+2025-2026,Eredivisie,3,2025-08-24,12:30,NEC Nijmegen,NAC Breda,Home,3,0,3,1,2,5,0,0
+2025-2026,Eredivisie,3,2025-08-24,14:45,Ajax Amsterdam,Heracles Almelo,Home,2,0,10,1,0,2,0,0
+2025-2026,Eredivisie,4,2025-08-29,18:00,FC Groningen,Heracles Almelo,Home,4,0,6,3,2,1,0,0
+2025-2026,Eredivisie,4,2025-08-30,14:30,FC Volendam,Ajax Amsterdam,Draw,1,1,2,7,2,3,0,0
+2025-2026,Eredivisie,4,2025-08-30,16:45,Heerenveen,Go Ahead Eagles,Draw,2,2,3,7,3,1,0,0
+2025-2026,Eredivisie,4,2025-08-30,18:00,PSV Eindhoven,Telstar,Away,0,2,10,3,1,1,0,0
+2025-2026,Eredivisie,4,2025-08-30,19:00,Excelsior,FC Twente,Home,1,0,1,4,2,2,1,0
+2025-2026,Eredivisie,4,2025-08-31,10:15,Fortuna Sittard,NEC Nijmegen,Home,3,2,3,4,4,1,0,0
+2025-2026,Eredivisie,4,2025-08-31,12:30,PEC Zwolle,FC Utrecht,Away,0,2,3,2,2,1,0,0
+2025-2026,Eredivisie,4,2025-08-31,12:30,Sparta Rotterdam,Feyenoord Rotterdam,Away,0,4,1,9,1,2,1,0
+2025-2026,Eredivisie,4,2025-08-31,14:45,NAC Breda,AZ Alkmaar,Away,0,1,1,7,0,5,1,0
+2025-2026,Eredivisie,6,2025-09-13,14:30,Ajax Amsterdam,PEC Zwolle,Home,3,1,7,1,2,1,0,0
+2025-2026,Eredivisie,6,2025-09-13,16:45,NEC Nijmegen,PSV Eindhoven,Away,3,5,8,4,2,6,0,0
+2025-2026,Eredivisie,6,2025-09-13,17:10,Go Ahead Eagles,FC Volendam,Home,3,0,7,7,1,1,0,0
+2025-2026,Eredivisie,6,2025-09-13,19:00,FC Twente,NAC Breda,Draw,2,2,4,3,2,2,0,0
+2025-2026,Eredivisie,6,2025-09-13,19:00,Feyenoord Rotterdam,Heerenveen,Home,1,0,6,3,2,1,1,1
+2025-2026,Eredivisie,6,2025-09-14,10:15,Excelsior,Sparta Rotterdam,Away,0,1,7,2,3,1,1,0
+2025-2026,Eredivisie,6,2025-09-14,12:30,FC Utrecht,FC Groningen,Away,0,1,3,4,0,4,0,0
+2025-2026,Eredivisie,6,2025-09-14,12:30,Heracles Almelo,AZ Alkmaar,Away,1,2,6,9,1,5,0,0
+2025-2026,Eredivisie,6,2025-09-14,14:45,Telstar,Fortuna Sittard,Away,1,3,10,1,1,1,0,0
+2025-2026,Eredivisie,6,2025-09-17,18:00,Feyenoord Rotterdam,Fortuna Sittard,Home,2,0,13,0,0,1,0,0
+2025-2026,Eredivisie,7,2025-09-19,18:00,Sparta Rotterdam,FC Twente,Away,1,5,1,6,0,1,0,0
+2025-2026,Eredivisie,7,2025-09-20,14:30,FC Volendam,Excelsior,Away,1,2,5,3,3,2,0,0
+2025-2026,Eredivisie,7,2025-09-20,16:45,FC Groningen,Telstar,Home,2,0,7,2,1,3,0,0
+2025-2026,Eredivisie,7,2025-09-20,18:00,Fortuna Sittard,FC Utrecht,Home,1,0,1,11,4,2,0,0
+2025-2026,Eredivisie,7,2025-09-20,19:00,NAC Breda,Heracles Almelo,Home,2,1,10,4,1,2,0,0
+2025-2026,Eredivisie,7,2025-09-21,10:15,PEC Zwolle,Go Ahead Eagles,Away,0,2,3,7,1,2,1,0
+2025-2026,Eredivisie,7,2025-09-21,12:30,Heerenveen,NEC Nijmegen,Home,3,2,6,6,2,1,0,1
+2025-2026,Eredivisie,7,2025-09-21,12:30,PSV Eindhoven,Ajax Amsterdam,Draw,2,2,9,5,2,5,0,0
+2025-2026,Eredivisie,7,2025-09-21,14:45,AZ Alkmaar,Feyenoord Rotterdam,Draw,3,3,4,11,4,4,0,1
+2025-2026,Eredivisie,7,2025-09-24,18:00,AZ Alkmaar,PEC Zwolle,Draw,2,2,9,1,1,2,0,0
+2025-2026,Eredivisie,8,2025-09-26,18:00,FC Twente,Fortuna Sittard,Home,3,2,4,5,1,3,0,0
+2025-2026,Eredivisie,8,2025-09-27,14:30,Ajax Amsterdam,NAC Breda,Home,2,1,3,7,2,3,0,1
+2025-2026,Eredivisie,8,2025-09-27,16:45,FC Volendam,PEC Zwolle,Home,2,1,3,5,2,3,0,0
+2025-2026,Eredivisie,8,2025-09-27,18:00,Excelsior,PSV Eindhoven,Away,1,2,3,2,0,0,0,0
+2025-2026,Eredivisie,8,2025-09-27,19:00,Heracles Almelo,Sparta Rotterdam,Home,3,0,5,4,2,4,0,0
+2025-2026,Eredivisie,8,2025-09-28,10:15,NEC Nijmegen,AZ Alkmaar,Home,2,1,5,4,1,5,0,1
+2025-2026,Eredivisie,8,2025-09-28,12:30,FC Groningen,Feyenoord Rotterdam,Away,0,1,3,4,1,2,1,0
+2025-2026,Eredivisie,8,2025-09-28,12:30,FC Utrecht,Heerenveen,Draw,2,2,5,3,2,2,0,0
+2025-2026,Eredivisie,8,2025-09-28,14:45,Telstar,Go Ahead Eagles,Home,4,2,8,3,2,0,0,0
+2025-2026,Eredivisie,9,2025-10-03,18:00,NAC Breda,FC Groningen,Away,1,2,7,6,3,1,0,0
+2025-2026,Eredivisie,9,2025-10-04,14:30,Sparta Rotterdam,Ajax Amsterdam,Draw,3,3,6,4,1,4,0,0
+2025-2026,Eredivisie,9,2025-10-04,16:45,Fortuna Sittard,FC Volendam,Home,1,0,7,4,1,2,0,0
+2025-2026,Eredivisie,9,2025-10-04,18:00,PEC Zwolle,PSV Eindhoven,Away,0,4,4,8,0,3,1,0
+2025-2026,Eredivisie,9,2025-10-04,19:00,Heerenveen,Excelsior,Home,2,1,7,3,2,3,0,0
+2025-2026,Eredivisie,9,2025-10-05,10:15,FC Twente,Heracles Almelo,Home,2,1,4,3,0,2,1,0
+2025-2026,Eredivisie,9,2025-10-05,12:30,Feyenoord Rotterdam,FC Utrecht,Home,3,2,12,3,2,0,0,0
+2025-2026,Eredivisie,9,2025-10-05,14:45,AZ Alkmaar,Telstar,Home,2,1,6,4,3,2,0,0
+2025-2026,Eredivisie,9,2025-10-05,18:00,Go Ahead Eagles,NEC Nijmegen,Draw,1,1,11,4,1,4,0,1
+2025-2026,Eredivisie,11,2025-10-18,14:45,NEC Nijmegen,FC Twente,Draw,3,3,3,3,2,3,0,0
+2025-2026,Eredivisie,11,2025-10-18,16:45,FC Utrecht,FC Volendam,Home,3,1,10,0,1,1,0,0
+2025-2026,Eredivisie,11,2025-10-18,16:45,PSV Eindhoven,Go Ahead Eagles,Home,2,1,6,1,1,1,0,0
+2025-2026,Eredivisie,11,2025-10-18,19:00,Ajax Amsterdam,AZ Alkmaar,Away,0,2,5,4,5,2,0,0
+2025-2026,Eredivisie,11,2025-10-18,19:00,NAC Breda,PEC Zwolle,Draw,2,2,3,2,1,3,0,0
+2025-2026,Eredivisie,11,2025-10-19,10:15,Telstar,Heerenveen,Away,2,3,6,11,1,2,0,0
+2025-2026,Eredivisie,11,2025-10-19,12:30,Excelsior,Fortuna Sittard,Home,1,0,4,2,0,3,0,0
+2025-2026,Eredivisie,11,2025-10-19,12:30,FC Groningen,Sparta Rotterdam,Away,0,2,7,4,3,2,0,0
+2025-2026,Eredivisie,11,2025-10-19,14:45,Heracles Almelo,Feyenoord Rotterdam,Away,0,7,2,8,1,2,0,0
+2025-2026,Eredivisie,12,2025-10-24,18:00,Heerenveen,NAC Breda,Draw,3,3,4,5,1,0,0,0
+2025-2026,Eredivisie,12,2025-10-25,14:40,Fortuna Sittard,FC Groningen,Away,1,2,7,7,3,2,0,0
+2025-2026,Eredivisie,12,2025-10-25,16:45,Sparta Rotterdam,Telstar,Home,1,0,6,7,3,2,0,0
+2025-2026,Eredivisie,12,2025-10-25,18:00,FC Volendam,Heracles Almelo,Home,3,0,5,5,0,2,0,1
+2025-2026,Eredivisie,12,2025-10-25,19:00,PEC Zwolle,NEC Nijmegen,Draw,2,2,3,4,0,1,0,0
+2025-2026,Eredivisie,12,2025-10-26,11:15,FC Twente,Ajax Amsterdam,Away,2,3,6,1,0,2,0,0
+2025-2026,Eredivisie,12,2025-10-26,13:30,Feyenoord Rotterdam,PSV Eindhoven,Away,2,3,3,5,0,1,0,0
+2025-2026,Eredivisie,12,2025-10-26,15:45,AZ Alkmaar,FC Utrecht,Home,4,1,8,2,0,1,0,0
+2025-2026,Eredivisie,12,2025-10-26,19:00,Go Ahead Eagles,Excelsior,Home,2,0,4,10,1,2,0,0
+2025-2026,Eredivisie,13,2025-10-31,19:00,PSV Eindhoven,Fortuna Sittard,Home,5,2,7,4,0,4,0,0
+2025-2026,Eredivisie,13,2025-11-01,15:30,Ajax Amsterdam,Heerenveen,Draw,1,1,5,4,0,2,0,0
+2025-2026,Eredivisie,13,2025-11-01,17:45,NAC Breda,Go Ahead Eagles,Home,1,0,2,2,4,3,0,0
+2025-2026,Eredivisie,13,2025-11-01,19:00,Feyenoord Rotterdam,FC Volendam,Home,3,1,10,1,0,0,0,0
+2025-2026,Eredivisie,13,2025-11-01,20:00,Telstar,Excelsior,Draw,2,2,3,5,0,2,0,0
+2025-2026,Eredivisie,13,2025-11-02,11:15,Heracles Almelo,PEC Zwolle,Home,8,2,4,2,0,2,0,1
+2025-2026,Eredivisie,13,2025-11-02,13:30,FC Groningen,FC Twente,Draw,1,1,7,3,2,4,0,0
+2025-2026,Eredivisie,13,2025-11-02,13:30,Sparta Rotterdam,AZ Alkmaar,Away,0,1,6,9,1,1,0,0
+2025-2026,Eredivisie,13,2025-11-02,15:45,FC Utrecht,NEC Nijmegen,Home,1,0,2,2,1,2,0,0
+2025-2026,Eredivisie,14,2025-11-07,19:00,FC Twente,Telstar,Draw,0,0,10,2,3,2,1,1
+2025-2026,Eredivisie,14,2025-11-08,15:30,Excelsior,Heracles Almelo,Away,1,2,6,13,1,2,0,0
+2025-2026,Eredivisie,14,2025-11-08,17:45,FC Volendam,NAC Breda,Home,2,1,8,6,2,3,0,3
+2025-2026,Eredivisie,14,2025-11-08,19:00,Fortuna Sittard,Heerenveen,Home,2,0,4,5,2,1,0,0
+2025-2026,Eredivisie,14,2025-11-08,20:00,PEC Zwolle,Sparta Rotterdam,Home,1,0,3,6,2,3,0,1
+2025-2026,Eredivisie,14,2025-11-09,11:15,FC Utrecht,Ajax Amsterdam,Home,2,1,6,4,1,0,0,0
+2025-2026,Eredivisie,14,2025-11-09,13:30,NEC Nijmegen,FC Groningen,Home,2,0,9,3,1,1,0,0
+2025-2026,Eredivisie,14,2025-11-09,15:45,AZ Alkmaar,PSV Eindhoven,Away,1,5,4,6,2,1,0,0
+2025-2026,Eredivisie,14,2025-11-09,19:00,Go Ahead Eagles,Feyenoord Rotterdam,Home,2,1,4,7,2,1,0,0
+2025-2026,Eredivisie,16,2025-11-22,15:30,NAC Breda,PSV Eindhoven,Away,0,1,6,5,2,1,0,0
+2025-2026,Eredivisie,16,2025-11-22,17:45,Ajax Amsterdam,Excelsior,Away,1,2,9,2,2,1,0,0
+2025-2026,Eredivisie,16,2025-11-22,17:45,FC Volendam,FC Twente,Draw,1,1,4,4,0,3,0,0
+2025-2026,Eredivisie,16,2025-11-22,20:00,Heracles Almelo,Go Ahead Eagles,Home,4,2,6,3,1,3,0,1
+2025-2026,Eredivisie,16,2025-11-22,20:00,Sparta Rotterdam,Fortuna Sittard,Draw,1,1,7,5,1,1,0,0
+2025-2026,Eredivisie,16,2025-11-23,11:15,Heerenveen,AZ Alkmaar,Home,3,1,8,5,2,0,0,0
+2025-2026,Eredivisie,16,2025-11-23,13:30,Feyenoord Rotterdam,NEC Nijmegen,Away,2,4,7,6,1,1,0,0
+2025-2026,Eredivisie,16,2025-11-23,13:30,Telstar,FC Utrecht,Draw,1,1,1,9,2,2,0,0
+2025-2026,Eredivisie,16,2025-11-23,15:45,FC Groningen,PEC Zwolle,Draw,2,2,13,0,1,2,0,1
+2025-2026,Eredivisie,17,2025-11-28,19:00,PEC Zwolle,Heerenveen,Home,2,1,3,9,3,2,0,0
+2025-2026,Eredivisie,17,2025-11-29,15:30,Excelsior,NAC Breda,Home,1,0,1,6,4,1,0,0
+2025-2026,Eredivisie,17,2025-11-29,17:45,Fortuna Sittard,Heracles Almelo,Draw,1,1,11,3,3,5,0,0
+2025-2026,Eredivisie,17,2025-11-29,20:00,NEC Nijmegen,Sparta Rotterdam,Home,3,1,7,6,2,5,0,1
+2025-2026,Eredivisie,17,2025-11-30,11:15,PSV Eindhoven,FC Volendam,Home,3,0,5,2,0,0,0,0
+2025-2026,Eredivisie,17,2025-11-30,13:30,Go Ahead Eagles,FC Utrecht,Draw,2,2,4,3,3,2,0,0
+2025-2026,Eredivisie,17,2025-11-30,13:30,Telstar,Feyenoord Rotterdam,Away,1,2,3,6,0,3,0,0
+2025-2026,Eredivisie,17,2025-11-30,15:45,FC Twente,AZ Alkmaar,Home,1,0,2,3,3,4,0,0
+2025-2026,Eredivisie,17,2025-12-02,13:30,Ajax Amsterdam,FC Groningen,Home,2,0,3,5,1,0,0,0
+2025-2026,Eredivisie,18,2025-12-05,19:00,Excelsior,FC Groningen,Away,0,2,5,6,2,2,1,1
+2025-2026,Eredivisie,18,2025-12-06,15:30,Heerenveen,PSV Eindhoven,Away,0,2,7,3,1,0,0,0
+2025-2026,Eredivisie,18,2025-12-06,17:45,Fortuna Sittard,Ajax Amsterdam,Away,1,3,4,4,3,3,1,1
+2025-2026,Eredivisie,18,2025-12-06,19:00,Heracles Almelo,Telstar,Draw,1,1,6,6,3,2,0,0
+2025-2026,Eredivisie,18,2025-12-06,20:00,Feyenoord Rotterdam,PEC Zwolle,Home,6,1,8,4,1,1,0,0
+2025-2026,Eredivisie,18,2025-12-07,11:15,FC Utrecht,FC Twente,Draw,1,1,6,8,1,2,0,0
+2025-2026,Eredivisie,18,2025-12-07,13:30,AZ Alkmaar,Go Ahead Eagles,Draw,2,2,11,4,2,1,0,0
+2025-2026,Eredivisie,18,2025-12-07,13:30,FC Volendam,NEC Nijmegen,Away,2,3,4,8,2,5,0,0
+2025-2026,Eredivisie,18,2025-12-07,15:45,Sparta Rotterdam,NAC Breda,Home,1,0,1,14,1,1,0,0
+2025-2026,Eredivisie,19,2025-12-13,15:30,Telstar,NEC Nijmegen,Draw,2,2,5,7,0,2,0,0
+2025-2026,Eredivisie,19,2025-12-13,17:45,FC Groningen,FC Volendam,Home,3,0,18,1,0,1,0,1
+2025-2026,Eredivisie,19,2025-12-13,19:00,PSV Eindhoven,Heracles Almelo,Home,4,3,10,4,2,4,0,0
+2025-2026,Eredivisie,19,2025-12-13,20:00,PEC Zwolle,Fortuna Sittard,Home,1,0,2,12,3,3,0,0
+2025-2026,Eredivisie,19,2025-12-14,11:15,Sparta Rotterdam,Heerenveen,Away,0,3,5,10,1,2,0,0
+2025-2026,Eredivisie,19,2025-12-14,13:30,Ajax Amsterdam,Feyenoord Rotterdam,Home,2,0,3,12,2,1,0,0
+2025-2026,Eredivisie,19,2025-12-14,13:30,FC Twente,Go Ahead Eagles,Home,2,0,3,6,0,3,0,0
+2025-2026,Eredivisie,19,2025-12-14,15:45,AZ Alkmaar,Excelsior,Draw,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,19,2025-12-14,15:45,NAC Breda,FC Utrecht,Draw,1,1,6,5,2,2,0,0
+2025-2026,Eredivisie,20,2025-12-20,15:30,Heracles Almelo,Heerenveen,Away,0,3,4,4,1,1,0,0
+2025-2026,Eredivisie,20,2025-12-20,17:45,Excelsior,PEC Zwolle,Home,2,1,3,1,1,1,0,0
+2025-2026,Eredivisie,20,2025-12-20,19:00,NEC Nijmegen,Ajax Amsterdam,Draw,2,2,1,7,3,3,1,0
+2025-2026,Eredivisie,20,2025-12-20,20:00,NAC Breda,Telstar,Away,0,1,8,3,2,3,0,0
+2025-2026,Eredivisie,20,2025-12-21,11:15,FC Utrecht,PSV Eindhoven,Away,1,2,2,12,3,4,0,1
+2025-2026,Eredivisie,20,2025-12-21,13:30,Feyenoord Rotterdam,FC Twente,Draw,1,1,7,12,1,0,1,0
+2025-2026,Eredivisie,20,2025-12-21,13:30,Go Ahead Eagles,FC Groningen,Draw,1,1,1,8,2,1,0,0
+2025-2026,Eredivisie,20,2025-12-21,15:45,FC Volendam,Sparta Rotterdam,Away,0,1,6,8,3,2,0,0
+2025-2026,Eredivisie,20,2025-12-21,15:45,Fortuna Sittard,AZ Alkmaar,Home,4,3,5,8,3,0,0,0
+2025-2026,Eredivisie,23,2026-01-09,19:00,NEC Nijmegen,FC Utrecht,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,23,2026-01-10,15:30,AZ Alkmaar,FC Volendam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,23,2026-01-10,17:45,FC Twente,PEC Zwolle,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,23,2026-01-10,19:00,PSV Eindhoven,Excelsior,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,23,2026-01-10,20:00,FC Groningen,NAC Breda,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,23,2026-01-11,11:15,Heerenveen,Feyenoord Rotterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,23,2026-01-11,13:30,Go Ahead Eagles,Fortuna Sittard,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,23,2026-01-11,13:30,Telstar,Ajax Amsterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,23,2026-01-11,15:45,Sparta Rotterdam,Heracles Almelo,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,24,2026-01-16,19:00,Excelsior,Telstar,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,24,2026-01-17,15:30,Ajax Amsterdam,Go Ahead Eagles,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,24,2026-01-17,17:45,PEC Zwolle,AZ Alkmaar,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,24,2026-01-17,19:00,Fortuna Sittard,PSV Eindhoven,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,24,2026-01-17,20:00,NAC Breda,NEC Nijmegen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,24,2026-01-18,11:15,Heerenveen,FC Groningen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,24,2026-01-18,13:30,FC Volendam,FC Utrecht,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,24,2026-01-18,13:30,Heracles Almelo,FC Twente,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,24,2026-01-18,15:45,Feyenoord Rotterdam,Sparta Rotterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,25,2026-01-24,15:30,Ajax Amsterdam,FC Volendam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,25,2026-01-24,17:45,NEC Nijmegen,PEC Zwolle,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,25,2026-01-24,19:00,PSV Eindhoven,NAC Breda,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,25,2026-01-24,20:00,FC Twente,Excelsior,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,25,2026-01-25,11:15,Telstar,AZ Alkmaar,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,25,2026-01-25,13:30,FC Groningen,Fortuna Sittard,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,25,2026-01-25,15:45,FC Utrecht,Sparta Rotterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,25,2026-01-25,15:45,Feyenoord Rotterdam,Heracles Almelo,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,25,2026-01-25,19:00,Go Ahead Eagles,Heerenveen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,26,2026-01-30,19:00,NAC Breda,FC Twente,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,26,2026-01-31,15:30,AZ Alkmaar,NEC Nijmegen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,26,2026-01-31,17:45,PEC Zwolle,Telstar,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,26,2026-01-31,20:00,Sparta Rotterdam,FC Groningen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,26,2026-02-01,11:15,Excelsior,Ajax Amsterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,26,2026-02-01,13:30,Heracles Almelo,Fortuna Sittard,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,26,2026-02-01,13:30,PSV Eindhoven,Feyenoord Rotterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,26,2026-02-01,15:45,Heerenveen,FC Utrecht,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,26,2026-02-01,19:00,FC Volendam,Go Ahead Eagles,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,27,2026-02-07,20:00,AZ Alkmaar,Ajax Amsterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,27,2026-02-07,20:00,FC Groningen,PSV Eindhoven,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,27,2026-02-07,20:00,FC Twente,Heerenveen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,27,2026-02-07,20:00,FC Utrecht,Feyenoord Rotterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,27,2026-02-07,20:00,Fortuna Sittard,Sparta Rotterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,27,2026-02-07,20:00,Go Ahead Eagles,Telstar,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,27,2026-02-07,20:00,NAC Breda,Excelsior,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,27,2026-02-07,20:00,NEC Nijmegen,Heracles Almelo,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,27,2026-02-07,20:00,PEC Zwolle,FC Volendam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,28,2026-02-14,20:00,Ajax Amsterdam,Fortuna Sittard,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,28,2026-02-14,20:00,Excelsior,AZ Alkmaar,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,28,2026-02-14,20:00,FC Groningen,FC Utrecht,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,28,2026-02-14,20:00,FC Volendam,PSV Eindhoven,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,28,2026-02-14,20:00,Feyenoord Rotterdam,Go Ahead Eagles,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,28,2026-02-14,20:00,Heerenveen,PEC Zwolle,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,28,2026-02-14,20:00,Heracles Almelo,NAC Breda,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,28,2026-02-14,20:00,Sparta Rotterdam,NEC Nijmegen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,28,2026-02-14,20:00,Telstar,FC Twente,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,29,2026-02-21,20:00,Ajax Amsterdam,NEC Nijmegen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,29,2026-02-21,20:00,AZ Alkmaar,Sparta Rotterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,29,2026-02-21,20:00,FC Twente,FC Groningen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,29,2026-02-21,20:00,FC Utrecht,PEC Zwolle,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,29,2026-02-21,20:00,Feyenoord Rotterdam,Telstar,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,29,2026-02-21,20:00,Fortuna Sittard,Excelsior,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,29,2026-02-21,20:00,Go Ahead Eagles,Heracles Almelo,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,29,2026-02-21,20:00,NAC Breda,FC Volendam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,29,2026-02-21,20:00,PSV Eindhoven,Heerenveen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,30,2026-02-28,20:00,Excelsior,Go Ahead Eagles,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,30,2026-02-28,20:00,FC Twente,Feyenoord Rotterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,30,2026-02-28,20:00,FC Utrecht,AZ Alkmaar,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,30,2026-02-28,20:00,FC Volendam,FC Groningen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,30,2026-02-28,20:00,Heerenveen,Sparta Rotterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,30,2026-02-28,20:00,Heracles Almelo,PSV Eindhoven,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,30,2026-02-28,20:00,NEC Nijmegen,Fortuna Sittard,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,30,2026-02-28,20:00,PEC Zwolle,Ajax Amsterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,30,2026-02-28,20:00,Telstar,NAC Breda,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,31,2026-03-07,20:00,Excelsior,Heerenveen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,31,2026-03-07,20:00,FC Groningen,Ajax Amsterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,31,2026-03-07,20:00,Fortuna Sittard,Telstar,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,31,2026-03-07,20:00,Go Ahead Eagles,FC Twente,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,31,2026-03-07,20:00,Heracles Almelo,FC Utrecht,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,31,2026-03-07,20:00,NAC Breda,Feyenoord Rotterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,31,2026-03-07,20:00,NEC Nijmegen,FC Volendam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,31,2026-03-07,20:00,PSV Eindhoven,AZ Alkmaar,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,31,2026-03-07,20:00,Sparta Rotterdam,PEC Zwolle,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,32,2026-03-14,18:00,Ajax Amsterdam,Sparta Rotterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,32,2026-03-14,18:00,AZ Alkmaar,Heracles Almelo,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,32,2026-03-14,18:00,FC Twente,FC Utrecht,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,32,2026-03-14,18:00,FC Volendam,Fortuna Sittard,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,32,2026-03-14,18:00,Feyenoord Rotterdam,Excelsior,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,32,2026-03-14,18:00,Go Ahead Eagles,NAC Breda,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,32,2026-03-14,18:00,Heerenveen,Telstar,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,32,2026-03-14,18:00,PEC Zwolle,FC Groningen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,32,2026-03-14,18:00,PSV Eindhoven,NEC Nijmegen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,33,2026-03-21,18:00,FC Groningen,AZ Alkmaar,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,33,2026-03-21,18:00,FC Utrecht,Go Ahead Eagles,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,33,2026-03-21,18:00,Feyenoord Rotterdam,Ajax Amsterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,33,2026-03-21,18:00,Fortuna Sittard,FC Twente,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,33,2026-03-21,18:00,Heracles Almelo,Excelsior,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,33,2026-03-21,18:00,NEC Nijmegen,Heerenveen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,33,2026-03-21,18:00,PEC Zwolle,NAC Breda,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,33,2026-03-21,18:00,Sparta Rotterdam,FC Volendam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,33,2026-03-21,18:00,Telstar,PSV Eindhoven,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,35,2026-04-04,18:00,Ajax Amsterdam,FC Twente,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,35,2026-04-04,18:00,AZ Alkmaar,Fortuna Sittard,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,35,2026-04-04,18:00,Excelsior,NEC Nijmegen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,35,2026-04-04,18:00,FC Volendam,Feyenoord Rotterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,35,2026-04-04,18:00,Go Ahead Eagles,PEC Zwolle,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,35,2026-04-04,18:00,Heerenveen,Heracles Almelo,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,35,2026-04-04,18:00,NAC Breda,Sparta Rotterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,35,2026-04-04,18:00,PSV Eindhoven,FC Utrecht,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,35,2026-04-04,18:00,Telstar,FC Groningen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,36,2026-04-11,18:00,AZ Alkmaar,Heerenveen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,36,2026-04-11,18:00,FC Groningen,Go Ahead Eagles,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,36,2026-04-11,18:00,FC Twente,FC Volendam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,36,2026-04-11,18:00,FC Utrecht,Telstar,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,36,2026-04-11,18:00,Fortuna Sittard,NAC Breda,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,36,2026-04-11,18:00,Heracles Almelo,Ajax Amsterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,36,2026-04-11,18:00,NEC Nijmegen,Feyenoord Rotterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,36,2026-04-11,18:00,PEC Zwolle,Excelsior,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,36,2026-04-11,18:00,Sparta Rotterdam,PSV Eindhoven,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,37,2026-04-23,18:00,Excelsior,FC Utrecht,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,37,2026-04-23,18:00,FC Twente,NEC Nijmegen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,37,2026-04-23,18:00,Feyenoord Rotterdam,FC Groningen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,37,2026-04-23,18:00,Go Ahead Eagles,AZ Alkmaar,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,37,2026-04-23,18:00,Heerenveen,Fortuna Sittard,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,37,2026-04-23,18:00,Heracles Almelo,FC Volendam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,37,2026-04-23,18:00,NAC Breda,Ajax Amsterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,37,2026-04-23,18:00,PSV Eindhoven,PEC Zwolle,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,37,2026-04-23,18:00,Telstar,Sparta Rotterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,39,2026-05-02,18:00,Ajax Amsterdam,PSV Eindhoven,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,39,2026-05-02,18:00,AZ Alkmaar,FC Twente,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,39,2026-05-02,18:00,FC Groningen,Excelsior,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,39,2026-05-02,18:00,FC Utrecht,NAC Breda,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,39,2026-05-02,18:00,FC Volendam,Heerenveen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,39,2026-05-02,18:00,Fortuna Sittard,Feyenoord Rotterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,39,2026-05-02,18:00,NEC Nijmegen,Telstar,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,39,2026-05-02,18:00,PEC Zwolle,Heracles Almelo,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,39,2026-05-02,18:00,Sparta Rotterdam,Go Ahead Eagles,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,40,2026-05-10,14:45,Ajax Amsterdam,FC Utrecht,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,40,2026-05-10,14:45,Excelsior,FC Volendam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,40,2026-05-10,14:45,FC Groningen,NEC Nijmegen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,40,2026-05-10,14:45,FC Twente,Sparta Rotterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,40,2026-05-10,14:45,Feyenoord Rotterdam,AZ Alkmaar,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,40,2026-05-10,14:45,Fortuna Sittard,PEC Zwolle,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,40,2026-05-10,14:45,Go Ahead Eagles,PSV Eindhoven,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,40,2026-05-10,14:45,NAC Breda,Heerenveen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,40,2026-05-10,14:45,Telstar,Heracles Almelo,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,41,2026-05-17,12:30,AZ Alkmaar,NAC Breda,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,41,2026-05-17,12:30,FC Utrecht,Fortuna Sittard,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,41,2026-05-17,12:30,FC Volendam,Telstar,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,41,2026-05-17,12:30,Heerenveen,Ajax Amsterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,41,2026-05-17,12:30,Heracles Almelo,FC Groningen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,41,2026-05-17,12:30,NEC Nijmegen,Go Ahead Eagles,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,41,2026-05-17,12:30,PEC Zwolle,Feyenoord Rotterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,41,2026-05-17,12:30,PSV Eindhoven,FC Twente,TBD,0,0,0,0,0,0,0,0
+2025-2026,Eredivisie,41,2026-05-17,12:30,Sparta Rotterdam,Excelsior,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,1,2025-08-08,19:15,Casa Pia,Sporting CP,Away,0,2,2,9,4,1,0,0
+2025-2026,Primeira Liga,1,2025-08-09,14:30,C.D. Nacional,Gil Vicente,Away,0,2,14,6,3,6,0,0
+2025-2026,Primeira Liga,1,2025-08-09,19:30,Arouca,AVS,Home,3,1,4,5,2,0,0,0
+2025-2026,Primeira Liga,1,2025-08-10,16:00,FC Famalicao,Santa Clara,Home,3,0,2,3,4,2,0,0
+2025-2026,Primeira Liga,1,2025-08-10,19:30,Braga,Tondela,Home,3,0,5,3,1,3,0,0
+2025-2026,Primeira Liga,1,2025-08-10,19:30,Moreirense,Alverca,Home,2,1,6,2,3,1,0,0
+2025-2026,Primeira Liga,1,2025-08-11,17:45,Estoril,Estrela,Draw,1,1,4,4,4,1,0,1
+2025-2026,Primeira Liga,1,2025-08-11,19:45,FC Porto,Vitória de Guimaraes,Home,3,0,7,4,1,3,0,0
+2025-2026,Primeira Liga,2,2025-08-15,14:45,AVS,Casa Pia,Away,0,2,1,3,4,5,0,0
+2025-2026,Primeira Liga,2,2025-08-16,14:30,Tondela,FC Famalicao,Away,0,1,2,7,0,1,0,0
+2025-2026,Primeira Liga,2,2025-08-16,17:00,Vitória de Guimaraes,Estoril,Home,3,2,4,2,5,3,0,0
+2025-2026,Primeira Liga,2,2025-08-16,19:30,Estrela,Benfica,Away,0,1,5,4,3,3,0,0
+2025-2026,Primeira Liga,2,2025-08-17,14:30,Rio Ave,C.D. Nacional,Draw,1,1,6,6,2,3,0,1
+2025-2026,Primeira Liga,2,2025-08-17,17:00,Alverca,Braga,Away,0,3,1,5,2,1,0,0
+2025-2026,Primeira Liga,2,2025-08-17,17:00,Santa Clara,Moreirense,Away,0,1,3,0,4,5,0,0
+2025-2026,Primeira Liga,2,2025-08-17,19:30,Sporting CP,Arouca,Home,6,0,6,1,1,0,0,1
+2025-2026,Primeira Liga,2,2025-08-18,19:15,Gil Vicente,FC Porto,Away,0,2,1,5,2,4,0,0
+2025-2026,Primeira Liga,3,2025-08-23,15:00,Moreirense,Vitória de Guimaraes,Home,2,0,3,7,5,2,0,0
+2025-2026,Primeira Liga,3,2025-08-23,17:00,C.D. Nacional,Sporting CP,Away,1,4,3,13,3,2,1,0
+2025-2026,Primeira Liga,3,2025-08-23,19:30,Arouca,Rio Ave,Draw,3,3,4,2,3,2,0,0
+2025-2026,Primeira Liga,3,2025-08-23,19:30,Benfica,Tondela,Home,3,0,13,2,2,2,0,0
+2025-2026,Primeira Liga,3,2025-08-24,14:30,FC Famalicao,Gil Vicente,Draw,0,0,2,9,3,1,0,0
+2025-2026,Primeira Liga,3,2025-08-24,17:00,FC Porto,Casa Pia,Home,4,0,7,2,3,1,0,0
+2025-2026,Primeira Liga,3,2025-08-24,19:30,Braga,AVS,Draw,2,2,11,3,2,3,0,0
+2025-2026,Primeira Liga,3,2025-08-25,19:15,Estrela,Alverca,Draw,2,2,6,2,4,4,1,1
+2025-2026,Primeira Liga,4,2025-08-29,19:15,Gil Vicente,Moreirense,Home,2,0,4,3,1,2,0,0
+2025-2026,Primeira Liga,4,2025-08-30,14:30,Casa Pia,C.D. Nacional,Away,0,2,2,3,2,3,0,0
+2025-2026,Primeira Liga,4,2025-08-30,17:00,AVS,FC Famalicao,Away,0,1,5,9,1,5,0,1
+2025-2026,Primeira Liga,4,2025-08-30,17:00,Vitória de Guimaraes,Arouca,Draw,1,1,2,2,5,5,0,0
+2025-2026,Primeira Liga,4,2025-08-30,19:30,Sporting CP,FC Porto,Away,1,2,5,3,3,5,0,0
+2025-2026,Primeira Liga,4,2025-08-31,14:30,Tondela,Estoril,Draw,2,2,3,4,1,3,0,0
+2025-2026,Primeira Liga,4,2025-08-31,17:00,Alverca,Benfica,Away,1,2,5,2,4,5,0,1
+2025-2026,Primeira Liga,4,2025-08-31,19:30,Rio Ave,Braga,Draw,2,2,1,7,3,2,0,0
+2025-2026,Primeira Liga,4,2025-08-31,19:30,Santa Clara,Estrela,Draw,0,0,8,0,2,2,0,0
+2025-2026,Primeira Liga,5,2025-09-06,19:30,Estoril,Santa Clara,Away,0,1,5,7,4,1,0,0
+2025-2026,Primeira Liga,6,2025-09-12,19:15,Alverca,Tondela,Home,1,0,5,6,1,2,0,0
+2025-2026,Primeira Liga,6,2025-09-12,19:15,Benfica,Santa Clara,Draw,1,1,5,5,1,2,0,1
+2025-2026,Primeira Liga,6,2025-09-13,14:30,Estoril,AVS,Home,3,1,1,5,5,2,0,0
+2025-2026,Primeira Liga,6,2025-09-13,14:30,Moreirense,Rio Ave,Home,3,1,7,3,1,0,0,0
+2025-2026,Primeira Liga,6,2025-09-13,17:00,FC Porto,C.D. Nacional,Home,1,0,5,5,2,5,0,0
+2025-2026,Primeira Liga,6,2025-09-13,19:30,FC Famalicao,Sporting CP,Away,1,2,5,4,4,3,0,0
+2025-2026,Primeira Liga,6,2025-09-14,14:30,Estrela,Vitória de Guimaraes,Away,0,2,3,2,2,0,0,0
+2025-2026,Primeira Liga,6,2025-09-14,17:00,Arouca,Casa Pia,Away,0,2,7,6,2,7,0,0
+2025-2026,Primeira Liga,6,2025-09-14,19:30,Braga,Gil Vicente,Away,0,1,5,7,2,3,0,0
+2025-2026,Primeira Liga,7,2025-09-19,19:15,Rio Ave,FC Porto,Away,0,3,2,10,2,1,0,0
+2025-2026,Primeira Liga,7,2025-09-20,14:30,C.D. Nacional,Arouca,Away,1,2,3,5,2,1,2,1
+2025-2026,Primeira Liga,7,2025-09-20,14:30,Santa Clara,Alverca,Home,2,1,7,0,6,4,0,0
+2025-2026,Primeira Liga,7,2025-09-20,17:00,AVS,Benfica,Away,0,3,2,1,1,1,0,0
+2025-2026,Primeira Liga,7,2025-09-20,19:30,Vitória de Guimaraes,Braga,Draw,1,1,3,5,3,3,1,0
+2025-2026,Primeira Liga,7,2025-09-21,14:30,Tondela,Estrela,Draw,0,0,5,2,4,3,1,0
+2025-2026,Primeira Liga,7,2025-09-21,17:00,Gil Vicente,Estoril,Home,2,0,4,0,2,2,0,0
+2025-2026,Primeira Liga,7,2025-09-21,19:30,Casa Pia,FC Famalicao,Draw,1,1,5,3,1,2,0,0
+2025-2026,Primeira Liga,7,2025-09-22,19:15,Sporting CP,Moreirense,Home,3,0,6,4,1,1,0,0
+2025-2026,Primeira Liga,7,2025-09-23,19:15,Benfica,Rio Ave,Draw,1,1,11,2,3,3,0,0
+2025-2026,Primeira Liga,8,2025-09-26,19:15,Benfica,Gil Vicente,Home,2,1,0,8,3,3,0,1
+2025-2026,Primeira Liga,8,2025-09-27,14:30,Moreirense,Casa Pia,Home,2,1,6,8,5,5,0,0
+2025-2026,Primeira Liga,8,2025-09-27,15:30,Santa Clara,Tondela,Away,1,2,3,4,2,7,0,0
+2025-2026,Primeira Liga,8,2025-09-27,17:00,Estrela,AVS,Home,3,0,6,6,2,2,1,1
+2025-2026,Primeira Liga,8,2025-09-27,19:30,Estoril,Sporting CP,Away,0,1,3,9,4,2,0,0
+2025-2026,Primeira Liga,8,2025-09-28,14:30,Alverca,Vitória de Guimaraes,Home,2,0,1,6,2,0,1,0
+2025-2026,Primeira Liga,8,2025-09-28,17:00,Braga,C.D. Nacional,Away,0,1,6,3,0,3,0,0
+2025-2026,Primeira Liga,8,2025-09-28,19:30,FC Famalicao,Rio Ave,Draw,0,0,11,6,4,5,0,0
+2025-2026,Primeira Liga,8,2025-09-29,19:00,Arouca,FC Porto,Away,0,4,5,8,5,2,0,1
+2025-2026,Primeira Liga,9,2025-10-03,19:15,Casa Pia,Estoril,Draw,2,2,6,7,4,3,0,0
+2025-2026,Primeira Liga,9,2025-10-04,14:30,C.D. Nacional,Moreirense,Home,3,2,2,5,1,4,0,1
+2025-2026,Primeira Liga,9,2025-10-04,14:30,Gil Vicente,Estrela,Home,2,0,5,7,2,3,1,0
+2025-2026,Primeira Liga,9,2025-10-04,17:00,AVS,Alverca,Away,1,3,0,5,3,2,0,0
+2025-2026,Primeira Liga,9,2025-10-04,19:30,Vitória de Guimaraes,Santa Clara,Home,2,1,9,3,4,5,0,0
+2025-2026,Primeira Liga,9,2025-10-05,14:30,Arouca,FC Famalicao,Draw,1,1,4,11,4,1,1,0
+2025-2026,Primeira Liga,9,2025-10-05,16:30,Rio Ave,Tondela,Home,3,0,6,7,6,3,1,1
+2025-2026,Primeira Liga,9,2025-10-05,18:15,Sporting CP,Braga,Draw,1,1,1,5,4,5,0,0
+2025-2026,Primeira Liga,9,2025-10-05,20:15,FC Porto,Benfica,Draw,0,0,3,3,6,2,0,0
+2025-2026,Primeira Liga,12,2025-10-24,19:15,Alverca,Gil Vicente,Away,0,4,1,4,3,4,0,1
+2025-2026,Primeira Liga,12,2025-10-25,17:00,Santa Clara,AVS,Home,2,0,8,4,1,1,0,0
+2025-2026,Primeira Liga,12,2025-10-25,19:30,Benfica,Arouca,Home,5,0,9,1,2,2,0,0
+2025-2026,Primeira Liga,12,2025-10-25,19:30,Estrela,Rio Ave,Away,1,2,4,5,3,6,0,0
+2025-2026,Primeira Liga,12,2025-10-26,15:30,Estoril,C.D. Nacional,Draw,1,1,6,5,3,3,0,0
+2025-2026,Primeira Liga,12,2025-10-26,15:30,FC Famalicao,Vitória de Guimaraes,Home,2,0,5,4,1,2,0,0
+2025-2026,Primeira Liga,12,2025-10-26,18:00,Tondela,Sporting CP,Away,0,3,2,10,3,1,0,0
+2025-2026,Primeira Liga,12,2025-10-26,20:30,Braga,Casa Pia,Home,4,0,4,2,1,3,0,0
+2025-2026,Primeira Liga,12,2025-10-27,20:15,Moreirense,FC Porto,Away,1,2,2,7,3,2,0,0
+2025-2026,Primeira Liga,13,2025-10-31,20:15,Sporting CP,Alverca,Home,2,0,10,0,1,1,0,0
+2025-2026,Primeira Liga,13,2025-11-01,15:30,C.D. Nacional,FC Famalicao,Away,0,1,3,10,3,6,1,0
+2025-2026,Primeira Liga,13,2025-11-01,18:00,Casa Pia,Estrela,Away,3,5,5,2,2,3,0,0
+2025-2026,Primeira Liga,13,2025-11-01,18:00,Rio Ave,Estoril,Away,0,4,0,6,2,1,1,0
+2025-2026,Primeira Liga,13,2025-11-01,20:30,Vitória de Guimaraes,Benfica,Away,0,3,3,6,3,4,1,0
+2025-2026,Primeira Liga,13,2025-11-02,15:30,AVS,Tondela,Draw,2,2,5,3,4,4,0,0
+2025-2026,Primeira Liga,13,2025-11-02,18:00,Arouca,Moreirense,Away,0,2,5,2,3,3,0,0
+2025-2026,Primeira Liga,13,2025-11-02,20:30,FC Porto,Braga,Home,2,1,2,3,4,3,0,0
+2025-2026,Primeira Liga,13,2025-11-03,20:45,Gil Vicente,Santa Clara,Home,1,0,2,0,2,3,0,0
+2025-2026,Primeira Liga,14,2025-11-07,20:15,Estoril,Arouca,Home,4,3,10,2,3,1,0,0
+2025-2026,Primeira Liga,14,2025-11-08,15:30,Alverca,Rio Ave,Draw,1,1,9,3,2,0,0,0
+2025-2026,Primeira Liga,14,2025-11-08,18:00,Tondela,Vitória de Guimaraes,Away,0,1,4,3,2,1,0,0
+2025-2026,Primeira Liga,14,2025-11-08,20:30,Santa Clara,Sporting CP,Away,1,2,2,12,7,4,2,1
+2025-2026,Primeira Liga,14,2025-11-09,15:30,AVS,Gil Vicente,Draw,1,1,1,4,1,5,0,0
+2025-2026,Primeira Liga,14,2025-11-09,15:30,Estrela,C.D. Nacional,Draw,1,1,2,6,3,4,0,0
+2025-2026,Primeira Liga,14,2025-11-09,18:00,FC Famalicao,FC Porto,Away,0,1,2,4,5,2,0,0
+2025-2026,Primeira Liga,14,2025-11-09,20:30,Benfica,Casa Pia,Draw,2,2,6,2,4,2,0,1
+2025-2026,Primeira Liga,14,2025-11-09,20:30,Braga,Moreirense,Home,2,1,5,3,3,2,0,0
+2025-2026,Primeira Liga,17,2025-11-28,20:15,Vitória de Guimaraes,AVS,Home,4,0,7,3,0,1,0,0
+2025-2026,Primeira Liga,17,2025-11-29,15:30,Casa Pia,Alverca,Away,0,2,6,5,4,4,1,0
+2025-2026,Primeira Liga,17,2025-11-29,15:30,Moreirense,FC Famalicao,Draw,2,2,5,4,3,5,1,0
+2025-2026,Primeira Liga,17,2025-11-29,18:00,C.D. Nacional,Benfica,Away,1,2,2,11,4,2,0,0
+2025-2026,Primeira Liga,17,2025-11-29,20:30,Gil Vicente,Tondela,Away,0,1,12,3,2,0,0,0
+2025-2026,Primeira Liga,17,2025-11-30,15:30,Rio Ave,Santa Clara,Draw,1,1,1,5,2,3,0,0
+2025-2026,Primeira Liga,17,2025-11-30,18:00,Sporting CP,Estrela,Home,4,0,5,1,1,0,0,0
+2025-2026,Primeira Liga,17,2025-11-30,20:30,FC Porto,Estoril,Home,1,0,6,4,1,4,0,0
+2025-2026,Primeira Liga,17,2025-12-01,20:15,Arouca,Braga,Away,0,4,0,6,3,0,1,0
+2025-2026,Primeira Liga,18,2025-12-05,20:15,Benfica,Sporting CP,Draw,1,1,3,2,3,5,1,0
+2025-2026,Primeira Liga,18,2025-12-06,15:30,Santa Clara,Casa Pia,Home,1,0,8,7,5,4,0,0
+2025-2026,Primeira Liga,18,2025-12-06,18:00,AVS,Rio Ave,Away,1,2,3,11,5,6,1,0
+2025-2026,Primeira Liga,18,2025-12-06,20:30,FC Famalicao,Braga,Away,1,2,3,9,1,3,0,0
+2025-2026,Primeira Liga,18,2025-12-07,15:30,Estoril,Moreirense,Draw,3,3,1,5,2,3,0,0
+2025-2026,Primeira Liga,18,2025-12-07,18:00,Alverca,C.D. Nacional,Home,1,0,2,2,1,1,0,0
+2025-2026,Primeira Liga,18,2025-12-07,18:00,Estrela,Arouca,Home,3,1,5,3,1,5,0,2
+2025-2026,Primeira Liga,18,2025-12-07,20:30,Tondela,FC Porto,Away,0,2,2,4,2,1,0,0
+2025-2026,Primeira Liga,18,2025-12-08,20:30,Vitória de Guimaraes,Gil Vicente,Draw,0,0,8,4,4,5,0,0
+2025-2026,Primeira Liga,19,2025-12-13,15:30,Casa Pia,Gil Vicente,Draw,1,1,1,8,3,2,0,0
+2025-2026,Primeira Liga,19,2025-12-13,18:00,Rio Ave,Vitória de Guimaraes,Away,0,1,6,6,3,4,2,0
+2025-2026,Primeira Liga,19,2025-12-13,20:30,Sporting CP,AVS,Home,6,0,8,1,1,2,0,0
+2025-2026,Primeira Liga,19,2025-12-14,15:30,FC Famalicao,Estoril,Home,4,0,4,9,3,1,0,0
+2025-2026,Primeira Liga,19,2025-12-14,18:00,Moreirense,Benfica,Away,0,4,4,4,2,0,0,0
+2025-2026,Primeira Liga,19,2025-12-14,20:30,Arouca,Alverca,Home,1,0,8,5,1,4,0,1
+2025-2026,Primeira Liga,19,2025-12-15,17:30,C.D. Nacional,Tondela,Home,3,1,3,10,5,6,2,1
+2025-2026,Primeira Liga,19,2025-12-15,18:45,Braga,Santa Clara,Home,1,0,5,1,1,4,0,0
+2025-2026,Primeira Liga,19,2025-12-15,20:45,FC Porto,Estrela,Home,3,1,4,0,1,5,0,0
+2025-2026,Primeira Liga,20,2025-12-19,20:15,Estoril,Braga,Home,1,0,9,5,5,2,0,0
+2025-2026,Primeira Liga,20,2025-12-20,18:00,Gil Vicente,Rio Ave,Draw,2,2,10,1,3,4,0,1
+2025-2026,Primeira Liga,20,2025-12-20,20:30,Estrela,Moreirense,Draw,0,0,3,7,2,1,0,0
+2025-2026,Primeira Liga,20,2025-12-21,15:30,AVS,C.D. Nacional,Draw,2,2,9,2,1,0,1,0
+2025-2026,Primeira Liga,20,2025-12-21,18:00,Tondela,Casa Pia,Away,1,2,6,4,2,3,0,0
+2025-2026,Primeira Liga,20,2025-12-21,20:30,Santa Clara,Arouca,Draw,0,0,2,4,2,2,0,0
+2025-2026,Primeira Liga,20,2025-12-22,18:45,Alverca,FC Porto,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,20,2025-12-22,20:45,Benfica,FC Famalicao,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,20,2025-12-23,20:45,Vitória de Guimaraes,Sporting CP,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,21,2025-12-27,18:00,FC Famalicao,Estrela,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,21,2025-12-27,20:30,Estoril,Alverca,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,21,2025-12-28,15:30,Arouca,Gil Vicente,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,21,2025-12-28,15:30,Casa Pia,Vitória de Guimaraes,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,21,2025-12-28,18:00,Braga,Benfica,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,21,2025-12-28,20:30,Sporting CP,Rio Ave,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,21,2025-12-29,20:15,FC Porto,AVS,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,22,2026-01-02,18:45,Gil Vicente,Sporting CP,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,22,2026-01-02,20:45,Vitória de Guimaraes,C.D. Nacional,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,22,2026-01-03,15:30,Tondela,Arouca,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,22,2026-01-03,18:00,Benfica,Estoril,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,22,2026-01-03,18:00,Estrela,Braga,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,22,2026-01-03,20:30,AVS,Moreirense,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,22,2026-01-04,15:30,Rio Ave,Casa Pia,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,22,2026-01-04,18:00,Santa Clara,FC Porto,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,22,2026-01-04,20:30,Alverca,FC Famalicao,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,23,2026-01-11,15:30,C.D. Nacional,Santa Clara,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,23,2026-01-11,18:00,Moreirense,Tondela,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,24,2026-01-18,20:00,Alverca,Moreirense,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,24,2026-01-18,20:00,AVS,Arouca,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,24,2026-01-18,20:00,Estrela,Estoril,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,24,2026-01-18,20:00,Gil Vicente,C.D. Nacional,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,24,2026-01-18,20:00,Rio Ave,Benfica,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,24,2026-01-18,20:00,Santa Clara,FC Famalicao,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,24,2026-01-18,20:00,Sporting CP,Casa Pia,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,24,2026-01-18,20:00,Tondela,Braga,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,24,2026-01-18,20:00,Vitória de Guimaraes,FC Porto,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,25,2026-01-25,20:00,Arouca,Sporting CP,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,25,2026-01-25,20:00,Benfica,Estrela,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,25,2026-01-25,20:00,Braga,Alverca,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,25,2026-01-25,20:00,C.D. Nacional,Rio Ave,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,25,2026-01-25,20:00,Casa Pia,AVS,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,25,2026-01-25,20:00,Estoril,Vitória de Guimaraes,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,25,2026-01-25,20:00,FC Famalicao,Tondela,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,25,2026-01-25,20:00,FC Porto,Gil Vicente,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,25,2026-01-25,20:00,Moreirense,Santa Clara,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,26,2026-02-01,20:00,Alverca,Estrela,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,26,2026-02-01,20:00,AVS,Braga,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,26,2026-02-01,20:00,Casa Pia,FC Porto,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,26,2026-02-01,20:00,Gil Vicente,FC Famalicao,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,26,2026-02-01,20:00,Rio Ave,Arouca,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,26,2026-02-01,20:00,Santa Clara,Estoril,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,26,2026-02-01,20:00,Sporting CP,C.D. Nacional,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,26,2026-02-01,20:00,Tondela,Benfica,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,26,2026-02-01,20:00,Vitória de Guimaraes,Moreirense,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,27,2026-02-08,20:00,Arouca,Vitória de Guimaraes,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,27,2026-02-08,20:00,Benfica,Alverca,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,27,2026-02-08,20:00,Braga,Rio Ave,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,27,2026-02-08,20:00,C.D. Nacional,Casa Pia,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,27,2026-02-08,20:00,Estoril,Tondela,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,27,2026-02-08,20:00,Estrela,Santa Clara,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,27,2026-02-08,20:00,FC Famalicao,AVS,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,27,2026-02-08,20:00,FC Porto,Sporting CP,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,27,2026-02-08,20:00,Moreirense,Gil Vicente,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,28,2026-02-15,20:00,AVS,Estoril,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,28,2026-02-15,20:00,C.D. Nacional,FC Porto,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,28,2026-02-15,20:00,Casa Pia,Arouca,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,28,2026-02-15,20:00,Gil Vicente,Braga,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,28,2026-02-15,20:00,Rio Ave,Moreirense,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,28,2026-02-15,20:00,Santa Clara,Benfica,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,28,2026-02-15,20:00,Sporting CP,FC Famalicao,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,28,2026-02-15,20:00,Tondela,Alverca,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,28,2026-02-15,20:00,Vitória de Guimaraes,Estrela,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,29,2026-02-22,20:00,Alverca,Santa Clara,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,29,2026-02-22,20:00,Arouca,C.D. Nacional,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,29,2026-02-22,20:00,Benfica,AVS,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,29,2026-02-22,20:00,Braga,Vitória de Guimaraes,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,29,2026-02-22,20:00,Estoril,Gil Vicente,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,29,2026-02-22,20:00,Estrela,Tondela,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,29,2026-02-22,20:00,FC Famalicao,Casa Pia,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,29,2026-02-22,20:00,FC Porto,Rio Ave,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,29,2026-02-22,20:00,Moreirense,Sporting CP,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,30,2026-03-01,20:00,AVS,Estrela,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,30,2026-03-01,20:00,C.D. Nacional,Braga,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,30,2026-03-01,20:00,Casa Pia,Moreirense,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,30,2026-03-01,20:00,FC Porto,Arouca,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,30,2026-03-01,20:00,Gil Vicente,Benfica,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,30,2026-03-01,20:00,Rio Ave,FC Famalicao,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,30,2026-03-01,20:00,Sporting CP,Estoril,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,30,2026-03-01,20:00,Tondela,Santa Clara,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,30,2026-03-01,20:00,Vitória de Guimaraes,Alverca,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,31,2026-03-08,18:00,Alverca,AVS,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,31,2026-03-08,18:00,Benfica,FC Porto,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,31,2026-03-08,18:00,Braga,Sporting CP,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,31,2026-03-08,18:00,Estoril,Casa Pia,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,31,2026-03-08,18:00,Estrela,Gil Vicente,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,31,2026-03-08,18:00,FC Famalicao,Arouca,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,31,2026-03-08,18:00,Moreirense,C.D. Nacional,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,31,2026-03-08,18:00,Santa Clara,Vitória de Guimaraes,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,31,2026-03-08,18:00,Tondela,Rio Ave,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,32,2026-03-15,18:00,Arouca,Benfica,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,32,2026-03-15,18:00,AVS,Santa Clara,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,32,2026-03-15,18:00,C.D. Nacional,Estoril,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,32,2026-03-15,18:00,Casa Pia,Braga,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,32,2026-03-15,18:00,FC Porto,Moreirense,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,32,2026-03-15,18:00,Gil Vicente,Alverca,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,32,2026-03-15,18:00,Rio Ave,Estrela,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,32,2026-03-15,18:00,Sporting CP,Tondela,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,32,2026-03-15,18:00,Vitória de Guimaraes,FC Famalicao,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,33,2026-03-22,18:00,Alverca,Sporting CP,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,33,2026-03-22,18:00,Benfica,Vitória de Guimaraes,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,33,2026-03-22,18:00,Braga,FC Porto,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,33,2026-03-22,18:00,Estoril,Rio Ave,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,33,2026-03-22,18:00,Estrela,Casa Pia,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,33,2026-03-22,18:00,FC Famalicao,C.D. Nacional,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,33,2026-03-22,18:00,Moreirense,Arouca,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,33,2026-03-22,18:00,Santa Clara,Gil Vicente,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,33,2026-03-22,18:00,Tondela,AVS,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,35,2026-04-04,18:00,Arouca,Estoril,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,35,2026-04-04,18:00,C.D. Nacional,Estrela,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,35,2026-04-04,18:00,Casa Pia,Benfica,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,35,2026-04-04,18:00,FC Porto,FC Famalicao,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,35,2026-04-04,18:00,Gil Vicente,AVS,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,35,2026-04-04,18:00,Moreirense,Braga,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,35,2026-04-04,18:00,Rio Ave,Alverca,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,35,2026-04-04,18:00,Sporting CP,Santa Clara,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,35,2026-04-04,18:00,Vitória de Guimaraes,Tondela,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,36,2026-04-12,18:00,Alverca,Casa Pia,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,36,2026-04-12,18:00,AVS,Vitória de Guimaraes,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,36,2026-04-12,18:00,Benfica,C.D. Nacional,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,36,2026-04-12,18:00,Braga,Arouca,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,36,2026-04-12,18:00,Estoril,FC Porto,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,36,2026-04-12,18:00,Estrela,Sporting CP,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,36,2026-04-12,18:00,FC Famalicao,Moreirense,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,36,2026-04-12,18:00,Santa Clara,Rio Ave,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,36,2026-04-12,18:00,Tondela,Gil Vicente,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,37,2026-04-19,18:00,Arouca,Estrela,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,37,2026-04-19,18:00,Braga,FC Famalicao,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,37,2026-04-19,18:00,C.D. Nacional,Alverca,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,37,2026-04-19,18:00,Casa Pia,Santa Clara,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,37,2026-04-19,18:00,FC Porto,Tondela,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,37,2026-04-19,18:00,Gil Vicente,Vitória de Guimaraes,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,37,2026-04-19,18:00,Moreirense,Estoril,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,37,2026-04-19,18:00,Rio Ave,AVS,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,37,2026-04-19,18:00,Sporting CP,Benfica,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,38,2026-04-26,18:00,Alverca,Arouca,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,38,2026-04-26,18:00,AVS,Sporting CP,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,38,2026-04-26,18:00,Benfica,Moreirense,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,38,2026-04-26,18:00,Estoril,FC Famalicao,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,38,2026-04-26,18:00,Estrela,FC Porto,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,38,2026-04-26,18:00,Gil Vicente,Casa Pia,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,38,2026-04-26,18:00,Santa Clara,Braga,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,38,2026-04-26,18:00,Tondela,C.D. Nacional,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,38,2026-04-26,18:00,Vitória de Guimaraes,Rio Ave,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,39,2026-05-03,18:00,Arouca,Santa Clara,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,39,2026-05-03,18:00,Braga,Estoril,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,39,2026-05-03,18:00,C.D. Nacional,AVS,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,39,2026-05-03,18:00,Casa Pia,Tondela,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,39,2026-05-03,18:00,FC Famalicao,Benfica,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,39,2026-05-03,18:00,FC Porto,Alverca,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,39,2026-05-03,18:00,Moreirense,Estrela,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,39,2026-05-03,18:00,Rio Ave,Gil Vicente,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,39,2026-05-03,18:00,Sporting CP,Vitória de Guimaraes,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,40,2026-05-10,18:00,Alverca,Estoril,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,40,2026-05-10,18:00,AVS,FC Porto,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,40,2026-05-10,18:00,Benfica,Braga,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,40,2026-05-10,18:00,Estrela,FC Famalicao,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,40,2026-05-10,18:00,Gil Vicente,Arouca,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,40,2026-05-10,18:00,Rio Ave,Sporting CP,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,40,2026-05-10,18:00,Santa Clara,C.D. Nacional,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,40,2026-05-10,18:00,Tondela,Moreirense,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,40,2026-05-10,18:00,Vitória de Guimaraes,Casa Pia,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,41,2026-05-17,18:00,Arouca,Tondela,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,41,2026-05-17,18:00,Braga,Estrela,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,41,2026-05-17,18:00,C.D. Nacional,Vitória de Guimaraes,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,41,2026-05-17,18:00,Casa Pia,Rio Ave,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,41,2026-05-17,18:00,Estoril,Benfica,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,41,2026-05-17,18:00,FC Famalicao,Alverca,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,41,2026-05-17,18:00,FC Porto,Santa Clara,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,41,2026-05-17,18:00,Moreirense,AVS,TBD,0,0,0,0,0,0,0,0
+2025-2026,Primeira Liga,41,2026-05-17,18:00,Sporting CP,Gil Vicente,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,1,2025-08-08,18:45,Sint-Truidense,Dender,Home,2,0,4,2,3,0,0,1
+2025-2026,Pro League,1,2025-08-09,14:00,Club Brugge,Cercle Brugge KSV,Home,2,0,9,5,2,3,0,1
+2025-2026,Pro League,1,2025-08-09,16:15,KVC Westerlo,KV Mechelen,Away,0,1,8,5,1,1,0,0
+2025-2026,Pro League,1,2025-08-09,18:45,KAA Gent,Union St.-Gilloise,Away,2,3,5,10,1,4,0,0
+2025-2026,Pro League,1,2025-08-10,11:30,RAAL La Louvière,Royal Charleroi SC,Home,1,0,4,3,3,0,0,0
+2025-2026,Pro League,1,2025-08-10,14:00,Anderlecht,Zulte-Waregem,Away,2,3,6,5,0,3,0,0
+2025-2026,Pro League,1,2025-08-10,16:30,Standard Liege,Racing Genk,Home,2,1,2,6,4,3,0,0
+2025-2026,Pro League,1,2025-08-10,17:15,Antwerp,Oud-Heverlee Leuven,Home,3,1,5,3,3,4,0,1
+2025-2026,Pro League,2,2025-08-15,18:45,Oud-Heverlee Leuven,Racing Genk,Away,1,2,6,6,2,2,0,0
+2025-2026,Pro League,2,2025-08-16,14:00,Zulte-Waregem,Club Brugge,Away,0,1,3,9,1,2,0,0
+2025-2026,Pro League,2,2025-08-16,16:15,KV Mechelen,KAA Gent,Draw,1,1,2,11,2,1,0,0
+2025-2026,Pro League,2,2025-08-16,18:45,Union St.-Gilloise,Standard Liege,Home,3,0,12,1,1,1,0,1
+2025-2026,Pro League,2,2025-08-17,11:30,Dender,Anderlecht,Away,0,2,2,7,1,1,0,0
+2025-2026,Pro League,2,2025-08-17,14:00,Sint-Truidense,RAAL La Louvière,Home,2,1,4,5,1,2,0,0
+2025-2026,Pro League,2,2025-08-17,16:30,Royal Charleroi SC,Antwerp,Draw,1,1,4,1,3,3,0,0
+2025-2026,Pro League,2,2025-08-17,17:15,Cercle Brugge KSV,KVC Westerlo,Home,4,1,1,11,0,1,0,0
+2025-2026,Pro League,3,2025-08-23,16:15,Standard Liege,Cercle Brugge KSV,Away,0,3,4,3,1,3,0,0
+2025-2026,Pro League,3,2025-08-23,18:45,Zulte-Waregem,Sint-Truidense,Away,0,2,2,11,2,0,1,0
+2025-2026,Pro League,3,2025-08-24,11:30,Antwerp,KV Mechelen,Home,2,1,6,13,0,3,1,0
+2025-2026,Pro League,3,2025-08-24,16:30,RAAL La Louvière,Union St.-Gilloise,Draw,0,0,5,2,2,3,0,0
+2025-2026,Pro League,3,2025-08-24,17:15,Dender,Oud-Heverlee Leuven,Away,0,1,4,6,3,4,0,0
+2025-2026,Pro League,4,2025-08-29,18:45,Cercle Brugge KSV,Sint-Truidense,Draw,1,1,3,8,2,1,0,0
+2025-2026,Pro League,4,2025-08-30,14:00,KV Mechelen,RAAL La Louvière,Home,3,2,4,6,1,0,0,0
+2025-2026,Pro League,4,2025-08-30,16:15,KVC Westerlo,Antwerp,Home,2,0,5,4,2,3,0,0
+2025-2026,Pro League,4,2025-08-30,18:45,Royal Charleroi SC,Dender,Home,3,1,5,4,1,0,0,0
+2025-2026,Pro League,4,2025-08-31,11:30,KAA Gent,Club Brugge,Draw,1,1,6,7,4,2,0,0
+2025-2026,Pro League,4,2025-08-31,14:00,Oud-Heverlee Leuven,Standard Liege,Home,1,0,4,4,3,3,0,0
+2025-2026,Pro League,4,2025-08-31,16:30,Union St.-Gilloise,Anderlecht,Home,2,0,5,5,1,4,0,2
+2025-2026,Pro League,4,2025-08-31,17:15,Racing Genk,Zulte-Waregem,Home,3,2,5,5,2,2,1,0
+2025-2026,Pro League,6,2025-09-12,18:45,Standard Liege,KV Mechelen,Draw,1,1,12,5,3,3,0,0
+2025-2026,Pro League,6,2025-09-13,14:00,Zulte-Waregem,Oud-Heverlee Leuven,Home,2,0,2,6,3,4,0,0
+2025-2026,Pro League,6,2025-09-13,16:15,Dender,Union St.-Gilloise,Away,0,1,1,6,0,0,0,0
+2025-2026,Pro League,6,2025-09-13,18:45,RAAL La Louvière,Club Brugge,Home,1,0,5,6,0,2,0,0
+2025-2026,Pro League,6,2025-09-14,11:30,Antwerp,KAA Gent,Away,1,2,5,1,4,2,0,1
+2025-2026,Pro League,6,2025-09-14,14:00,Cercle Brugge KSV,Royal Charleroi SC,Away,2,3,4,3,1,2,0,0
+2025-2026,Pro League,6,2025-09-14,16:30,Anderlecht,Racing Genk,Draw,1,1,3,7,2,3,1,0
+2025-2026,Pro League,6,2025-09-14,17:15,Sint-Truidense,KVC Westerlo,Away,0,3,8,3,1,2,0,0
+2025-2026,Pro League,6,2025-09-17,18:30,Racing Genk,Royal Charleroi SC,Away,0,1,4,3,0,2,0,0
+2025-2026,Pro League,7,2025-09-19,18:45,KAA Gent,Dender,Home,3,0,2,6,1,1,0,0
+2025-2026,Pro League,7,2025-09-20,14:00,Oud-Heverlee Leuven,RAAL La Louvière,Away,1,2,2,1,4,3,0,0
+2025-2026,Pro League,7,2025-09-20,16:15,Royal Charleroi SC,Zulte-Waregem,Away,1,2,6,11,3,1,1,0
+2025-2026,Pro League,7,2025-09-20,18:45,Anderlecht,Antwerp,Draw,0,0,8,2,3,2,0,0
+2025-2026,Pro League,7,2025-09-21,11:30,Racing Genk,Union St.-Gilloise,Away,1,2,8,5,2,4,0,0
+2025-2026,Pro League,7,2025-09-21,14:00,KVC Westerlo,Standard Liege,Away,0,2,7,1,0,5,0,0
+2025-2026,Pro League,7,2025-09-21,16:30,Club Brugge,Sint-Truidense,Home,2,0,5,0,1,2,0,0
+2025-2026,Pro League,7,2025-09-21,17:15,KV Mechelen,Cercle Brugge KSV,Draw,0,0,7,7,1,3,0,0
+2025-2026,Pro League,7,2025-09-23,18:30,Anderlecht,KAA Gent,Home,1,0,8,2,3,3,0,0
+2025-2026,Pro League,7,2025-09-24,18:30,Club Brugge,KVC Westerlo,Draw,5,5,5,4,1,3,0,0
+2025-2026,Pro League,8,2025-09-26,18:45,Oud-Heverlee Leuven,Anderlecht,Draw,1,1,2,5,4,3,0,0
+2025-2026,Pro League,8,2025-09-27,14:00,Zulte-Waregem,Antwerp,Home,2,0,4,4,0,1,0,0
+2025-2026,Pro League,8,2025-09-27,16:15,Standard Liege,Club Brugge,Away,1,2,7,8,4,2,1,0
+2025-2026,Pro League,8,2025-09-27,18:45,Union St.-Gilloise,KVC Westerlo,Home,2,0,9,2,3,2,0,0
+2025-2026,Pro League,8,2025-09-28,11:30,Sint-Truidense,Racing Genk,Away,1,2,3,6,4,2,1,0
+2025-2026,Pro League,8,2025-09-28,14:00,Cercle Brugge KSV,KAA Gent,Away,2,4,10,2,2,3,0,0
+2025-2026,Pro League,8,2025-09-28,16:30,Royal Charleroi SC,KV Mechelen,Away,0,2,5,3,0,4,0,0
+2025-2026,Pro League,8,2025-09-28,17:15,Dender,RAAL La Louvière,Draw,0,0,4,2,1,3,0,0
+2025-2026,Pro League,9,2025-10-03,18:45,KAA Gent,Royal Charleroi SC,Home,2,1,4,2,2,4,0,0
+2025-2026,Pro League,9,2025-10-04,14:00,KV Mechelen,Sint-Truidense,Away,1,3,5,9,3,1,0,0
+2025-2026,Pro League,9,2025-10-04,16:15,RAAL La Louvière,Zulte-Waregem,Draw,0,0,12,1,2,3,0,0
+2025-2026,Pro League,9,2025-10-04,18:45,Antwerp,Cercle Brugge KSV,Draw,1,1,8,3,1,1,0,0
+2025-2026,Pro League,9,2025-10-05,11:30,Anderlecht,Standard Liege,Home,1,0,6,4,3,2,0,1
+2025-2026,Pro League,9,2025-10-05,14:00,Racing Genk,Dender,Home,2,1,8,3,2,4,0,2
+2025-2026,Pro League,9,2025-10-05,16:30,Club Brugge,Union St.-Gilloise,Home,1,0,7,3,2,3,0,0
+2025-2026,Pro League,9,2025-10-05,17:15,KVC Westerlo,Oud-Heverlee Leuven,Home,2,0,6,6,2,2,0,0
+2025-2026,Pro League,11,2025-10-18,14:00,RAAL La Louvière,KVC Westerlo,Draw,0,0,2,2,0,1,0,0
+2025-2026,Pro League,11,2025-10-18,16:15,Oud-Heverlee Leuven,Club Brugge,Away,0,1,4,11,2,1,0,0
+2025-2026,Pro League,11,2025-10-18,18:45,Union St.-Gilloise,Royal Charleroi SC,Home,3,1,1,2,0,3,0,0
+2025-2026,Pro League,11,2025-10-19,11:30,Cercle Brugge KSV,Racing Genk,Draw,2,2,4,5,3,2,0,0
+2025-2026,Pro League,11,2025-10-19,14:00,Dender,KV Mechelen,Away,1,3,4,4,1,0,0,0
+2025-2026,Pro League,11,2025-10-19,16:30,Sint-Truidense,Anderlecht,Draw,2,2,5,6,1,2,0,0
+2025-2026,Pro League,11,2025-10-19,17:15,Zulte-Waregem,KAA Gent,Home,4,1,3,12,0,2,0,0
+2025-2026,Pro League,11,2025-10-20,13:00,Standard Liege,Antwerp,Home,1,0,4,5,2,3,1,0
+2025-2026,Pro League,12,2025-10-24,18:45,Royal Charleroi SC,Anderlecht,Home,1,0,5,9,2,2,0,0
+2025-2026,Pro League,12,2025-10-25,14:00,KVC Westerlo,Dender,Draw,1,1,11,3,2,2,0,0
+2025-2026,Pro League,12,2025-10-25,16:15,KV Mechelen,Oud-Heverlee Leuven,Draw,1,1,6,2,3,5,0,0
+2025-2026,Pro League,12,2025-10-25,18:45,KAA Gent,Standard Liege,Home,4,0,4,4,0,2,0,0
+2025-2026,Pro League,12,2025-10-26,12:30,Antwerp,Club Brugge,Away,0,1,1,5,2,2,0,0
+2025-2026,Pro League,12,2025-10-26,15:00,Cercle Brugge KSV,Zulte-Waregem,Draw,1,1,0,3,0,1,0,0
+2025-2026,Pro League,12,2025-10-26,17:30,Racing Genk,RAAL La Louvière,Draw,1,1,9,3,1,3,0,0
+2025-2026,Pro League,12,2025-10-26,18:15,Union St.-Gilloise,Sint-Truidense,Home,2,0,5,6,1,2,0,0
+2025-2026,Pro League,13,2025-10-31,19:45,Standard Liege,Royal Charleroi SC,Home,3,1,4,5,2,3,0,0
+2025-2026,Pro League,13,2025-11-01,15:00,Zulte-Waregem,Union St.-Gilloise,Away,1,4,2,5,1,4,0,0
+2025-2026,Pro League,13,2025-11-01,17:15,Club Brugge,Dender,Home,2,1,7,4,1,1,0,0
+2025-2026,Pro League,13,2025-11-01,19:45,Anderlecht,KV Mechelen,Home,3,1,9,2,1,1,0,0
+2025-2026,Pro League,13,2025-11-02,12:30,KVC Westerlo,Racing Genk,Away,0,1,4,4,0,1,0,0
+2025-2026,Pro League,13,2025-11-02,15:00,Oud-Heverlee Leuven,KAA Gent,Home,4,0,0,9,4,2,0,1
+2025-2026,Pro League,13,2025-11-02,17:30,Sint-Truidense,Antwerp,Home,1,0,6,4,3,2,0,1
+2025-2026,Pro League,13,2025-11-02,18:15,RAAL La Louvière,Cercle Brugge KSV,Home,2,1,1,5,3,1,0,0
+2025-2026,Pro League,14,2025-11-07,20:00,Dender,Zulte-Waregem,Draw,2,2,5,5,1,1,0,0
+2025-2026,Pro League,14,2025-11-08,15:00,Cercle Brugge KSV,Oud-Heverlee Leuven,Away,1,2,8,3,1,1,0,0
+2025-2026,Pro League,14,2025-11-08,17:15,Royal Charleroi SC,KVC Westerlo,Home,2,0,7,5,2,1,0,0
+2025-2026,Pro League,14,2025-11-08,19:45,Antwerp,RAAL La Louvière,Home,3,1,7,4,4,3,0,1
+2025-2026,Pro League,14,2025-11-09,12:30,Anderlecht,Club Brugge,Home,1,0,6,5,5,4,0,0
+2025-2026,Pro League,14,2025-11-09,15:00,Sint-Truidense,Standard Liege,Home,1,0,9,1,0,1,0,0
+2025-2026,Pro League,14,2025-11-09,17:30,KAA Gent,Racing Genk,Draw,1,1,6,2,2,1,0,0
+2025-2026,Pro League,14,2025-11-09,18:15,KV Mechelen,Union St.-Gilloise,Draw,1,1,4,10,3,2,0,0
+2025-2026,Pro League,16,2025-11-21,19:45,Standard Liege,Zulte-Waregem,Draw,0,0,5,3,2,1,1,1
+2025-2026,Pro League,16,2025-11-22,15:00,Union St.-Gilloise,Cercle Brugge KSV,Home,2,0,7,4,2,4,0,0
+2025-2026,Pro League,16,2025-11-22,17:15,KVC Westerlo,KAA Gent,Draw,0,0,9,2,3,3,0,0
+2025-2026,Pro League,16,2025-11-22,19:45,Club Brugge,Royal Charleroi SC,Home,1,0,6,11,2,1,0,0
+2025-2026,Pro League,16,2025-11-23,12:30,Racing Genk,KV Mechelen,Away,0,1,6,3,0,5,0,0
+2025-2026,Pro League,16,2025-11-23,15:00,Antwerp,Dender,Away,1,2,5,3,1,4,0,0
+2025-2026,Pro League,16,2025-11-23,17:30,RAAL La Louvière,Anderlecht,Away,0,1,5,7,2,3,0,0
+2025-2026,Pro League,16,2025-11-23,18:15,Oud-Heverlee Leuven,Sint-Truidense,Away,1,2,10,1,3,2,0,0
+2025-2026,Pro League,17,2025-11-28,19:45,KV Mechelen,Standard Liege,Away,0,1,4,4,1,1,0,0
+2025-2026,Pro League,17,2025-11-29,15:00,Dender,KVC Westerlo,Draw,2,2,2,4,4,1,0,0
+2025-2026,Pro League,17,2025-11-29,17:15,Zulte-Waregem,Cercle Brugge KSV,Draw,1,1,6,7,1,2,0,0
+2025-2026,Pro League,17,2025-11-29,19:45,Royal Charleroi SC,RAAL La Louvière,Draw,0,0,6,5,0,1,0,0
+2025-2026,Pro League,17,2025-11-30,12:30,Club Brugge,Antwerp,Away,0,1,9,4,0,3,0,0
+2025-2026,Pro League,17,2025-11-30,15:00,Racing Genk,Oud-Heverlee Leuven,Home,2,1,10,2,0,3,0,0
+2025-2026,Pro League,17,2025-11-30,17:30,Anderlecht,Union St.-Gilloise,Home,1,0,4,2,2,4,0,0
+2025-2026,Pro League,17,2025-11-30,18:15,KAA Gent,Sint-Truidense,Away,1,2,5,6,2,2,0,0
+2025-2026,Pro League,18,2025-12-05,19:45,RAAL La Louvière,Dender,Away,1,2,5,2,1,1,0,0
+2025-2026,Pro League,18,2025-12-06,15:00,Cercle Brugge KSV,Standard Liege,Away,1,2,9,5,0,2,0,0
+2025-2026,Pro League,18,2025-12-06,17:15,Union St.-Gilloise,KAA Gent,Draw,1,1,8,0,1,1,0,0
+2025-2026,Pro League,18,2025-12-06,19:45,Sint-Truidense,Club Brugge,Home,3,2,8,6,2,1,0,0
+2025-2026,Pro League,18,2025-12-07,12:30,KV Mechelen,Royal Charleroi SC,Home,1,0,7,3,4,2,0,0
+2025-2026,Pro League,18,2025-12-07,15:00,KVC Westerlo,Anderlecht,Home,4,0,5,9,3,2,0,0
+2025-2026,Pro League,18,2025-12-07,17:30,Antwerp,Racing Genk,Home,3,0,3,10,1,1,0,0
+2025-2026,Pro League,18,2025-12-07,18:15,Oud-Heverlee Leuven,Zulte-Waregem,Draw,1,1,4,3,2,3,0,0
+2025-2026,Pro League,19,2025-12-12,19:45,Standard Liege,Oud-Heverlee Leuven,Away,0,1,5,4,2,2,0,0
+2025-2026,Pro League,19,2025-12-13,15:00,Cercle Brugge KSV,KV Mechelen,Away,2,3,6,9,1,2,0,0
+2025-2026,Pro League,19,2025-12-13,17:15,Zulte-Waregem,RAAL La Louvière,Draw,2,2,3,2,1,2,0,0
+2025-2026,Pro League,19,2025-12-13,19:45,Anderlecht,Sint-Truidense,Home,2,1,6,2,4,5,0,0
+2025-2026,Pro League,19,2025-12-14,12:30,KAA Gent,Antwerp,Away,0,2,5,1,0,1,1,0
+2025-2026,Pro League,19,2025-12-14,15:00,Dender,Club Brugge,Away,1,5,0,3,0,0,0,0
+2025-2026,Pro League,19,2025-12-14,17:30,Royal Charleroi SC,Union St.-Gilloise,Draw,1,1,4,5,1,2,0,0
+2025-2026,Pro League,19,2025-12-14,18:15,Racing Genk,KVC Westerlo,Draw,1,1,9,7,0,2,0,1
+2025-2026,Pro League,20,2025-12-19,19:45,Royal Charleroi SC,Racing Genk,Draw,2,2,8,1,2,0,0,0
+2025-2026,Pro League,20,2025-12-20,15:00,Dender,Standard Liege,Away,0,1,5,4,4,1,0,0
+2025-2026,Pro League,20,2025-12-20,17:15,KVC Westerlo,RAAL La Louvière,Home,2,1,4,5,2,0,0,0
+2025-2026,Pro League,20,2025-12-20,19:45,Union St.-Gilloise,Zulte-Waregem,Home,2,0,5,3,1,2,0,0
+2025-2026,Pro League,20,2025-12-21,12:30,Club Brugge,KAA Gent,Home,2,1,10,2,0,2,0,0
+2025-2026,Pro League,20,2025-12-21,15:00,Sint-Truidense,KV Mechelen,Home,1,0,2,6,2,2,0,0
+2025-2026,Pro League,20,2025-12-21,17:30,Antwerp,Anderlecht,Draw,2,2,6,5,0,3,0,0
+2025-2026,Pro League,20,2025-12-21,18:15,Oud-Heverlee Leuven,Cercle Brugge KSV,Away,0,2,8,7,5,5,0,0
+2025-2026,Pro League,21,2025-12-26,12:30,Racing Genk,Club Brugge,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,21,2025-12-26,15:00,Cercle Brugge KSV,Union St.-Gilloise,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,21,2025-12-26,17:30,Standard Liege,Sint-Truidense,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,21,2025-12-26,19:45,Anderlecht,Royal Charleroi SC,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,21,2025-12-27,12:30,Antwerp,Zulte-Waregem,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,21,2025-12-27,15:00,RAAL La Louvière,Oud-Heverlee Leuven,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,21,2025-12-27,17:15,KV Mechelen,Dender,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,21,2025-12-27,19:45,KAA Gent,KVC Westerlo,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,24,2026-01-16,19:45,Club Brugge,RAAL La Louvière,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,24,2026-01-17,15:00,Zulte-Waregem,Racing Genk,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,24,2026-01-17,17:15,KVC Westerlo,Cercle Brugge KSV,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,24,2026-01-17,19:45,Union St.-Gilloise,KV Mechelen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,24,2026-01-18,12:30,KAA Gent,Anderlecht,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,24,2026-01-18,15:00,Dender,Antwerp,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,24,2026-01-18,17:30,Royal Charleroi SC,Standard Liege,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,24,2026-01-18,18:15,Sint-Truidense,Oud-Heverlee Leuven,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,25,2026-01-23,19:45,Standard Liege,KAA Gent,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,25,2026-01-24,15:00,RAAL La Louvière,Sint-Truidense,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,25,2026-01-24,17:15,Club Brugge,Zulte-Waregem,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,25,2026-01-24,19:45,Oud-Heverlee Leuven,Union St.-Gilloise,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,25,2026-01-25,12:30,Antwerp,Royal Charleroi SC,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,25,2026-01-25,15:00,Racing Genk,Cercle Brugge KSV,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,25,2026-01-25,17:30,Anderlecht,Dender,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,25,2026-01-25,18:15,KV Mechelen,KVC Westerlo,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,26,2026-01-30,19:45,RAAL La Louvière,KAA Gent,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,26,2026-01-31,15:00,Cercle Brugge KSV,Antwerp,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,26,2026-01-31,17:15,Zulte-Waregem,KVC Westerlo,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,26,2026-01-31,19:45,Sint-Truidense,Royal Charleroi SC,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,26,2026-02-01,12:30,Standard Liege,Anderlecht,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,26,2026-02-01,15:00,Dender,Racing Genk,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,26,2026-02-01,17:30,Union St.-Gilloise,Club Brugge,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,26,2026-02-01,18:15,Oud-Heverlee Leuven,KV Mechelen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,27,2026-02-06,19:45,KVC Westerlo,Sint-Truidense,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,27,2026-02-07,15:00,Zulte-Waregem,Dender,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,27,2026-02-07,17:15,Royal Charleroi SC,Cercle Brugge KSV,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,27,2026-02-07,19:45,KAA Gent,Oud-Heverlee Leuven,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,27,2026-02-08,12:30,Racing Genk,Anderlecht,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,27,2026-02-08,15:00,Union St.-Gilloise,RAAL La Louvière,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,27,2026-02-08,17:30,Club Brugge,Standard Liege,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,27,2026-02-08,18:15,KV Mechelen,Antwerp,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,28,2026-02-13,19:45,KV Mechelen,Racing Genk,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,28,2026-02-14,15:00,Oud-Heverlee Leuven,Dender,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,28,2026-02-14,17:15,Royal Charleroi SC,KAA Gent,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,28,2026-02-14,19:45,Standard Liege,Union St.-Gilloise,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,28,2026-02-15,12:30,Cercle Brugge KSV,Club Brugge,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,28,2026-02-15,15:00,Antwerp,KVC Westerlo,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,28,2026-02-15,17:30,Anderlecht,RAAL La Louvière,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,28,2026-02-15,18:15,Sint-Truidense,Zulte-Waregem,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,29,2026-02-20,19:45,KAA Gent,Cercle Brugge KSV,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,29,2026-02-21,15:00,Dender,Sint-Truidense,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,29,2026-02-21,17:15,Club Brugge,Oud-Heverlee Leuven,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,29,2026-02-21,19:45,Union St.-Gilloise,Antwerp,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,29,2026-02-22,12:30,Racing Genk,Standard Liege,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,29,2026-02-22,15:00,RAAL La Louvière,KV Mechelen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,29,2026-02-22,17:30,Zulte-Waregem,Anderlecht,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,29,2026-02-22,18:15,KVC Westerlo,Royal Charleroi SC,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,30,2026-02-27,19:45,Standard Liege,RAAL La Louvière,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,30,2026-02-28,15:00,KV Mechelen,Zulte-Waregem,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,30,2026-02-28,17:15,Antwerp,Sint-Truidense,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,30,2026-02-28,19:45,Anderlecht,Oud-Heverlee Leuven,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,30,2026-03-01,12:30,Racing Genk,KAA Gent,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,30,2026-03-01,15:00,KVC Westerlo,Union St.-Gilloise,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,30,2026-03-01,17:30,Royal Charleroi SC,Club Brugge,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,30,2026-03-01,18:15,Cercle Brugge KSV,Dender,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,31,2026-03-06,19:45,RAAL La Louvière,Antwerp,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,31,2026-03-07,15:00,Oud-Heverlee Leuven,KVC Westerlo,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,31,2026-03-07,17:15,Dender,Royal Charleroi SC,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,31,2026-03-07,19:45,Union St.-Gilloise,Racing Genk,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,31,2026-03-08,12:30,Club Brugge,Anderlecht,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,31,2026-03-08,15:00,KAA Gent,KV Mechelen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,31,2026-03-08,17:30,Zulte-Waregem,Standard Liege,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,31,2026-03-08,18:15,Sint-Truidense,Cercle Brugge KSV,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,32,2026-03-13,19:45,KAA Gent,Zulte-Waregem,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,32,2026-03-14,15:00,Cercle Brugge KSV,RAAL La Louvière,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,32,2026-03-14,17:15,Union St.-Gilloise,Dender,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,32,2026-03-14,19:45,KVC Westerlo,Club Brugge,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,32,2026-03-15,12:30,Racing Genk,Sint-Truidense,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,32,2026-03-15,15:00,Antwerp,Standard Liege,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,32,2026-03-15,17:30,KV Mechelen,Anderlecht,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,32,2026-03-15,18:15,Royal Charleroi SC,Oud-Heverlee Leuven,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,33,2026-03-22,17:30,Anderlecht,Cercle Brugge KSV,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,33,2026-03-22,17:30,Club Brugge,KV Mechelen,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,33,2026-03-22,17:30,Dender,KAA Gent,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,33,2026-03-22,17:30,Oud-Heverlee Leuven,Antwerp,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,33,2026-03-22,17:30,RAAL La Louvière,Racing Genk,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,33,2026-03-22,17:30,Sint-Truidense,Union St.-Gilloise,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,33,2026-03-22,17:30,Standard Liege,KVC Westerlo,TBD,0,0,0,0,0,0,0,0
+2025-2026,Pro League,33,2026-03-22,17:30,Zulte-Waregem,Royal Charleroi SC,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,6,2025-09-16,16:45,Athletic Club,Arsenal,Away,0,2,2,2,1,3,0,0
+2025-2026,UEFA Champions League,6,2025-09-16,16:45,PSV Eindhoven,Union St.-Gilloise,Away,1,3,7,7,0,0,0,0
+2025-2026,UEFA Champions League,6,2025-09-16,19:00,Benfica,FK Qarabag,Away,2,3,8,3,0,0,0,0
+2025-2026,UEFA Champions League,6,2025-09-16,19:00,Juventus,Borussia Dortmund,Draw,4,4,4,2,0,1,0,0
+2025-2026,UEFA Champions League,6,2025-09-16,19:00,Real Madrid,Marseille,Home,2,1,9,4,3,2,1,0
+2025-2026,UEFA Champions League,6,2025-09-16,19:00,Tottenham Hotspur,Villarreal,Home,1,0,3,3,4,4,0,0
+2025-2026,UEFA Champions League,6,2025-09-17,16:45,Olympiacos,Pafos,Draw,0,0,9,0,3,2,0,1
+2025-2026,UEFA Champions League,6,2025-09-17,16:45,Slavia Prague,Bodo/Glimt,Draw,2,2,8,4,2,3,0,0
+2025-2026,UEFA Champions League,6,2025-09-17,19:00,Ajax Amsterdam,Internazionale,Away,0,2,3,5,1,2,0,0
+2025-2026,UEFA Champions League,6,2025-09-17,19:00,Bayern Munich,Chelsea,Home,3,1,6,2,3,2,0,0
+2025-2026,UEFA Champions League,6,2025-09-17,19:00,Liverpool,Atlético Madrid,Home,3,2,7,6,1,2,0,1
+2025-2026,UEFA Champions League,6,2025-09-17,19:00,Paris Saint-Germain,Atalanta,Home,4,0,6,1,0,1,0,0
+2025-2026,UEFA Champions League,6,2025-09-18,16:45,Club Brugge,AS Monaco,Home,4,1,4,5,2,2,0,0
+2025-2026,UEFA Champions League,6,2025-09-18,16:45,F.C. København,Bayer Leverkusen,Draw,2,2,4,5,3,2,0,0
+2025-2026,UEFA Champions League,6,2025-09-18,19:00,Eintracht Frankfurt,Galatasaray,Home,5,1,4,3,1,1,0,0
+2025-2026,UEFA Champions League,6,2025-09-18,19:00,Manchester City,Napoli,Home,2,0,9,2,0,1,0,1
+2025-2026,UEFA Champions League,6,2025-09-18,19:00,Newcastle United,Barcelona,Away,1,2,6,4,2,4,0,0
+2025-2026,UEFA Champions League,6,2025-09-18,19:00,Sporting CP,Kairat Almaty,Home,4,1,8,3,4,2,0,0
+2025-2026,UEFA Champions League,8,2025-09-30,16:45,Atalanta,Club Brugge,Home,2,1,7,1,2,0,0,0
+2025-2026,UEFA Champions League,8,2025-09-30,16:45,Kairat Almaty,Real Madrid,Away,0,5,3,6,2,0,0,0
+2025-2026,UEFA Champions League,8,2025-09-30,19:00,Atlético Madrid,Eintracht Frankfurt,Home,5,1,5,2,1,1,0,0
+2025-2026,UEFA Champions League,8,2025-09-30,19:00,Bodo/Glimt,Tottenham Hotspur,Draw,2,2,4,5,2,2,0,0
+2025-2026,UEFA Champions League,8,2025-09-30,19:00,Chelsea,Benfica,Home,1,0,3,5,3,6,1,0
+2025-2026,UEFA Champions League,8,2025-09-30,19:00,Galatasaray,Liverpool,Home,1,0,3,7,5,3,0,0
+2025-2026,UEFA Champions League,8,2025-09-30,19:00,Internazionale,Slavia Prague,Home,3,0,5,0,2,1,0,0
+2025-2026,UEFA Champions League,8,2025-09-30,19:00,Marseille,Ajax Amsterdam,Home,4,0,1,7,2,3,0,0
+2025-2026,UEFA Champions League,8,2025-09-30,19:00,Pafos,Bayern Munich,Away,1,5,2,6,1,0,0,0
+2025-2026,UEFA Champions League,8,2025-10-01,16:45,FK Qarabag,F.C. København,Home,2,0,4,7,3,1,0,0
+2025-2026,UEFA Champions League,8,2025-10-01,16:45,Union St.-Gilloise,Newcastle United,Away,0,4,7,5,4,1,0,0
+2025-2026,UEFA Champions League,8,2025-10-01,19:00,Arsenal,Olympiacos,Home,2,0,3,5,3,2,0,0
+2025-2026,UEFA Champions League,8,2025-10-01,19:00,AS Monaco,Manchester City,Draw,2,2,7,3,1,5,0,0
+2025-2026,UEFA Champions League,8,2025-10-01,19:00,Barcelona,Paris Saint-Germain,Away,1,2,4,9,4,2,0,0
+2025-2026,UEFA Champions League,8,2025-10-01,19:00,Bayer Leverkusen,PSV Eindhoven,Draw,1,1,7,4,0,2,0,0
+2025-2026,UEFA Champions League,8,2025-10-01,19:00,Borussia Dortmund,Athletic Club,Home,4,1,4,0,1,2,0,0
+2025-2026,UEFA Champions League,8,2025-10-01,19:00,Napoli,Sporting CP,Home,2,1,7,2,0,0,0,0
+2025-2026,UEFA Champions League,8,2025-10-01,19:00,Villarreal,Juventus,Draw,2,2,4,3,1,3,0,0
+2025-2026,UEFA Champions League,11,2025-10-21,16:45,Barcelona,Olympiacos,Home,6,1,7,2,1,3,0,1
+2025-2026,UEFA Champions League,11,2025-10-21,16:45,Kairat Almaty,Pafos,Draw,0,0,6,4,3,2,0,1
+2025-2026,UEFA Champions League,11,2025-10-21,19:00,Arsenal,Atlético Madrid,Home,4,0,3,4,1,2,0,0
+2025-2026,UEFA Champions League,11,2025-10-21,19:00,Bayer Leverkusen,Paris Saint-Germain,Away,2,7,3,4,2,1,1,1
+2025-2026,UEFA Champions League,11,2025-10-21,19:00,F.C. København,Borussia Dortmund,Away,2,4,4,7,3,1,0,0
+2025-2026,UEFA Champions League,11,2025-10-21,19:00,Newcastle United,Benfica,Home,3,0,12,8,1,1,0,0
+2025-2026,UEFA Champions League,11,2025-10-21,19:00,PSV Eindhoven,Napoli,Home,6,2,4,8,4,1,0,1
+2025-2026,UEFA Champions League,11,2025-10-21,19:00,Union St.-Gilloise,Internazionale,Away,0,4,3,4,1,1,0,0
+2025-2026,UEFA Champions League,11,2025-10-21,19:00,Villarreal,Manchester City,Away,0,2,1,3,5,2,0,0
+2025-2026,UEFA Champions League,11,2025-10-22,16:45,Athletic Club,FK Qarabag,Home,3,1,8,3,0,0,0,0
+2025-2026,UEFA Champions League,11,2025-10-22,16:45,Galatasaray,Bodo/Glimt,Home,3,1,7,4,1,1,0,0
+2025-2026,UEFA Champions League,11,2025-10-22,19:00,AS Monaco,Tottenham Hotspur,Draw,0,0,5,4,0,1,0,0
+2025-2026,UEFA Champions League,11,2025-10-22,19:00,Atalanta,Slavia Prague,Draw,0,0,6,3,3,2,0,0
+2025-2026,UEFA Champions League,11,2025-10-22,19:00,Bayern Munich,Club Brugge,Home,4,0,9,1,1,0,0,0
+2025-2026,UEFA Champions League,11,2025-10-22,19:00,Chelsea,Ajax Amsterdam,Home,5,1,11,0,2,1,0,1
+2025-2026,UEFA Champions League,11,2025-10-22,19:00,Eintracht Frankfurt,Liverpool,Away,1,5,2,10,2,0,0,0
+2025-2026,UEFA Champions League,11,2025-10-22,19:00,Real Madrid,Juventus,Home,1,0,14,7,1,0,0,0
+2025-2026,UEFA Champions League,11,2025-10-22,19:00,Sporting CP,Marseille,Home,2,1,3,1,2,4,0,1
+2025-2026,UEFA Champions League,13,2025-11-04,17:45,Napoli,Eintracht Frankfurt,Draw,0,0,5,3,3,1,0,0
+2025-2026,UEFA Champions League,13,2025-11-04,17:45,Slavia Prague,Arsenal,Away,0,3,4,7,3,4,0,0
+2025-2026,UEFA Champions League,13,2025-11-04,20:00,Atlético Madrid,Union St.-Gilloise,Home,3,1,9,1,1,3,0,0
+2025-2026,UEFA Champions League,13,2025-11-04,20:00,Bodo/Glimt,AS Monaco,Away,0,1,4,4,1,4,1,0
+2025-2026,UEFA Champions League,13,2025-11-04,20:00,Juventus,Sporting CP,Draw,1,1,6,0,2,3,0,0
+2025-2026,UEFA Champions League,13,2025-11-04,20:00,Liverpool,Real Madrid,Home,1,0,4,2,1,5,0,0
+2025-2026,UEFA Champions League,13,2025-11-04,20:00,Olympiacos,PSV Eindhoven,Draw,1,1,3,6,1,1,0,0
+2025-2026,UEFA Champions League,13,2025-11-04,20:00,Paris Saint-Germain,Bayern Munich,Away,1,2,9,1,1,3,0,1
+2025-2026,UEFA Champions League,13,2025-11-04,20:00,Tottenham Hotspur,F.C. København,Home,4,0,3,6,1,3,1,0
+2025-2026,UEFA Champions League,13,2025-11-05,17:45,FK Qarabag,Chelsea,Draw,2,2,2,8,2,3,0,0
+2025-2026,UEFA Champions League,13,2025-11-05,17:45,Pafos,Villarreal,Home,1,0,2,3,1,2,0,0
+2025-2026,UEFA Champions League,13,2025-11-05,20:00,Ajax Amsterdam,Galatasaray,Away,0,3,3,2,5,0,0,0
+2025-2026,UEFA Champions League,13,2025-11-05,20:00,Benfica,Bayer Leverkusen,Away,0,1,6,0,2,3,0,0
+2025-2026,UEFA Champions League,13,2025-11-05,20:00,Club Brugge,Barcelona,Draw,3,3,0,4,2,3,0,0
+2025-2026,UEFA Champions League,13,2025-11-05,20:00,Internazionale,Kairat Almaty,Home,2,1,9,3,1,1,0,0
+2025-2026,UEFA Champions League,13,2025-11-05,20:00,Manchester City,Borussia Dortmund,Home,4,1,4,4,2,1,0,0
+2025-2026,UEFA Champions League,13,2025-11-05,20:00,Marseille,Atalanta,Away,0,1,7,3,3,4,0,0
+2025-2026,UEFA Champions League,13,2025-11-05,20:00,Newcastle United,Athletic Club,Home,2,0,2,5,0,2,0,0
+2025-2026,UEFA Champions League,16,2025-11-25,17:45,Ajax Amsterdam,Benfica,Away,0,2,10,4,1,1,0,0
+2025-2026,UEFA Champions League,16,2025-11-25,17:45,Galatasaray,Union St.-Gilloise,Away,0,1,4,5,5,2,1,0
+2025-2026,UEFA Champions League,16,2025-11-25,20:00,Bodo/Glimt,Juventus,Away,2,3,6,8,0,4,0,0
+2025-2026,UEFA Champions League,16,2025-11-25,20:00,Borussia Dortmund,Villarreal,Home,4,0,3,2,1,0,0,1
+2025-2026,UEFA Champions League,16,2025-11-25,20:00,Chelsea,Barcelona,Home,3,0,4,0,2,1,0,1
+2025-2026,UEFA Champions League,16,2025-11-25,20:00,Manchester City,Bayer Leverkusen,Away,0,2,9,3,0,2,0,0
+2025-2026,UEFA Champions League,16,2025-11-25,20:00,Marseille,Newcastle United,Home,2,1,11,5,5,3,0,0
+2025-2026,UEFA Champions League,16,2025-11-25,20:00,Napoli,FK Qarabag,Home,2,0,6,4,2,2,0,0
+2025-2026,UEFA Champions League,16,2025-11-25,20:00,Slavia Prague,Athletic Club,Draw,0,0,2,5,3,4,0,0
+2025-2026,UEFA Champions League,16,2025-11-26,17:45,F.C. København,Kairat Almaty,Home,3,2,5,0,2,4,0,0
+2025-2026,UEFA Champions League,16,2025-11-26,17:45,Pafos,AS Monaco,Draw,2,2,5,3,3,3,0,0
+2025-2026,UEFA Champions League,16,2025-11-26,20:00,Arsenal,Bayern Munich,Home,3,1,6,1,3,3,0,0
+2025-2026,UEFA Champions League,16,2025-11-26,20:00,Atlético Madrid,Internazionale,Home,2,1,7,6,1,1,0,0
+2025-2026,UEFA Champions League,16,2025-11-26,20:00,Eintracht Frankfurt,Atalanta,Away,0,3,5,6,0,0,0,0
+2025-2026,UEFA Champions League,16,2025-11-26,20:00,Liverpool,PSV Eindhoven,Away,1,4,11,4,1,0,0,0
+2025-2026,UEFA Champions League,16,2025-11-26,20:00,Olympiacos,Real Madrid,Away,3,4,3,5,1,2,0,0
+2025-2026,UEFA Champions League,16,2025-11-26,20:00,Paris Saint-Germain,Tottenham Hotspur,Home,5,3,5,5,0,1,1,0
+2025-2026,UEFA Champions League,16,2025-11-26,20:00,Sporting CP,Club Brugge,Home,3,0,3,5,1,4,0,0
+2025-2026,UEFA Champions League,18,2025-12-09,15:30,Kairat Almaty,Olympiacos,Away,0,1,1,8,1,2,0,0
+2025-2026,UEFA Champions League,18,2025-12-09,17:45,Bayern Munich,Sporting CP,Home,3,1,4,3,2,1,0,0
+2025-2026,UEFA Champions League,18,2025-12-09,20:00,AS Monaco,Galatasaray,Home,1,0,8,3,1,2,0,0
+2025-2026,UEFA Champions League,18,2025-12-09,20:00,Atalanta,Chelsea,Home,2,1,2,5,0,1,0,0
+2025-2026,UEFA Champions League,18,2025-12-09,20:00,Barcelona,Eintracht Frankfurt,Home,2,1,5,0,2,1,0,0
+2025-2026,UEFA Champions League,18,2025-12-09,20:00,Internazionale,Liverpool,Away,0,1,6,3,3,2,0,0
+2025-2026,UEFA Champions League,18,2025-12-09,20:00,PSV Eindhoven,Atlético Madrid,Away,2,3,9,5,4,4,0,0
+2025-2026,UEFA Champions League,18,2025-12-09,20:00,Tottenham Hotspur,Slavia Prague,Home,3,0,8,3,2,4,0,0
+2025-2026,UEFA Champions League,18,2025-12-09,20:00,Union St.-Gilloise,Marseille,Away,2,3,2,3,4,1,0,0
+2025-2026,UEFA Champions League,18,2025-12-10,17:45,FK Qarabag,Ajax Amsterdam,Away,2,4,4,6,0,1,0,0
+2025-2026,UEFA Champions League,18,2025-12-10,17:45,Villarreal,F.C. København,Away,2,3,6,4,3,3,0,0
+2025-2026,UEFA Champions League,18,2025-12-10,20:00,Athletic Club,Paris Saint-Germain,Draw,0,0,4,6,3,1,0,0
+2025-2026,UEFA Champions League,18,2025-12-10,20:00,Bayer Leverkusen,Newcastle United,Draw,2,2,9,6,2,2,0,0
+2025-2026,UEFA Champions League,18,2025-12-10,20:00,Benfica,Napoli,Home,2,0,2,6,1,2,0,0
+2025-2026,UEFA Champions League,18,2025-12-10,20:00,Borussia Dortmund,Bodo/Glimt,Draw,2,2,10,4,1,0,0,0
+2025-2026,UEFA Champions League,18,2025-12-10,20:00,Club Brugge,Arsenal,Away,0,3,1,5,0,2,0,0
+2025-2026,UEFA Champions League,18,2025-12-10,20:00,Juventus,Pafos,Home,2,0,13,4,1,1,0,0
+2025-2026,UEFA Champions League,18,2025-12-10,20:00,Real Madrid,Manchester City,Away,1,2,3,3,3,4,0,0
+2025-2026,UEFA Champions League,24,2026-01-20,15:30,Kairat Almaty,Club Brugge,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,24,2026-01-20,17:45,Bodo/Glimt,Manchester City,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,24,2026-01-20,20:00,F.C. København,Napoli,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,24,2026-01-20,20:00,Internazionale,Arsenal,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,24,2026-01-20,20:00,Olympiacos,Bayer Leverkusen,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,24,2026-01-20,20:00,Real Madrid,AS Monaco,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,24,2026-01-20,20:00,Sporting CP,Paris Saint-Germain,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,24,2026-01-20,20:00,Tottenham Hotspur,Borussia Dortmund,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,24,2026-01-20,20:00,Villarreal,Ajax Amsterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,24,2026-01-21,17:45,FK Qarabag,Eintracht Frankfurt,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,24,2026-01-21,17:45,Galatasaray,Atlético Madrid,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,24,2026-01-21,20:00,Atalanta,Athletic Club,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,24,2026-01-21,20:00,Bayern Munich,Union St.-Gilloise,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,24,2026-01-21,20:00,Chelsea,Pafos,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,24,2026-01-21,20:00,Juventus,Benfica,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,24,2026-01-21,20:00,Marseille,Liverpool,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,24,2026-01-21,20:00,Newcastle United,PSV Eindhoven,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,24,2026-01-21,20:00,Slavia Prague,Barcelona,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,25,2026-01-28,20:00,Ajax Amsterdam,Olympiacos,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,25,2026-01-28,20:00,Arsenal,Kairat Almaty,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,25,2026-01-28,20:00,AS Monaco,Juventus,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,25,2026-01-28,20:00,Athletic Club,Sporting CP,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,25,2026-01-28,20:00,Atlético Madrid,Bodo/Glimt,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,25,2026-01-28,20:00,Barcelona,F.C. København,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,25,2026-01-28,20:00,Bayer Leverkusen,Villarreal,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,25,2026-01-28,20:00,Benfica,Real Madrid,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,25,2026-01-28,20:00,Borussia Dortmund,Internazionale,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,25,2026-01-28,20:00,Club Brugge,Marseille,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,25,2026-01-28,20:00,Eintracht Frankfurt,Tottenham Hotspur,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,25,2026-01-28,20:00,Liverpool,FK Qarabag,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,25,2026-01-28,20:00,Manchester City,Galatasaray,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,25,2026-01-28,20:00,Napoli,Chelsea,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,25,2026-01-28,20:00,Pafos,Slavia Prague,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,25,2026-01-28,20:00,Paris Saint-Germain,Newcastle United,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,25,2026-01-28,20:00,PSV Eindhoven,Bayern Munich,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Champions League,25,2026-01-28,20:00,Union St.-Gilloise,Atalanta,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,7,2025-09-24,16:45,FC Midtjylland,SK Sturm Graz,Home,2,0,4,3,3,2,0,0
+2025-2026,UEFA Europa League,7,2025-09-24,16:45,PAOK Salonika,Maccabi Tel-Aviv,Draw,0,0,9,3,1,3,0,0
+2025-2026,UEFA Europa League,7,2025-09-24,19:00,Braga,Feyenoord Rotterdam,Home,1,0,7,2,1,2,0,0
+2025-2026,UEFA Europa League,7,2025-09-24,19:00,Dinamo Zagreb,Fenerbahce,Home,3,1,5,6,2,4,0,0
+2025-2026,UEFA Europa League,7,2025-09-24,19:00,Malmö FF,Ludogorets Razgrad,Away,1,2,2,3,3,3,0,0
+2025-2026,UEFA Europa League,7,2025-09-24,19:00,Nice,AS Roma,Away,1,2,3,5,0,6,0,0
+2025-2026,UEFA Europa League,7,2025-09-24,19:00,Real Betis,Nottingham Forest,Draw,2,2,3,3,3,2,0,0
+2025-2026,UEFA Europa League,7,2025-09-24,19:00,Red Star Belgrade,Celtic,Draw,1,1,8,4,2,2,0,0
+2025-2026,UEFA Europa League,7,2025-09-24,19:00,SC Freiburg,FC Basel,Home,2,1,4,4,2,3,0,0
+2025-2026,UEFA Europa League,7,2025-09-25,16:45,Go Ahead Eagles,FCSB,Away,0,1,7,1,2,5,0,0
+2025-2026,UEFA Europa League,7,2025-09-25,16:45,Lille,SK Brann,Home,2,1,11,4,1,2,0,0
+2025-2026,UEFA Europa League,7,2025-09-25,19:00,Aston Villa,Bologna,Home,1,0,8,3,2,2,0,0
+2025-2026,UEFA Europa League,7,2025-09-25,19:00,FC Utrecht,Lyon,Away,0,1,4,5,3,5,0,0
+2025-2026,UEFA Europa League,7,2025-09-25,19:00,Ferencvaros,Viktoria Plzen,Draw,1,1,3,3,3,2,1,0
+2025-2026,UEFA Europa League,7,2025-09-25,19:00,Rangers,Racing Genk,Away,0,1,4,2,1,3,1,0
+2025-2026,UEFA Europa League,7,2025-09-25,19:00,RB Salzburg,FC Porto,Away,0,1,2,8,4,1,0,0
+2025-2026,UEFA Europa League,7,2025-09-25,19:00,VfB Stuttgart,Celta Vigo,Home,2,1,9,2,2,2,0,0
+2025-2026,UEFA Europa League,7,2025-09-25,19:00,Young Boys,Panathinaikos,Away,1,4,9,4,1,0,0,0
+2025-2026,UEFA Europa League,8,2025-10-02,16:45,AS Roma,Lille,Away,0,1,6,3,0,4,0,0
+2025-2026,UEFA Europa League,8,2025-10-02,16:45,Bologna,SC Freiburg,Draw,1,1,2,8,2,2,0,0
+2025-2026,UEFA Europa League,8,2025-10-02,16:45,Celtic,Braga,Away,0,2,7,5,2,1,0,0
+2025-2026,UEFA Europa League,8,2025-10-02,16:45,FCSB,Young Boys,Away,0,2,8,3,1,3,0,0
+2025-2026,UEFA Europa League,8,2025-10-02,16:45,Fenerbahce,Nice,Home,2,1,3,4,3,2,0,0
+2025-2026,UEFA Europa League,8,2025-10-02,16:45,Ludogorets Razgrad,Real Betis,Away,0,2,6,5,1,3,0,0
+2025-2026,UEFA Europa League,8,2025-10-02,16:45,Panathinaikos,Go Ahead Eagles,Away,1,2,14,3,1,2,0,0
+2025-2026,UEFA Europa League,8,2025-10-02,16:45,SK Brann,FC Utrecht,Home,1,0,4,3,2,2,0,0
+2025-2026,UEFA Europa League,8,2025-10-02,16:45,Viktoria Plzen,Malmö FF,Home,3,0,3,6,2,3,1,2
+2025-2026,UEFA Europa League,8,2025-10-02,19:00,Celta Vigo,PAOK Salonika,Home,3,1,5,1,3,2,0,0
+2025-2026,UEFA Europa League,8,2025-10-02,19:00,FC Basel,VfB Stuttgart,Home,2,0,1,9,3,0,0,0
+2025-2026,UEFA Europa League,8,2025-10-02,19:00,FC Porto,Red Star Belgrade,Home,2,1,5,3,3,2,0,0
+2025-2026,UEFA Europa League,8,2025-10-02,19:00,Feyenoord Rotterdam,Aston Villa,Away,0,2,8,1,3,4,0,0
+2025-2026,UEFA Europa League,8,2025-10-02,19:00,Lyon,RB Salzburg,Home,2,0,2,1,1,1,0,0
+2025-2026,UEFA Europa League,8,2025-10-02,19:00,Maccabi Tel-Aviv,Dinamo Zagreb,Away,1,3,5,3,1,2,0,0
+2025-2026,UEFA Europa League,8,2025-10-02,19:00,Nottingham Forest,FC Midtjylland,Away,2,3,10,8,3,3,0,0
+2025-2026,UEFA Europa League,8,2025-10-02,19:00,Racing Genk,Ferencvaros,Away,0,1,5,3,0,3,0,0
+2025-2026,UEFA Europa League,8,2025-10-02,19:00,SK Sturm Graz,Rangers,Home,2,1,3,7,2,2,0,0
+2025-2026,UEFA Europa League,11,2025-10-23,16:45,Braga,Red Star Belgrade,Home,2,0,2,2,0,1,0,0
+2025-2026,UEFA Europa League,11,2025-10-23,16:45,FCSB,Bologna,Away,1,2,4,10,5,4,0,0
+2025-2026,UEFA Europa League,11,2025-10-23,16:45,Fenerbahce,VfB Stuttgart,Home,1,0,4,7,8,5,0,0
+2025-2026,UEFA Europa League,11,2025-10-23,16:45,Go Ahead Eagles,Aston Villa,Home,2,1,1,10,2,0,0,0
+2025-2026,UEFA Europa League,11,2025-10-23,16:45,Lyon,FC Basel,Home,2,0,4,2,1,1,0,0
+2025-2026,UEFA Europa League,11,2025-10-23,16:45,Racing Genk,Real Betis,Draw,0,0,2,1,1,3,0,0
+2025-2026,UEFA Europa League,11,2025-10-23,16:45,RB Salzburg,Ferencvaros,Away,2,3,5,2,0,3,0,0
+2025-2026,UEFA Europa League,11,2025-10-23,16:45,SK Brann,Rangers,Home,3,0,3,5,1,2,0,0
+2025-2026,UEFA Europa League,11,2025-10-23,19:00,AS Roma,Viktoria Plzen,Away,1,2,10,3,2,6,0,0
+2025-2026,UEFA Europa League,11,2025-10-23,19:00,Celta Vigo,Nice,Home,2,1,7,5,1,4,0,1
+2025-2026,UEFA Europa League,11,2025-10-23,19:00,Celtic,SK Sturm Graz,Home,2,1,9,2,1,1,0,1
+2025-2026,UEFA Europa League,11,2025-10-23,19:00,Feyenoord Rotterdam,Panathinaikos,Home,3,1,3,2,1,5,0,0
+2025-2026,UEFA Europa League,11,2025-10-23,19:00,Lille,PAOK Salonika,Away,3,4,13,2,1,4,0,1
+2025-2026,UEFA Europa League,11,2025-10-23,19:00,Maccabi Tel-Aviv,FC Midtjylland,Away,0,3,4,6,0,4,0,0
+2025-2026,UEFA Europa League,11,2025-10-23,19:00,Malmö FF,Dinamo Zagreb,Draw,1,1,3,10,1,2,0,0
+2025-2026,UEFA Europa League,11,2025-10-23,19:00,Nottingham Forest,FC Porto,Home,2,0,3,8,2,2,0,0
+2025-2026,UEFA Europa League,11,2025-10-23,19:00,SC Freiburg,FC Utrecht,Home,2,0,5,4,0,1,0,0
+2025-2026,UEFA Europa League,11,2025-10-23,19:00,Young Boys,Ludogorets Razgrad,Home,3,2,3,2,3,1,0,0
+2025-2026,UEFA Europa League,13,2025-11-06,17:45,Dinamo Zagreb,Celta Vigo,Away,0,3,5,2,0,0,0,0
+2025-2026,UEFA Europa League,13,2025-11-06,17:45,FC Basel,FCSB,Home,3,1,8,5,2,3,0,1
+2025-2026,UEFA Europa League,13,2025-11-06,17:45,FC Midtjylland,Celtic,Home,3,1,4,4,0,3,0,0
+2025-2026,UEFA Europa League,13,2025-11-06,17:45,FC Utrecht,FC Porto,Draw,1,1,2,7,3,5,1,0
+2025-2026,UEFA Europa League,13,2025-11-06,17:45,Malmö FF,Panathinaikos,Away,0,1,4,2,2,4,0,0
+2025-2026,UEFA Europa League,13,2025-11-06,17:45,Nice,SC Freiburg,Away,1,3,5,4,1,2,0,0
+2025-2026,UEFA Europa League,13,2025-11-06,17:45,RB Salzburg,Go Ahead Eagles,Home,2,0,3,4,0,2,0,0
+2025-2026,UEFA Europa League,13,2025-11-06,17:45,Red Star Belgrade,Lille,Home,1,0,5,3,3,4,0,0
+2025-2026,UEFA Europa League,13,2025-11-06,17:45,SK Sturm Graz,Nottingham Forest,Draw,0,0,0,4,1,1,0,0
+2025-2026,UEFA Europa League,13,2025-11-06,20:00,Aston Villa,Maccabi Tel-Aviv,Home,2,0,3,1,0,2,0,0
+2025-2026,UEFA Europa League,13,2025-11-06,20:00,Bologna,SK Brann,Draw,0,0,11,3,3,2,1,0
+2025-2026,UEFA Europa League,13,2025-11-06,20:00,Braga,Racing Genk,Away,3,4,9,2,2,1,0,0
+2025-2026,UEFA Europa League,13,2025-11-06,20:00,Ferencvaros,Ludogorets Razgrad,Home,3,1,7,5,2,3,0,0
+2025-2026,UEFA Europa League,13,2025-11-06,20:00,PAOK Salonika,Young Boys,Home,4,0,7,0,1,3,0,1
+2025-2026,UEFA Europa League,13,2025-11-06,20:00,Rangers,AS Roma,Away,0,2,2,6,0,0,0,0
+2025-2026,UEFA Europa League,13,2025-11-06,20:00,Real Betis,Lyon,Home,2,0,2,6,2,3,0,0
+2025-2026,UEFA Europa League,13,2025-11-06,20:00,VfB Stuttgart,Feyenoord Rotterdam,Home,2,0,2,5,4,4,0,0
+2025-2026,UEFA Europa League,13,2025-11-06,20:00,Viktoria Plzen,Fenerbahce,Draw,0,0,11,2,3,5,0,0
+2025-2026,UEFA Europa League,16,2025-11-27,17:45,AS Roma,FC Midtjylland,Home,2,1,6,6,2,3,0,0
+2025-2026,UEFA Europa League,16,2025-11-27,17:45,Aston Villa,Young Boys,Home,2,1,7,0,2,1,0,0
+2025-2026,UEFA Europa League,16,2025-11-27,17:45,FC Porto,Nice,Home,3,0,4,3,2,2,0,0
+2025-2026,UEFA Europa League,16,2025-11-27,17:45,Fenerbahce,Ferencvaros,Draw,1,1,7,4,5,4,1,0
+2025-2026,UEFA Europa League,16,2025-11-27,17:45,Feyenoord Rotterdam,Celtic,Away,1,3,6,2,1,3,0,0
+2025-2026,UEFA Europa League,16,2025-11-27,17:45,Lille,Dinamo Zagreb,Home,4,0,5,1,2,1,0,0
+2025-2026,UEFA Europa League,16,2025-11-27,17:45,Ludogorets Razgrad,Celta Vigo,Home,3,2,1,7,2,3,0,0
+2025-2026,UEFA Europa League,16,2025-11-27,17:45,PAOK Salonika,SK Brann,Draw,1,1,6,8,2,1,0,0
+2025-2026,UEFA Europa League,16,2025-11-27,17:45,Viktoria Plzen,SC Freiburg,Draw,0,0,7,3,2,2,0,0
+2025-2026,UEFA Europa League,16,2025-11-27,20:00,Bologna,RB Salzburg,Home,4,1,6,2,0,2,0,0
+2025-2026,UEFA Europa League,16,2025-11-27,20:00,Go Ahead Eagles,VfB Stuttgart,Away,0,4,2,5,3,4,0,0
+2025-2026,UEFA Europa League,16,2025-11-27,20:00,Maccabi Tel-Aviv,Lyon,Away,0,6,0,3,4,2,1,0
+2025-2026,UEFA Europa League,16,2025-11-27,20:00,Nottingham Forest,Malmö FF,Home,3,0,7,0,4,1,0,0
+2025-2026,UEFA Europa League,16,2025-11-27,20:00,Panathinaikos,SK Sturm Graz,Home,2,1,7,3,3,3,0,0
+2025-2026,UEFA Europa League,16,2025-11-27,20:00,Racing Genk,FC Basel,Home,2,1,2,6,4,1,0,0
+2025-2026,UEFA Europa League,16,2025-11-27,20:00,Rangers,Braga,Draw,1,1,8,3,2,4,1,1
+2025-2026,UEFA Europa League,16,2025-11-27,20:00,Real Betis,FC Utrecht,Home,2,1,3,3,1,1,0,0
+2025-2026,UEFA Europa League,16,2025-11-27,20:00,Red Star Belgrade,FCSB,Home,1,0,6,5,1,1,1,0
+2025-2026,UEFA Europa League,18,2025-12-11,17:45,Dinamo Zagreb,Real Betis,Away,1,3,5,4,2,3,0,0
+2025-2026,UEFA Europa League,18,2025-12-11,17:45,FC Midtjylland,Racing Genk,Home,1,0,5,5,2,4,0,0
+2025-2026,UEFA Europa League,18,2025-12-11,17:45,FC Utrecht,Nottingham Forest,Away,1,2,7,5,2,2,0,0
+2025-2026,UEFA Europa League,18,2025-12-11,17:45,Ferencvaros,Rangers,Home,2,1,5,5,1,2,0,0
+2025-2026,UEFA Europa League,18,2025-12-11,17:45,Ludogorets Razgrad,PAOK Salonika,Draw,3,3,2,4,3,1,0,0
+2025-2026,UEFA Europa League,18,2025-12-11,17:45,Nice,Braga,Away,0,1,7,3,5,2,0,0
+2025-2026,UEFA Europa League,18,2025-12-11,17:45,SK Sturm Graz,Red Star Belgrade,Away,0,1,7,5,3,6,0,0
+2025-2026,UEFA Europa League,18,2025-12-11,17:45,VfB Stuttgart,Maccabi Tel-Aviv,Home,4,1,7,2,2,2,0,0
+2025-2026,UEFA Europa League,18,2025-12-11,17:45,Young Boys,Lille,Home,1,0,1,3,1,1,1,1
+2025-2026,UEFA Europa League,18,2025-12-11,20:00,Celta Vigo,Bologna,Away,1,2,0,5,3,1,0,0
+2025-2026,UEFA Europa League,18,2025-12-11,20:00,Celtic,AS Roma,Away,0,3,4,4,0,5,0,0
+2025-2026,UEFA Europa League,18,2025-12-11,20:00,FC Basel,Aston Villa,Away,1,2,2,4,2,4,0,0
+2025-2026,UEFA Europa League,18,2025-12-11,20:00,FC Porto,Malmö FF,Home,2,1,5,0,0,2,0,0
+2025-2026,UEFA Europa League,18,2025-12-11,20:00,FCSB,Feyenoord Rotterdam,Home,4,3,3,4,2,1,0,0
+2025-2026,UEFA Europa League,18,2025-12-11,20:00,Lyon,Go Ahead Eagles,Home,2,1,7,1,1,2,0,0
+2025-2026,UEFA Europa League,18,2025-12-11,20:00,Panathinaikos,Viktoria Plzen,Draw,0,0,9,2,3,4,0,1
+2025-2026,UEFA Europa League,18,2025-12-11,20:00,SC Freiburg,RB Salzburg,Home,1,0,10,2,2,1,0,1
+2025-2026,UEFA Europa League,18,2025-12-11,20:00,SK Brann,Fenerbahce,Away,0,4,1,10,1,1,1,0
+2025-2026,UEFA Europa League,24,2026-01-22,17:45,Bologna,Celtic,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,24,2026-01-22,17:45,Fenerbahce,Aston Villa,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,24,2026-01-22,17:45,Feyenoord Rotterdam,SK Sturm Graz,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,24,2026-01-22,17:45,Malmö FF,Red Star Belgrade,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,24,2026-01-22,17:45,PAOK Salonika,Real Betis,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,24,2026-01-22,17:45,SC Freiburg,Maccabi Tel-Aviv,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,24,2026-01-22,17:45,SK Brann,FC Midtjylland,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,24,2026-01-22,17:45,Viktoria Plzen,FC Porto,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,24,2026-01-22,17:45,Young Boys,Lyon,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,24,2026-01-22,20:00,AS Roma,VfB Stuttgart,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,24,2026-01-22,20:00,Braga,Nottingham Forest,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,24,2026-01-22,20:00,Celta Vigo,Lille,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,24,2026-01-22,20:00,Dinamo Zagreb,FCSB,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,24,2026-01-22,20:00,FC Utrecht,Racing Genk,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,24,2026-01-22,20:00,Ferencvaros,Panathinaikos,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,24,2026-01-22,20:00,Nice,Go Ahead Eagles,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,24,2026-01-22,20:00,Rangers,Ludogorets Razgrad,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,24,2026-01-22,20:00,RB Salzburg,FC Basel,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,25,2026-01-29,20:00,Aston Villa,RB Salzburg,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,25,2026-01-29,20:00,Celtic,FC Utrecht,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,25,2026-01-29,20:00,FC Basel,Viktoria Plzen,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,25,2026-01-29,20:00,FC Midtjylland,Dinamo Zagreb,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,25,2026-01-29,20:00,FC Porto,Rangers,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,25,2026-01-29,20:00,FCSB,Fenerbahce,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,25,2026-01-29,20:00,Go Ahead Eagles,Braga,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,25,2026-01-29,20:00,Lille,SC Freiburg,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,25,2026-01-29,20:00,Ludogorets Razgrad,Nice,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,25,2026-01-29,20:00,Lyon,PAOK Salonika,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,25,2026-01-29,20:00,Maccabi Tel-Aviv,Bologna,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,25,2026-01-29,20:00,Nottingham Forest,Ferencvaros,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,25,2026-01-29,20:00,Panathinaikos,AS Roma,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,25,2026-01-29,20:00,Racing Genk,Malmö FF,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,25,2026-01-29,20:00,Real Betis,Feyenoord Rotterdam,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,25,2026-01-29,20:00,Red Star Belgrade,Celta Vigo,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,25,2026-01-29,20:00,SK Sturm Graz,SK Brann,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa League,25,2026-01-29,20:00,VfB Stuttgart,Young Boys,TBD,0,0,0,0,0,0,0,0
+2025-2026,UEFA Europa Conference League,8,2025-10-02,16:45,Dynamo Kyiv,Crystal Palace,Away,0,2,3,5,1,2,0,1
+2025-2026,UEFA Europa Conference League,8,2025-10-02,16:45,FC Noah,Rijeka,Home,1,0,2,1,1,3,0,1
+2025-2026,UEFA Europa Conference League,8,2025-10-02,16:45,Jagiellonia Bialystok,Hamrun Spartans,Home,1,0,7,5,2,2,0,1
+2025-2026,UEFA Europa Conference League,8,2025-10-02,16:45,KuPS Kuopio,Drita Gjilan,Draw,1,1,1,2,4,0,0,0
+2025-2026,UEFA Europa Conference League,8,2025-10-02,16:45,Lausanne Sports,Breidablik,Home,3,0,2,7,1,1,0,0
+2025-2026,UEFA Europa Conference League,8,2025-10-02,16:45,Lech Poznan,Rapid Vienna,Home,4,1,2,4,3,1,0,0
+2025-2026,UEFA Europa Conference League,8,2025-10-02,16:45,Omonia Nicosia,Mainz,Away,0,1,4,8,1,1,0,0
+2025-2026,UEFA Europa Conference League,8,2025-10-02,16:45,Rayo Vallecano,KF Shkëndija,Home,2,0,12,0,1,2,0,0
+2025-2026,UEFA Europa Conference League,8,2025-10-02,16:45,Zrinjski Mostar,Lincoln Red Imps,Home,5,0,4,4,3,2,0,0
+2025-2026,UEFA Europa Conference League,8,2025-10-02,19:00,Aberdeen,Shakhtar Donetsk,Away,2,3,4,6,4,4,0,0
+2025-2026,UEFA Europa Conference League,8,2025-10-02,19:00,AEK Larnaca,AZ Alkmaar,Home,4,0,6,2,2,3,0,1
+2025-2026,UEFA Europa Conference League,8,2025-10-02,19:00,Fiorentina,Sigma Olomouc,Home,2,0,8,0,3,1,0,0
+2025-2026,UEFA Europa Conference League,8,2025-10-02,19:00,Legia Warsaw,Samsunspor,Away,0,1,8,2,3,4,0,0
+2025-2026,UEFA Europa Conference League,8,2025-10-02,19:00,NK Celje,AEK Athens,Home,3,1,9,4,3,4,0,0
+2025-2026,UEFA Europa Conference League,8,2025-10-02,19:00,Raków Czestochowa,CSU Craiova,Home,2,0,10,1,0,2,0,1
+2025-2026,UEFA Europa Conference League,8,2025-10-02,19:00,Shelbourne,BK Häcken,Draw,0,0,3,5,1,2,0,0
+2025-2026,UEFA Europa Conference League,8,2025-10-02,19:00,Slovan Bratislava,Strasbourg,Away,1,2,6,1,1,3,0,0
+2025-2026,UEFA Europa Conference League,8,2025-10-02,19:00,Sparta Prague,Shamrock Rovers,Home,4,1,7,2,3,4,0,0
+2025-2026,UEFA Europa Conference League,11,2025-10-23,16:45,AEK Athens,Aberdeen,Home,6,0,5,2,1,1,0,0
+2025-2026,UEFA Europa Conference League,11,2025-10-23,16:45,AZ Alkmaar,Slovan Bratislava,Home,1,0,12,0,1,4,0,1
+2025-2026,UEFA Europa Conference League,11,2025-10-23,16:45,BK Häcken,Rayo Vallecano,Draw,2,2,10,5,5,5,0,1
+2025-2026,UEFA Europa Conference League,11,2025-10-23,16:45,Breidablik,KuPS Kuopio,Draw,0,0,10,6,1,0,0,1
+2025-2026,UEFA Europa Conference League,11,2025-10-23,16:45,Drita Gjilan,Omonia Nicosia,Draw,1,1,2,8,3,4,0,0
+2025-2026,UEFA Europa Conference League,11,2025-10-23,16:45,KF Shkëndija,Shelbourne,Home,1,0,4,1,3,2,0,0
+2025-2026,UEFA Europa Conference League,11,2025-10-23,16:45,Rapid Vienna,Fiorentina,Away,0,3,2,5,2,1,0,0
+2025-2026,UEFA Europa Conference League,11,2025-10-23,16:45,Shakhtar Donetsk,Legia Warsaw,Away,1,2,3,3,3,1,0,0
+2025-2026,UEFA Europa Conference League,11,2025-10-23,16:45,Strasbourg,Jagiellonia Bialystok,Draw,1,1,9,0,3,4,0,0
+2025-2026,UEFA Europa Conference League,11,2025-10-23,19:00,Crystal Palace,AEK Larnaca,Away,0,1,8,2,2,2,0,0
+2025-2026,UEFA Europa Conference League,11,2025-10-23,19:00,CSU Craiova,FC Noah,Draw,1,1,2,4,2,1,0,0
+2025-2026,UEFA Europa Conference League,11,2025-10-23,19:00,Hamrun Spartans,Lausanne Sports,Away,0,1,6,4,3,4,0,0
+2025-2026,UEFA Europa Conference League,11,2025-10-23,19:00,Lincoln Red Imps,Lech Poznan,Home,2,1,4,6,2,1,0,0
+2025-2026,UEFA Europa Conference League,11,2025-10-23,19:00,Mainz,Zrinjski Mostar,Home,1,0,7,2,1,4,0,1
+2025-2026,UEFA Europa Conference League,11,2025-10-23,19:00,Samsunspor,Dynamo Kyiv,Home,3,0,4,6,0,2,0,0
+2025-2026,UEFA Europa Conference League,11,2025-10-23,19:00,Shamrock Rovers,NK Celje,Away,0,2,4,3,3,2,0,0
+2025-2026,UEFA Europa Conference League,11,2025-10-23,19:00,Sigma Olomouc,Raków Czestochowa,Draw,1,1,3,2,4,3,0,0
+2025-2026,UEFA Europa Conference League,12,2025-10-24,14:00,Rijeka,Sparta Prague,Home,1,0,4,3,3,5,0,0
+2025-2026,UEFA Europa Conference League,13,2025-11-06,17:45,AEK Athens,Shamrock Rovers,Draw,1,1,10,0,2,4,0,0
+2025-2026,UEFA Europa Conference League,13,2025-11-06,17:45,AEK Larnaca,Aberdeen,Draw,0,0,5,5,1,0,0,0
+2025-2026,UEFA Europa Conference League,13,2025-11-06,17:45,FC Noah,Sigma Olomouc,Away,1,2,0,4,4,2,0,0
+2025-2026,UEFA Europa Conference League,13,2025-11-06,17:45,KuPS Kuopio,Slovan Bratislava,Home,3,1,6,0,2,3,0,0
+2025-2026,UEFA Europa Conference League,13,2025-11-06,17:45,Mainz,Fiorentina,Home,2,1,3,2,3,3,0,0
+2025-2026,UEFA Europa Conference League,13,2025-11-06,17:45,NK Celje,Legia Warsaw,Home,2,1,3,6,1,3,0,0
+2025-2026,UEFA Europa Conference League,13,2025-11-06,17:45,Samsunspor,Hamrun Spartans,Home,3,0,4,1,0,1,0,0
+2025-2026,UEFA Europa Conference League,13,2025-11-06,17:45,Shakhtar Donetsk,Breidablik,Home,2,0,8,2,0,2,0,0
+2025-2026,UEFA Europa Conference League,13,2025-11-06,17:45,Sparta Prague,Raków Czestochowa,Draw,0,0,7,2,0,1,0,0
+2025-2026,UEFA Europa Conference League,13,2025-11-06,20:00,BK Häcken,Strasbourg,Away,1,2,6,3,2,1,0,0
+2025-2026,UEFA Europa Conference League,13,2025-11-06,20:00,Crystal Palace,AZ Alkmaar,Home,3,1,2,1,2,2,0,0
+2025-2026,UEFA Europa Conference League,13,2025-11-06,20:00,Dynamo Kyiv,Zrinjski Mostar,Home,6,0,4,6,0,1,0,0
+2025-2026,UEFA Europa Conference League,13,2025-11-06,20:00,KF Shkëndija,Jagiellonia Bialystok,Draw,1,1,2,4,3,2,0,1
+2025-2026,UEFA Europa Conference League,13,2025-11-06,20:00,Lausanne Sports,Omonia Nicosia,Draw,1,1,6,4,2,4,0,0
+2025-2026,UEFA Europa Conference League,13,2025-11-06,20:00,Lincoln Red Imps,Rijeka,Draw,1,1,4,2,3,3,0,0
+2025-2026,UEFA Europa Conference League,13,2025-11-06,20:00,Rapid Vienna,CSU Craiova,Away,0,1,3,3,5,4,0,1
+2025-2026,UEFA Europa Conference League,13,2025-11-06,20:00,Rayo Vallecano,Lech Poznan,Home,3,2,7,6,4,2,0,0
+2025-2026,UEFA Europa Conference League,13,2025-11-06,20:00,Shelbourne,Drita Gjilan,Away,0,1,6,3,1,0,1,0
+2025-2026,UEFA Europa Conference League,16,2025-11-27,17:45,AZ Alkmaar,Shelbourne,Home,2,0,8,6,2,4,0,0
+2025-2026,UEFA Europa Conference League,16,2025-11-27,17:45,CSU Craiova,Mainz,Home,1,0,1,6,4,3,0,0
+2025-2026,UEFA Europa Conference League,16,2025-11-27,17:45,Hamrun Spartans,Lincoln Red Imps,Home,3,1,8,1,5,3,1,1
+2025-2026,UEFA Europa Conference League,16,2025-11-27,17:45,Lech Poznan,Lausanne Sports,Home,2,0,3,8,1,3,0,0
+2025-2026,UEFA Europa Conference League,16,2025-11-27,17:45,Omonia Nicosia,Dynamo Kyiv,Home,2,0,4,8,2,5,0,0
+2025-2026,UEFA Europa Conference League,16,2025-11-27,17:45,Raków Czestochowa,Rapid Vienna,Home,4,1,8,2,1,2,0,0
+2025-2026,UEFA Europa Conference League,16,2025-11-27,17:45,Sigma Olomouc,NK Celje,Home,2,1,3,5,2,2,0,0
+2025-2026,UEFA Europa Conference League,16,2025-11-27,17:45,Slovan Bratislava,Rayo Vallecano,Home,2,1,10,5,5,5,0,0
+2025-2026,UEFA Europa Conference League,16,2025-11-27,17:45,Zrinjski Mostar,BK Häcken,Home,2,1,3,7,2,3,0,0
+2025-2026,UEFA Europa Conference League,16,2025-11-27,20:00,Aberdeen,FC Noah,Draw,1,1,1,7,4,1,0,0
+2025-2026,UEFA Europa Conference League,16,2025-11-27,20:00,Breidablik,Samsunspor,Draw,2,2,5,7,1,0,0,0
+2025-2026,UEFA Europa Conference League,16,2025-11-27,20:00,Drita Gjilan,KF Shkëndija,Home,1,0,2,10,2,4,0,0
+2025-2026,UEFA Europa Conference League,16,2025-11-27,20:00,Fiorentina,AEK Athens,Away,0,1,7,3,3,2,0,0
+2025-2026,UEFA Europa Conference League,16,2025-11-27,20:00,Jagiellonia Bialystok,KuPS Kuopio,Home,1,0,7,5,1,1,0,0
+2025-2026,UEFA Europa Conference League,16,2025-11-27,20:00,Legia Warsaw,Sparta Prague,Away,0,1,3,10,4,1,0,0
+2025-2026,UEFA Europa Conference League,16,2025-11-27,20:00,Rijeka,AEK Larnaca,Draw,0,0,7,1,1,7,0,0
+2025-2026,UEFA Europa Conference League,16,2025-11-27,20:00,Shamrock Rovers,Shakhtar Donetsk,Away,1,2,4,8,2,1,0,0
+2025-2026,UEFA Europa Conference League,16,2025-11-27,20:00,Strasbourg,Crystal Palace,Home,2,1,4,5,1,2,0,0
+2025-2026,UEFA Europa Conference League,18,2025-12-11,17:45,BK Häcken,AEK Larnaca,Draw,1,1,3,4,1,4,0,0
+2025-2026,UEFA Europa Conference League,18,2025-12-11,17:45,Breidablik,Shamrock Rovers,Home,3,1,5,5,2,1,0,0
+2025-2026,UEFA Europa Conference League,18,2025-12-11,17:45,CSU Craiova,Sparta Prague,Away,1,2,0,9,1,3,0,0
+2025-2026,UEFA Europa Conference League,18,2025-12-11,17:45,Drita Gjilan,AZ Alkmaar,Away,0,3,4,6,3,2,0,0
+2025-2026,UEFA Europa Conference League,18,2025-12-11,17:45,FC Noah,Legia Warsaw,Home,2,1,6,5,1,1,0,0
+2025-2026,UEFA Europa Conference League,18,2025-12-11,17:45,Fiorentina,Dynamo Kyiv,Home,2,1,5,5,3,3,0,0
+2025-2026,UEFA Europa Conference League,18,2025-12-11,17:45,Jagiellonia Bialystok,Rayo Vallecano,Away,1,2,2,8,3,4,0,0
+2025-2026,UEFA Europa Conference League,18,2025-12-11,17:45,KF Shkëndija,Slovan Bratislava,Home,2,0,2,4,4,2,0,0
+2025-2026,UEFA Europa Conference League,18,2025-12-11,17:45,Samsunspor,AEK Athens,Away,1,2,7,4,1,4,0,0
+2025-2026,UEFA Europa Conference League,18,2025-12-11,20:00,Aberdeen,Strasbourg,Away,0,1,9,7,2,5,0,0
+2025-2026,UEFA Europa Conference League,18,2025-12-11,20:00,Hamrun Spartans,Shakhtar Donetsk,Away,0,2,3,4,2,3,0,0
+2025-2026,UEFA Europa Conference League,18,2025-12-11,20:00,KuPS Kuopio,Lausanne Sports,Draw,0,0,4,4,0,2,0,0
+2025-2026,UEFA Europa Conference League,18,2025-12-11,20:00,Lech Poznan,Mainz,Draw,1,1,2,5,2,3,0,1
+2025-2026,UEFA Europa Conference League,18,2025-12-11,20:00,Lincoln Red Imps,Sigma Olomouc,Home,2,1,1,3,3,2,0,0
+2025-2026,UEFA Europa Conference League,18,2025-12-11,20:00,Raków Czestochowa,Zrinjski Mostar,Home,1,0,7,3,0,3,0,0
+2025-2026,UEFA Europa Conference League,18,2025-12-11,20:00,Rapid Vienna,Omonia Nicosia,Away,0,1,3,1,2,2,0,0
+2025-2026,UEFA Europa Conference League,18,2025-12-11,20:00,Rijeka,NK Celje,Home,3,0,5,2,2,1,0,1
+2025-2026,UEFA Europa Conference League,18,2025-12-11,20:00,Shelbourne,Crystal Palace,Away,0,3,2,9,2,0,0,0
+2025-2026,UEFA Europa Conference League,19,2025-12-18,20:00,AEK Athens,CSU Craiova,Home,3,2,7,4,4,5,0,1
+2025-2026,UEFA Europa Conference League,19,2025-12-18,20:00,AEK Larnaca,KF Shkëndija,Home,1,0,5,4,1,2,0,1
+2025-2026,UEFA Europa Conference League,19,2025-12-18,20:00,AZ Alkmaar,Jagiellonia Bialystok,Draw,0,0,8,5,4,1,0,1
+2025-2026,UEFA Europa Conference League,19,2025-12-18,20:00,Crystal Palace,KuPS Kuopio,Draw,2,2,10,1,3,0,0,1
+2025-2026,UEFA Europa Conference League,19,2025-12-18,20:00,Dynamo Kyiv,FC Noah,Home,2,0,5,4,3,2,0,0
+2025-2026,UEFA Europa Conference League,19,2025-12-18,20:00,Lausanne Sports,Fiorentina,Home,1,0,6,7,1,2,0,0
+2025-2026,UEFA Europa Conference League,19,2025-12-18,20:00,Legia Warsaw,Lincoln Red Imps,Home,4,1,10,1,1,1,0,0
+2025-2026,UEFA Europa Conference League,19,2025-12-18,20:00,Mainz,Samsunspor,Home,2,0,5,3,0,3,0,0
+2025-2026,UEFA Europa Conference League,19,2025-12-18,20:00,NK Celje,Shelbourne,Draw,0,0,8,5,2,6,0,0
+2025-2026,UEFA Europa Conference League,19,2025-12-18,20:00,Omonia Nicosia,Raków Czestochowa,Away,0,1,1,1,4,2,0,0
+2025-2026,UEFA Europa Conference League,19,2025-12-18,20:00,Rayo Vallecano,Drita Gjilan,Home,3,0,3,4,1,1,0,0
+2025-2026,UEFA Europa Conference League,19,2025-12-18,20:00,Shakhtar Donetsk,Rijeka,Draw,0,0,2,2,1,3,0,0
+2025-2026,UEFA Europa Conference League,19,2025-12-18,20:00,Shamrock Rovers,Hamrun Spartans,Home,3,1,7,4,4,1,0,1
+2025-2026,UEFA Europa Conference League,19,2025-12-18,20:00,Sigma Olomouc,Lech Poznan,Away,1,2,4,0,2,1,0,0
+2025-2026,UEFA Europa Conference League,19,2025-12-18,20:00,Slovan Bratislava,BK Häcken,Home,1,0,8,7,1,3,0,0
+2025-2026,UEFA Europa Conference League,19,2025-12-18,20:00,Sparta Prague,Aberdeen,Home,3,0,6,1,0,2,0,0
+2025-2026,UEFA Europa Conference League,19,2025-12-18,20:00,Strasbourg,Breidablik,Home,3,1,8,3,0,2,0,0
+2025-2026,UEFA Europa Conference League,19,2025-12-18,20:00,Zrinjski Mostar,Rapid Vienna,Draw,1,1,6,2,2,2,0,0

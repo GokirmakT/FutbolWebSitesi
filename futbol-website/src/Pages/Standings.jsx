@@ -18,7 +18,7 @@ import { teamLogos } from "../Components/TeamLogos";
 
 function Standings() {
   const { leagueId } = useParams();
-  const { standings, isLoadingStandings, selectedLeague, setSelectedLeague, standingsError } = useData();
+  const {matches, standings, isLoadingStandings, selectedLeague, setSelectedLeague, standingsError } = useData();
   const isMobile = useMediaQuery("(max-width: 900px)");
 
   // League ID'yi backend lig ismine çevir
@@ -30,16 +30,44 @@ function Standings() {
     "bundesliga": "Bundesliga",
     "ligue1": "Ligue 1",
     "eredivisie": "Eredivisie",
-    "champions-league": "Champions League",
-    "europa-league": "Europa League",
-    "europa-conference-league": "Europa Conference League"
+    "champions-league": "UEFA Champions League",
+    "europa-league": "UEFA Europa League",
+    "europa-conference-league": "UEFA Europa Conference League",
+    "primeira-liga": "Primeira Liga",
+    "pro-league": "Pro League",
   };
+
+  const getLast5Form = (teamName, matches) => {
+    if (!matches?.length) return [];
+  
+    return matches
+      .filter(
+        m =>          
+          m.winner !== "TBD" &&
+          (m.homeTeam === teamName || m.awayTeam === teamName)
+      )
+      .sort((a, b) => new Date(a.date) - new Date(b.date))
+      .slice(-5)
+      .map(m => {
+        if (m.winner === "Draw") return "D";
+  
+        if (m.homeTeam === teamName) {
+          return m.winner === "Home" ? "W" : "L";
+        }
+  
+        if (m.awayTeam === teamName) {
+          return m.winner === "Away" ? "W" : "L";
+        }
+  
+        return "";
+      });
+  };   
 
   // URL'den gelen leagueId varsa, o lige göre filtrele
   const currentLeague = leagueId ? (leagueIdToName[leagueId] || selectedLeague) : selectedLeague;
 
   // URL'den lig geldiğinde state'i güncelle
-  useEffect(() => {
+  useEffect(() => {    
     if (leagueId && leagueIdToName[leagueId]) {
       setSelectedLeague(leagueIdToName[leagueId]);
     }
@@ -95,7 +123,7 @@ function Standings() {
     }));
   }, [standings, currentLeague]);
 
-  if (isLoadingStandings) {
+  if (isLoadingStandings) {    
     return (
       <Typography textAlign="center" sx={{ color: "#fff", mt: 3 }}>
         Yükleniyor...
@@ -117,8 +145,8 @@ function Standings() {
         minHeight: "100vh",
         backgroundColor: "#1a1a1a",
         color: "#fff",
-        py: 4,
-        px: isMobile ? 1 : 4,
+        py: 1,
+        px: isMobile ? 0 : 4,
       }}
     >
       <Stack spacing={3} alignItems="center">
@@ -137,25 +165,24 @@ function Standings() {
           <TableContainer
             component={Paper}
             sx={{
-              width: isMobile ? "100%" : "70%",
+              flex: 1,
+              width: isMobile ? '100%' : '70%',              
               backgroundColor: "#2a3b47",
-              borderRadius: 2,
-              overflow: "hidden",
+              overflow: 'hidden',
+              borderRadius: 0             
             }}
           >
-            <Table stickyHeader>
-              <TableHead>
-                <TableRow sx={{ backgroundColor: "#1d1d1d" }}>
+            <Table size="small" stickyHeader sx={{borderRadius: 0}}>
+              <TableHead sx={{ "& .MuiTableCell-root": { backgroundColor: "#1d1d1d" } }}>
+                <TableRow>
                   <TableCell
                     sx={{
                       color: "#fff",
                       fontWeight: "bold",
-                      textAlign: "center",
-                      minWidth: 50,
-                      width: 50,
+                      textAlign: "center", 
+                      pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2                     
                     }}
                   >
-                    S
                   </TableCell>
                   <TableCell
                     sx={{
@@ -171,6 +198,7 @@ function Standings() {
                       color: "#fff",
                       fontWeight: "bold",
                       textAlign: "center",
+                      pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2
                     }}
                   >
                     O
@@ -180,6 +208,7 @@ function Standings() {
                       color: "#4CAF50",
                       fontWeight: "bold",
                       textAlign: "center",
+                      pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2
                     }}
                   >
                     G
@@ -189,6 +218,7 @@ function Standings() {
                       color: "#FFA726",
                       fontWeight: "bold",
                       textAlign: "center",
+                      pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2
                     }}
                   >
                     B
@@ -198,33 +228,17 @@ function Standings() {
                       color: "#EF5350",
                       fontWeight: "bold",
                       textAlign: "center",
+                      pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2
                     }}
                   >
                     M
-                  </TableCell>
+                  </TableCell>                  
                   <TableCell
                     sx={{
                       color: "#fff",
                       fontWeight: "bold",
                       textAlign: "center",
-                    }}
-                  >
-                    AG
-                  </TableCell>
-                  <TableCell
-                    sx={{
-                      color: "#fff",
-                      fontWeight: "bold",
-                      textAlign: "center",
-                    }}
-                  >
-                    YG
-                  </TableCell>
-                  <TableCell
-                    sx={{
-                      color: "#fff",
-                      fontWeight: "bold",
-                      textAlign: "center",
+                      pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2
                     }}
                   >
                     AV
@@ -234,8 +248,8 @@ function Standings() {
                       color: "#FFD700",
                       fontWeight: "bold",
                       textAlign: "center",
-                      backgroundColor: "#1d1d1d",
-                      borderLeft: "2px solid #444",
+                      backgroundColor: "#1d1d1d",                      
+                      pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2
                     }}
                   >
                     P
@@ -261,37 +275,76 @@ function Standings() {
                         color: "#fff",
                         textAlign: "center",
                         fontWeight: "bold",
+                        pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2,
+                        fontSize: isMobile ? "12px" : "14px"
                       }}
                     >
                       {team.rank}
                     </TableCell>
-                    <TableCell sx={{ color: "#fff", pl: isMobile ? 1 : 2 }}>
-                      <Stack direction="row" alignItems="center" spacing={1}>
-                        <img
-                          src={
-                            teamLogos[team.team] ||
-                            "/logos/default.png"
-                          }
-                          alt={team.team}
-                          style={{
-                            width: 24,
-                            height: 24,
-                            objectFit: "contain",
-                          }}
-                          onError={(e) => {
-                            e.target.style.display = "none";
-                          }}
-                        />
-                        <span style={{ fontSize: isMobile ? "12px" : "14px" }}>
-                          {team.team}
-                        </span>
+                    <TableCell sx={{ color: "#fff",  pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2 }}>
+                      <Stack direction="column">
+                        <Stack direction="row" alignItems="center" spacing={1}>
+                          <img
+                            src={
+                              teamLogos[team.team] ||
+                              "/logos/default.png"
+                            }
+                            alt={team.team}
+                            style={{
+                              width: 24,
+                              height: 24,
+                              objectFit: "contain",
+                            }}
+                            onError={(e) => {
+                              e.target.style.display = "none";
+                            }}
+                          />                       
+                          <span style={{ fontSize: isMobile ? "14px" : "14px" }}>
+                            {team.team}
+                          </span>      
+                                                                      
+                        </Stack>
+
+                        <Stack direction="row" sx={{ mt: "3px", alignItems: "flex-end"  }} spacing={1}>
+                          {getLast5Form(team.team, matches).map((r, i) => {
+                            const isLastMatch = i === 4;
+
+                            return (
+                              <Box
+                                key={i}
+                                sx={{
+                                  width: isLastMatch ? 22 : 18,
+                                  height: isLastMatch ? 22 : 18,
+                                  fontSize: 12,
+                                  fontWeight: "bold",
+                                  display: "flex",
+                                  alignItems: "center",
+                                  justifyContent: "center",
+                                  borderRadius: "4px",
+                                  color: "#fff",
+                                  backgroundColor:
+                                    r === "W"
+                                      ? "#2e7d32"
+                                      : r === "D"
+                                      ? "#ed6c02"
+                                      : "#d32f2f",
+                                }}
+                              >
+                                {r}
+                              </Box>
+                            );
+                          })}
+                        </Stack>    
+
                       </Stack>
+
                     </TableCell>
                     <TableCell
                       sx={{
                         color: "#fff",
                         textAlign: "center",
                         fontWeight: "bold",
+                        pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2
                       }}
                     >
                       {team.played}
@@ -301,6 +354,7 @@ function Standings() {
                         color: "#4CAF50",
                         textAlign: "center",
                         fontWeight: "bold",
+                        pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2
                       }}
                     >
                       {team.win}
@@ -310,6 +364,7 @@ function Standings() {
                         color: "#FFA726",
                         textAlign: "center",
                         fontWeight: "bold",
+                        pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2
                       }}
                     >
                       {team.draw}
@@ -319,31 +374,17 @@ function Standings() {
                         color: "#EF5350",
                         textAlign: "center",
                         fontWeight: "bold",
+                        pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2
                       }}
                     >
                       {team.lose}
-                    </TableCell>
-                    <TableCell
-                      sx={{
-                        color: "#fff",
-                        textAlign: "center",
-                      }}
-                    >
-                      {team.goalFor}
-                    </TableCell>
-                    <TableCell
-                      sx={{
-                        color: "#fff",
-                        textAlign: "center",
-                      }}
-                    >
-                      {team.goalAgainst}
-                    </TableCell>
+                    </TableCell>                    
                     <TableCell
                       sx={{
                         color: team.goalDiff >= 0 ? "#4CAF50" : "#EF5350",
                         textAlign: "center",
                         fontWeight: "bold",
+                        pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2
                       }}
                     >
                       {team.goalDiff >= 0 ? "+" : ""}
@@ -353,10 +394,8 @@ function Standings() {
                       sx={{
                         color: "#FFD700",
                         textAlign: "center",
-                        fontWeight: "bold",
-                        fontSize: "16px",
-                        backgroundColor: "#1d1d1d",
-                        borderLeft: "2px solid #444",
+                        fontWeight: "bold",                                               
+                        pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2
                       }}
                     >
                       {team.points}
@@ -381,29 +420,27 @@ function Standings() {
         {sortedStandings.length > 0 && (
           <Box
             sx={{
-              mt: 2,
-              p: 2,
+              mt: 2,              
               backgroundColor: "#2a3b47",
               borderRadius: 2,
               width: isMobile ? "100%" : "70%",
             }}
           >
-            <Typography variant="body2" sx={{ color: "#ccc", fontSize: "12px" }}>
+            <Typography variant="body2" sx={{ color: "#ccc", fontSize: "12px", px: 1 }}>
               <strong>S:</strong> Sıra | <strong>O:</strong> Oynanan |{" "}
               <strong>G:</strong> Galibiyet | <strong>B:</strong> Beraberlik |{" "}
-              <strong>M:</strong> Mağlubiyet | <strong>AG:</strong> Attığı Gol |
-              <strong> YG:</strong> Yediği Gol | <strong>AV:</strong> Averaj |
+              <strong>M:</strong> Mağlubiyet | <strong>AV:</strong> Averaj |
               <strong> P:</strong> Puan
             </Typography>
             <Typography
               variant="body2"
-              sx={{ color: "#4CAF50", fontSize: "12px", mt: 1 }}
+              sx={{ color: "#4CAF50", fontSize: "12px", mt: 1, px: 1 }}
             >
               Yeşil arka plan: Şampiyonlar Ligi / Avrupa Ligi bölgesi
             </Typography>
             <Typography
               variant="body2"
-              sx={{ color: "#EF5350", fontSize: "12px" }}
+              sx={{ color: "#EF5350", fontSize: "12px", px: 1 }}
             >
               Kırmızı arka plan: Düşme hattı
             </Typography>

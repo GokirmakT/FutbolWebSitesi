@@ -111,19 +111,7 @@ function TodayMatches() {
                       </Box>
                       <img src={teamLogos[match.awayTeam]} alt={match.awayTeam} style={{ height: 24 }} />
                   </Stack>
-
-
-                    {/* 📌 DURUM */}
-                    <Typography
-                      sx={{
-                        minWidth: 90,
-                        textAlign: "right",
-                        color: isPlayed ? "green" : "#ff9800"
-                      }}
-                    >
-                      {isPlayed ? "Oynandı" : "Oynanacak"}
-                    </Typography>
-                  </Stack>
+                </Stack>
 
                   {i !== groupedMatches[league].length - 1 && <Divider />}
                 </Box>

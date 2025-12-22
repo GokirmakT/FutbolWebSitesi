@@ -39,9 +39,11 @@ export default function Header() {
     { id: "bundesliga", name: "Bundesliga", icon: "/leagues/bundesliga.png" },
     { id: "ligue1", name: "Ligue 1", icon: "/leagues/ligue1.png" },
     { id: "eredivisie", name: "Eredivisie", icon: "/leagues/eredivise.png" },
-    { id: "champions-league", name: "Champions League", icon: "/leagues/champions-league.png" },
-    { id: "europa-league", name: "Europa League", icon: "/leagues/europa-league.png" },
-    { id: "europa-conference-league", name: "Europa Conference League", icon: "/leagues/europa-conference-league.png" }
+    { id: "champions-league", name: "UEFA Champions League", icon: "/leagues/champions-league.png" },
+    { id: "europa-league", name: "UEFA Europa League", icon: "/leagues/europa-league.png" },
+    { id: "europa-conference-league", name: "UEFA Europa Conference League", icon: "/leagues/europa-conference-league.png" },
+    { id: "primeira-liga", name: "Primeira Liga", icon: "/leagues/primeira-liga.webp" },
+    { id: "pro-league", name: "Pro League", icon: "/leagues/pro-league.webp" }
   ];
 
   // DESKTOP hover açma
@@ -79,7 +81,7 @@ export default function Header() {
     <AppBar position="static" sx={{ backgroundColor: "#1d1d1d", p: 1 }}>
       <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
         {/* SOL: ARAMA */}
-        <Box sx={{ width: "30%", minWidth: "200px" }}>
+        <Box sx={{ width: "40%", minWidth: "220px" }}>
           <TextField
             fullWidth
             size="small"
@@ -128,7 +130,7 @@ export default function Header() {
                       <img
                         src={l.icon}
                         alt={l.name}
-                        style={{ width: 20, height: 20 }}
+                        style={{ width: 30, height: 30 }}
                       />
                     </ListItemIcon>
 
@@ -154,11 +156,28 @@ export default function Header() {
             <>
               <Button
                 variant="contained"
-                sx={{ width: isMobile ? "30px" : "70px" }}
+                sx={{
+                  width: isMobile ? "40px" : "80px",
+                  minWidth: isMobile ? "40px" : "80px",
+                  px: isMobile ? 0 : 1,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  gap: isMobile ? 0 : "6px",
+                }}
                 onClick={(e) => setMenuAnchor(e.currentTarget)}
               >
-                Menü
+                <img
+                  src = "/burger-bar.png"
+                  alt="menu"
+                  style={{
+                    width: 24,
+                    height: 24,
+                    filter: "invert(1)" // ikon beyaz olsun diye
+                  }}
+                />                
               </Button>
+
 
               {/* ANA MOBİL MENÜ */}
               <Menu
@@ -170,20 +189,66 @@ export default function Header() {
                   setLeagueAnchor(null);
                 }}
               >
-                <MenuItem onClick={() => {navigate("/TodayMatches"); setMenuAnchor(null);}}>Bugünün maçları</MenuItem>
+                <MenuItem onClick={() => {navigate("/TodayMatches"); setMenuAnchor(null);}}>
+                  <img
+                    src = "/stream.png"
+                    alt="menu"
+                    style={{
+                      width: 24,
+                      height: 24,                     
+                    }}
+                  />       
+                  Bugünün maçları
+                </MenuItem>
+
                 <MenuItem
                   onMouseEnter={(e) => setLeagueAnchor(e.currentTarget)}
                 >
+                  <img
+                    src = "/champions.png"
+                    alt="menu"
+                    style={{
+                      width: 24,
+                      height: 24,                     
+                    }}
+                  />
                   Ligler
                 </MenuItem>
-                <MenuItem onClick={() => {navigate("/Cards"); setMenuAnchor(null);}}>Kart</MenuItem>
-                <MenuItem onClick={() => {navigate("/Corners"); setMenuAnchor(null);}}>Korner</MenuItem>
-                <MenuItem onClick={() => {navigate("/Goals"); setMenuAnchor(null);}}>Gol</MenuItem>
+                <MenuItem onClick={() => {navigate("/Cards"); setMenuAnchor(null);}}>
+                <img
+                    src = "/yellow-card.png"
+                    alt="menu"
+                    style={{
+                      width: 24,
+                      height: 24,                     
+                    }}
+                  />
+                  Kart</MenuItem>
+                <MenuItem onClick={() => {navigate("/Corners"); setMenuAnchor(null);}}>
+                <img
+                    src = "/corner.png"
+                    alt="menu"
+                    style={{
+                      width: 24,
+                      height: 24,                     
+                    }}
+                  />
+                  Korner</MenuItem>
+                <MenuItem onClick={() => {navigate("/Goals"); setMenuAnchor(null);}}>
+                <img
+                    src = "/football.png"
+                    alt="menu"
+                    style={{
+                      width: 24,
+                      height: 24,                                          
+                    }}
+                  />
+                  Gol</MenuItem>
               </Menu>
 
               {/* MOBİL LİGLER SUBMENU */}
               <Menu
-                sx={{ width: 300, ml: "0px", mt: "0px" }}
+                sx={{maxHeight: 500, width: 300, ml: "0px", mt: "0px" }}
                 anchorEl={leagueAnchor}
                 open={Boolean(leagueAnchor)}
                 onClose={() => setLeagueAnchor(null)}
@@ -198,7 +263,7 @@ export default function Header() {
                       <img
                         src={l.icon}
                         alt={l.name}
-                        style={{ width: 20, height: 20 }}
+                        style={{ width: 30, height: 30 }}
                       />
                     </ListItemIcon>
 

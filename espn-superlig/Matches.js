@@ -8,6 +8,13 @@ const leagues = [
   { code: "esp.1", name: "LaLiga" },
   { code: "ita.1", name: "Serie A" },
   { code: "ger.1", name: "Bundesliga" },
+  { code: "fra.1", name: "Ligue 1" },
+  { code: "ned.1", name: "Eredivisie" },
+  { code: "por.1", name: "Primeira Liga" },
+  { code: "bel.1", name: "Pro League" },
+  { code: "uefa.champions", name: "UEFA Champions League" },
+  { code: "uefa.europa", name: "UEFA Europa League" },
+  { code: "uefa.europa.conf", name: "UEFA Europa Conference League" }
 ];
 
 /* ----------------- UTILS ----------------- */

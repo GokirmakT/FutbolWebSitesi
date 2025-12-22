@@ -61,10 +61,10 @@ const OverCorners = ({ cornerStats, selectedLeague, isMobile, teamLogos, footbal
                     </Stack>
                     </TableCell>
                     <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2 }} align="center">{row.matchCount}</TableCell>
-                    <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.over75Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.over75Rate.toFixed(0)}%</TableCell>
-                    <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.over85Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.over85Rate.toFixed(0)}%</TableCell>
-                    <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.over95Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.over95Rate.toFixed(0)}%</TableCell>
-                    <TableCell align="center" sx={{color: "#ffffffff", fontWeight: "bold", backgroundColor: getBgColor(row.over105Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.over105Rate.toFixed(0)}%</TableCell>
+                    <TableCell align="center" sx={{color: "#000000ff", fontWeight: "bold", backgroundColor: getBgColor(row.over75Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.over75Rate.toFixed(0)}%</TableCell>
+                    <TableCell align="center" sx={{color: "#000000ff", fontWeight: "bold", backgroundColor: getBgColor(row.over85Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.over85Rate.toFixed(0)}%</TableCell>
+                    <TableCell align="center" sx={{color: "#000000ff", fontWeight: "bold", backgroundColor: getBgColor(row.over95Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.over95Rate.toFixed(0)}%</TableCell>
+                    <TableCell align="center" sx={{color: "#000000ff", fontWeight: "bold", backgroundColor: getBgColor(row.over105Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.over105Rate.toFixed(0)}%</TableCell>
 
                     
                   </TableRow>

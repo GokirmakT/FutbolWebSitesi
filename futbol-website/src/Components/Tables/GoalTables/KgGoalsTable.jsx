@@ -88,9 +88,9 @@ const KgGoals = ({ goalStats, selectedLeague, isMobile, teamLogos, football, pla
                     </TableCell>
                     <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2 }} align="center">{row.matchCount}</TableCell>
                     <TableCell sx={{ color: "#ffaaff", fontWeight: "bold", pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2 }} align="center">{row.avgMatchGoals.toFixed(2)}</TableCell>
-                    <TableCell align="center" sx={{color: "#000000ff", fontWeight: "bold", backgroundColor: getBgColor(row.btsRate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.btsRate.toFixed(0)}%</TableCell>
-                    <TableCell align="center" sx={{color: "#000000ff", fontWeight: "bold", backgroundColor: getBgColor(row.homeBtsRate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.homeBtsRate.toFixed(0)}%</TableCell>
-                    <TableCell align="center" sx={{color: "#000000ff", fontWeight: "bold", backgroundColor: getBgColor(row.awayBtsRate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.awayBtsRate.toFixed(0)}%</TableCell>
+                    <TableCell align="center" sx={{color: "#000000ff", fontWeight: "bold", backgroundColor: getBgColor(row.btsRate), pr: isMobile ? 1 : 2, pl: isMobile ? 1 : 2}}>{row.btsRate.toFixed(0)}%</TableCell>
+                    <TableCell align="center" sx={{color: "#000000ff", fontWeight: "bold", backgroundColor: getBgColor(row.homeBtsRate), pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2}}>{row.homeBtsRate.toFixed(0)}%</TableCell>
+                    <TableCell align="center" sx={{color: "#000000ff", fontWeight: "bold", backgroundColor: getBgColor(row.awayBtsRate), pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2}}>{row.awayBtsRate.toFixed(0)}%</TableCell>
                     
                   </TableRow>
                 ))}
