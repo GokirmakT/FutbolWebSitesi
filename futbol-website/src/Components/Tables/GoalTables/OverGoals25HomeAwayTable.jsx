@@ -3,9 +3,12 @@ import {
   Stack, Typography, Box, Autocomplete, TextField,
   Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper
 } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 
 const OverGoals = ({ goalStats, selectedLeague, isMobile, teamLogos, football, playedMatches, getBgColor }) => {  
+
+  const navigate = useNavigate();
 
     return (
         <>
@@ -45,19 +48,29 @@ const OverGoals = ({ goalStats, selectedLeague, isMobile, teamLogos, football, p
                 {goalStats.map(row => (
                   <TableRow key={row.team} sx={{ "&:hover": { backgroundColor: "#2c2c2c" } }}>
                     <TableCell sx={{ color: "#fff", fontSize: '12px', pr: isMobile ? "1px" : 2, pl: isMobile ? 1 : 2 }}>{row.rank}</TableCell>
-                    <TableCell sx={{ color: "#fff",fontSize: '12px', pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2 }}>
-                      <Stack
-                        direction="row"
-                        alignItems="center"
-                        spacing={1}   // icon ile yazı arasındaki boşluk
-                      >
+                    <TableCell
+                      sx={{
+                        color: "#fff",
+                        fontSize: '12px',
+                        pr: isMobile ? 2 : 2, pl: isMobile ? 0 : 2,
+                        cursor: "pointer",
+                        "&:hover": {
+                          textDecoration: "underline",
+                          color: "#90caf9"
+                        }
+                      }}
+                      onClick={() =>
+                        navigate(`/team/${selectedLeague}/${row.team}`)
+                      }
+                    >
+                      <Stack direction="row" alignItems="center" spacing={1}>
                         <img
                           src={teamLogos[row.team]}
                           alt={row.team}
                           style={{ width: 22, height: 22 }}
                         />
                         <span>{row.team}</span>
-                    </Stack>
+                      </Stack>
                     </TableCell>
                     <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2 }} align="center">{row.matchCount}</TableCell>
                     <TableCell align="center" sx={{color: "#000000ff", fontWeight: "bold", backgroundColor: getBgColor(row.over25Rate), pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2}}>{row.over25Rate.toFixed(0)}%</TableCell>

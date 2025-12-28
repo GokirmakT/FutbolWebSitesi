@@ -244,6 +244,16 @@ export default function Header() {
                     }}
                   />
                   Gol</MenuItem>
+                <MenuItem onClick={() => {navigate("/Statistics"); setMenuAnchor(null);}}>
+                <img
+                    src = "/football.png"
+                    alt="menu"
+                    style={{
+                      width: 24,
+                      height: 24,                                          
+                    }}
+                  />
+                  İstatistikler</MenuItem>
               </Menu>
 
               {/* MOBİL LİGLER SUBMENU */}

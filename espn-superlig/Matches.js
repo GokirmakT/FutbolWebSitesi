@@ -22,10 +22,6 @@ function formatDate(date) {
   return date.toISOString().slice(0, 10).replace(/-/g, "");
 }
 
-function formatISO(date) {
-  return date.toISOString().slice(0, 10); // YYYY-MM-DD
-}
-
 function addDays(date, days) {
   const d = new Date(date);
   d.setDate(d.getDate() + days);
@@ -58,9 +54,9 @@ function parseMatch(event, leagueName) {
 
   const matchDate = new Date(event.date);
   const [datePart, timePartFull] = event.date.split("T");
-  const timePart = timePartFull?.slice(0, 5); // HH:mm
+  const timePart = timePartFull?.slice(0, 5);
 
-  const state = competition.status?.type?.state; // pre | post | in
+  const state = competition.status?.type?.state;
   const isPlayed = state === "post";
 
   let yellowHome = 0,
@@ -68,7 +64,18 @@ function parseMatch(event, leagueName) {
     redHome = 0,
     redAway = 0,
     cornerHome = 0,
-    cornerAway = 0;
+    cornerAway = 0,
+    shotsHome = 0,
+    shotsAway = 0,
+    shotsOnTargetHome = 0,
+    shotsOnTargetAway = 0,
+    foulsHome = 0,
+    foulsAway = 0,
+    possessionHome = 0,
+    possessionAway = 0;
+
+  let homeGoalsMinutes = [];
+  let awayGoalsMinutes = [];
 
   if (isPlayed) {
     const stat = (team, name) =>
@@ -77,24 +84,51 @@ function parseMatch(event, leagueName) {
     cornerHome = stat(home, "wonCorners");
     cornerAway = stat(away, "wonCorners");
 
+    shotsHome = stat(home, "totalShots");
+    shotsAway = stat(away, "totalShots");
+
+    shotsOnTargetHome = stat(home, "shotsOnTarget");
+    shotsOnTargetAway = stat(away, "shotsOnTarget");
+
+    foulsHome = stat(home, "foulsCommitted");
+    foulsAway = stat(away, "foulsCommitted");
+
+    possessionHome = Number(
+      home.statistics?.find(s => s.name === "possessionPct")?.displayValue?.replace("%", "") || 0
+    );
+    possessionAway = Number(
+      away.statistics?.find(s => s.name === "possessionPct")?.displayValue?.replace("%", "") || 0
+    );
+
     if (Array.isArray(competition.details)) {
-      for (const d of competition.details) {
-        if (d.yellowCard) {
-          d.team?.id === home.team.id ? yellowHome++ : yellowAway++;
-        }
-        if (d.redCard) {
-          d.team?.id === home.team.id ? redHome++ : redAway++;
-        }
-      }
-    }
-  }
+        for (const d of competition.details) {
+            if (d.yellowCard) {
+            d.team?.id === home.team.id ? yellowHome++ : yellowAway++;
+            }
+
+            if (d.redCard) {
+            d.team?.id === home.team.id ? redHome++ : redAway++;
+            }
+
+            // ✅ GOL DAKİKALARI (KESİN ÇALIŞIR)
+            if (d.type?.text === "Goal" && d.clock?.displayValue) {
+            const minute = d.clock.displayValue.replace("'", "");
+            if (d.team?.id === home.team.id) {
+                homeGoalsMinutes.push(minute);
+            } else if (d.team?.id === away.team.id) {
+                awayGoalsMinutes.push(minute);
+                    }
+                    }
+                }
+                }
+            }
 
   return {
     Season: "2025-2026",
     League: leagueName,
     Week: getWeekNumber(matchDate),
-    Date: datePart,   // YYYY-MM-DD
-    Time: timePart,   // HH:mm
+    Date: datePart,
+    Time: timePart,
 
     HomeTeam: home.team.displayName,
     AwayTeam: away.team.displayName,
@@ -117,7 +151,22 @@ function parseMatch(event, leagueName) {
     YellowAway: yellowAway,
 
     RedHome: redHome,
-    RedAway: redAway
+    RedAway: redAway,
+
+    ShotsHome: shotsHome,
+    ShotsAway: shotsAway,
+
+    ShotsOnTargetHome: shotsOnTargetHome,
+    ShotsOnTargetAway: shotsOnTargetAway,
+
+    FoulsHome: foulsHome,
+    FoulsAway: foulsAway,
+
+    PossessionHome: possessionHome,
+    PossessionAway: possessionAway,
+
+    HomeGoalsMinutes: homeGoalsMinutes.join("|"),
+    AwayGoalsMinutes: awayGoalsMinutes.join("|")
   };
 }
 
@@ -134,7 +183,6 @@ async function run() {
 
     while (cursor <= seasonEnd) {
       const rangeEnd = addDays(cursor, 6);
-
       const events = await fetchScoreboard(league.code, cursor, rangeEnd);
 
       for (const event of events) {
@@ -143,13 +191,18 @@ async function run() {
       }
 
       cursor = addDays(rangeEnd, 1);
-      await new Promise(r => setTimeout(r, 400)); // rate limit
+      await new Promise(r => setTimeout(r, 400));
     }
   }
 
   /* ----------------- CSV ----------------- */
   let csv =
-    "Season,League,Week,Date,Time,HomeTeam,AwayTeam,Winner,GoalHome,GoalAway,CornerHome,CornerAway,YellowHome,YellowAway,RedHome,RedAway\n";
+    "Season,League,Week,Date,Time,HomeTeam,AwayTeam,Winner," +
+    "GoalHome,GoalAway,CornerHome,CornerAway," +
+    "YellowHome,YellowAway,RedHome,RedAway," +
+    "ShotsHome,ShotsAway,ShotsOnTargetHome,ShotsOnTargetAway," +
+    "FoulsHome,FoulsAway,PossessionHome,PossessionAway," +
+    "HomeGoalsMinutes,AwayGoalsMinutes\n";
 
   for (const m of allMatches) {
     csv +=
@@ -158,11 +211,16 @@ async function run() {
       `${m.GoalHome},${m.GoalAway},` +
       `${m.CornerHome},${m.CornerAway},` +
       `${m.YellowHome},${m.YellowAway},` +
-      `${m.RedHome},${m.RedAway}\n`;
+      `${m.RedHome},${m.RedAway},` +
+      `${m.ShotsHome},${m.ShotsAway},` +
+      `${m.ShotsOnTargetHome},${m.ShotsOnTargetAway},` +
+      `${m.FoulsHome},${m.FoulsAway},` +
+      `${m.PossessionHome},${m.PossessionAway},` +
+      `"${m.HomeGoalsMinutes}","${m.AwayGoalsMinutes}"\n`;
   }
 
   fs.writeFileSync("Matches.txt", csv, "utf-8");
-  console.log(`✅ TOPLAM ${allMatches.length} maç yazıldı (oynanmış + oynanacak)`);
+  console.log(`✅ TOPLAM ${allMatches.length} maç yazıldı`);
 }
 
 run();
