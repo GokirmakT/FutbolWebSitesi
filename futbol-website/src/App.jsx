@@ -17,7 +17,6 @@ export default function App() {
         <Route path="/" element={<TodayMatches />} /> 
         <Route path="/TodayMatches" element={<TodayMatches />} />  
         <Route path="/lig/:leagueId" element={<Standings />} />
-        <Route path="/Standings" element={<Standings />} />
         <Route path="/Cards" element={<Card />} />   
         <Route path="/Corners" element={<Corners />} />
         <Route path="/Goals" element={<Goal />} />

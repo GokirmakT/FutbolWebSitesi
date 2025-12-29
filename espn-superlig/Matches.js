@@ -4,6 +4,7 @@ import fs from "fs";
 /* ----------------- LIG LISTESI ----------------- */
 const leagues = [
   { code: "eng.1", name: "Premier League" },
+  { code: "eng.2", name: "EFL Championship" },
   { code: "tur.1", name: "Super Lig" },
   { code: "esp.1", name: "LaLiga" },
   { code: "ita.1", name: "Serie A" },

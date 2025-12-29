@@ -34,6 +34,7 @@ export default function Header() {
   const leagues = [
     { id: "superlig", name: "Süper Lig", icon: "/leagues/superlig.png" },
     { id: "premier-league", name: "Premier League", icon: "/leagues/premier-league.png" },
+    { id: "efl-championship" , name: "EFL Championship", icon: "/leagues/premier-league.png" },
     { id: "laliga", name: "LaLiga", icon: "/leagues/laliga.png" },
     { id: "seriea", name: "Serie A", icon: "/leagues/seriea.png" },
     { id: "bundesliga", name: "Bundesliga", icon: "/leagues/bundesliga.png" },
@@ -54,20 +55,6 @@ export default function Header() {
     }
     setAnchorEl(e.currentTarget);
   }
-
-  // Header lig isimlerini backend lig isimlerine map et
-  const leagueNameMapping = {
-    "Süper Lig": "Super Lig",
-    "Premier League": "Premier League",
-    "LaLiga": "LaLiga",
-    "Serie A": "Serie A",
-    "Bundesliga": "Bundesliga",
-    "Ligue 1": "Ligue 1",
-    "Eredivisie": "Eredivisie",
-    "Champions League": "Champions League",
-    "Europa League": "Europa League",
-    "Europa Conference League": "Europa Conference League"
-  };
 
   function handleLeagueClick(league) {
     setAnchorEl(null);
