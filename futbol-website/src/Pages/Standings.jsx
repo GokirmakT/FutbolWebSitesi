@@ -25,6 +25,7 @@ function Standings() {
   const leagueIdToName = {
     "superlig": "Super Lig",
     "premier-league": "Premier League",
+    "efl-championship": "EFL Championship",
     "laliga": "LaLiga",
     "seriea": "Serie A",
     "bundesliga": "Bundesliga",
@@ -35,6 +36,7 @@ function Standings() {
     "europa-conference-league": "UEFA Europa Conference League",
     "primeira-liga": "Primeira Liga",
     "pro-league": "Pro League",
+    "saudi-pro-league": "Saudi Pro League"
   };
 
   const getLast5Form = (teamName, matches) => {

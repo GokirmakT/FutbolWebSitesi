@@ -12,7 +12,7 @@ import TeamDetail from "./Pages/TeamDetail.jsx";
 export default function App() {
   return (
     <>
-      <Header/> {/* Her sayfada görünsün diye buraya ekle */}
+      <Header/>
       <Routes>
         <Route path="/" element={<TodayMatches />} /> 
         <Route path="/TodayMatches" element={<TodayMatches />} />  

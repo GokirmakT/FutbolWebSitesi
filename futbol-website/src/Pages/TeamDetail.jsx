@@ -22,11 +22,12 @@ const TeamDetail = () => {
 
   // URL'den gelen lig parametresini selectedLeague'e set et
   useEffect(() => {
+    console.log("URL lig parametresi:", league);
     if (league) {
       // URL'deki lig ismini backend formatına çevir
       const leagueNameMap = {
         "superlig": "Super Lig",
-        "premier-league": "Premier League",
+        "premier-league": "Premier League",        
         "laliga": "LaLiga",
         "seriea": "Serie A",
         "bundesliga": "Bundesliga",
@@ -37,6 +38,7 @@ const TeamDetail = () => {
         "europa-conference-league": "UEFA Europa Conference League",
         "primeira-liga": "Primeira Liga",
         "pro-league": "Pro League",
+
       };
       
       const leagueName = leagueNameMap[league] || league;
@@ -65,12 +67,12 @@ const TeamDetail = () => {
 
       <Divider />
       
-      <Accordion defaultExpanded>
+      <Accordion>
         <AccordionSummary>
           <Typography fontWeight="bold">Fikstür</Typography>
         </AccordionSummary>
         <AccordionDetails sx={{p: 1}}>
-          <TeamFixture matches={sortedTeamMatches} team={team} />
+          <TeamFixture matches={sortedTeamMatches} team={team} league={league} />
         </AccordionDetails>
       </Accordion>
       

@@ -5,11 +5,15 @@ import corner from "/corner.png";
 import redCard from "/cards.png";
 import shoot from "/kicking-ball.png";
 import shootOnTarget from "/shoot-on-target.png";
+import { useNavigate } from "react-router-dom";
+import { useData } from "../context/DataContext";
 
 const TeamFixture = ({ matches, team }) => {
+  const navigate = useNavigate();
   const isTablet = useMediaQuery("(max-width: 800px)");
   const isMobile = useMediaQuery("(max-width: 500px)");
-
+  const { selectedLeague } = useData();
+  
   const getBgColor = (team, homeTeam, homeGoal, awayGoal) => {
     const isHome = team === homeTeam;
   
@@ -86,8 +90,18 @@ const TeamFixture = ({ matches, team }) => {
                 fontWeight="bold"
                 fontSize={isMobile ? "14px" : "18px"}
                 noWrap
+                sx={{
+                  cursor: "pointer",
+                  "&:hover": {
+                    textDecoration: "underline",
+                    color: "primary.main"
+                  }
+                }}
                 title={m.homeTeam}
                 textAlign="left"
+                onClick={() =>
+                        navigate(`/team/${selectedLeague}/${m.homeTeam}`)
+                      }
               >
                 {m.homeTeam}
               </Typography>
@@ -108,8 +122,18 @@ const TeamFixture = ({ matches, team }) => {
                 fontWeight="bold"
                 fontSize={isMobile ? "14px" : "18px"}
                 noWrap
+                sx={{
+                  cursor: "pointer",
+                  "&:hover": {
+                    textDecoration: "underline",
+                    color: "primary.main"
+                  }
+                }}                
                 title={m.awayTeam}
                 textAlign="right"
+                 onClick={() =>
+                        navigate(`/team/${selectedLeague}/${m.awayTeam}`)
+                      }
               >
                 {m.awayTeam}
               </Typography>

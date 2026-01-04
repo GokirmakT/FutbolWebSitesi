@@ -44,7 +44,8 @@ export default function Header() {
     { id: "europa-league", name: "UEFA Europa League", icon: "/leagues/europa-league.png" },
     { id: "europa-conference-league", name: "UEFA Europa Conference League", icon: "/leagues/europa-conference-league.png" },
     { id: "primeira-liga", name: "Primeira Liga", icon: "/leagues/primeira-liga.webp" },
-    { id: "pro-league", name: "Pro League", icon: "/leagues/pro-league.webp" }
+    { id: "pro-league", name: "Pro League", icon: "/leagues/pro-league.webp" },
+    { id: "saudi-pro-league", name: "Saudi Pro League", icon: "/leagues/saudi-pro-league.png" }
   ];
 
   // DESKTOP hover açma
@@ -65,7 +66,7 @@ export default function Header() {
   }
   
   return (
-    <AppBar position="static" sx={{ backgroundColor: "#1d1d1d", p: 1 }}>
+    <AppBar position="sticky" elevation={1} sx={{ backgroundColor: "#1d1d1d", p: 1 }}>
       <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
         {/* SOL: ARAMA */}
         <Box sx={{ width: "40%", minWidth: "220px" }}>

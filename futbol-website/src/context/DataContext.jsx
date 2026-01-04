@@ -422,7 +422,6 @@ export const DataProvider = ({ children }) => {
       const avgMatchCards = team.totalMatchCards / team.matchCount;
       const ownPenalty = (team.yellowCards * 1) + (team.redCards * 2);
       const oppPenalty = (team.oppYellow * 1) + (team.oppRed * 2);
-      console.log(teamCards);
 
       return {
         ...team,
@@ -594,8 +593,6 @@ export const DataProvider = ({ children }) => {
       const team85Rate = ((team.homeOver85Count + team.awayOver85Count) / team.matchCount) * 100;  
       
       const avgCornersUsed = (cornersUsed / team.matchCount).toFixed(2);
-
-      console.log(team);
 
       return {
         ...team,
