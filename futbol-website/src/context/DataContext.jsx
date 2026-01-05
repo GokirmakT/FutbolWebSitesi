@@ -36,11 +36,28 @@ export const DataProvider = ({ children }) => {
   const goalStats = useMemo(() => {
     if (!selectedLeague || !matches.length) return [];
 
+    const hasScoredBothHalves = (minutesStr) => {
+      if (!minutesStr) return false;
+    
+      const minutes = minutesStr.split("|").map(m => {
+        if (m.includes("+")) {
+          const [base, extra] = m.split("+").map(Number);
+          return base + extra; // 45+1 → 46 gibi davranır
+        }
+        return Number(m);
+      });
+    
+      const scoredFirstHalf = minutes.some(m => m <= 45);
+      const scoredSecondHalf = minutes.some(m => m >= 46);
+    
+      return scoredFirstHalf && scoredSecondHalf;
+    };    
+
     const leagueMatches = matches.filter(m => m.league === selectedLeague && m.winner !== "TBD");
     const teamGoals = {};
 
     leagueMatches.forEach(match => {
-      const totalGoals = match.goalHome + match.goalAway;
+      const totalGoals = match.goalHome + match.goalAway;      
 
       // Home team
       if (!teamGoals[match.homeTeam]) {
@@ -56,6 +73,10 @@ export const DataProvider = ({ children }) => {
           bts: 0,
           homeBts: 0,
           awayBts: 0,
+
+          bothHalvesScored: 0,
+          homeBothHalvesScored: 0,
+          awayBothHalvesScored: 0,
 
           over25Count: 0,
           homeOver25Count: 0,
@@ -126,6 +147,14 @@ export const DataProvider = ({ children }) => {
         if (totalGoals < 1.5) teamGoals[match.homeTeam].less15Count++;
         if (totalGoals < 1.5) teamGoals[match.homeTeam].homeLess15Count++;
 
+        const homeBothHalves = hasScoredBothHalves(match.homeGoalsMinutes);
+
+        if (homeBothHalves) {
+          teamGoals[match.homeTeam].bothHalvesScored++;
+          teamGoals[match.homeTeam].homeBothHalvesScored++;
+        }
+
+
       // Away team
       if (!teamGoals[match.awayTeam]) {
         teamGoals[match.awayTeam] = {
@@ -140,6 +169,10 @@ export const DataProvider = ({ children }) => {
             bts: 0,
             homeBts: 0,
             awayBts: 0,
+
+            bothHalvesScored: 0,
+            homeBothHalvesScored: 0,
+            awayBothHalvesScored: 0,
 
             over25Count: 0,
             homeOver25Count: 0,
@@ -210,6 +243,14 @@ export const DataProvider = ({ children }) => {
 
         if (totalGoals < 1.5) teamGoals[match.awayTeam].less15Count++;
         if (totalGoals < 1.5) teamGoals[match.awayTeam].awayLess15Count++;
+
+        const awayBothHalves = hasScoredBothHalves(match.awayGoalsMinutes);
+
+        if (awayBothHalves) {
+          teamGoals[match.awayTeam].bothHalvesScored++;
+          teamGoals[match.awayTeam].awayBothHalvesScored++;
+        }
+
     });
 
     const stats = Object.values(teamGoals).map(team => {
@@ -254,6 +295,10 @@ export const DataProvider = ({ children }) => {
         const homeLess15Rate = (team.homeLess15Count / team.homeMatchCount) * 100;
         const awayLess15Rate = (team.awayLess15Count / team.awayMatchCount) * 100;
 
+        const bothHalvesRate = (team.bothHalvesScored / team.matchCount) * 100;
+        const homeBothHalvesRate = (team.homeBothHalvesScored / team.homeMatchCount) * 100;
+        const awayBothHalvesRate = (team.awayBothHalvesScored / team.awayMatchCount) * 100;
+
       return {        
         ...team,
         avgGoalsFor,
@@ -289,7 +334,12 @@ export const DataProvider = ({ children }) => {
         homeLess45Rate,
         awayLess45Rate,
         homeLess15Rate,
-        awayLess15Rate
+        awayLess15Rate,
+
+        bothHalvesRate,
+        homeBothHalvesRate,
+        awayBothHalvesRate,
+
       };
     });
 

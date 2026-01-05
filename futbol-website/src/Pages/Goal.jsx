@@ -21,6 +21,7 @@ import LessGoals35HomeAway from "../Components/Tables/GoalTables/LessGoals35Home
 import LessGoals45HomeAway from "../Components/Tables/GoalTables/LessGoals45HomeAwayTable";
 
 import KgGoalsTable from "../Components/Tables/GoalTables/KgGoalsTable";
+import ScoreBothHalf from "../Components/Tables/GoalTables/ScoreBothHalf";
 
 function Goals() {
   const { goalStats, isLoading, selectedLeague, setSelectedLeague, error, leagues } = useData();
@@ -121,10 +122,31 @@ function Goals() {
             >
               KG İstatistikleri
             </Button>
+
+            <Button
+              variant="contained"
+              onClick={() => setStatType("both")}
+              sx={{
+                backgroundColor: statType === "both" ? "#ff9800" : "#444",
+                color: "#fff",
+                fontWeight: "bold",
+                fontSize: isMobile ? "12px" : "16px",
+                px: 2,
+                "&:hover": {
+                  backgroundColor: statType === "both" ? "#ffa726" : "#555"
+                }
+              }}
+            >
+              Her Yarıda Gol Atar İstatistikleri
+            </Button>
           </Stack>
         </Box>
 
-        {statType === "kg" ? (
+        {statType === "both" ? (
+          <ScoreBothHalf goalStats={goalStats} selectedLeague={selectedLeague} isMobile={isMobile} teamLogos={teamLogos} football={football} playedMatches={playedMatches} getBgColor={getBgColor}/>        
+        ) : 
+
+        statType === "kg" ? (
           <KgGoalsTable goalStats={goalStats} selectedLeague={selectedLeague} isMobile={isMobile} teamLogos={teamLogos} football={football} playedMatches={playedMatches} getBgColor={getBgColor}/>        
         ) : (
 

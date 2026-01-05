@@ -1,4 +1,4 @@
-import { Stack, Box, Typography, Divider } from "@mui/material";
+import { Stack, Box, Typography, Divider, TextField, Select, MenuItem, FormControlLabel, Checkbox } from "@mui/material";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { teamLogos } from "../Components/TeamLogos";
 import corner from "/corner.png";
@@ -7,12 +7,39 @@ import shoot from "/kicking-ball.png";
 import shootOnTarget from "/shoot-on-target.png";
 import { useNavigate } from "react-router-dom";
 import { useData } from "../context/DataContext";
+import { useState } from "react";
 
 const TeamFixture = ({ matches, team }) => {
   const navigate = useNavigate();
   const isTablet = useMediaQuery("(max-width: 800px)");
   const isMobile = useMediaQuery("(max-width: 500px)");
   const { selectedLeague } = useData();
+
+  const [filters, setFilters] = useState({
+    shots: null,          // 10 | 15 | 20
+    shotsOnTarget: null,  // 5 | 8
+    corners: null,        // 7 | 9 | 11
+    cornerWinner: null,   // "home" | "away"    
+    penaltyScore: null,   // 3 | 4 | 5
+    hasRedCard: false,
+    result: null,         // "home" | "away" | "draw"
+    goals: null           // "over25" | "over35"
+  });
+  
+
+  const checkMatchFilters = (m, f) => {
+    if (f.corners && (m.cornerHome + m.cornerAway) < f.corners) return false;
+  
+    if (f.cornerWinner === "home" && m.cornerHome <= m.cornerAway) return false;
+    if (f.cornerWinner === "away" && m.cornerAway <= m.cornerHome) return false;
+  
+    if (f.hasRedCard && (m.redHome + m.redAway) === 0) return false;
+
+    if (f.penaltyScore && ((m.yellowHome + (m.redHome * 2)) + (m.yellowAway + (m.redAway * 2 )))  < f.penaltyScore) return false;
+  
+    return true;
+  };
+  
   
   const getBgColor = (team, homeTeam, homeGoal, awayGoal) => {
     const isHome = team === homeTeam;
@@ -29,24 +56,88 @@ const TeamFixture = ({ matches, team }) => {
   
     // DEPLASMAN
     return awayGoal > homeGoal ? "#66ff66" : "#ff4d4d";
-  };
-  
+  };  
 
   return (
     <Stack spacing={2} alignItems="center">
+      
+      <Stack direction="column" spacing={1} justifyContent="flex-end">
+
+        <Select
+          size="small"
+          value={filters.corners ?? ""}
+          displayEmpty
+          onChange={e => setFilters(f => ({ ...f, corners: e.target.value || null }))}
+        >
+          <MenuItem value="">Korner</MenuItem>
+          <MenuItem value={7}>7+</MenuItem>
+          <MenuItem value={9}>9+</MenuItem>
+          <MenuItem value={11}>11+</MenuItem>
+        </Select>
+
+        <Select
+          size="small"
+          value={filters.penaltyScore ?? ""}
+          displayEmpty
+          onChange={e => setFilters(f => ({ ...f, penaltyScore: e.target.value || null }))}
+        >
+          <MenuItem value="">Ceza Skoru</MenuItem>
+          <MenuItem value={3}>2.5+</MenuItem>
+          <MenuItem value={4}>3.5+</MenuItem>
+          <MenuItem value={5}>4.5+</MenuItem>
+        </Select>
+
+        <Select
+          size="small"
+          value={filters.cornerWinner ?? ""}
+          displayEmpty
+          onChange={e => setFilters(f => ({ ...f, cornerWinner: e.target.value || null }))}
+        >
+          <MenuItem value="">Korner Üst.</MenuItem>
+          <MenuItem value="home">Ev</MenuItem>
+          <MenuItem value="away">Dep</MenuItem>
+        </Select>
+
+        <FormControlLabel
+          control={
+            <Checkbox
+              checked={filters.hasRedCard}
+              onChange={e =>
+                setFilters(f => ({ ...f, hasRedCard: e.target.checked }))
+              }
+            />
+          }
+          label="Kırmızı"
+        />
+        </Stack>
+
+    <Stack spacing={2} width="100%" alignItems="center">
       {matches.map((m, i) => {
-        const isPlayed = m.winner !== "TBD";      
+        const isPlayed = m.winner !== "TBD";  
+        
+        const passes = isPlayed && checkMatchFilters(m, filters);
+
+        const isFilterEmpty = Object.values(filters).every(
+          v => v === null || v === false
+        );
 
         return (
-            <Box
+          <Stack
             key={i}
             sx={{
               borderRadius: 2,
-              backgroundColor: isPlayed ? "#f5f5f5" : "#e3f2fd",
+              backgroundColor: !isPlayed
+                ? "#e3f2fd"           // oynanmamış maç
+                : isFilterEmpty
+                ? "#f5f5f5"           // 🟦 filtre YOKSA (normal renk)
+                : passes
+                ? "#a7faa7"           // 🟩 filtre VAR + koşul sağlandı
+                : "#fdecea",          // 🟥 filtre VAR + koşul sağlanmadı
               px: 1,
               py: 1,
               width: isTablet ? "95%" : "60%"
             }}
+            
           >
             {/* TARİH */}
             <Stack width="100%" direction="row" justifyContent="space-between">
@@ -244,11 +335,12 @@ const TeamFixture = ({ matches, team }) => {
             )}
 
 
-          </Box>
+          </Stack>
           
         );
       })}
     </Stack>
+  </Stack>
   );
 };
 

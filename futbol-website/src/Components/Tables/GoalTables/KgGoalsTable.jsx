@@ -11,6 +11,67 @@ const KgGoals = ({ goalStats, selectedLeague, isMobile, teamLogos, football, pla
 
     const navigate = useNavigate();
 
+      /* 🔽 SORT STATE */
+    const [order, setOrder] = useState("desc");
+    const [orderBy, setOrderBy] = useState("btsRate");
+
+    /* 🔁 SORT HANDLER */
+    const handleSort = (property) => {
+      const isAsc = orderBy === property && order === "asc";
+      setOrder(isAsc ? "desc" : "asc");
+      setOrderBy(property);
+    };
+
+    /* 🧠 SORTED DATA */
+    const sortedRows = useMemo(() => {
+      return [...goalStats].sort((a, b) => {
+        if (a[orderBy] < b[orderBy]) return order === "asc" ? -1 : 1;
+        if (a[orderBy] > b[orderBy]) return order === "asc" ? 1 : -1;
+        return 0;
+      });
+    }, [goalStats, order, orderBy]);
+
+    /* 🎯 SORTABLE HEADER CELL */
+    const SortHeader = ({ label, field, abc, align = "center" }) => {
+      const isImage =
+        typeof abc === "string" &&
+        (abc.startsWith("/") || abc.startsWith("http"));
+    
+      return (
+        <TableCell
+          align={align}
+          onClick={() => handleSort(field)}
+          sx={{
+            pr: isMobile ? 1 : 2,
+            pl: isMobile ? 0 : 2,
+            color: "#fff",
+            fontWeight: "bold",
+            cursor: "pointer"
+          }}
+        >
+          <Stack
+            direction="column"
+            alignItems="center"
+            spacing={0.5}
+          >
+            
+            {!isImage && (
+              <span>{abc}</span>
+            )}    
+           
+            {isImage && (
+              <img
+                src={abc}
+                alt=""
+                style={{ width: 20, height: 20 }}
+              />
+            )}
+          </Stack>
+        </TableCell>
+      );
+    };
+    
+
     return (
         <>
            <Stack justifyContent="flex-end" sx={{mt:'20px', display: selectedLeague ? 'block' : 'none', width: isMobile ? '100%' : '70%', backgroundColor: "#1d1d1d" }}>
@@ -33,7 +94,6 @@ const KgGoals = ({ goalStats, selectedLeague, isMobile, teamLogos, football, pla
             <Table size="small" stickyHeader sx={{borderRadius: 0}}>
               <TableHead sx={{ "& .MuiTableCell-root": { backgroundColor: "#1d1d1d" } }}>
                 <TableRow>
-                  <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 2 : 2, pl: isMobile ? 0 : 2 }}></TableCell>
                   <TableCell align="center" sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 0 : 0, pl: isMobile ? 0 : 2 }}>Takım</TableCell>
                   <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2  }} align="center">
                   <Stack alignItems={'center'}>
@@ -51,35 +111,20 @@ const KgGoals = ({ goalStats, selectedLeague, isMobile, teamLogos, football, pla
                     />    
                     </Stack>
                   </TableCell>
-                  <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2 }} align="center">KG</TableCell>
-                  <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2 }} align="center">
-                    <Stack alignItems={'center'}>
-                    <img
-                      src={home}
-                      style={{ width: 20, height: 20, color: "#fff" }}
-                    />    
-                    </Stack>
-                  </TableCell>
-                  <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2 }} align="center">
-                    <Stack alignItems={'center'}>
-                    <img
-                      src={plane}
-                      style={{ width: 20, height: 20, color: "#fff" }}
-                    />    
-                    </Stack>
-                  </TableCell>
+                  <SortHeader align="center" field="btsRate" abc="KG"></SortHeader>
+                  <SortHeader align="center" field="homeBtsRate" abc={home}></SortHeader>
+                  <SortHeader align="center" field="awayBtsRate" abc={plane}></SortHeader>
                 </TableRow>
               </TableHead>
 
               <TableBody>
-                {goalStats.map(row => (
+                {sortedRows.map(row => (
                   <TableRow key={row.team} sx={{ "&:hover": { backgroundColor: "#2c2c2c" } }}>
-                    <TableCell sx={{ color: "#fff", fontSize: '12px', pr: isMobile ? "1px" : 2, pl: isMobile ? 1 : 2 }}>{row.rank}</TableCell>
                     <TableCell
                       sx={{
                         color: "#fff",
                         fontSize: '12px',
-                        pr: isMobile ? 2 : 2, pl: isMobile ? 0 : 2,
+                        pr: isMobile ? 2 : 2, pl: isMobile ?1 : 2,
                         cursor: "pointer",
                         "&:hover": {
                           textDecoration: "underline",

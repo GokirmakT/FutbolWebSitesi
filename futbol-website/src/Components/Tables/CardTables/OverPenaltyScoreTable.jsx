@@ -10,6 +10,50 @@ const OverCards = ({ cardStats, selectedLeague, isMobile, teamLogos, card, playe
 
     const navigate = useNavigate();
 
+    /* 🔽 SORT STATE */
+    const [order, setOrder] = useState("desc");
+    const [orderBy, setOrderBy] = useState("penaltyOver25Rate");
+
+    /* 🔁 SORT HANDLER */
+    const handleSort = (property) => {
+      const isAsc = orderBy === property && order === "asc";
+      setOrder(isAsc ? "desc" : "asc");
+      setOrderBy(property);
+    };
+
+    /* 🧠 SORTED DATA */
+    const sortedRows = useMemo(() => {
+      return [...cardStats].sort((a, b) => {
+        if (a[orderBy] < b[orderBy]) return order === "asc" ? -1 : 1;
+        if (a[orderBy] > b[orderBy]) return order === "asc" ? 1 : -1;
+        return 0;
+      });
+    }, [cardStats, order, orderBy]);
+
+    /* 🎯 SORTABLE HEADER CELL */
+    const SortHeader = ({ label, field, abc, align = "center" }) => (
+      <TableCell align={align} 
+          active={orderBy === field}
+          direction={orderBy === field ? order : "asc"}
+          onClick={() => handleSort(field)}
+          sx={{
+            pr: isMobile ? 1 : 2,
+            pl: isMobile ? 0 : 2,
+            color: "#fff",
+            fontWeight: "bold",          
+            flexDirection: "column",   // 🔥 ÜST-ALT
+            alignItems: "center",
+            cursor: "pointer",
+            "& .MuiTableSortLabel-icon": {
+              margin: 0,
+              color: "#fff !important"
+            }
+          }}  
+      >
+        {abc}     
+      </TableCell>
+    );  
+
     return (
         <>
           {selectedLeague && cardStats.length > 0 && (
@@ -26,7 +70,6 @@ const OverCards = ({ cardStats, selectedLeague, isMobile, teamLogos, card, playe
             <Table size="small" stickyHeader sx={{borderRadius: 0}}>
               <TableHead sx={{ "& .MuiTableCell-root": { backgroundColor: "#1d1d1d" } }}>
                 <TableRow>
-                  <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 2 : 2, pl: isMobile ? 0 : 2 }}></TableCell>
                   <TableCell align="center" sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 2 : 2, pl: isMobile ? 0 : 2 }}>Takım</TableCell>
                   <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2  }} align="center">
                   <Stack alignItems={'center'}>
@@ -36,22 +79,21 @@ const OverCards = ({ cardStats, selectedLeague, isMobile, teamLogos, card, playe
                     />    
                     </Stack>
                   </TableCell>
-                  <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2 }} align="center">2.5 Üst</TableCell>
-                  <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2 }} align="center">3.5 Üst</TableCell>
-                  <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 1 : 2, pl: isMobile ? 0 : 2 }} align="center">4.5 Üst</TableCell>
-                  <TableCell sx={{ color: "#fff", fontWeight: "bold", pr: isMobile ? 0 : 2, pl: isMobile ? 0 : 2 }} align="center">5.5 Üst</TableCell>
+                  <SortHeader align="center" field="penaltyOver25Rate" abc="2.5 Üst"></SortHeader>
+                  <SortHeader align="center" field="penaltyOver35Rate" abc="3.5 Üst"></SortHeader>
+                  <SortHeader align="center" field="penaltyOver45Rate" abc="4.5 Üst"></SortHeader>
+                  <SortHeader align="center" field="penaltyOver55Rate" abc="5.5 Üst"></SortHeader>
                 </TableRow>
               </TableHead>
 
               <TableBody>
-                {cardStats.map(row => (
+                {sortedRows.map(row => (
                   <TableRow key={row.team} sx={{ "&:hover": { backgroundColor: "#2c2c2c" } }}>
-                    <TableCell sx={{ color: "#fff", fontSize: '12px', pr: isMobile ? "1px" : 2, pl: isMobile ? 1 : 2 }}>{row.rank}</TableCell>
                     <TableCell
                       sx={{
                         color: "#fff",
                         fontSize: '12px',
-                        pr: isMobile ? 2 : 2, pl: isMobile ? 0 : 2,
+                        pr: isMobile ? 2 : 2, pl: isMobile ? 1 : 2,
                         cursor: "pointer",
                         "&:hover": {
                           textDecoration: "underline",
